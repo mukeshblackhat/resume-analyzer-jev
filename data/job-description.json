@@ -1,0 +1,22 @@
+{
+  "title": "Senior Backend Engineer",
+  "requiredSkills": [
+    "Node.js",
+    "TypeScript",
+    "PostgreSQL",
+    "Distributed systems",
+    "AWS",
+    "REST API design"
+  ],
+  "niceToHaveSkills": [
+    "Kubernetes",
+    "Kafka",
+    "Redis",
+    "Terraform",
+    "GraphQL",
+    "Go"
+  ],
+  "minYearsExperience": 5,
+  "minEducationLevel": "bachelors",
+  "domain": "backend/infrastructure"
+}

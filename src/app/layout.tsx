@@ -21,9 +21,11 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} antialiased lg:h-dvh lg:overflow-hidden`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col lg:h-full lg:overflow-hidden">
+        {children}
+      </body>
     </html>
   );
 }

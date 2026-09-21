@@ -1,4 +1,10 @@
-import { isPipelineRunning, runPipeline } from "@/lib/pipeline";
+// Import isPipelineRunning from runContext directly, NOT from "@/lib/pipeline"
+// -- pipeline.ts statically imports extractor.ts (pdf-parse), so importing
+// anything from it, even a re-export, pulls pdf-parse into every request to
+// this route (including plain GETs), which breaks in some serverless
+// environments. runPipeline() itself is dynamically imported below, only
+// when a real (non-simulated) run actually needs it.
+import { isPipelineRunning } from "@/lib/runContext";
 import { listRunSummaries } from "@/lib/runArchive";
 import { simulateRun } from "@/lib/simulator";
 
@@ -36,6 +42,7 @@ export async function POST() {
     return Response.json({ started: true, simulated: true, sourceRunId: latest.runId });
   }
 
+  const { runPipeline } = await import("@/lib/pipeline");
   runPipeline().catch((err) => {
     console.error("Pipeline run failed:", err);
   });

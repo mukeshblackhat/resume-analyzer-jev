@@ -1,4 +1,7 @@
-import { isPipelineRunning } from "@/lib/pipeline";
+// isPipelineRunning from runContext directly, not "@/lib/pipeline" -- see the
+// comment in src/app/api/run/route.ts for why (avoids pulling pdf-parse into
+// every request to this route via pipeline.ts's static import chain).
+import { isPipelineRunning } from "@/lib/runContext";
 import { simulateRun } from "@/lib/simulator";
 
 // Fire-and-forget, mirrors /api/run: POST { runId } replays an archived run

@@ -1,0 +1,87 @@
+{
+  "extracted": {
+    "id": "resume-0857",
+    "fileName": "resume-0857.pdf",
+    "name": "Viktor Costa",
+    "yearsExperience": 9,
+    "skills": [
+      "Kubernetes",
+      "Distributed systems",
+      "Go",
+      "Microservices",
+      "PostgreSQL",
+      "REST API design",
+      "Terraform"
+    ],
+    "education": [
+      "M.S. Computer Science, University of Texas at Dallas, 2017",
+      "B.S. Computer Science, Ohio State University, 2015",
+      "AWS."
+    ],
+    "experience": [
+      {
+        "title": "Staff Backend Engineer",
+        "company": "Beacon Software",
+        "years": 1,
+        "description": "Designed a REST API design-backed data layer that cut p99 query latency by 45%."
+      },
+      {
+        "title": "Senior Backend Engineer",
+        "company": "Vertex Technologies",
+        "years": 8,
+        "description": "Designed internal Distributed systems standards used by 9+ downstream services."
+      }
+    ],
+    "rawText": "Viktor Costa\nviktor.costa@example.com | Orlando, FL\nSUMMARY\nResults-driven backend engineer with 9 years of experience building backend systems on Kubernetes,\nDistributed systems, Go.\nEXPERIENCE\nStaff Backend Engineer, Beacon Software (2025-2026)\n- Designed a REST API design-backed data layer that cut p99 query latency by 45%.\nSenior Backend Engineer, Vertex Technologies (2017-2025)\n- Designed internal Distributed systems standards used by 9+ downstream services.\nEDUCATION\nM.S. Computer Science, University of Texas at Dallas, 2017\nB.S. Computer Science, Ohio State University, 2015\nSkills: Kubernetes, Distributed systems, Go, Microservices, PostgreSQL, REST API design, Terraform,\nAWS.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0857",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 9 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 3/6 required skills: PostgreSQL, Distributed systems, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 2; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.4725
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.995
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.8925
+      }
+    ],
+    "compositeScore": 73,
+    "eligible": true
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 440,
+    "totalMs": 444
+  }
+}

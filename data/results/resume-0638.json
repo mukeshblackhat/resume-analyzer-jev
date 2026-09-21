@@ -1,0 +1,83 @@
+{
+  "extracted": {
+    "id": "resume-0638",
+    "fileName": "resume-0638.pdf",
+    "name": "Hassan Sato",
+    "yearsExperience": 3,
+    "skills": [
+      "Kafka",
+      "PostgreSQL",
+      "REST API design",
+      "Node.js",
+      "TypeScript"
+    ],
+    "education": [
+      "B.S. Electrical Engineering, Ohio State University, 2022"
+    ],
+    "experience": [
+      {
+        "title": "Backend Engineer",
+        "company": "Wrenfield Cloud",
+        "years": 1,
+        "description": "Applied distributed-systems patterns to scale the platform to 483K concurrent users."
+      },
+      {
+        "title": "Software Engineer I",
+        "company": "Copperfield Dynamics",
+        "years": 2,
+        "description": "Designed a PostgreSQL-backed data layer that cut p99 query latency by 53%."
+      }
+    ],
+    "rawText": "Hassan Sato\nhassan.sato@example.com | Baltimore, MD\nSUMMARY\nBackend-leaning engineer with 3 years of experience, working primarily with Kafka, PostgreSQL, REST API\ndesign.\nEXPERIENCE\nBackend Engineer, Wrenfield Cloud (2025-2026)\n- Applied distributed-systems patterns to scale the platform to 483K concurrent users.\nSoftware Engineer I, Copperfield Dynamics (2023-2025)\n- Designed a PostgreSQL-backed data layer that cut p99 query latency by 53%.\nEDUCATION\nB.S. Electrical Engineering, Ohio State University, 2022\nSkills: Kafka, PostgreSQL, REST API design, Node.js, TypeScript.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0638",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": false,
+        "detail": "Resume shows 3 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 4/6 required skills: Node.js, TypeScript, PostgreSQL, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.545
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.9725
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.2675
+      }
+    ],
+    "compositeScore": 57,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 440,
+    "totalMs": 444
+  }
+}

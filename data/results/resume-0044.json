@@ -1,0 +1,80 @@
+{
+  "extracted": {
+    "id": "resume-0044",
+    "fileName": "resume-0044.pdf",
+    "name": "Daniel Callahan",
+    "yearsExperience": 4,
+    "skills": [
+      "Distributed systems",
+      "ETL pipelines",
+      "Distributed systems",
+      "Node.js",
+      "AWS",
+      "Redshift",
+      "PostgreSQL"
+    ],
+    "education": [
+      "B.S. Software Engineering, UC San Diego, 2022",
+      "Airflow."
+    ],
+    "experience": [
+      {
+        "title": "Data Engineer",
+        "company": "Amber Computing",
+        "years": 4,
+        "description": "Maintained Redshift warehouses at Amber Computing supporting company-wide analytics dashboards. Wrote Python and Spark batch jobs to process large-scale event data. Built Airflow-orchestrated ETL pipelines moving 459GB/day through Redshift."
+      }
+    ],
+    "rawText": "Daniel Callahan\ndaniel.callahan@example.com | Phoenix, AZ\nSUMMARY\nData engineer with 4 years of experience, focused on pipelines and warehousing using Distributed systems,\nETL pipelines, Distributed systems.\nEXPERIENCE\nData Engineer, Amber Computing (2022-2026)\n- Maintained Redshift warehouses at Amber Computing supporting company-wide analytics dashboards.\n- Wrote Python and Spark batch jobs to process large-scale event data.\n- Built Airflow-orchestrated ETL pipelines moving 459GB/day through Redshift.\nEDUCATION\nB.S. Software Engineering, UC San Diego, 2022\nSkills: Distributed systems, ETL pipelines, Distributed systems, Node.js, AWS, Redshift, PostgreSQL,\nAirflow.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0044",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": false,
+        "detail": "Resume shows 4 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 4/6 required skills: Node.js, PostgreSQL, Distributed systems, AWS."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.3675
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.5225
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.1875
+      }
+    ],
+    "compositeScore": 35,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 4,
+    "scoringMs": 451,
+    "totalMs": 457
+  }
+}

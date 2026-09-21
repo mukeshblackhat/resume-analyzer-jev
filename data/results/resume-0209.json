@@ -1,0 +1,88 @@
+{
+  "extracted": {
+    "id": "resume-0209",
+    "fileName": "resume-0209.pdf",
+    "name": "Kevin Diallo",
+    "yearsExperience": 8,
+    "skills": [
+      "Quota attainment",
+      "Pipeline forecasting",
+      "Account management",
+      "Salesforce"
+    ],
+    "education": [
+      "B.A. Business Administration, Ohio State University, 2017"
+    ],
+    "experience": [
+      {
+        "title": "Senior Account Executive",
+        "company": "Coastline Logistics",
+        "years": 2,
+        "description": "Built and ran a cold-outreach pipeline generating 73 qualified leads per month."
+      },
+      {
+        "title": "Account Executive",
+        "company": "Elmsworth Brands",
+        "years": 1,
+        "description": "Managed a book of 31+ enterprise accounts."
+      },
+      {
+        "title": "Sales Development Rep",
+        "company": "Ashford Care",
+        "years": 5,
+        "description": "Closed $1M in annual recurring revenue across mid-market accounts at Ashford Care. Exceeded quarterly quota by 10% for four consecutive quarters. Managed a book of 51+ enterprise accounts."
+      }
+    ],
+    "rawText": "Kevin Diallo\nkevin.diallo@example.com | Cincinnati, OH\nSUMMARY\nB2B sales professional with 8 years of experience in enterprise software sales.\nEXPERIENCE\nSenior Account Executive, Coastline Logistics (2024-2026)\n- Built and ran a cold-outreach pipeline generating 73 qualified leads per month.\nAccount Executive, Elmsworth Brands (2023-2024)\n- Managed a book of 31+ enterprise accounts.\nSales Development Rep, Ashford Care (2018-2023)\n- Closed $1M in annual recurring revenue across mid-market accounts at Ashford Care.\n- Exceeded quarterly quota by 10% for four consecutive quarters.\n- Managed a book of 51+ enterprise accounts.\nEDUCATION\nB.A. Business Administration, Ohio State University, 2017\nSkills: Quota attainment, Pipeline forecasting, Account management, Salesforce.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0209",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 8 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 0/6 required skills: none."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.0125
+      }
+    ],
+    "compositeScore": 0,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 4,
+    "scoringMs": 438,
+    "totalMs": 443
+  }
+}

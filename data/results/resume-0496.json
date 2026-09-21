@@ -1,0 +1,92 @@
+{
+  "extracted": {
+    "id": "resume-0496",
+    "fileName": "resume-0496.pdf",
+    "name": "Ximena Wu",
+    "yearsExperience": 8,
+    "skills": [
+      "Redshift",
+      "Python",
+      "AWS",
+      "Spark",
+      "REST API design",
+      "TypeScript",
+      "PostgreSQL"
+    ],
+    "education": [
+      "M.S. Information Systems, University of Utah, 2018",
+      "B.S. Information Systems, Temple University, 2016"
+    ],
+    "experience": [
+      {
+        "title": "Senior Data Engineer",
+        "company": "Harborlight Labs",
+        "years": 1,
+        "description": "Wrote Python and Spark batch jobs to process large-scale event data. Coordinated distributed batch jobs across multiple regions on AWS."
+      },
+      {
+        "title": "Data Engineer",
+        "company": "Timberline Networks",
+        "years": 2,
+        "description": "Maintained PostgreSQL warehouses at Timberline Networks supporting company-wide analytics dashboards. Built Airflow-orchestrated ETL pipelines moving 483GB/day through PostgreSQL. Coordinated distributed batch jobs across multiple regions on AWS."
+      },
+      {
+        "title": "Data Engineer I",
+        "company": "Meridian Data",
+        "years": 5,
+        "description": "Maintained PostgreSQL warehouses at Meridian Data supporting company-wide analytics dashboards. Coordinated distributed batch jobs across multiple regions on AWS."
+      }
+    ],
+    "rawText": "Ximena Wu\nximena.wu@example.com | Chicago, IL\nSUMMARY\nData engineer with 8 years of experience, focused on pipelines and warehousing using Redshift, Python,\nAWS.\nEXPERIENCE\nSenior Data Engineer - Harborlight Labs (2025-2026)\n- Wrote Python and Spark batch jobs to process large-scale event data.\n- Coordinated distributed batch jobs across multiple regions on AWS.\nData Engineer - Timberline Networks (2023-2025)\n- Maintained PostgreSQL warehouses at Timberline Networks supporting company-wide analytics\ndashboards.\n- Built Airflow-orchestrated ETL pipelines moving 483GB/day through PostgreSQL.\n- Coordinated distributed batch jobs across multiple regions on AWS.\nData Engineer I - Meridian Data (2018-2023)\n- Maintained PostgreSQL warehouses at Meridian Data supporting company-wide analytics dashboards.\n- Coordinated distributed batch jobs across multiple regions on AWS.\nEDUCATION\nM.S. Information Systems, University of Utah, 2018\nB.S. Information Systems, Temple University, 2016\nSKILLS\n- Redshift\n- Python\n- AWS\n- Spark\n- REST API design\n- TypeScript\n- PostgreSQL\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0496",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 8 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 4/6 required skills: TypeScript, PostgreSQL, AWS, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 2; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.4275
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.5175
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.285
+      }
+    ],
+    "compositeScore": 41,
+    "eligible": true
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 427,
+    "totalMs": 431
+  }
+}

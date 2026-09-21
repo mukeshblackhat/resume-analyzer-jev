@@ -1,0 +1,85 @@
+{
+  "extracted": {
+    "id": "resume-0775",
+    "fileName": "resume-0775.pdf",
+    "name": "Ana Serrano",
+    "yearsExperience": 7,
+    "skills": [
+      "Wireframing",
+      "Figma",
+      "Prototyping",
+      "Design systems",
+      "Adobe XD",
+      "UX research"
+    ],
+    "education": [
+      "M.S. Human-Computer Interaction, University of Utah, 2019",
+      "B.S. Human-Computer Interaction, Boston University, 2017"
+    ],
+    "experience": [
+      {
+        "title": "Senior Product Designer",
+        "company": "Crestpoint Retail",
+        "years": 2,
+        "description": "Designed and prototyped features in Figma used by 29+ engineers to build against. Led UX research at Crestpoint Retail informing the redesign of the core product flow."
+      },
+      {
+        "title": "Product Designer",
+        "company": "Cartwheel Brands",
+        "years": 5,
+        "description": "Built and maintained the company's design system components and guidelines."
+      }
+    ],
+    "rawText": "Ana Serrano\nana.serrano@example.com | Indianapolis, IN\nSUMMARY\nProduct designer with 7 years of experience, focused on Wireframing, Figma, Prototyping.\nEXPERIENCE\nSenior Product Designer, Crestpoint Retail (2024-2026)\n- Designed and prototyped features in Figma used by 29+ engineers to build against.\n- Led UX research at Crestpoint Retail informing the redesign of the core product flow.\nProduct Designer, Cartwheel Brands (2019-2024)\n- Built and maintained the company's design system components and guidelines.\nEDUCATION\nM.S. Human-Computer Interaction, University of Utah, 2019\nB.S. Human-Computer Interaction, Boston University, 2017\nSkills: Wireframing, Figma, Prototyping, Design systems, Adobe XD, UX research.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0775",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 7 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 0/6 required skills: none."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 2; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.0075
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.0225
+      }
+    ],
+    "compositeScore": 1,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 419,
+    "totalMs": 423
+  }
+}

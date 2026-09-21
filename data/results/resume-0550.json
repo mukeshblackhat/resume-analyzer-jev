@@ -1,0 +1,98 @@
+{
+  "extracted": {
+    "id": "resume-0550",
+    "fileName": "resume-0550.pdf",
+    "name": "Adrian Kimura",
+    "yearsExperience": 16,
+    "skills": [
+      "Terraform",
+      "REST API design",
+      "gRPC",
+      "AWS",
+      "TypeScript",
+      "Node.js",
+      "Distributed systems",
+      "Java"
+    ],
+    "education": [
+      "B.S. Computer Science, Penn State University, 2010"
+    ],
+    "experience": [
+      {
+        "title": "Principal Backend Engineer",
+        "company": "Larkspur Software",
+        "years": 4,
+        "description": "Designed internal REST API design standards used by 23+ downstream services. Designed a gRPC-backed data layer that cut p99 query latency by 25%. Applied distributed-systems patterns to scale the platform to 161K concurrent users."
+      },
+      {
+        "title": "Staff Backend Engineer",
+        "company": "Crestline Technologies",
+        "years": 2,
+        "description": "Built and maintained REST APIs in TypeScript serving 648K requests/day. Led migration of core services at Crestline Technologies onto REST API design, improving uptime during peak load."
+      },
+      {
+        "title": "Senior Backend Engineer",
+        "company": "Meridian Platform",
+        "years": 4,
+        "description": "Introduced Terraform-managed infrastructure, cutting provisioning time by 60%. Owned the Kafka event pipeline processing 24M events/day. Applied distributed-systems patterns to scale the platform to 84K concurrent users."
+      },
+      {
+        "title": "Backend Engineer",
+        "company": "Windmere Platform",
+        "years": 6,
+        "description": "Designed a REST API design-backed data layer that cut p99 query latency by 41%. Built and maintained REST APIs in Distributed systems serving 725K requests/day."
+      }
+    ],
+    "rawText": "Adrian Kimura\nadrian.kimura@example.com | Orlando, FL\nSUMMARY\nSenior backend engineer with 16 years of experience building backend systems on Terraform, REST API\ndesign, gRPC.\nEXPERIENCE\nPrincipal Backend Engineer, Larkspur Software (2022-2026)\n- Designed internal REST API design standards used by 23+ downstream services.\n- Designed a gRPC-backed data layer that cut p99 query latency by 25%.\n- Applied distributed-systems patterns to scale the platform to 161K concurrent users.\nStaff Backend Engineer, Crestline Technologies (2020-2022)\n- Built and maintained REST APIs in TypeScript serving 648K requests/day.\n- Led migration of core services at Crestline Technologies onto REST API design, improving uptime\nduring peak load.\nSenior Backend Engineer, Meridian Platform (2016-2020)\n- Introduced Terraform-managed infrastructure, cutting provisioning time by 60%.\n- Owned the Kafka event pipeline processing 24M events/day.\n- Applied distributed-systems patterns to scale the platform to 84K concurrent users.\nBackend Engineer, Windmere Platform (2010-2016)\n- Designed a REST API design-backed data layer that cut p99 query latency by 41%.\n- Built and maintained REST APIs in Distributed systems serving 725K requests/day.\nEDUCATION\nB.S. Computer Science, Penn State University, 2010\nSkills: Terraform, REST API design, gRPC, AWS, TypeScript, Node.js, Distributed systems, Java.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0550",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 16 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 5/6 required skills: Node.js, TypeScript, Distributed systems, AWS, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.705
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.9975
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.9825
+      }
+    ],
+    "compositeScore": 86,
+    "eligible": true
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 482,
+    "totalMs": 485
+  }
+}

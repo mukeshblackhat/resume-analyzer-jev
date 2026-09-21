@@ -1,0 +1,91 @@
+{
+  "extracted": {
+    "id": "resume-0347",
+    "fileName": "resume-0347.pdf",
+    "name": "Simon O'Brien",
+    "yearsExperience": 9,
+    "skills": [
+      "Terraform",
+      "Go",
+      "AWS",
+      "TypeScript",
+      "PostgreSQL",
+      "Kubernetes",
+      "Node.js"
+    ],
+    "education": [
+      "B.S. Computer Engineering, University of Washington, 2016"
+    ],
+    "experience": [
+      {
+        "title": "Staff Backend Engineer",
+        "company": "Driftwood Solutions",
+        "years": 4,
+        "description": "Designed internal Terraform standards used by 12+ downstream services. Applied distributed-systems patterns to scale the platform to 422K concurrent users."
+      },
+      {
+        "title": "Senior Backend Engineer",
+        "company": "Sable Analytics",
+        "years": 1,
+        "description": "Owned the Terraform event pipeline processing 8M events/day."
+      },
+      {
+        "title": "Backend Engineer",
+        "company": "Driftwood Solutions",
+        "years": 4,
+        "description": "Designed a Terraform-backed data layer that cut p99 query latency by 51%. Introduced Terraform-managed infrastructure, cutting provisioning time by 53%. Built and maintained REST APIs in PostgreSQL serving 892K requests/day."
+      }
+    ],
+    "rawText": "Simon O'Brien\nsimon.obrien@example.com | Atlanta, GA\nSUMMARY\nExperienced backend engineer with 9 years of experience building backend systems on Terraform, Go,\nAWS.\nEXPERIENCE\nStaff Backend Engineer - Driftwood Solutions (2022-2026)\n- Designed internal Terraform standards used by 12+ downstream services.\n- Applied distributed-systems patterns to scale the platform to 422K concurrent users.\nSenior Backend Engineer - Sable Analytics (2021-2022)\n- Owned the Terraform event pipeline processing 8M events/day.\nBackend Engineer - Driftwood Solutions (2017-2021)\n- Designed a Terraform-backed data layer that cut p99 query latency by 51%.\n- Introduced Terraform-managed infrastructure, cutting provisioning time by 53%.\n- Built and maintained REST APIs in PostgreSQL serving 892K requests/day.\nEDUCATION\nB.S. Computer Engineering, University of Washington, 2016\nSKILLS\n- Terraform\n- Go\n- AWS\n- TypeScript\n- PostgreSQL\n- Kubernetes\n- Node.js\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0347",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 9 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 4/6 required skills: Node.js, TypeScript, PostgreSQL, AWS."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.755
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.9975
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.9
+      }
+    ],
+    "compositeScore": 86,
+    "eligible": true
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 430,
+    "totalMs": 434
+  }
+}

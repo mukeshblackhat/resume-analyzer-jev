@@ -1,0 +1,83 @@
+{
+  "extracted": {
+    "id": "resume-0253",
+    "fileName": "resume-0253.pdf",
+    "name": "Noah Sato",
+    "yearsExperience": 4,
+    "skills": [
+      "AWS",
+      "Node.js",
+      "Go",
+      "REST API design",
+      "TypeScript"
+    ],
+    "education": [
+      "B.S. Software Engineering, Metro State University, 2022"
+    ],
+    "experience": [
+      {
+        "title": "Backend Engineer",
+        "company": "Crestline Dynamics",
+        "years": 1,
+        "description": "Owned the Kafka event pipeline processing 7M events/day. Applied distributed-systems patterns to scale the platform to 109K concurrent users."
+      },
+      {
+        "title": "Software Engineer I",
+        "company": "Anchor Data",
+        "years": 3,
+        "description": "Introduced Terraform-managed infrastructure, cutting provisioning time by 80%. Designed a TypeScript-backed data layer that cut p99 query latency by 67%. Designed internal Node.js standards used by 16+ downstream services."
+      }
+    ],
+    "rawText": "Noah Sato\nnoah.sato@example.com | New York, NY\nSUMMARY\nBackend-leaning engineer with 4 years of experience, working primarily with AWS, Node.js, Go.\nEXPERIENCE\nBackend Engineer - Crestline Dynamics (2025-2026)\n- Owned the Kafka event pipeline processing 7M events/day.\n- Applied distributed-systems patterns to scale the platform to 109K concurrent users.\nSoftware Engineer I - Anchor Data (2022-2025)\n- Introduced Terraform-managed infrastructure, cutting provisioning time by 80%.\n- Designed a TypeScript-backed data layer that cut p99 query latency by 67%.\n- Designed internal Node.js standards used by 16+ downstream services.\nEDUCATION\nB.S. Software Engineering, Metro State University, 2022\nSKILLS\n- AWS\n- Node.js\n- Go\n- REST API design\n- TypeScript\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0253",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": false,
+        "detail": "Resume shows 4 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 4/6 required skills: Node.js, TypeScript, AWS, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.595
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.99
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.5475
+      }
+    ],
+    "compositeScore": 68,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 469,
+    "totalMs": 473
+  }
+}

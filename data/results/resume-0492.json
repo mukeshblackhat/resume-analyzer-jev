@@ -1,0 +1,62 @@
+{
+  "extracted": {
+    "id": "resume-0492",
+    "fileName": "resume-0492.pdf",
+    "name": "Talia O'Brien",
+    "yearsExperience": 5,
+    "skills": [],
+    "education": [],
+    "experience": [],
+    "rawText": "Talia O'Brien\ntalia.obrien@example.com | Detroit, MI\nTalia O'Brien has 5 years of experience in backend and distributed systems.\nMost recently, Senior Backend Engineer at Nimbus Infrastructure (2025-2026),\nwhere they applied distributed-systems patterns to scale the platform to 202K\nconcurrent users. Before that, Backend Engineer at Grayline Digital\n(2021-2025). Education: B.S. Computer Engineering, UC San Diego, 2020. Core\nskills: Kafka, Node.js, REST API design, GraphQL, Docker, Distributed systems,\nCI/CD.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0492",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 5 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 0/6 required skills: none."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": false,
+        "detail": "Resume's highest detected education level rank is 0; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.015
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.0025
+      }
+    ],
+    "compositeScore": 0,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 370,
+    "totalMs": 374
+  }
+}

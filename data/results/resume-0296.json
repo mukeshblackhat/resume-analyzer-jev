@@ -1,0 +1,88 @@
+{
+  "extracted": {
+    "id": "resume-0296",
+    "fileName": "resume-0296.pdf",
+    "name": "Sara Lin",
+    "yearsExperience": 8,
+    "skills": [
+      "TypeScript",
+      "AWS",
+      "Node.js",
+      "Distributed systems",
+      "Go",
+      "REST API design"
+    ],
+    "education": [],
+    "experience": [
+      {
+        "title": "Senior Backend Engineer",
+        "company": "Anchor Analytics",
+        "years": 2,
+        "description": "Built and maintained REST APIs in TypeScript serving 818K requests/day."
+      },
+      {
+        "title": "Backend Engineer",
+        "company": "Crestline Systems",
+        "years": 2,
+        "description": "Led migration of core services at Crestline Systems onto TypeScript, improving uptime during peak load. Designed a REST API design-backed data layer that cut p99 query latency by 56%."
+      },
+      {
+        "title": "Software Engineer I",
+        "company": "Foundry Labs",
+        "years": 4,
+        "description": "Designed internal Distributed systems standards used by 37+ downstream services. Owned the Kafka event pipeline processing 50M events/day."
+      }
+    ],
+    "rawText": "Sara Lin\nsara.lin@example.com | Sacramento, CA\nSUMMARY\nExperienced backend engineer with 8 years of experience building backend systems on TypeScript, AWS,\nNode.js.\nEXPERIENCE\nSenior Backend Engineer - Anchor Analytics (2024-2026)\n- Built and maintained REST APIs in TypeScript serving 818K requests/day.\nBackend Engineer - Crestline Systems (2022-2024)\n- Led migration of core services at Crestline Systems onto TypeScript, improving uptime during peak load.\n- Designed a REST API design-backed data layer that cut p99 query latency by 56%.\nSoftware Engineer I - Foundry Labs (2018-2022)\n- Designed internal Distributed systems standards used by 37+ downstream services.\n- Owned the Kafka event pipeline processing 50M events/day.\nEDUCATION\nSKILLS\n- TypeScript\n- AWS\n- Node.js\n- Distributed systems\n- Go\n- REST API design\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0296",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 8 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 5/6 required skills: Node.js, TypeScript, Distributed systems, AWS, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": false,
+        "detail": "Resume's highest detected education level rank is 0; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.6575
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.995
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.77
+      }
+    ],
+    "compositeScore": 78,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 1,
+    "scoringMs": 400,
+    "totalMs": 403
+  }
+}

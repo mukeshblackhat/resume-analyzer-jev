@@ -1,0 +1,62 @@
+{
+  "extracted": {
+    "id": "resume-0890",
+    "fileName": "resume-0890.pdf",
+    "name": "Ethan Lin",
+    "yearsExperience": 4,
+    "skills": [],
+    "education": [],
+    "experience": [],
+    "rawText": "Ethan Lin\nethan.lin890@example.com | Cleveland, OH\nEthan Lin has 4 years of experience in marketing. Most recently, Marketing\nCoordinator at Vineland Media (2022-2026), where they ran paid acquisition\ncampaigns at Vineland Media, improving conversion rate by 16%. Education: B.A.\nEconomics, Georgia Tech, 2022. Core skills: SEO basics, Google Analytics,\nCampaign management, Content strategy, Email marketing.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0890",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": false,
+        "detail": "Resume shows 4 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 0/6 required skills: none."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": false,
+        "detail": "Resume's highest detected education level rank is 0; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.0125
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0
+      }
+    ],
+    "compositeScore": 0,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 1,
+    "scoringMs": 417,
+    "totalMs": 420
+  }
+}

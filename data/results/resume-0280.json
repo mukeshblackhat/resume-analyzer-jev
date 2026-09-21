@@ -1,0 +1,62 @@
+{
+  "extracted": {
+    "id": "resume-0280",
+    "fileName": "resume-0280.pdf",
+    "name": "Tom Raman",
+    "yearsExperience": 3,
+    "skills": [],
+    "education": [],
+    "experience": [],
+    "rawText": "Tom Raman\ntom.raman@example.com | Dallas, TX\nTom Raman has 3 years of experience in support. Most recently, Customer Support\nSpecialist at Kindlewood Partners (2023-2026), where they maintained a customer\nsatisfaction score above 88% at Kindlewood Partners. Education: B.A. Business\nAdministration, Georgia Tech, 2023. Core skills: Ticket triage, Onboarding, SLA\nmanagement, Customer success, Technical support, Zendesk.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0280",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": false,
+        "detail": "Resume shows 3 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 0/6 required skills: none."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": false,
+        "detail": "Resume's highest detected education level rank is 0; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.0075
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0
+      }
+    ],
+    "compositeScore": 0,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 452,
+    "totalMs": 457
+  }
+}

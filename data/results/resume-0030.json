@@ -1,0 +1,85 @@
+{
+  "extracted": {
+    "id": "resume-0030",
+    "fileName": "resume-0030.pdf",
+    "name": "Anton Wu",
+    "yearsExperience": 7,
+    "skills": [
+      "REST API design",
+      "iOS",
+      "AWS",
+      "Node.js",
+      "REST API design",
+      "PostgreSQL",
+      "Kotlin"
+    ],
+    "education": [
+      "Some coursework in Electrical Engineering, no degree completed"
+    ],
+    "experience": [
+      {
+        "title": "Senior Mobile Engineer",
+        "company": "Cinder Analytics",
+        "years": 4,
+        "description": "Wrote a lightweight Node.js BFF layer to aggregate REST calls for the mobile app."
+      },
+      {
+        "title": "Mobile Engineer",
+        "company": "Sable Dynamics",
+        "years": 3,
+        "description": "Built the company's React Native app end to end, shipped to 249K users. Maintained native modules in Swift and Kotlin for platform-specific features."
+      }
+    ],
+    "rawText": "Anton Wu\nanton.wu@example.com | Seattle, WA\nSUMMARY\nMobile engineer with 7 years of experience building apps with REST API design, iOS, AWS, some backend\nexposure.\nEXPERIENCE\nSenior Mobile Engineer - Cinder Analytics (2022-2026)\n- Wrote a lightweight Node.js BFF layer to aggregate REST calls for the mobile app.\nMobile Engineer - Sable Dynamics (2019-2022)\n- Built the company's React Native app end to end, shipped to 249K users.\n- Maintained native modules in Swift and Kotlin for platform-specific features.\nEDUCATION\nSome coursework in Electrical Engineering, no degree completed\nSKILLS\n- REST API design\n- iOS\n- AWS\n- Node.js\n- REST API design\n- PostgreSQL\n- Kotlin\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0030",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 7 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 4/6 required skills: Node.js, PostgreSQL, AWS, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": false,
+        "detail": "Resume's highest detected education level rank is 0; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.385
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.4275
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.2125
+      }
+    ],
+    "compositeScore": 34,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 1,
+    "scoringMs": 359,
+    "totalMs": 363
+  }
+}

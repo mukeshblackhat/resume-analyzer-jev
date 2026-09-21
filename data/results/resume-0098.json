@@ -1,0 +1,95 @@
+{
+  "extracted": {
+    "id": "resume-0098",
+    "fileName": "resume-0098.pdf",
+    "name": "Kevin Abbas",
+    "yearsExperience": 8,
+    "skills": [
+      "CSS3",
+      "MongoDB",
+      "TypeScript",
+      "REST API design",
+      "Node.js",
+      "React",
+      "Node.js",
+      "JavaScript",
+      "TypeScript"
+    ],
+    "education": [
+      "M.S. Computer Science, Cal Poly, 2018",
+      "B.S. Computer Science, University of Utah, 2016",
+      "Next.js."
+    ],
+    "experience": [
+      {
+        "title": "Senior Frontend Developer",
+        "company": "Anchor Labs",
+        "years": 3,
+        "description": "Built responsive JavaScript interfaces consumed by 84K monthly users. Partnered with backend engineers at Anchor Labs to consume REST and GraphQL APIs."
+      },
+      {
+        "title": "Frontend Developer",
+        "company": "Silverline Platform",
+        "years": 4,
+        "description": "Implemented TypeScript component libraries shared across product teams. Partnered with backend engineers at Silverline Platform to consume REST and GraphQL APIs. Built responsive React interfaces consumed by 102K monthly users."
+      },
+      {
+        "title": "Junior Frontend Developer",
+        "company": "Foundry Labs",
+        "years": 1,
+        "description": "Implemented Next.js component libraries shared across product teams. Partnered with backend engineers at Foundry Labs to consume REST and GraphQL APIs."
+      }
+    ],
+    "rawText": "Kevin Abbas\nkevin.abbas@example.com | Atlanta, GA\nSUMMARY\nFrontend developer with 8 years of experience in CSS3, MongoDB, TypeScript.\nEXPERIENCE\nSenior Frontend Developer, Anchor Labs (2023-2026)\n- Built responsive JavaScript interfaces consumed by 84K monthly users.\n- Partnered with backend engineers at Anchor Labs to consume REST and GraphQL APIs.\nFrontend Developer, Silverline Platform (2019-2023)\n- Implemented TypeScript component libraries shared across product teams.\n- Partnered with backend engineers at Silverline Platform to consume REST and GraphQL APIs.\n- Built responsive React interfaces consumed by 102K monthly users.\nJunior Frontend Developer, Foundry Labs (2018-2019)\n- Implemented Next.js component libraries shared across product teams.\n- Partnered with backend engineers at Foundry Labs to consume REST and GraphQL APIs.\nEDUCATION\nM.S. Computer Science, Cal Poly, 2018\nB.S. Computer Science, University of Utah, 2016\nSkills: CSS3, MongoDB, TypeScript, REST API design, Node.js, React, Node.js, JavaScript, TypeScript,\nNext.js.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0098",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 8 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 3/6 required skills: Node.js, TypeScript, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 2; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.1675
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.29
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.065
+      }
+    ],
+    "compositeScore": 17,
+    "eligible": true
+  },
+  "timings": {
+    "extractionMs": 1,
+    "scoringMs": 351,
+    "totalMs": 354
+  }
+}

@@ -1,0 +1,2459 @@
+{
+  "runId": "62eb83ef-75af-4d71-8afa-8a5a8005d71f",
+  "startedAt": "2026-09-21T09:27:03.557Z",
+  "completedAt": "2026-09-21T09:27:06.131Z",
+  "jobDescription": {
+    "title": "Senior Backend Engineer",
+    "requiredSkills": [
+      "Node.js",
+      "TypeScript",
+      "PostgreSQL",
+      "Distributed systems",
+      "AWS",
+      "REST API design"
+    ],
+    "niceToHaveSkills": [
+      "Kubernetes",
+      "Kafka",
+      "Redis",
+      "Terraform",
+      "GraphQL",
+      "Go"
+    ],
+    "minYearsExperience": 5,
+    "minEducationLevel": "bachelors",
+    "domain": "backend/infrastructure"
+  },
+  "entries": [
+    {
+      "id": "resume-01",
+      "fileName": "resume-01.pdf",
+      "stage": "completed",
+      "updatedAt": "2026-09-21T09:27:04.988Z",
+      "timings": {
+        "extractionMs": 191,
+        "scoringMs": 1239,
+        "totalMs": 1430
+      },
+      "compositeScore": 82
+    },
+    {
+      "id": "resume-02",
+      "fileName": "resume-02.pdf",
+      "stage": "completed",
+      "updatedAt": "2026-09-21T09:27:04.945Z",
+      "timings": {
+        "extractionMs": 185,
+        "scoringMs": 1200,
+        "totalMs": 1386
+      },
+      "compositeScore": 1
+    },
+    {
+      "id": "resume-03",
+      "fileName": "resume-03.pdf",
+      "stage": "completed",
+      "updatedAt": "2026-09-21T09:27:04.981Z",
+      "timings": {
+        "extractionMs": 187,
+        "scoringMs": 1235,
+        "totalMs": 1422
+      },
+      "compositeScore": 0
+    },
+    {
+      "id": "resume-04",
+      "fileName": "resume-04.pdf",
+      "stage": "completed",
+      "updatedAt": "2026-09-21T09:27:04.957Z",
+      "timings": {
+        "extractionMs": 166,
+        "scoringMs": 1232,
+        "totalMs": 1398
+      },
+      "compositeScore": 3
+    },
+    {
+      "id": "resume-05",
+      "fileName": "resume-05.pdf",
+      "stage": "completed",
+      "updatedAt": "2026-09-21T09:27:04.938Z",
+      "timings": {
+        "extractionMs": 189,
+        "scoringMs": 1190,
+        "totalMs": 1379
+      },
+      "compositeScore": 40
+    },
+    {
+      "id": "resume-06",
+      "fileName": "resume-06.pdf",
+      "stage": "completed",
+      "updatedAt": "2026-09-21T09:27:06.130Z",
+      "timings": {
+        "extractionMs": 2,
+        "scoringMs": 1187,
+        "totalMs": 1191
+      },
+      "compositeScore": 0
+    },
+    {
+      "id": "resume-07",
+      "fileName": "resume-07.pdf",
+      "stage": "completed",
+      "updatedAt": "2026-09-21T09:27:05.479Z",
+      "timings": {
+        "extractionMs": 3,
+        "scoringMs": 530,
+        "totalMs": 533
+      },
+      "compositeScore": 97
+    },
+    {
+      "id": "resume-08",
+      "fileName": "resume-08.pdf",
+      "stage": "completed",
+      "updatedAt": "2026-09-21T09:27:05.473Z",
+      "timings": {
+        "extractionMs": 2,
+        "scoringMs": 514,
+        "totalMs": 516
+      },
+      "compositeScore": 1
+    },
+    {
+      "id": "resume-09",
+      "fileName": "resume-09.pdf",
+      "stage": "completed",
+      "updatedAt": "2026-09-21T09:27:05.464Z",
+      "timings": {
+        "extractionMs": 3,
+        "scoringMs": 479,
+        "totalMs": 483
+      },
+      "compositeScore": 27
+    },
+    {
+      "id": "resume-10",
+      "fileName": "resume-10.pdf",
+      "stage": "completed",
+      "updatedAt": "2026-09-21T09:27:05.462Z",
+      "timings": {
+        "extractionMs": 2,
+        "scoringMs": 471,
+        "totalMs": 473
+      },
+      "compositeScore": 53
+    }
+  ],
+  "jevLog": [
+    {
+      "id": "d4acc155-179f-46a1-a01b-840c575b183e",
+      "resumeId": "resume-04",
+      "label": "skill_depth, domain_relevance, seniority_fit",
+      "input": {
+        "state": {
+          "jobDescription": {
+            "title": "Senior Backend Engineer",
+            "requiredSkills": [
+              "Node.js",
+              "TypeScript",
+              "PostgreSQL",
+              "Distributed systems",
+              "AWS",
+              "REST API design"
+            ],
+            "niceToHaveSkills": [
+              "Kubernetes",
+              "Kafka",
+              "Redis",
+              "Terraform",
+              "GraphQL",
+              "Go"
+            ],
+            "domain": "backend/infrastructure"
+          },
+          "resume": {
+            "yearsExperience": 2,
+            "skills": [
+              "React",
+              "HTML5",
+              "CSS3",
+              "JavaScript",
+              "Figma",
+              "Responsive design"
+            ],
+            "education": [
+              "B.A. Digital Media, Metro State University, 2024"
+            ],
+            "experience": [
+              {
+                "title": "Junior Frontend Developer",
+                "company": "Pixel & Pine Studio",
+                "years": 2,
+                "description": "Built responsive marketing pages in React for small-business clients."
+              }
+            ]
+          }
+        },
+        "questions": {
+          "skill_depth": {
+            "type": "score",
+            "instructions": "Judging `resume` against `jobDescription.requiredSkills`: how much hands-on depth and ownership does the resume's experience actually demonstrate in those required skills, as opposed to the skills merely being listed?",
+            "criteria": [
+              "No meaningful evidence -- the required skills are absent or only tangentially mentioned.",
+              "Superficial exposure -- required skills are named but with little demonstrated hands-on depth.",
+              "Moderate depth -- some real hands-on ownership of required skills, but not consistent across roles.",
+              "Strong depth -- clear, repeated hands-on ownership of most required skills across multiple roles.",
+              "Exceptional depth -- deep, sustained ownership and technical leadership across nearly all required skills."
+            ]
+          },
+          "domain_relevance": {
+            "type": "score",
+            "instructions": "How relevant is the resume's overall domain/industry background (from its experience entries) to `jobDescription.domain`?",
+            "criteria": [
+              "Entirely unrelated domain/industry background.",
+              "Adjacent domain with limited overlap in problem space.",
+              "Related domain with meaningful but partial overlap.",
+              "Closely related domain, strong overlap in problem space.",
+              "Same domain, direct and extensive relevant background."
+            ]
+          },
+          "seniority_fit": {
+            "type": "score",
+            "instructions": "`jobDescription.title` implies a certain scope of ownership and impact. Judging by the resume's experience entries, does the seniority and scope shown match what that title expects?",
+            "criteria": [
+              "Scope and ownership shown are well below what the role expects.",
+              "Somewhat below the expected scope -- limited ownership or impact shown.",
+              "Roughly matches the expected scope for this level.",
+              "Exceeds the expected scope in places -- clear ownership and impact.",
+              "Consistently exceeds the expected scope -- broad ownership, technical leadership."
+            ]
+          }
+        }
+      },
+      "runId": "62eb83ef-75af-4d71-8afa-8a5a8005d71f",
+      "status": "completed",
+      "startedAt": "2026-09-21T09:27:03.725Z",
+      "output": {
+        "skill_depth": {
+          "type": "score",
+          "score": 0,
+          "confidence": 1,
+          "legend": {
+            "0": "No meaningful evidence -- the required skills are absent or only tangentially mentioned.",
+            "1": "Superficial exposure -- required skills are named but with little demonstrated hands-on depth.",
+            "2": "Moderate depth -- some real hands-on ownership of required skills, but not consistent across roles.",
+            "3": "Strong depth -- clear, repeated hands-on ownership of most required skills across multiple roles.",
+            "4": "Exceptional depth -- deep, sustained ownership and technical leadership across nearly all required skills."
+          },
+          "probabilities": {
+            "0": 1,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0
+          }
+        },
+        "domain_relevance": {
+          "type": "score",
+          "score": 0.5,
+          "confidence": 0.58,
+          "legend": {
+            "0": "Entirely unrelated domain/industry background.",
+            "1": "Adjacent domain with limited overlap in problem space.",
+            "2": "Related domain with meaningful but partial overlap.",
+            "3": "Closely related domain, strong overlap in problem space.",
+            "4": "Same domain, direct and extensive relevant background."
+          },
+          "probabilities": {
+            "0": 0.5,
+            "1": 0.49,
+            "2": 0.01,
+            "3": 0,
+            "4": 0
+          }
+        },
+        "seniority_fit": {
+          "type": "score",
+          "score": 0,
+          "confidence": 1,
+          "legend": {
+            "0": "Scope and ownership shown are well below what the role expects.",
+            "1": "Somewhat below the expected scope -- limited ownership or impact shown.",
+            "2": "Roughly matches the expected scope for this level.",
+            "3": "Exceeds the expected scope in places -- clear ownership and impact.",
+            "4": "Consistently exceeds the expected scope -- broad ownership, technical leadership."
+          },
+          "probabilities": {
+            "0": 1,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0
+          }
+        }
+      },
+      "completedAt": "2026-09-21T09:27:04.957Z"
+    },
+    {
+      "id": "f61559f3-10cf-41d7-b740-47bfc4c41500",
+      "resumeId": "resume-02",
+      "label": "skill_depth, domain_relevance, seniority_fit",
+      "input": {
+        "state": {
+          "jobDescription": {
+            "title": "Senior Backend Engineer",
+            "requiredSkills": [
+              "Node.js",
+              "TypeScript",
+              "PostgreSQL",
+              "Distributed systems",
+              "AWS",
+              "REST API design"
+            ],
+            "niceToHaveSkills": [
+              "Kubernetes",
+              "Kafka",
+              "Redis",
+              "Terraform",
+              "GraphQL",
+              "Go"
+            ],
+            "domain": "backend/infrastructure"
+          },
+          "resume": {
+            "yearsExperience": 9,
+            "skills": [],
+            "education": [],
+            "experience": []
+          }
+        },
+        "questions": {
+          "skill_depth": {
+            "type": "score",
+            "instructions": "Judging `resume` against `jobDescription.requiredSkills`: how much hands-on depth and ownership does the resume's experience actually demonstrate in those required skills, as opposed to the skills merely being listed?",
+            "criteria": [
+              "No meaningful evidence -- the required skills are absent or only tangentially mentioned.",
+              "Superficial exposure -- required skills are named but with little demonstrated hands-on depth.",
+              "Moderate depth -- some real hands-on ownership of required skills, but not consistent across roles.",
+              "Strong depth -- clear, repeated hands-on ownership of most required skills across multiple roles.",
+              "Exceptional depth -- deep, sustained ownership and technical leadership across nearly all required skills."
+            ]
+          },
+          "domain_relevance": {
+            "type": "score",
+            "instructions": "How relevant is the resume's overall domain/industry background (from its experience entries) to `jobDescription.domain`?",
+            "criteria": [
+              "Entirely unrelated domain/industry background.",
+              "Adjacent domain with limited overlap in problem space.",
+              "Related domain with meaningful but partial overlap.",
+              "Closely related domain, strong overlap in problem space.",
+              "Same domain, direct and extensive relevant background."
+            ]
+          },
+          "seniority_fit": {
+            "type": "score",
+            "instructions": "`jobDescription.title` implies a certain scope of ownership and impact. Judging by the resume's experience entries, does the seniority and scope shown match what that title expects?",
+            "criteria": [
+              "Scope and ownership shown are well below what the role expects.",
+              "Somewhat below the expected scope -- limited ownership or impact shown.",
+              "Roughly matches the expected scope for this level.",
+              "Exceeds the expected scope in places -- clear ownership and impact.",
+              "Consistently exceeds the expected scope -- broad ownership, technical leadership."
+            ]
+          }
+        }
+      },
+      "runId": "62eb83ef-75af-4d71-8afa-8a5a8005d71f",
+      "status": "completed",
+      "startedAt": "2026-09-21T09:27:03.745Z",
+      "output": {
+        "skill_depth": {
+          "type": "score",
+          "score": 0,
+          "confidence": 1,
+          "legend": {
+            "0": "No meaningful evidence -- the required skills are absent or only tangentially mentioned.",
+            "1": "Superficial exposure -- required skills are named but with little demonstrated hands-on depth.",
+            "2": "Moderate depth -- some real hands-on ownership of required skills, but not consistent across roles.",
+            "3": "Strong depth -- clear, repeated hands-on ownership of most required skills across multiple roles.",
+            "4": "Exceptional depth -- deep, sustained ownership and technical leadership across nearly all required skills."
+          },
+          "probabilities": {
+            "0": 1,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0
+          }
+        },
+        "domain_relevance": {
+          "type": "score",
+          "score": 0.09,
+          "confidence": 0.93,
+          "legend": {
+            "0": "Entirely unrelated domain/industry background.",
+            "1": "Adjacent domain with limited overlap in problem space.",
+            "2": "Related domain with meaningful but partial overlap.",
+            "3": "Closely related domain, strong overlap in problem space.",
+            "4": "Same domain, direct and extensive relevant background."
+          },
+          "probabilities": {
+            "0": 0.96,
+            "1": 0.02,
+            "2": 0.02,
+            "3": 0,
+            "4": 0
+          }
+        },
+        "seniority_fit": {
+          "type": "score",
+          "score": 0.04,
+          "confidence": 0.96,
+          "legend": {
+            "0": "Scope and ownership shown are well below what the role expects.",
+            "1": "Somewhat below the expected scope -- limited ownership or impact shown.",
+            "2": "Roughly matches the expected scope for this level.",
+            "3": "Exceeds the expected scope in places -- clear ownership and impact.",
+            "4": "Consistently exceeds the expected scope -- broad ownership, technical leadership."
+          },
+          "probabilities": {
+            "0": 0.98,
+            "1": 0.01,
+            "2": 0.01,
+            "3": 0,
+            "4": 0
+          }
+        }
+      },
+      "completedAt": "2026-09-21T09:27:04.944Z"
+    },
+    {
+      "id": "68fc3e94-2a74-43fd-aab8-d038f9cad486",
+      "resumeId": "resume-03",
+      "label": "skill_depth, domain_relevance, seniority_fit",
+      "input": {
+        "state": {
+          "jobDescription": {
+            "title": "Senior Backend Engineer",
+            "requiredSkills": [
+              "Node.js",
+              "TypeScript",
+              "PostgreSQL",
+              "Distributed systems",
+              "AWS",
+              "REST API design"
+            ],
+            "niceToHaveSkills": [
+              "Kubernetes",
+              "Kafka",
+              "Redis",
+              "Terraform",
+              "GraphQL",
+              "Go"
+            ],
+            "domain": "backend/infrastructure"
+          },
+          "resume": {
+            "yearsExperience": 3,
+            "skills": [
+              "Content strategy",
+              "Google Analytics",
+              "Email marketing",
+              "Canva",
+              "SEO basics"
+            ],
+            "education": [
+              "B.A. Communications, DePaul University, 2022"
+            ],
+            "experience": [
+              {
+                "title": "Marketing Coordinator",
+                "company": "Brightleaf Consumer Goods",
+                "years": 3,
+                "description": "Managed social media calendars across 3 brand accounts. Coordinated email campaigns reaching 200K subscribers."
+              },
+              {
+                "title": "Marketing Intern",
+                "company": "Riverside Media",
+                "years": 1,
+                "description": "Assisted with content creation for client campaigns."
+              }
+            ]
+          }
+        },
+        "questions": {
+          "skill_depth": {
+            "type": "score",
+            "instructions": "Judging `resume` against `jobDescription.requiredSkills`: how much hands-on depth and ownership does the resume's experience actually demonstrate in those required skills, as opposed to the skills merely being listed?",
+            "criteria": [
+              "No meaningful evidence -- the required skills are absent or only tangentially mentioned.",
+              "Superficial exposure -- required skills are named but with little demonstrated hands-on depth.",
+              "Moderate depth -- some real hands-on ownership of required skills, but not consistent across roles.",
+              "Strong depth -- clear, repeated hands-on ownership of most required skills across multiple roles.",
+              "Exceptional depth -- deep, sustained ownership and technical leadership across nearly all required skills."
+            ]
+          },
+          "domain_relevance": {
+            "type": "score",
+            "instructions": "How relevant is the resume's overall domain/industry background (from its experience entries) to `jobDescription.domain`?",
+            "criteria": [
+              "Entirely unrelated domain/industry background.",
+              "Adjacent domain with limited overlap in problem space.",
+              "Related domain with meaningful but partial overlap.",
+              "Closely related domain, strong overlap in problem space.",
+              "Same domain, direct and extensive relevant background."
+            ]
+          },
+          "seniority_fit": {
+            "type": "score",
+            "instructions": "`jobDescription.title` implies a certain scope of ownership and impact. Judging by the resume's experience entries, does the seniority and scope shown match what that title expects?",
+            "criteria": [
+              "Scope and ownership shown are well below what the role expects.",
+              "Somewhat below the expected scope -- limited ownership or impact shown.",
+              "Roughly matches the expected scope for this level.",
+              "Exceeds the expected scope in places -- clear ownership and impact.",
+              "Consistently exceeds the expected scope -- broad ownership, technical leadership."
+            ]
+          }
+        }
+      },
+      "runId": "62eb83ef-75af-4d71-8afa-8a5a8005d71f",
+      "status": "completed",
+      "startedAt": "2026-09-21T09:27:03.747Z",
+      "output": {
+        "skill_depth": {
+          "type": "score",
+          "score": 0,
+          "confidence": 1,
+          "legend": {
+            "0": "No meaningful evidence -- the required skills are absent or only tangentially mentioned.",
+            "1": "Superficial exposure -- required skills are named but with little demonstrated hands-on depth.",
+            "2": "Moderate depth -- some real hands-on ownership of required skills, but not consistent across roles.",
+            "3": "Strong depth -- clear, repeated hands-on ownership of most required skills across multiple roles.",
+            "4": "Exceptional depth -- deep, sustained ownership and technical leadership across nearly all required skills."
+          },
+          "probabilities": {
+            "0": 1,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0
+          }
+        },
+        "domain_relevance": {
+          "type": "score",
+          "score": 0,
+          "confidence": 1,
+          "legend": {
+            "0": "Entirely unrelated domain/industry background.",
+            "1": "Adjacent domain with limited overlap in problem space.",
+            "2": "Related domain with meaningful but partial overlap.",
+            "3": "Closely related domain, strong overlap in problem space.",
+            "4": "Same domain, direct and extensive relevant background."
+          },
+          "probabilities": {
+            "0": 1,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0
+          }
+        },
+        "seniority_fit": {
+          "type": "score",
+          "score": 0,
+          "confidence": 1,
+          "legend": {
+            "0": "Scope and ownership shown are well below what the role expects.",
+            "1": "Somewhat below the expected scope -- limited ownership or impact shown.",
+            "2": "Roughly matches the expected scope for this level.",
+            "3": "Exceeds the expected scope in places -- clear ownership and impact.",
+            "4": "Consistently exceeds the expected scope -- broad ownership, technical leadership."
+          },
+          "probabilities": {
+            "0": 1,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0
+          }
+        }
+      },
+      "completedAt": "2026-09-21T09:27:04.981Z"
+    },
+    {
+      "id": "8aaea9b8-8da2-4ca4-a661-dc14149ee5b5",
+      "resumeId": "resume-05",
+      "label": "skill_depth, domain_relevance, seniority_fit",
+      "input": {
+        "state": {
+          "jobDescription": {
+            "title": "Senior Backend Engineer",
+            "requiredSkills": [
+              "Node.js",
+              "TypeScript",
+              "PostgreSQL",
+              "Distributed systems",
+              "AWS",
+              "REST API design"
+            ],
+            "niceToHaveSkills": [
+              "Kubernetes",
+              "Kafka",
+              "Redis",
+              "Terraform",
+              "GraphQL",
+              "Go"
+            ],
+            "domain": "backend/infrastructure"
+          },
+          "resume": {
+            "yearsExperience": 4,
+            "skills": [
+              "Node.js",
+              "TypeScript",
+              "MongoDB",
+              "PostgreSQL",
+              "React",
+              "REST API design"
+            ],
+            "education": [
+              "B.S. Computer Science, Northeastern University, 2021"
+            ],
+            "experience": [
+              {
+                "title": "Full",
+                "company": "Stack Engineer - Coastline Apps",
+                "years": 4,
+                "description": "Built REST APIs in Node.js/TypeScript backed by both MongoDB and PostgreSQL. Implemented React dashboards consuming those APIs."
+              },
+              {
+                "title": "Software Engineer",
+                "company": "Beacon Health Tech",
+                "years": 1,
+                "description": "Maintained a Node.js backend for a patient-scheduling tool."
+              }
+            ]
+          }
+        },
+        "questions": {
+          "skill_depth": {
+            "type": "score",
+            "instructions": "Judging `resume` against `jobDescription.requiredSkills`: how much hands-on depth and ownership does the resume's experience actually demonstrate in those required skills, as opposed to the skills merely being listed?",
+            "criteria": [
+              "No meaningful evidence -- the required skills are absent or only tangentially mentioned.",
+              "Superficial exposure -- required skills are named but with little demonstrated hands-on depth.",
+              "Moderate depth -- some real hands-on ownership of required skills, but not consistent across roles.",
+              "Strong depth -- clear, repeated hands-on ownership of most required skills across multiple roles.",
+              "Exceptional depth -- deep, sustained ownership and technical leadership across nearly all required skills."
+            ]
+          },
+          "domain_relevance": {
+            "type": "score",
+            "instructions": "How relevant is the resume's overall domain/industry background (from its experience entries) to `jobDescription.domain`?",
+            "criteria": [
+              "Entirely unrelated domain/industry background.",
+              "Adjacent domain with limited overlap in problem space.",
+              "Related domain with meaningful but partial overlap.",
+              "Closely related domain, strong overlap in problem space.",
+              "Same domain, direct and extensive relevant background."
+            ]
+          },
+          "seniority_fit": {
+            "type": "score",
+            "instructions": "`jobDescription.title` implies a certain scope of ownership and impact. Judging by the resume's experience entries, does the seniority and scope shown match what that title expects?",
+            "criteria": [
+              "Scope and ownership shown are well below what the role expects.",
+              "Somewhat below the expected scope -- limited ownership or impact shown.",
+              "Roughly matches the expected scope for this level.",
+              "Exceeds the expected scope in places -- clear ownership and impact.",
+              "Consistently exceeds the expected scope -- broad ownership, technical leadership."
+            ]
+          }
+        }
+      },
+      "runId": "62eb83ef-75af-4d71-8afa-8a5a8005d71f",
+      "status": "completed",
+      "startedAt": "2026-09-21T09:27:03.748Z",
+      "output": {
+        "skill_depth": {
+          "type": "score",
+          "score": 1.67,
+          "confidence": 0.72,
+          "legend": {
+            "0": "No meaningful evidence -- the required skills are absent or only tangentially mentioned.",
+            "1": "Superficial exposure -- required skills are named but with little demonstrated hands-on depth.",
+            "2": "Moderate depth -- some real hands-on ownership of required skills, but not consistent across roles.",
+            "3": "Strong depth -- clear, repeated hands-on ownership of most required skills across multiple roles.",
+            "4": "Exceptional depth -- deep, sustained ownership and technical leadership across nearly all required skills."
+          },
+          "probabilities": {
+            "0": 0.03,
+            "1": 0.28,
+            "2": 0.69,
+            "3": 0,
+            "4": 0
+          }
+        },
+        "domain_relevance": {
+          "type": "score",
+          "score": 2.39,
+          "confidence": 0.63,
+          "legend": {
+            "0": "Entirely unrelated domain/industry background.",
+            "1": "Adjacent domain with limited overlap in problem space.",
+            "2": "Related domain with meaningful but partial overlap.",
+            "3": "Closely related domain, strong overlap in problem space.",
+            "4": "Same domain, direct and extensive relevant background."
+          },
+          "probabilities": {
+            "0": 0,
+            "1": 0.03,
+            "2": 0.58,
+            "3": 0.35,
+            "4": 0.04
+          }
+        },
+        "seniority_fit": {
+          "type": "score",
+          "score": 0.79,
+          "confidence": 0.82,
+          "legend": {
+            "0": "Scope and ownership shown are well below what the role expects.",
+            "1": "Somewhat below the expected scope -- limited ownership or impact shown.",
+            "2": "Roughly matches the expected scope for this level.",
+            "3": "Exceeds the expected scope in places -- clear ownership and impact.",
+            "4": "Consistently exceeds the expected scope -- broad ownership, technical leadership."
+          },
+          "probabilities": {
+            "0": 0.21,
+            "1": 0.79,
+            "2": 0,
+            "3": 0,
+            "4": 0
+          }
+        }
+      },
+      "completedAt": "2026-09-21T09:27:04.937Z"
+    },
+    {
+      "id": "87d36e31-6301-48ec-b44e-e6af8144ca43",
+      "resumeId": "resume-01",
+      "label": "skill_depth, domain_relevance, seniority_fit",
+      "input": {
+        "state": {
+          "jobDescription": {
+            "title": "Senior Backend Engineer",
+            "requiredSkills": [
+              "Node.js",
+              "TypeScript",
+              "PostgreSQL",
+              "Distributed systems",
+              "AWS",
+              "REST API design"
+            ],
+            "niceToHaveSkills": [
+              "Kubernetes",
+              "Kafka",
+              "Redis",
+              "Terraform",
+              "GraphQL",
+              "Go"
+            ],
+            "domain": "backend/infrastructure"
+          },
+          "resume": {
+            "yearsExperience": 7,
+            "skills": [
+              "Node.js",
+              "TypeScript",
+              "PostgreSQL",
+              "AWS",
+              "Kafka",
+              "REST API design",
+              "Docker"
+            ],
+            "education": [
+              "B.S. Computer Science, University of Washington, 2017"
+            ],
+            "experience": [
+              {
+                "title": "Senior Backend Engineer",
+                "company": "Nimbus Cloud Systems",
+                "years": 5,
+                "description": "Led migration of a monolithic Node.js API into event-driven microservices on AWS. Designed the PostgreSQL sharding strategy that cut p99 query latency by 60%. Owned the Kafka-based ingestion pipeline processing 50M events/day."
+              },
+              {
+                "title": "Backend Engineer",
+                "company": "Harborlight Data",
+                "years": 3,
+                "description": "Built REST APIs serving the company's core billing platform. Introduced Docker-based CI pipelines, cutting deploy time from 40 to 8 minutes."
+              }
+            ]
+          }
+        },
+        "questions": {
+          "skill_depth": {
+            "type": "score",
+            "instructions": "Judging `resume` against `jobDescription.requiredSkills`: how much hands-on depth and ownership does the resume's experience actually demonstrate in those required skills, as opposed to the skills merely being listed?",
+            "criteria": [
+              "No meaningful evidence -- the required skills are absent or only tangentially mentioned.",
+              "Superficial exposure -- required skills are named but with little demonstrated hands-on depth.",
+              "Moderate depth -- some real hands-on ownership of required skills, but not consistent across roles.",
+              "Strong depth -- clear, repeated hands-on ownership of most required skills across multiple roles.",
+              "Exceptional depth -- deep, sustained ownership and technical leadership across nearly all required skills."
+            ]
+          },
+          "domain_relevance": {
+            "type": "score",
+            "instructions": "How relevant is the resume's overall domain/industry background (from its experience entries) to `jobDescription.domain`?",
+            "criteria": [
+              "Entirely unrelated domain/industry background.",
+              "Adjacent domain with limited overlap in problem space.",
+              "Related domain with meaningful but partial overlap.",
+              "Closely related domain, strong overlap in problem space.",
+              "Same domain, direct and extensive relevant background."
+            ]
+          },
+          "seniority_fit": {
+            "type": "score",
+            "instructions": "`jobDescription.title` implies a certain scope of ownership and impact. Judging by the resume's experience entries, does the seniority and scope shown match what that title expects?",
+            "criteria": [
+              "Scope and ownership shown are well below what the role expects.",
+              "Somewhat below the expected scope -- limited ownership or impact shown.",
+              "Roughly matches the expected scope for this level.",
+              "Exceeds the expected scope in places -- clear ownership and impact.",
+              "Consistently exceeds the expected scope -- broad ownership, technical leadership."
+            ]
+          }
+        }
+      },
+      "runId": "62eb83ef-75af-4d71-8afa-8a5a8005d71f",
+      "status": "completed",
+      "startedAt": "2026-09-21T09:27:03.750Z",
+      "output": {
+        "skill_depth": {
+          "type": "score",
+          "score": 3.04,
+          "confidence": 0.7,
+          "legend": {
+            "0": "No meaningful evidence -- the required skills are absent or only tangentially mentioned.",
+            "1": "Superficial exposure -- required skills are named but with little demonstrated hands-on depth.",
+            "2": "Moderate depth -- some real hands-on ownership of required skills, but not consistent across roles.",
+            "3": "Strong depth -- clear, repeated hands-on ownership of most required skills across multiple roles.",
+            "4": "Exceptional depth -- deep, sustained ownership and technical leadership across nearly all required skills."
+          },
+          "probabilities": {
+            "0": 0,
+            "1": 0,
+            "2": 0.15,
+            "3": 0.65,
+            "4": 0.2
+          }
+        },
+        "domain_relevance": {
+          "type": "score",
+          "score": 3.99,
+          "confidence": 0.99,
+          "legend": {
+            "0": "Entirely unrelated domain/industry background.",
+            "1": "Adjacent domain with limited overlap in problem space.",
+            "2": "Related domain with meaningful but partial overlap.",
+            "3": "Closely related domain, strong overlap in problem space.",
+            "4": "Same domain, direct and extensive relevant background."
+          },
+          "probabilities": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 0.01,
+            "4": 0.99
+          }
+        },
+        "seniority_fit": {
+          "type": "score",
+          "score": 3.04,
+          "confidence": 0.89,
+          "legend": {
+            "0": "Scope and ownership shown are well below what the role expects.",
+            "1": "Somewhat below the expected scope -- limited ownership or impact shown.",
+            "2": "Roughly matches the expected scope for this level.",
+            "3": "Exceeds the expected scope in places -- clear ownership and impact.",
+            "4": "Consistently exceeds the expected scope -- broad ownership, technical leadership."
+          },
+          "probabilities": {
+            "0": 0,
+            "1": 0,
+            "2": 0.05,
+            "3": 0.87,
+            "4": 0.08
+          }
+        }
+      },
+      "completedAt": "2026-09-21T09:27:04.987Z"
+    },
+    {
+      "id": "9a475fec-adda-4491-a02e-77e472b06806",
+      "resumeId": "resume-06",
+      "label": "skill_depth, domain_relevance, seniority_fit",
+      "input": {
+        "state": {
+          "jobDescription": {
+            "title": "Senior Backend Engineer",
+            "requiredSkills": [
+              "Node.js",
+              "TypeScript",
+              "PostgreSQL",
+              "Distributed systems",
+              "AWS",
+              "REST API design"
+            ],
+            "niceToHaveSkills": [
+              "Kubernetes",
+              "Kafka",
+              "Redis",
+              "Terraform",
+              "GraphQL",
+              "Go"
+            ],
+            "domain": "backend/infrastructure"
+          },
+          "resume": {
+            "yearsExperience": 5,
+            "skills": [],
+            "education": [],
+            "experience": []
+          }
+        },
+        "questions": {
+          "skill_depth": {
+            "type": "score",
+            "instructions": "Judging `resume` against `jobDescription.requiredSkills`: how much hands-on depth and ownership does the resume's experience actually demonstrate in those required skills, as opposed to the skills merely being listed?",
+            "criteria": [
+              "No meaningful evidence -- the required skills are absent or only tangentially mentioned.",
+              "Superficial exposure -- required skills are named but with little demonstrated hands-on depth.",
+              "Moderate depth -- some real hands-on ownership of required skills, but not consistent across roles.",
+              "Strong depth -- clear, repeated hands-on ownership of most required skills across multiple roles.",
+              "Exceptional depth -- deep, sustained ownership and technical leadership across nearly all required skills."
+            ]
+          },
+          "domain_relevance": {
+            "type": "score",
+            "instructions": "How relevant is the resume's overall domain/industry background (from its experience entries) to `jobDescription.domain`?",
+            "criteria": [
+              "Entirely unrelated domain/industry background.",
+              "Adjacent domain with limited overlap in problem space.",
+              "Related domain with meaningful but partial overlap.",
+              "Closely related domain, strong overlap in problem space.",
+              "Same domain, direct and extensive relevant background."
+            ]
+          },
+          "seniority_fit": {
+            "type": "score",
+            "instructions": "`jobDescription.title` implies a certain scope of ownership and impact. Judging by the resume's experience entries, does the seniority and scope shown match what that title expects?",
+            "criteria": [
+              "Scope and ownership shown are well below what the role expects.",
+              "Somewhat below the expected scope -- limited ownership or impact shown.",
+              "Roughly matches the expected scope for this level.",
+              "Exceeds the expected scope in places -- clear ownership and impact.",
+              "Consistently exceeds the expected scope -- broad ownership, technical leadership."
+            ]
+          }
+        }
+      },
+      "runId": "62eb83ef-75af-4d71-8afa-8a5a8005d71f",
+      "status": "completed",
+      "startedAt": "2026-09-21T09:27:04.942Z",
+      "output": {
+        "skill_depth": {
+          "type": "score",
+          "score": 0,
+          "confidence": 1,
+          "legend": {
+            "0": "No meaningful evidence -- the required skills are absent or only tangentially mentioned.",
+            "1": "Superficial exposure -- required skills are named but with little demonstrated hands-on depth.",
+            "2": "Moderate depth -- some real hands-on ownership of required skills, but not consistent across roles.",
+            "3": "Strong depth -- clear, repeated hands-on ownership of most required skills across multiple roles.",
+            "4": "Exceptional depth -- deep, sustained ownership and technical leadership across nearly all required skills."
+          },
+          "probabilities": {
+            "0": 1,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0
+          }
+        },
+        "domain_relevance": {
+          "type": "score",
+          "score": 0.06,
+          "confidence": 0.95,
+          "legend": {
+            "0": "Entirely unrelated domain/industry background.",
+            "1": "Adjacent domain with limited overlap in problem space.",
+            "2": "Related domain with meaningful but partial overlap.",
+            "3": "Closely related domain, strong overlap in problem space.",
+            "4": "Same domain, direct and extensive relevant background."
+          },
+          "probabilities": {
+            "0": 0.98,
+            "1": 0.01,
+            "2": 0.01,
+            "3": 0,
+            "4": 0
+          }
+        },
+        "seniority_fit": {
+          "type": "score",
+          "score": 0.01,
+          "confidence": 0.99,
+          "legend": {
+            "0": "Scope and ownership shown are well below what the role expects.",
+            "1": "Somewhat below the expected scope -- limited ownership or impact shown.",
+            "2": "Roughly matches the expected scope for this level.",
+            "3": "Exceeds the expected scope in places -- clear ownership and impact.",
+            "4": "Consistently exceeds the expected scope -- broad ownership, technical leadership."
+          },
+          "probabilities": {
+            "0": 0.99,
+            "1": 0.01,
+            "2": 0,
+            "3": 0,
+            "4": 0
+          }
+        }
+      },
+      "completedAt": "2026-09-21T09:27:06.128Z"
+    },
+    {
+      "id": "823e278a-1428-459d-a610-e3a779b9f74d",
+      "resumeId": "resume-07",
+      "label": "skill_depth, domain_relevance, seniority_fit",
+      "input": {
+        "state": {
+          "jobDescription": {
+            "title": "Senior Backend Engineer",
+            "requiredSkills": [
+              "Node.js",
+              "TypeScript",
+              "PostgreSQL",
+              "Distributed systems",
+              "AWS",
+              "REST API design"
+            ],
+            "niceToHaveSkills": [
+              "Kubernetes",
+              "Kafka",
+              "Redis",
+              "Terraform",
+              "GraphQL",
+              "Go"
+            ],
+            "domain": "backend/infrastructure"
+          },
+          "resume": {
+            "yearsExperience": 13,
+            "skills": [
+              "Node.js",
+              "TypeScript",
+              "Go",
+              "PostgreSQL",
+              "AWS",
+              "Kubernetes",
+              "Kafka",
+              "Terraform",
+              "Distributed systems",
+              "REST API design"
+            ],
+            "education": [
+              "M.S. Computer Science, Columbia University, 2014",
+              "B.S. Computer Science, Rutgers University, 2012"
+            ],
+            "experience": [
+              {
+                "title": "Principal Backend Engineer",
+                "company": "Lattice Financial Systems",
+                "years": 6,
+                "description": "Architected a multi-region payments platform processing $2B/year in transaction volume. Set the org-wide standard for PostgreSQL partitioning and Kafka event schemas. Migrated core infrastructure to Kubernetes and Terraform, reducing provisioning time by 90%."
+              },
+              {
+                "title": "Staff Backend Engineer",
+                "company": "Ironwood Systems",
+                "years": 4,
+                "description": "Led a team building distributed job-scheduling infrastructure in Go and Node.js. Designed REST and internal RPC APIs used by over 40 downstream services."
+              },
+              {
+                "title": "Backend Engineer",
+                "company": "Ferro Analytics",
+                "years": 2,
+                "description": "Built early versions of the company's core PostgreSQL-backed reporting API."
+              }
+            ]
+          }
+        },
+        "questions": {
+          "skill_depth": {
+            "type": "score",
+            "instructions": "Judging `resume` against `jobDescription.requiredSkills`: how much hands-on depth and ownership does the resume's experience actually demonstrate in those required skills, as opposed to the skills merely being listed?",
+            "criteria": [
+              "No meaningful evidence -- the required skills are absent or only tangentially mentioned.",
+              "Superficial exposure -- required skills are named but with little demonstrated hands-on depth.",
+              "Moderate depth -- some real hands-on ownership of required skills, but not consistent across roles.",
+              "Strong depth -- clear, repeated hands-on ownership of most required skills across multiple roles.",
+              "Exceptional depth -- deep, sustained ownership and technical leadership across nearly all required skills."
+            ]
+          },
+          "domain_relevance": {
+            "type": "score",
+            "instructions": "How relevant is the resume's overall domain/industry background (from its experience entries) to `jobDescription.domain`?",
+            "criteria": [
+              "Entirely unrelated domain/industry background.",
+              "Adjacent domain with limited overlap in problem space.",
+              "Related domain with meaningful but partial overlap.",
+              "Closely related domain, strong overlap in problem space.",
+              "Same domain, direct and extensive relevant background."
+            ]
+          },
+          "seniority_fit": {
+            "type": "score",
+            "instructions": "`jobDescription.title` implies a certain scope of ownership and impact. Judging by the resume's experience entries, does the seniority and scope shown match what that title expects?",
+            "criteria": [
+              "Scope and ownership shown are well below what the role expects.",
+              "Somewhat below the expected scope -- limited ownership or impact shown.",
+              "Roughly matches the expected scope for this level.",
+              "Exceeds the expected scope in places -- clear ownership and impact.",
+              "Consistently exceeds the expected scope -- broad ownership, technical leadership."
+            ]
+          }
+        }
+      },
+      "runId": "62eb83ef-75af-4d71-8afa-8a5a8005d71f",
+      "status": "completed",
+      "startedAt": "2026-09-21T09:27:04.949Z",
+      "output": {
+        "skill_depth": {
+          "type": "score",
+          "score": 3.8,
+          "confidence": 0.83,
+          "legend": {
+            "0": "No meaningful evidence -- the required skills are absent or only tangentially mentioned.",
+            "1": "Superficial exposure -- required skills are named but with little demonstrated hands-on depth.",
+            "2": "Moderate depth -- some real hands-on ownership of required skills, but not consistent across roles.",
+            "3": "Strong depth -- clear, repeated hands-on ownership of most required skills across multiple roles.",
+            "4": "Exceptional depth -- deep, sustained ownership and technical leadership across nearly all required skills."
+          },
+          "probabilities": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 0.19,
+            "4": 0.81
+          }
+        },
+        "domain_relevance": {
+          "type": "score",
+          "score": 3.94,
+          "confidence": 0.95,
+          "legend": {
+            "0": "Entirely unrelated domain/industry background.",
+            "1": "Adjacent domain with limited overlap in problem space.",
+            "2": "Related domain with meaningful but partial overlap.",
+            "3": "Closely related domain, strong overlap in problem space.",
+            "4": "Same domain, direct and extensive relevant background."
+          },
+          "probabilities": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 0.05,
+            "4": 0.95
+          }
+        },
+        "seniority_fit": {
+          "type": "score",
+          "score": 3.95,
+          "confidence": 0.96,
+          "legend": {
+            "0": "Scope and ownership shown are well below what the role expects.",
+            "1": "Somewhat below the expected scope -- limited ownership or impact shown.",
+            "2": "Roughly matches the expected scope for this level.",
+            "3": "Exceeds the expected scope in places -- clear ownership and impact.",
+            "4": "Consistently exceeds the expected scope -- broad ownership, technical leadership."
+          },
+          "probabilities": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 0.05,
+            "4": 0.95
+          }
+        }
+      },
+      "completedAt": "2026-09-21T09:27:05.477Z"
+    },
+    {
+      "id": "90ecf0e1-9bd5-4151-9915-6157e411bcd6",
+      "resumeId": "resume-08",
+      "label": "skill_depth, domain_relevance, seniority_fit",
+      "input": {
+        "state": {
+          "jobDescription": {
+            "title": "Senior Backend Engineer",
+            "requiredSkills": [
+              "Node.js",
+              "TypeScript",
+              "PostgreSQL",
+              "Distributed systems",
+              "AWS",
+              "REST API design"
+            ],
+            "niceToHaveSkills": [
+              "Kubernetes",
+              "Kafka",
+              "Redis",
+              "Terraform",
+              "GraphQL",
+              "Go"
+            ],
+            "domain": "backend/infrastructure"
+          },
+          "resume": {
+            "yearsExperience": 6,
+            "skills": [
+              "Salesforce",
+              "Negotiation",
+              "Account management",
+              "Pipeline forecasting",
+              "Cold outreach"
+            ],
+            "education": [
+              "B.A. Business Administration, SMU, 2019"
+            ],
+            "experience": [
+              {
+                "title": "Senior Account Executive",
+                "company": "Crestpoint Software",
+                "years": 5,
+                "description": "Closed $4M in annual recurring revenue across mid-market accounts."
+              },
+              {
+                "title": "Account Executive",
+                "company": "Bellwood Solutions",
+                "years": 2,
+                "description": "Managed a book of 30+ enterprise accounts."
+              }
+            ]
+          }
+        },
+        "questions": {
+          "skill_depth": {
+            "type": "score",
+            "instructions": "Judging `resume` against `jobDescription.requiredSkills`: how much hands-on depth and ownership does the resume's experience actually demonstrate in those required skills, as opposed to the skills merely being listed?",
+            "criteria": [
+              "No meaningful evidence -- the required skills are absent or only tangentially mentioned.",
+              "Superficial exposure -- required skills are named but with little demonstrated hands-on depth.",
+              "Moderate depth -- some real hands-on ownership of required skills, but not consistent across roles.",
+              "Strong depth -- clear, repeated hands-on ownership of most required skills across multiple roles.",
+              "Exceptional depth -- deep, sustained ownership and technical leadership across nearly all required skills."
+            ]
+          },
+          "domain_relevance": {
+            "type": "score",
+            "instructions": "How relevant is the resume's overall domain/industry background (from its experience entries) to `jobDescription.domain`?",
+            "criteria": [
+              "Entirely unrelated domain/industry background.",
+              "Adjacent domain with limited overlap in problem space.",
+              "Related domain with meaningful but partial overlap.",
+              "Closely related domain, strong overlap in problem space.",
+              "Same domain, direct and extensive relevant background."
+            ]
+          },
+          "seniority_fit": {
+            "type": "score",
+            "instructions": "`jobDescription.title` implies a certain scope of ownership and impact. Judging by the resume's experience entries, does the seniority and scope shown match what that title expects?",
+            "criteria": [
+              "Scope and ownership shown are well below what the role expects.",
+              "Somewhat below the expected scope -- limited ownership or impact shown.",
+              "Roughly matches the expected scope for this level.",
+              "Exceeds the expected scope in places -- clear ownership and impact.",
+              "Consistently exceeds the expected scope -- broad ownership, technical leadership."
+            ]
+          }
+        }
+      },
+      "runId": "62eb83ef-75af-4d71-8afa-8a5a8005d71f",
+      "status": "completed",
+      "startedAt": "2026-09-21T09:27:04.960Z",
+      "output": {
+        "skill_depth": {
+          "type": "score",
+          "score": 0,
+          "confidence": 1,
+          "legend": {
+            "0": "No meaningful evidence -- the required skills are absent or only tangentially mentioned.",
+            "1": "Superficial exposure -- required skills are named but with little demonstrated hands-on depth.",
+            "2": "Moderate depth -- some real hands-on ownership of required skills, but not consistent across roles.",
+            "3": "Strong depth -- clear, repeated hands-on ownership of most required skills across multiple roles.",
+            "4": "Exceptional depth -- deep, sustained ownership and technical leadership across nearly all required skills."
+          },
+          "probabilities": {
+            "0": 1,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0
+          }
+        },
+        "domain_relevance": {
+          "type": "score",
+          "score": 0.03,
+          "confidence": 0.97,
+          "legend": {
+            "0": "Entirely unrelated domain/industry background.",
+            "1": "Adjacent domain with limited overlap in problem space.",
+            "2": "Related domain with meaningful but partial overlap.",
+            "3": "Closely related domain, strong overlap in problem space.",
+            "4": "Same domain, direct and extensive relevant background."
+          },
+          "probabilities": {
+            "0": 0.97,
+            "1": 0.03,
+            "2": 0,
+            "3": 0,
+            "4": 0
+          }
+        },
+        "seniority_fit": {
+          "type": "score",
+          "score": 0.05,
+          "confidence": 0.96,
+          "legend": {
+            "0": "Scope and ownership shown are well below what the role expects.",
+            "1": "Somewhat below the expected scope -- limited ownership or impact shown.",
+            "2": "Roughly matches the expected scope for this level.",
+            "3": "Exceeds the expected scope in places -- clear ownership and impact.",
+            "4": "Consistently exceeds the expected scope -- broad ownership, technical leadership."
+          },
+          "probabilities": {
+            "0": 0.98,
+            "1": 0,
+            "2": 0.02,
+            "3": 0,
+            "4": 0
+          }
+        }
+      },
+      "completedAt": "2026-09-21T09:27:05.472Z"
+    },
+    {
+      "id": "0ef090a0-afad-4685-b04a-d608dfe6ad08",
+      "resumeId": "resume-09",
+      "label": "skill_depth, domain_relevance, seniority_fit",
+      "input": {
+        "state": {
+          "jobDescription": {
+            "title": "Senior Backend Engineer",
+            "requiredSkills": [
+              "Node.js",
+              "TypeScript",
+              "PostgreSQL",
+              "Distributed systems",
+              "AWS",
+              "REST API design"
+            ],
+            "niceToHaveSkills": [
+              "Kubernetes",
+              "Kafka",
+              "Redis",
+              "Terraform",
+              "GraphQL",
+              "Go"
+            ],
+            "domain": "backend/infrastructure"
+          },
+          "resume": {
+            "yearsExperience": 6,
+            "skills": [
+              "React Native",
+              "TypeScript",
+              "Node.js",
+              "GraphQL",
+              "REST API design"
+            ],
+            "education": [
+              "B.S. Computer Science, Georgia Tech, 2019"
+            ],
+            "experience": [
+              {
+                "title": "Senior Mobile Engineer",
+                "company": "Orbitleaf",
+                "years": 4,
+                "description": "Built the company's React Native app end to end. Wrote a lightweight Node.js BFF (backend-for-frontend) layer to aggregate REST calls for the app."
+              },
+              {
+                "title": "Frontend Engineer",
+                "company": "Kindlewood Media",
+                "years": 3,
+                "description": "Built React web dashboards; minimal backend involvement."
+              }
+            ]
+          }
+        },
+        "questions": {
+          "skill_depth": {
+            "type": "score",
+            "instructions": "Judging `resume` against `jobDescription.requiredSkills`: how much hands-on depth and ownership does the resume's experience actually demonstrate in those required skills, as opposed to the skills merely being listed?",
+            "criteria": [
+              "No meaningful evidence -- the required skills are absent or only tangentially mentioned.",
+              "Superficial exposure -- required skills are named but with little demonstrated hands-on depth.",
+              "Moderate depth -- some real hands-on ownership of required skills, but not consistent across roles.",
+              "Strong depth -- clear, repeated hands-on ownership of most required skills across multiple roles.",
+              "Exceptional depth -- deep, sustained ownership and technical leadership across nearly all required skills."
+            ]
+          },
+          "domain_relevance": {
+            "type": "score",
+            "instructions": "How relevant is the resume's overall domain/industry background (from its experience entries) to `jobDescription.domain`?",
+            "criteria": [
+              "Entirely unrelated domain/industry background.",
+              "Adjacent domain with limited overlap in problem space.",
+              "Related domain with meaningful but partial overlap.",
+              "Closely related domain, strong overlap in problem space.",
+              "Same domain, direct and extensive relevant background."
+            ]
+          },
+          "seniority_fit": {
+            "type": "score",
+            "instructions": "`jobDescription.title` implies a certain scope of ownership and impact. Judging by the resume's experience entries, does the seniority and scope shown match what that title expects?",
+            "criteria": [
+              "Scope and ownership shown are well below what the role expects.",
+              "Somewhat below the expected scope -- limited ownership or impact shown.",
+              "Roughly matches the expected scope for this level.",
+              "Exceeds the expected scope in places -- clear ownership and impact.",
+              "Consistently exceeds the expected scope -- broad ownership, technical leadership."
+            ]
+          }
+        }
+      },
+      "runId": "62eb83ef-75af-4d71-8afa-8a5a8005d71f",
+      "status": "completed",
+      "startedAt": "2026-09-21T09:27:04.985Z",
+      "output": {
+        "skill_depth": {
+          "type": "score",
+          "score": 1.02,
+          "confidence": 0.83,
+          "legend": {
+            "0": "No meaningful evidence -- the required skills are absent or only tangentially mentioned.",
+            "1": "Superficial exposure -- required skills are named but with little demonstrated hands-on depth.",
+            "2": "Moderate depth -- some real hands-on ownership of required skills, but not consistent across roles.",
+            "3": "Strong depth -- clear, repeated hands-on ownership of most required skills across multiple roles.",
+            "4": "Exceptional depth -- deep, sustained ownership and technical leadership across nearly all required skills."
+          },
+          "probabilities": {
+            "0": 0.09,
+            "1": 0.8,
+            "2": 0.11,
+            "3": 0,
+            "4": 0
+          }
+        },
+        "domain_relevance": {
+          "type": "score",
+          "score": 1.52,
+          "confidence": 0.6,
+          "legend": {
+            "0": "Entirely unrelated domain/industry background.",
+            "1": "Adjacent domain with limited overlap in problem space.",
+            "2": "Related domain with meaningful but partial overlap.",
+            "3": "Closely related domain, strong overlap in problem space.",
+            "4": "Same domain, direct and extensive relevant background."
+          },
+          "probabilities": {
+            "0": 0,
+            "1": 0.48,
+            "2": 0.52,
+            "3": 0,
+            "4": 0
+          }
+        },
+        "seniority_fit": {
+          "type": "score",
+          "score": 0.74,
+          "confidence": 0.77,
+          "legend": {
+            "0": "Scope and ownership shown are well below what the role expects.",
+            "1": "Somewhat below the expected scope -- limited ownership or impact shown.",
+            "2": "Roughly matches the expected scope for this level.",
+            "3": "Exceeds the expected scope in places -- clear ownership and impact.",
+            "4": "Consistently exceeds the expected scope -- broad ownership, technical leadership."
+          },
+          "probabilities": {
+            "0": 0.27,
+            "1": 0.72,
+            "2": 0.01,
+            "3": 0,
+            "4": 0
+          }
+        }
+      },
+      "completedAt": "2026-09-21T09:27:05.463Z"
+    },
+    {
+      "id": "82525e9a-7387-4b01-a41d-139e467fae62",
+      "resumeId": "resume-10",
+      "label": "skill_depth, domain_relevance, seniority_fit",
+      "input": {
+        "state": {
+          "jobDescription": {
+            "title": "Senior Backend Engineer",
+            "requiredSkills": [
+              "Node.js",
+              "TypeScript",
+              "PostgreSQL",
+              "Distributed systems",
+              "AWS",
+              "REST API design"
+            ],
+            "niceToHaveSkills": [
+              "Kubernetes",
+              "Kafka",
+              "Redis",
+              "Terraform",
+              "GraphQL",
+              "Go"
+            ],
+            "domain": "backend/infrastructure"
+          },
+          "resume": {
+            "yearsExperience": 5,
+            "skills": [
+              "Node.js",
+              "TypeScript",
+              "PostgreSQL",
+              "AWS",
+              "REST API design"
+            ],
+            "education": [
+              "B.S. Software Engineering, UC San Diego, 2020"
+            ],
+            "experience": [
+              {
+                "title": "Backend Engineer",
+                "company": "Tidepool Systems",
+                "years": 5,
+                "description": "Built and maintained REST APIs for a subscription-billing product on AWS. Wrote PostgreSQL migrations and query optimizations for a growing customer dataset."
+              },
+              {
+                "title": "Software Engineer I",
+                "company": "Palisade Software",
+                "years": 1,
+                "description": "Contributed to a Node.js internal tools platform."
+              }
+            ]
+          }
+        },
+        "questions": {
+          "skill_depth": {
+            "type": "score",
+            "instructions": "Judging `resume` against `jobDescription.requiredSkills`: how much hands-on depth and ownership does the resume's experience actually demonstrate in those required skills, as opposed to the skills merely being listed?",
+            "criteria": [
+              "No meaningful evidence -- the required skills are absent or only tangentially mentioned.",
+              "Superficial exposure -- required skills are named but with little demonstrated hands-on depth.",
+              "Moderate depth -- some real hands-on ownership of required skills, but not consistent across roles.",
+              "Strong depth -- clear, repeated hands-on ownership of most required skills across multiple roles.",
+              "Exceptional depth -- deep, sustained ownership and technical leadership across nearly all required skills."
+            ]
+          },
+          "domain_relevance": {
+            "type": "score",
+            "instructions": "How relevant is the resume's overall domain/industry background (from its experience entries) to `jobDescription.domain`?",
+            "criteria": [
+              "Entirely unrelated domain/industry background.",
+              "Adjacent domain with limited overlap in problem space.",
+              "Related domain with meaningful but partial overlap.",
+              "Closely related domain, strong overlap in problem space.",
+              "Same domain, direct and extensive relevant background."
+            ]
+          },
+          "seniority_fit": {
+            "type": "score",
+            "instructions": "`jobDescription.title` implies a certain scope of ownership and impact. Judging by the resume's experience entries, does the seniority and scope shown match what that title expects?",
+            "criteria": [
+              "Scope and ownership shown are well below what the role expects.",
+              "Somewhat below the expected scope -- limited ownership or impact shown.",
+              "Roughly matches the expected scope for this level.",
+              "Exceeds the expected scope in places -- clear ownership and impact.",
+              "Consistently exceeds the expected scope -- broad ownership, technical leadership."
+            ]
+          }
+        }
+      },
+      "runId": "62eb83ef-75af-4d71-8afa-8a5a8005d71f",
+      "status": "completed",
+      "startedAt": "2026-09-21T09:27:04.990Z",
+      "output": {
+        "skill_depth": {
+          "type": "score",
+          "score": 2.01,
+          "confidence": 0.91,
+          "legend": {
+            "0": "No meaningful evidence -- the required skills are absent or only tangentially mentioned.",
+            "1": "Superficial exposure -- required skills are named but with little demonstrated hands-on depth.",
+            "2": "Moderate depth -- some real hands-on ownership of required skills, but not consistent across roles.",
+            "3": "Strong depth -- clear, repeated hands-on ownership of most required skills across multiple roles.",
+            "4": "Exceptional depth -- deep, sustained ownership and technical leadership across nearly all required skills."
+          },
+          "probabilities": {
+            "0": 0,
+            "1": 0.05,
+            "2": 0.9,
+            "3": 0.05,
+            "4": 0
+          }
+        },
+        "domain_relevance": {
+          "type": "score",
+          "score": 3.66,
+          "confidence": 0.72,
+          "legend": {
+            "0": "Entirely unrelated domain/industry background.",
+            "1": "Adjacent domain with limited overlap in problem space.",
+            "2": "Related domain with meaningful but partial overlap.",
+            "3": "Closely related domain, strong overlap in problem space.",
+            "4": "Same domain, direct and extensive relevant background."
+          },
+          "probabilities": {
+            "0": 0,
+            "1": 0,
+            "2": 0.02,
+            "3": 0.29,
+            "4": 0.69
+          }
+        },
+        "seniority_fit": {
+          "type": "score",
+          "score": 1.01,
+          "confidence": 0.96,
+          "legend": {
+            "0": "Scope and ownership shown are well below what the role expects.",
+            "1": "Somewhat below the expected scope -- limited ownership or impact shown.",
+            "2": "Roughly matches the expected scope for this level.",
+            "3": "Exceeds the expected scope in places -- clear ownership and impact.",
+            "4": "Consistently exceeds the expected scope -- broad ownership, technical leadership."
+          },
+          "probabilities": {
+            "0": 0.02,
+            "1": 0.95,
+            "2": 0.03,
+            "3": 0,
+            "4": 0
+          }
+        }
+      },
+      "completedAt": "2026-09-21T09:27:05.460Z"
+    }
+  ],
+  "results": {
+    "resume-01": {
+      "extracted": {
+        "id": "resume-01",
+        "fileName": "resume-01.pdf",
+        "name": "Priya Raman",
+        "yearsExperience": 7,
+        "skills": [
+          "Node.js",
+          "TypeScript",
+          "PostgreSQL",
+          "AWS",
+          "Kafka",
+          "REST API design",
+          "Docker"
+        ],
+        "education": [
+          "B.S. Computer Science, University of Washington, 2017"
+        ],
+        "experience": [
+          {
+            "title": "Senior Backend Engineer",
+            "company": "Nimbus Cloud Systems",
+            "years": 5,
+            "description": "Led migration of a monolithic Node.js API into event-driven microservices on AWS. Designed the PostgreSQL sharding strategy that cut p99 query latency by 60%. Owned the Kafka-based ingestion pipeline processing 50M events/day."
+          },
+          {
+            "title": "Backend Engineer",
+            "company": "Harborlight Data",
+            "years": 3,
+            "description": "Built REST APIs serving the company's core billing platform. Introduced Docker-based CI pipelines, cutting deploy time from 40 to 8 minutes."
+          }
+        ],
+        "rawText": "Priya Raman\npriya.raman@example.com | Seattle, WA\nSUMMARY\nSenior backend engineer with 7 years building distributed systems on Node.js and PostgreSQL.\nEXPERIENCE\nSenior Backend Engineer - Nimbus Cloud Systems (2021-2026)\n- Led migration of a monolithic Node.js API into event-driven microservices on AWS.\n- Designed the PostgreSQL sharding strategy that cut p99 query latency by 60%.\n- Owned the Kafka-based ingestion pipeline processing 50M events/day.\nBackend Engineer - Harborlight Data (2018-2021)\n- Built REST APIs serving the company's core billing platform.\n- Introduced Docker-based CI pipelines, cutting deploy time from 40 to 8 minutes.\nEDUCATION\nB.S. Computer Science, University of Washington, 2017\nSKILLS\n- Node.js\n- TypeScript\n- PostgreSQL\n- AWS\n- Kafka\n- REST API design\n- Docker\n\n-- 1 of 1 --\n\n"
+      },
+      "breakdown": {
+        "resumeId": "resume-01",
+        "ruleChecks": [
+          {
+            "key": "min_years_experience",
+            "label": "Minimum years of experience",
+            "passed": true,
+            "detail": "Resume shows 7 years; requires 5."
+          },
+          {
+            "key": "required_skills_coverage",
+            "label": "Required skills coverage",
+            "passed": true,
+            "detail": "Matched 5/6 required skills: Node.js, TypeScript, PostgreSQL, AWS, REST API design."
+          },
+          {
+            "key": "min_education_level",
+            "label": "Minimum education level",
+            "passed": true,
+            "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+          }
+        ],
+        "dimensions": [
+          {
+            "key": "skill_depth",
+            "label": "Skill depth",
+            "weight": 0.45,
+            "rawScore": 0.76
+          },
+          {
+            "key": "domain_relevance",
+            "label": "Domain relevance",
+            "weight": 0.25,
+            "rawScore": 0.9975
+          },
+          {
+            "key": "seniority_fit",
+            "label": "Seniority fit",
+            "weight": 0.3,
+            "rawScore": 0.76
+          }
+        ],
+        "compositeScore": 82,
+        "eligible": true
+      },
+      "timings": {
+        "extractionMs": 191,
+        "scoringMs": 1239,
+        "totalMs": 1430
+      }
+    },
+    "resume-02": {
+      "extracted": {
+        "id": "resume-02",
+        "fileName": "resume-02.pdf",
+        "name": "Marcus Chen",
+        "yearsExperience": 9,
+        "skills": [],
+        "education": [],
+        "experience": [],
+        "rawText": "Marcus Chen\nmarcus.chen@example.com | Austin, TX\nMarcus Chen has held the following roles, most recent first: Staff Backend\nEngineer at Vertex Data Labs (2022-2026), where he led the redesign of a\ndistributed job-scheduling system handling several billion tasks per month\nacross a fleet of Go and Node.js services, working closely with infrastructure\nteams to move core storage from a single PostgreSQL primary to a partitioned,\nmulti-region setup, and where he also introduced Terraform-managed\ninfrastructure that replaced years of manual AWS console changes. Before that,\nhe was a Senior Software Engineer at Fieldstone Logistics (2019-2022), building\nREST APIs and internal tooling in TypeScript and Node.js for a\nwarehouse-routing product, and prior to that a Software Engineer at a small\nstartup called Cartwheel (2017-2019) doing full-stack work primarily in Node.js\nand React. He holds a B.S. in Computer Engineering from UT Austin (2017). His\nskillset spans Node.js, TypeScript, Go, PostgreSQL, AWS, Terraform, distributed\nsystems design, and REST API design, with additional exposure to Kubernetes\nfrom his time standardizing deployment at Vertex.\n\n-- 1 of 1 --\n\n"
+      },
+      "breakdown": {
+        "resumeId": "resume-02",
+        "ruleChecks": [
+          {
+            "key": "min_years_experience",
+            "label": "Minimum years of experience",
+            "passed": true,
+            "detail": "Resume shows 9 years; requires 5."
+          },
+          {
+            "key": "required_skills_coverage",
+            "label": "Required skills coverage",
+            "passed": false,
+            "detail": "Matched 0/6 required skills: none."
+          },
+          {
+            "key": "min_education_level",
+            "label": "Minimum education level",
+            "passed": false,
+            "detail": "Resume's highest detected education level rank is 0; requires 1 (bachelors)."
+          }
+        ],
+        "dimensions": [
+          {
+            "key": "skill_depth",
+            "label": "Skill depth",
+            "weight": 0.45,
+            "rawScore": 0
+          },
+          {
+            "key": "domain_relevance",
+            "label": "Domain relevance",
+            "weight": 0.25,
+            "rawScore": 0.0225
+          },
+          {
+            "key": "seniority_fit",
+            "label": "Seniority fit",
+            "weight": 0.3,
+            "rawScore": 0.01
+          }
+        ],
+        "compositeScore": 1,
+        "eligible": false
+      },
+      "timings": {
+        "extractionMs": 185,
+        "scoringMs": 1200,
+        "totalMs": 1386
+      }
+    },
+    "resume-03": {
+      "extracted": {
+        "id": "resume-03",
+        "fileName": "resume-03.pdf",
+        "name": "Jessica Lin",
+        "yearsExperience": 3,
+        "skills": [
+          "Content strategy",
+          "Google Analytics",
+          "Email marketing",
+          "Canva",
+          "SEO basics"
+        ],
+        "education": [
+          "B.A. Communications, DePaul University, 2022"
+        ],
+        "experience": [
+          {
+            "title": "Marketing Coordinator",
+            "company": "Brightleaf Consumer Goods",
+            "years": 3,
+            "description": "Managed social media calendars across 3 brand accounts. Coordinated email campaigns reaching 200K subscribers."
+          },
+          {
+            "title": "Marketing Intern",
+            "company": "Riverside Media",
+            "years": 1,
+            "description": "Assisted with content creation for client campaigns."
+          }
+        ],
+        "rawText": "Jessica Lin\njessica.lin@example.com | Chicago, IL\nSUMMARY\nMarketing coordinator with 3 years of experience in campaign management and social media.\nEXPERIENCE\nMarketing Coordinator - Brightleaf Consumer Goods (2023-2026)\n- Managed social media calendars across 3 brand accounts.\n- Coordinated email campaigns reaching 200K subscribers.\nMarketing Intern - Riverside Media (2022-2023)\n- Assisted with content creation for client campaigns.\nEDUCATION\nB.A. Communications, DePaul University, 2022\nSKILLS\n- Content strategy\n- Google Analytics\n- Email marketing\n- Canva\n- SEO basics\n\n-- 1 of 1 --\n\n"
+      },
+      "breakdown": {
+        "resumeId": "resume-03",
+        "ruleChecks": [
+          {
+            "key": "min_years_experience",
+            "label": "Minimum years of experience",
+            "passed": false,
+            "detail": "Resume shows 3 years; requires 5."
+          },
+          {
+            "key": "required_skills_coverage",
+            "label": "Required skills coverage",
+            "passed": false,
+            "detail": "Matched 0/6 required skills: none."
+          },
+          {
+            "key": "min_education_level",
+            "label": "Minimum education level",
+            "passed": true,
+            "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+          }
+        ],
+        "dimensions": [
+          {
+            "key": "skill_depth",
+            "label": "Skill depth",
+            "weight": 0.45,
+            "rawScore": 0
+          },
+          {
+            "key": "domain_relevance",
+            "label": "Domain relevance",
+            "weight": 0.25,
+            "rawScore": 0
+          },
+          {
+            "key": "seniority_fit",
+            "label": "Seniority fit",
+            "weight": 0.3,
+            "rawScore": 0
+          }
+        ],
+        "compositeScore": 0,
+        "eligible": false
+      },
+      "timings": {
+        "extractionMs": 187,
+        "scoringMs": 1235,
+        "totalMs": 1422
+      }
+    },
+    "resume-04": {
+      "extracted": {
+        "id": "resume-04",
+        "fileName": "resume-04.pdf",
+        "name": "Daniel Okafor",
+        "yearsExperience": 2,
+        "skills": [
+          "React",
+          "HTML5",
+          "CSS3",
+          "JavaScript",
+          "Figma",
+          "Responsive design"
+        ],
+        "education": [
+          "B.A. Digital Media, Metro State University, 2024"
+        ],
+        "experience": [
+          {
+            "title": "Junior Frontend Developer",
+            "company": "Pixel & Pine Studio",
+            "years": 2,
+            "description": "Built responsive marketing pages in React for small-business clients."
+          }
+        ],
+        "rawText": "Daniel Okafor\ndaniel.okafor@example.com | Denver, CO\nSUMMARY\nJunior frontend developer starting out in web development.\nEXPERIENCE\nJunior Frontend Developer, Pixel & Pine Studio (2024-2026)\n- Built responsive marketing pages in React for small-business clients.\nEDUCATION\nB.A. Digital Media, Metro State University, 2024\nSkills: React, HTML5, CSS3, JavaScript, Figma, Responsive design.\n\n-- 1 of 1 --\n\n"
+      },
+      "breakdown": {
+        "resumeId": "resume-04",
+        "ruleChecks": [
+          {
+            "key": "min_years_experience",
+            "label": "Minimum years of experience",
+            "passed": false,
+            "detail": "Resume shows 2 years; requires 5."
+          },
+          {
+            "key": "required_skills_coverage",
+            "label": "Required skills coverage",
+            "passed": false,
+            "detail": "Matched 0/6 required skills: none."
+          },
+          {
+            "key": "min_education_level",
+            "label": "Minimum education level",
+            "passed": true,
+            "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+          }
+        ],
+        "dimensions": [
+          {
+            "key": "skill_depth",
+            "label": "Skill depth",
+            "weight": 0.45,
+            "rawScore": 0
+          },
+          {
+            "key": "domain_relevance",
+            "label": "Domain relevance",
+            "weight": 0.25,
+            "rawScore": 0.125
+          },
+          {
+            "key": "seniority_fit",
+            "label": "Seniority fit",
+            "weight": 0.3,
+            "rawScore": 0
+          }
+        ],
+        "compositeScore": 3,
+        "eligible": false
+      },
+      "timings": {
+        "extractionMs": 166,
+        "scoringMs": 1232,
+        "totalMs": 1398
+      }
+    },
+    "resume-05": {
+      "extracted": {
+        "id": "resume-05",
+        "fileName": "resume-05.pdf",
+        "name": "Sara Petrov",
+        "yearsExperience": 4,
+        "skills": [
+          "Node.js",
+          "TypeScript",
+          "MongoDB",
+          "PostgreSQL",
+          "React",
+          "REST API design"
+        ],
+        "education": [
+          "B.S. Computer Science, Northeastern University, 2021"
+        ],
+        "experience": [
+          {
+            "title": "Full",
+            "company": "Stack Engineer - Coastline Apps",
+            "years": 4,
+            "description": "Built REST APIs in Node.js/TypeScript backed by both MongoDB and PostgreSQL. Implemented React dashboards consuming those APIs."
+          },
+          {
+            "title": "Software Engineer",
+            "company": "Beacon Health Tech",
+            "years": 1,
+            "description": "Maintained a Node.js backend for a patient-scheduling tool."
+          }
+        ],
+        "rawText": "Sara Petrov\nsara.petrov@example.com | Boston, MA\nSUMMARY\nFull-stack engineer with 4 years of experience across Node.js, MongoDB, and PostgreSQL.\nEXPERIENCE\nFull-Stack Engineer - Coastline Apps (2022-2026)\n- Built REST APIs in Node.js/TypeScript backed by both MongoDB and PostgreSQL.\n- Implemented React dashboards consuming those APIs.\nSoftware Engineer - Beacon Health Tech (2021-2022)\n- Maintained a Node.js backend for a patient-scheduling tool.\nEDUCATION\nB.S. Computer Science, Northeastern University, 2021\nSKILLS\n- Node.js\n- TypeScript\n- MongoDB\n- PostgreSQL\n- React\n- REST API design\n\n-- 1 of 1 --\n\n"
+      },
+      "breakdown": {
+        "resumeId": "resume-05",
+        "ruleChecks": [
+          {
+            "key": "min_years_experience",
+            "label": "Minimum years of experience",
+            "passed": false,
+            "detail": "Resume shows 4 years; requires 5."
+          },
+          {
+            "key": "required_skills_coverage",
+            "label": "Required skills coverage",
+            "passed": true,
+            "detail": "Matched 4/6 required skills: Node.js, TypeScript, PostgreSQL, REST API design."
+          },
+          {
+            "key": "min_education_level",
+            "label": "Minimum education level",
+            "passed": true,
+            "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+          }
+        ],
+        "dimensions": [
+          {
+            "key": "skill_depth",
+            "label": "Skill depth",
+            "weight": 0.45,
+            "rawScore": 0.4175
+          },
+          {
+            "key": "domain_relevance",
+            "label": "Domain relevance",
+            "weight": 0.25,
+            "rawScore": 0.5975
+          },
+          {
+            "key": "seniority_fit",
+            "label": "Seniority fit",
+            "weight": 0.3,
+            "rawScore": 0.1975
+          }
+        ],
+        "compositeScore": 40,
+        "eligible": false
+      },
+      "timings": {
+        "extractionMs": 189,
+        "scoringMs": 1190,
+        "totalMs": 1379
+      }
+    },
+    "resume-06": {
+      "extracted": {
+        "id": "resume-06",
+        "fileName": "resume-06.pdf",
+        "name": "Tom Alvarez",
+        "yearsExperience": 5,
+        "skills": [],
+        "education": [],
+        "experience": [],
+        "rawText": "Tom Alvarez\ntom.alvarez@example.com | Phoenix, AZ\nTom Alvarez is a data engineer with 5 years of experience. Most recently, as\nData Engineer at Sonora Analytics (2023-2026), he built and maintained\nAirflow-orchestrated ETL pipelines moving data through AWS S3 and Redshift, and\nwrote most of the pipeline logic in Python with some Spark for larger batch\njobs, occasionally standing up small Node.js services to expose pipeline status\nto internal tools. Before that, he was a Data Engineer II at Mesquite Retail\n(2021-2023), also AWS-centric, working with Redshift and PostgreSQL, and doing\nlight distributed-systems work coordinating batch jobs across multiple regions.\nHe holds a B.S. in Information Systems from Arizona State University (2021).\nCore skills: Python, Spark, Airflow, AWS, Redshift, PostgreSQL, with working\nfamiliarity in distributed systems concepts and some exposure to Node.js.\n\n-- 1 of 1 --\n\n"
+      },
+      "breakdown": {
+        "resumeId": "resume-06",
+        "ruleChecks": [
+          {
+            "key": "min_years_experience",
+            "label": "Minimum years of experience",
+            "passed": true,
+            "detail": "Resume shows 5 years; requires 5."
+          },
+          {
+            "key": "required_skills_coverage",
+            "label": "Required skills coverage",
+            "passed": false,
+            "detail": "Matched 0/6 required skills: none."
+          },
+          {
+            "key": "min_education_level",
+            "label": "Minimum education level",
+            "passed": false,
+            "detail": "Resume's highest detected education level rank is 0; requires 1 (bachelors)."
+          }
+        ],
+        "dimensions": [
+          {
+            "key": "skill_depth",
+            "label": "Skill depth",
+            "weight": 0.45,
+            "rawScore": 0
+          },
+          {
+            "key": "domain_relevance",
+            "label": "Domain relevance",
+            "weight": 0.25,
+            "rawScore": 0.015
+          },
+          {
+            "key": "seniority_fit",
+            "label": "Seniority fit",
+            "weight": 0.3,
+            "rawScore": 0.0025
+          }
+        ],
+        "compositeScore": 0,
+        "eligible": false
+      },
+      "timings": {
+        "extractionMs": 2,
+        "scoringMs": 1187,
+        "totalMs": 1191
+      }
+    },
+    "resume-07": {
+      "extracted": {
+        "id": "resume-07",
+        "fileName": "resume-07.pdf",
+        "name": "Elena Vasquez",
+        "yearsExperience": 13,
+        "skills": [
+          "Node.js",
+          "TypeScript",
+          "Go",
+          "PostgreSQL",
+          "AWS",
+          "Kubernetes",
+          "Kafka",
+          "Terraform",
+          "Distributed systems",
+          "REST API design"
+        ],
+        "education": [
+          "M.S. Computer Science, Columbia University, 2014",
+          "B.S. Computer Science, Rutgers University, 2012"
+        ],
+        "experience": [
+          {
+            "title": "Principal Backend Engineer",
+            "company": "Lattice Financial Systems",
+            "years": 6,
+            "description": "Architected a multi-region payments platform processing $2B/year in transaction volume. Set the org-wide standard for PostgreSQL partitioning and Kafka event schemas. Migrated core infrastructure to Kubernetes and Terraform, reducing provisioning time by 90%."
+          },
+          {
+            "title": "Staff Backend Engineer",
+            "company": "Ironwood Systems",
+            "years": 4,
+            "description": "Led a team building distributed job-scheduling infrastructure in Go and Node.js. Designed REST and internal RPC APIs used by over 40 downstream services."
+          },
+          {
+            "title": "Backend Engineer",
+            "company": "Ferro Analytics",
+            "years": 2,
+            "description": "Built early versions of the company's core PostgreSQL-backed reporting API."
+          }
+        ],
+        "rawText": "Elena Vasquez\nelena.vasquez@example.com | New York, NY\nSUMMARY\nPrincipal backend engineer with 13 years of experience designing large-scale distributed systems.\nEXPERIENCE\nPrincipal Backend Engineer - Lattice Financial Systems (2020-2026)\n- Architected a multi-region payments platform processing $2B/year in transaction volume.\n- Set the org-wide standard for PostgreSQL partitioning and Kafka event schemas.\n- Migrated core infrastructure to Kubernetes and Terraform, reducing provisioning time by 90%.\nStaff Backend Engineer - Ironwood Systems (2016-2020)\n- Led a team building distributed job-scheduling infrastructure in Go and Node.js.\n- Designed REST and internal RPC APIs used by over 40 downstream services.\nBackend Engineer - Ferro Analytics (2014-2016)\n- Built early versions of the company's core PostgreSQL-backed reporting API.\nEDUCATION\nM.S. Computer Science, Columbia University, 2014\nB.S. Computer Science, Rutgers University, 2012\nSKILLS\n- Node.js\n- TypeScript\n- Go\n- PostgreSQL\n- AWS\n- Kubernetes\n- Kafka\n- Terraform\n- Distributed systems\n- REST API design\n\n-- 1 of 1 --\n\n"
+      },
+      "breakdown": {
+        "resumeId": "resume-07",
+        "ruleChecks": [
+          {
+            "key": "min_years_experience",
+            "label": "Minimum years of experience",
+            "passed": true,
+            "detail": "Resume shows 13 years; requires 5."
+          },
+          {
+            "key": "required_skills_coverage",
+            "label": "Required skills coverage",
+            "passed": true,
+            "detail": "Matched 6/6 required skills: Node.js, TypeScript, PostgreSQL, Distributed systems, AWS, REST API design."
+          },
+          {
+            "key": "min_education_level",
+            "label": "Minimum education level",
+            "passed": true,
+            "detail": "Resume's highest detected education level rank is 2; requires 1 (bachelors)."
+          }
+        ],
+        "dimensions": [
+          {
+            "key": "skill_depth",
+            "label": "Skill depth",
+            "weight": 0.45,
+            "rawScore": 0.95
+          },
+          {
+            "key": "domain_relevance",
+            "label": "Domain relevance",
+            "weight": 0.25,
+            "rawScore": 0.985
+          },
+          {
+            "key": "seniority_fit",
+            "label": "Seniority fit",
+            "weight": 0.3,
+            "rawScore": 0.9875
+          }
+        ],
+        "compositeScore": 97,
+        "eligible": true
+      },
+      "timings": {
+        "extractionMs": 3,
+        "scoringMs": 530,
+        "totalMs": 533
+      }
+    },
+    "resume-08": {
+      "extracted": {
+        "id": "resume-08",
+        "fileName": "resume-08.pdf",
+        "name": "Brian Kelly",
+        "yearsExperience": 6,
+        "skills": [
+          "Salesforce",
+          "Negotiation",
+          "Account management",
+          "Pipeline forecasting",
+          "Cold outreach"
+        ],
+        "education": [
+          "B.A. Business Administration, SMU, 2019"
+        ],
+        "experience": [
+          {
+            "title": "Senior Account Executive",
+            "company": "Crestpoint Software",
+            "years": 5,
+            "description": "Closed $4M in annual recurring revenue across mid-market accounts."
+          },
+          {
+            "title": "Account Executive",
+            "company": "Bellwood Solutions",
+            "years": 2,
+            "description": "Managed a book of 30+ enterprise accounts."
+          }
+        ],
+        "rawText": "Brian Kelly\nbrian.kelly@example.com | Dallas, TX\nSUMMARY\nB2B sales professional with 6 years of enterprise software sales experience.\nEXPERIENCE\nSenior Account Executive, Crestpoint Software (2021-2026)\n- Closed $4M in annual recurring revenue across mid-market accounts.\nAccount Executive, Bellwood Solutions (2019-2021)\n- Managed a book of 30+ enterprise accounts.\nEDUCATION\nB.A. Business Administration, SMU, 2019\nSkills: Salesforce, Negotiation, Account management, Pipeline forecasting, Cold outreach.\n\n-- 1 of 1 --\n\n"
+      },
+      "breakdown": {
+        "resumeId": "resume-08",
+        "ruleChecks": [
+          {
+            "key": "min_years_experience",
+            "label": "Minimum years of experience",
+            "passed": true,
+            "detail": "Resume shows 6 years; requires 5."
+          },
+          {
+            "key": "required_skills_coverage",
+            "label": "Required skills coverage",
+            "passed": false,
+            "detail": "Matched 0/6 required skills: none."
+          },
+          {
+            "key": "min_education_level",
+            "label": "Minimum education level",
+            "passed": true,
+            "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+          }
+        ],
+        "dimensions": [
+          {
+            "key": "skill_depth",
+            "label": "Skill depth",
+            "weight": 0.45,
+            "rawScore": 0
+          },
+          {
+            "key": "domain_relevance",
+            "label": "Domain relevance",
+            "weight": 0.25,
+            "rawScore": 0.0075
+          },
+          {
+            "key": "seniority_fit",
+            "label": "Seniority fit",
+            "weight": 0.3,
+            "rawScore": 0.0125
+          }
+        ],
+        "compositeScore": 1,
+        "eligible": false
+      },
+      "timings": {
+        "extractionMs": 2,
+        "scoringMs": 514,
+        "totalMs": 516
+      }
+    },
+    "resume-09": {
+      "extracted": {
+        "id": "resume-09",
+        "fileName": "resume-09.pdf",
+        "name": "Aisha Bello",
+        "yearsExperience": 6,
+        "skills": [
+          "React Native",
+          "TypeScript",
+          "Node.js",
+          "GraphQL",
+          "REST API design"
+        ],
+        "education": [
+          "B.S. Computer Science, Georgia Tech, 2019"
+        ],
+        "experience": [
+          {
+            "title": "Senior Mobile Engineer",
+            "company": "Orbitleaf",
+            "years": 4,
+            "description": "Built the company's React Native app end to end. Wrote a lightweight Node.js BFF (backend-for-frontend) layer to aggregate REST calls for the app."
+          },
+          {
+            "title": "Frontend Engineer",
+            "company": "Kindlewood Media",
+            "years": 3,
+            "description": "Built React web dashboards; minimal backend involvement."
+          }
+        ],
+        "rawText": "Aisha Bello\naisha.bello@example.com | Atlanta, GA\nSUMMARY\nMobile and frontend engineer with 6 years of experience, recently working closer to backend.\nEXPERIENCE\nSenior Mobile Engineer - Orbitleaf (2022-2026)\n- Built the company's React Native app end to end.\n- Wrote a lightweight Node.js BFF (backend-for-frontend) layer to aggregate REST calls for the app.\nFrontend Engineer - Kindlewood Media (2019-2022)\n- Built React web dashboards; minimal backend involvement.\nEDUCATION\nB.S. Computer Science, Georgia Tech, 2019\nSKILLS\n- React Native\n- TypeScript\n- Node.js\n- GraphQL\n- REST API design\n\n-- 1 of 1 --\n\n"
+      },
+      "breakdown": {
+        "resumeId": "resume-09",
+        "ruleChecks": [
+          {
+            "key": "min_years_experience",
+            "label": "Minimum years of experience",
+            "passed": true,
+            "detail": "Resume shows 6 years; requires 5."
+          },
+          {
+            "key": "required_skills_coverage",
+            "label": "Required skills coverage",
+            "passed": true,
+            "detail": "Matched 3/6 required skills: Node.js, TypeScript, REST API design."
+          },
+          {
+            "key": "min_education_level",
+            "label": "Minimum education level",
+            "passed": true,
+            "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+          }
+        ],
+        "dimensions": [
+          {
+            "key": "skill_depth",
+            "label": "Skill depth",
+            "weight": 0.45,
+            "rawScore": 0.255
+          },
+          {
+            "key": "domain_relevance",
+            "label": "Domain relevance",
+            "weight": 0.25,
+            "rawScore": 0.38
+          },
+          {
+            "key": "seniority_fit",
+            "label": "Seniority fit",
+            "weight": 0.3,
+            "rawScore": 0.185
+          }
+        ],
+        "compositeScore": 27,
+        "eligible": true
+      },
+      "timings": {
+        "extractionMs": 3,
+        "scoringMs": 479,
+        "totalMs": 483
+      }
+    },
+    "resume-10": {
+      "extracted": {
+        "id": "resume-10",
+        "fileName": "resume-10.pdf",
+        "name": "Kevin Wu",
+        "yearsExperience": 5,
+        "skills": [
+          "Node.js",
+          "TypeScript",
+          "PostgreSQL",
+          "AWS",
+          "REST API design"
+        ],
+        "education": [
+          "B.S. Software Engineering, UC San Diego, 2020"
+        ],
+        "experience": [
+          {
+            "title": "Backend Engineer",
+            "company": "Tidepool Systems",
+            "years": 5,
+            "description": "Built and maintained REST APIs for a subscription-billing product on AWS. Wrote PostgreSQL migrations and query optimizations for a growing customer dataset."
+          },
+          {
+            "title": "Software Engineer I",
+            "company": "Palisade Software",
+            "years": 1,
+            "description": "Contributed to a Node.js internal tools platform."
+          }
+        ],
+        "rawText": "Kevin Wu\nkevin.wu@example.com | San Diego, CA\nSUMMARY\nBackend engineer with 5 years of experience in Node.js and PostgreSQL.\nEXPERIENCE\nBackend Engineer, Tidepool Systems (2021-2026)\n- Built and maintained REST APIs for a subscription-billing product on AWS.\n- Wrote PostgreSQL migrations and query optimizations for a growing customer dataset.\nSoftware Engineer I, Palisade Software (2020-2021)\n- Contributed to a Node.js internal tools platform.\nEDUCATION\nB.S. Software Engineering, UC San Diego, 2020\nSkills: Node.js, TypeScript, PostgreSQL, AWS, REST API design.\n\n-- 1 of 1 --\n\n"
+      },
+      "breakdown": {
+        "resumeId": "resume-10",
+        "ruleChecks": [
+          {
+            "key": "min_years_experience",
+            "label": "Minimum years of experience",
+            "passed": true,
+            "detail": "Resume shows 5 years; requires 5."
+          },
+          {
+            "key": "required_skills_coverage",
+            "label": "Required skills coverage",
+            "passed": true,
+            "detail": "Matched 5/6 required skills: Node.js, TypeScript, PostgreSQL, AWS, REST API design."
+          },
+          {
+            "key": "min_education_level",
+            "label": "Minimum education level",
+            "passed": true,
+            "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+          }
+        ],
+        "dimensions": [
+          {
+            "key": "skill_depth",
+            "label": "Skill depth",
+            "weight": 0.45,
+            "rawScore": 0.5025
+          },
+          {
+            "key": "domain_relevance",
+            "label": "Domain relevance",
+            "weight": 0.25,
+            "rawScore": 0.915
+          },
+          {
+            "key": "seniority_fit",
+            "label": "Seniority fit",
+            "weight": 0.3,
+            "rawScore": 0.2525
+          }
+        ],
+        "compositeScore": 53,
+        "eligible": true
+      },
+      "timings": {
+        "extractionMs": 2,
+        "scoringMs": 471,
+        "totalMs": 473
+      }
+    }
+  }
+}

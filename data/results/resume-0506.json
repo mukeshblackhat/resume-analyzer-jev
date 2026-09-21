@@ -1,0 +1,85 @@
+{
+  "extracted": {
+    "id": "resume-0506",
+    "fileName": "resume-0506.pdf",
+    "name": "Nia Mercer",
+    "yearsExperience": 6,
+    "skills": [
+      "TypeScript",
+      "HTML5",
+      "AWS",
+      "React",
+      "MongoDB",
+      "CSS3",
+      "REST API design"
+    ],
+    "education": [
+      "Some coursework in Information Systems, no degree completed"
+    ],
+    "experience": [
+      {
+        "title": "Senior Frontend Developer",
+        "company": "Anchor Infrastructure",
+        "years": 3,
+        "description": "Built responsive HTML5 interfaces consumed by 140K monthly users. Partnered with backend engineers at Anchor Infrastructure to consume REST and GraphQL APIs. Implemented TypeScript component libraries shared across product teams."
+      },
+      {
+        "title": "Frontend Developer",
+        "company": "Ashgrove Dynamics",
+        "years": 3,
+        "description": "Implemented React component libraries shared across product teams."
+      }
+    ],
+    "rawText": "Nia Mercer\nnia.mercer@example.com | Las Vegas, NV\nSUMMARY\nFrontend developer with 6 years of experience in TypeScript, HTML5, AWS.\nEXPERIENCE\nSenior Frontend Developer - Anchor Infrastructure (2023-2026)\n- Built responsive HTML5 interfaces consumed by 140K monthly users.\n- Partnered with backend engineers at Anchor Infrastructure to consume REST and GraphQL APIs.\n- Implemented TypeScript component libraries shared across product teams.\nFrontend Developer - Ashgrove Dynamics (2020-2023)\n- Implemented React component libraries shared across product teams.\nEDUCATION\nSome coursework in Information Systems, no degree completed\nSKILLS\n- TypeScript\n- HTML5\n- AWS\n- React\n- MongoDB\n- CSS3\n- REST API design\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0506",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 6 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 3/6 required skills: TypeScript, AWS, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": false,
+        "detail": "Resume's highest detected education level rank is 0; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.1675
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.305
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.0775
+      }
+    ],
+    "compositeScore": 17,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 396,
+    "totalMs": 399
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "extracted": {
+    "id": "resume-0882",
+    "fileName": "resume-0882.pdf",
+    "name": "Elena Malhotra",
+    "yearsExperience": 12,
+    "skills": [
+      "Distributed systems",
+      "Elasticsearch",
+      "CI/CD",
+      "Redis",
+      "AWS",
+      "Go",
+      "REST API design",
+      "TypeScript",
+      "RabbitMQ",
+      "PostgreSQL",
+      "Terraform",
+      "GraphQL"
+    ],
+    "education": [
+      "M.S. Electrical Engineering, Arizona State University, 2013",
+      "B.S. Electrical Engineering, SMU, 2010"
+    ],
+    "experience": [
+      {
+        "title": "Staff Backend Engineer",
+        "company": "Meridian Infrastructure",
+        "years": 1,
+        "description": "Owned the Kafka event pipeline processing 29M events/day."
+      },
+      {
+        "title": "Senior Backend Engineer",
+        "company": "Harborlight Dynamics",
+        "years": 1,
+        "description": "Built and maintained REST APIs in CI/CD serving 255K requests/day. Designed internal CI/CD standards used by 36+ downstream services."
+      },
+      {
+        "title": "Backend Engineer",
+        "company": "Ashgrove Computing",
+        "years": 10,
+        "description": "Led migration of core services at Ashgrove Computing onto AWS, improving uptime during peak load. Designed a REST API design-backed data layer that cut p99 query latency by 26%. Introduced Terraform-managed infrastructure, cutting provisioning time by 43%."
+      }
+    ],
+    "rawText": "Elena Malhotra\nelena.malhotra@example.com | Nashville, TN\nSUMMARY\nSenior backend engineer with 12 years of experience building backend systems on Distributed systems,\nElasticsearch, CI/CD.\nEXPERIENCE\nStaff Backend Engineer - Meridian Infrastructure (2025-2026)\n- Owned the Kafka event pipeline processing 29M events/day.\nSenior Backend Engineer - Harborlight Dynamics (2024-2025)\n- Built and maintained REST APIs in CI/CD serving 255K requests/day.\n- Designed internal CI/CD standards used by 36+ downstream services.\nBackend Engineer - Ashgrove Computing (2014-2024)\n- Led migration of core services at Ashgrove Computing onto AWS, improving uptime during peak load.\n- Designed a REST API design-backed data layer that cut p99 query latency by 26%.\n- Introduced Terraform-managed infrastructure, cutting provisioning time by 43%.\nEDUCATION\nM.S. Electrical Engineering, Arizona State University, 2013\nB.S. Electrical Engineering, SMU, 2010\nSKILLS\n- Distributed systems\n- Elasticsearch\n- CI/CD\n- Redis\n- AWS\n- Go\n- REST API design\n- TypeScript\n- RabbitMQ\n- PostgreSQL\n- Terraform\n- GraphQL\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0882",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 12 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 5/6 required skills: TypeScript, PostgreSQL, Distributed systems, AWS, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 2; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.67
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.995
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.8975
+      }
+    ],
+    "compositeScore": 82,
+    "eligible": true
+  },
+  "timings": {
+    "extractionMs": 1,
+    "scoringMs": 475,
+    "totalMs": 478
+  }
+}

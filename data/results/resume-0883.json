@@ -1,0 +1,86 @@
+{
+  "extracted": {
+    "id": "resume-0883",
+    "fileName": "resume-0883.pdf",
+    "name": "Brian Kimura",
+    "yearsExperience": 6,
+    "skills": [
+      "REST API design",
+      "Terraform",
+      "Distributed systems",
+      "Kafka",
+      "PostgreSQL",
+      "Node.js",
+      "TypeScript"
+    ],
+    "education": [
+      "M.S. Computer Science, UT Austin, 2020",
+      "B.S. Computer Science, San Jose State University, 2017"
+    ],
+    "experience": [
+      {
+        "title": "Senior Backend Engineer",
+        "company": "Slate Networks",
+        "years": 1,
+        "description": "Led migration of core services at Slate Networks onto Node.js, improving uptime during peak load. Owned the Kafka event pipeline processing 59M events/day. Designed a REST API design-backed data layer that cut p99 query latency by 25%."
+      },
+      {
+        "title": "Backend Engineer",
+        "company": "Cinder Solutions",
+        "years": 5,
+        "description": "Applied distributed-systems patterns to scale the platform to 440K concurrent users. Designed internal Kafka standards used by 35+ downstream services."
+      }
+    ],
+    "rawText": "Brian Kimura\nbrian.kimura@example.com | Houston, TX\nSUMMARY\nSenior backend engineer with 6 years of experience building backend systems on REST API design,\nTerraform, Distributed systems.\nEXPERIENCE\nSenior Backend Engineer - Slate Networks (2025-2026)\n- Led migration of core services at Slate Networks onto Node.js, improving uptime during peak load.\n- Owned the Kafka event pipeline processing 59M events/day.\n- Designed a REST API design-backed data layer that cut p99 query latency by 25%.\nBackend Engineer - Cinder Solutions (2020-2025)\n- Applied distributed-systems patterns to scale the platform to 440K concurrent users.\n- Designed internal Kafka standards used by 35+ downstream services.\nEDUCATION\nM.S. Computer Science, UT Austin, 2020\nB.S. Computer Science, San Jose State University, 2017\nSKILLS\n- REST API design\n- Terraform\n- Distributed systems\n- Kafka\n- PostgreSQL\n- Node.js\n- TypeScript\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0883",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 6 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 5/6 required skills: Node.js, TypeScript, PostgreSQL, Distributed systems, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 2; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.7
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.995
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.7475
+      }
+    ],
+    "compositeScore": 79,
+    "eligible": true
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 476,
+    "totalMs": 480
+  }
+}

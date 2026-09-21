@@ -1,0 +1,95 @@
+{
+  "extracted": {
+    "id": "resume-0318",
+    "fileName": "resume-0318.pdf",
+    "name": "Noah Marsh",
+    "yearsExperience": 6,
+    "skills": [
+      "CSS3",
+      "TypeScript",
+      "TypeScript",
+      "JavaScript",
+      "GraphQL",
+      "Node.js",
+      "Node.js",
+      "React",
+      "Next.js",
+      "REST API design"
+    ],
+    "education": [
+      "M.S. Computer Engineering, Purdue University, 2020",
+      "B.S. Computer Engineering, Arizona State University, 2017"
+    ],
+    "experience": [
+      {
+        "title": "Senior Frontend Developer",
+        "company": "Bedrock Technologies",
+        "years": 3,
+        "description": "Partnered with backend engineers at Bedrock Technologies to consume REST and GraphQL APIs. Implemented TypeScript component libraries shared across product teams."
+      },
+      {
+        "title": "Frontend Developer",
+        "company": "Copperfield Labs",
+        "years": 2,
+        "description": "Built responsive JavaScript interfaces consumed by 129K monthly users. Partnered with backend engineers at Copperfield Labs to consume REST and GraphQL APIs. Implemented TypeScript component libraries shared across product teams."
+      },
+      {
+        "title": "Junior Frontend Developer",
+        "company": "Hollowbrook Platform",
+        "years": 1,
+        "description": "Built responsive React interfaces consumed by 40K monthly users. Partnered with backend engineers at Hollowbrook Platform to consume REST and GraphQL APIs. Implemented TypeScript component libraries shared across product teams."
+      }
+    ],
+    "rawText": "Noah Marsh\nnoah.marsh@example.com | Columbus, OH\nSUMMARY\nFrontend developer with 6 years of experience in CSS3, TypeScript, TypeScript.\nEXPERIENCE\nSenior Frontend Developer - Bedrock Technologies (2023-2026)\n- Partnered with backend engineers at Bedrock Technologies to consume REST and GraphQL APIs.\n- Implemented TypeScript component libraries shared across product teams.\nFrontend Developer - Copperfield Labs (2021-2023)\n- Built responsive JavaScript interfaces consumed by 129K monthly users.\n- Partnered with backend engineers at Copperfield Labs to consume REST and GraphQL APIs.\n- Implemented TypeScript component libraries shared across product teams.\nJunior Frontend Developer - Hollowbrook Platform (2020-2021)\n- Built responsive React interfaces consumed by 40K monthly users.\n- Partnered with backend engineers at Hollowbrook Platform to consume REST and GraphQL APIs.\n- Implemented TypeScript component libraries shared across product teams.\nEDUCATION\nM.S. Computer Engineering, Purdue University, 2020\nB.S. Computer Engineering, Arizona State University, 2017\nSKILLS\n- CSS3\n- TypeScript\n- TypeScript\n- JavaScript\n- GraphQL\n- Node.js\n- Node.js\n- React\n- Next.js\n- REST API design\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0318",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 6 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 3/6 required skills: Node.js, TypeScript, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 2; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.155
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.2925
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.0475
+      }
+    ],
+    "compositeScore": 16,
+    "eligible": true
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 366,
+    "totalMs": 370
+  }
+}

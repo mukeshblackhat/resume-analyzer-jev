@@ -1,0 +1,62 @@
+{
+  "extracted": {
+    "id": "resume-0140",
+    "fileName": "resume-0140.pdf",
+    "name": "Zara Petrov",
+    "yearsExperience": 12,
+    "skills": [],
+    "education": [],
+    "experience": [],
+    "rawText": "Zara Petrov\nzara.petrov@example.com | Charlotte, NC\nZara Petrov has 12 years of experience in backend and distributed systems. Most\nrecently, Staff Backend Engineer at Slate Labs (2022-2026), where they owned\nthe Kafka event pipeline processing 5M events/day. Before that, Senior Backend\nEngineer at Lattice Technologies (2020-2022). Before that, Backend Engineer at\nAmber Cloud (2019-2020). Before that, Software Engineer I at Driftwood\nAnalytics (2014-2019). Education: Ph.D. Software Engineering, Indiana\nUniversity, 2013; B.S. Software Engineering, University of Pittsburgh, 2007.\nCore skills: PostgreSQL, Node.js, Docker, Elasticsearch, Kubernetes, GraphQL,\nREST API design, Kafka, AWS, Distributed systems, Python, TypeScript.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0140",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 12 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 0/6 required skills: none."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": false,
+        "detail": "Resume's highest detected education level rank is 0; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.025
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.015
+      }
+    ],
+    "compositeScore": 1,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 4,
+    "scoringMs": 353,
+    "totalMs": 359
+  }
+}

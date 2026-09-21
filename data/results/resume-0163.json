@@ -1,0 +1,89 @@
+{
+  "extracted": {
+    "id": "resume-0163",
+    "fileName": "resume-0163.pdf",
+    "name": "Layla Kowalski",
+    "yearsExperience": 7,
+    "skills": [
+      "Adobe XD",
+      "Visual design",
+      "UX research",
+      "Figma",
+      "Wireframing"
+    ],
+    "education": [
+      "B.S. Digital Media, University of Colorado Boulder, 2018"
+    ],
+    "experience": [
+      {
+        "title": "Senior Product Designer",
+        "company": "Orbitleaf Care",
+        "years": 3,
+        "description": "Led UX research at Orbitleaf Care informing the redesign of the core product flow. Designed and prototyped features in Figma used by 18+ engineers to build against. Built and maintained the company's design system components and guidelines."
+      },
+      {
+        "title": "Product Designer",
+        "company": "Fieldstone Retail",
+        "years": 3,
+        "description": "Led UX research at Fieldstone Retail informing the redesign of the core product flow. Built and maintained the company's design system components and guidelines. Designed and prototyped features in Figma used by 30+ engineers to build against."
+      },
+      {
+        "title": "Junior Product Designer",
+        "company": "Brackenridge Care",
+        "years": 1,
+        "description": "Led UX research at Brackenridge Care informing the redesign of the core product flow."
+      }
+    ],
+    "rawText": "Layla Kowalski\nlayla.kowalski@example.com | Raleigh, NC\nSUMMARY\nProduct designer with 7 years of experience, focused on Adobe XD, Visual design, UX research.\nEXPERIENCE\nSenior Product Designer, Orbitleaf Care (2023-2026)\n- Led UX research at Orbitleaf Care informing the redesign of the core product flow.\n- Designed and prototyped features in Figma used by 18+ engineers to build against.\n- Built and maintained the company's design system components and guidelines.\nProduct Designer, Fieldstone Retail (2020-2023)\n- Led UX research at Fieldstone Retail informing the redesign of the core product flow.\n- Built and maintained the company's design system components and guidelines.\n- Designed and prototyped features in Figma used by 30+ engineers to build against.\nJunior Product Designer, Brackenridge Care (2019-2020)\n- Led UX research at Brackenridge Care informing the redesign of the core product flow.\nEDUCATION\nB.S. Digital Media, University of Colorado Boulder, 2018\nSkills: Adobe XD, Visual design, UX research, Figma, Wireframing.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0163",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 7 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 0/6 required skills: none."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.0075
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.025
+      }
+    ],
+    "compositeScore": 1,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 394,
+    "totalMs": 397
+  }
+}

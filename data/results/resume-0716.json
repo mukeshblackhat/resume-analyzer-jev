@@ -1,0 +1,62 @@
+{
+  "extracted": {
+    "id": "resume-0716",
+    "fileName": "resume-0716.pdf",
+    "name": "Yuki Larsen",
+    "yearsExperience": 5,
+    "skills": [],
+    "education": [],
+    "experience": [],
+    "rawText": "Yuki Larsen\nyuki.larsen@example.com | Chicago, IL\nYuki Larsen has 5 years of experience in sales. Most recently, Senior Account\nExecutive at Fieldstone Ventures (2022-2026), where they built and ran a\ncold-outreach pipeline generating 49 qualified leads per month. Before that,\nAccount Executive at Ferro Care (2021-2022). Education: B.A. Communications,\nUniversity of Washington, 2020. Core skills: Pipeline forecasting, CRM tools,\nQuota attainment, Account management, Cold outreach, Salesforce.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0716",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 5 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 0/6 required skills: none."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": false,
+        "detail": "Resume's highest detected education level rank is 0; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.015
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.0025
+      }
+    ],
+    "compositeScore": 0,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 1,
+    "scoringMs": 423,
+    "totalMs": 426
+  }
+}

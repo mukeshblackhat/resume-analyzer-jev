@@ -1,0 +1,62 @@
+{
+  "extracted": {
+    "id": "resume-0717",
+    "fileName": "resume-0717.pdf",
+    "name": "Priya Diallo",
+    "yearsExperience": 6,
+    "skills": [],
+    "education": [],
+    "experience": [],
+    "rawText": "Priya Diallo\npriya.diallo717@example.com | New York, NY\nPriya Diallo has 6 years of experience in backend and distributed systems. Most\nrecently, Senior Backend Engineer at Meridian Dynamics (2025-2026), where they\nowned the Kafka event pipeline processing 35M events/day. Before that, Backend\nEngineer at Crestline Infrastructure (2020-2025). Education: M.S. Computer\nEngineering, University of Maryland, 2020; B.S. Computer Engineering,\nUniversity of Utah, 2017. Core skills: Python, Node.js, REST API design, AWS,\nTypeScript, Java, Distributed systems, PostgreSQL, Go, Kafka, System design.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0717",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 6 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 0/6 required skills: none."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": false,
+        "detail": "Resume's highest detected education level rank is 0; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.0175
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.0025
+      }
+    ],
+    "compositeScore": 1,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 426,
+    "totalMs": 431
+  }
+}

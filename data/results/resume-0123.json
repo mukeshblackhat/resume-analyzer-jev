@@ -1,0 +1,79 @@
+{
+  "extracted": {
+    "id": "resume-0123",
+    "fileName": "resume-0123.pdf",
+    "name": "Marcus Lindqvist",
+    "yearsExperience": 5,
+    "skills": [
+      "TypeScript",
+      "Microservices",
+      "Distributed systems",
+      "Node.js",
+      "Kubernetes",
+      "GraphQL",
+      "Docker"
+    ],
+    "education": [
+      "B.S. Computer Science, University of Minnesota, 2020"
+    ],
+    "experience": [
+      {
+        "title": "Senior Backend Engineer",
+        "company": "Driftwood Software",
+        "years": 5,
+        "description": "Led migration of core services at Driftwood Software onto AWS, improving uptime during peak load. Owned the Kafka event pipeline processing 79M events/day."
+      }
+    ],
+    "rawText": "Marcus Lindqvist\nmarcus.lindqvist@example.com | Boise, ID\nSUMMARY\nSenior backend engineer with 5 years of experience building backend systems on TypeScript,\nMicroservices, Distributed systems.\nEXPERIENCE\nSenior Backend Engineer, Driftwood Software (2021-2026)\n- Led migration of core services at Driftwood Software onto AWS, improving uptime during peak load.\n- Owned the Kafka event pipeline processing 79M events/day.\nEDUCATION\nB.S. Computer Science, University of Minnesota, 2020\nSkills: TypeScript, Microservices, Distributed systems, Node.js, Kubernetes, GraphQL, Docker.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0123",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 5 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 3/6 required skills: Node.js, TypeScript, Distributed systems."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.49
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.995
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.7025
+      }
+    ],
+    "compositeScore": 68,
+    "eligible": true
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 416,
+    "totalMs": 419
+  }
+}

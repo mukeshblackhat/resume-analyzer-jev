@@ -1,0 +1,86 @@
+{
+  "extracted": {
+    "id": "resume-0443",
+    "fileName": "resume-0443.pdf",
+    "name": "Marcus Marsh",
+    "yearsExperience": 8,
+    "skills": [
+      "Android",
+      "Kotlin",
+      "REST API design",
+      "React Native",
+      "PostgreSQL",
+      "Swift",
+      "AWS",
+      "TypeScript"
+    ],
+    "education": [
+      "B.S. Electrical Engineering, DePaul University, 2018"
+    ],
+    "experience": [
+      {
+        "title": "Senior Mobile Engineer",
+        "company": "Quartzline Solutions",
+        "years": 1,
+        "description": "Wrote a lightweight Node.js BFF layer to aggregate REST calls for the mobile app. Built the company's React Native app end to end, shipped to 423K users. Maintained native modules in Swift and Kotlin for platform-specific features."
+      },
+      {
+        "title": "Mobile Engineer",
+        "company": "Foundry Systems",
+        "years": 7,
+        "description": "Built the company's React Native app end to end, shipped to 328K users. Maintained native modules in Swift and Kotlin for platform-specific features. Wrote a lightweight Node.js BFF layer to aggregate REST calls for the mobile app."
+      }
+    ],
+    "rawText": "Marcus Marsh\nmarcus.marsh@example.com | Richmond, VA\nSUMMARY\nMobile engineer with 8 years of experience building apps with Android, Kotlin, REST API design, some\nbackend exposure.\nEXPERIENCE\nSenior Mobile Engineer, Quartzline Solutions (2025-2026)\n- Wrote a lightweight Node.js BFF layer to aggregate REST calls for the mobile app.\n- Built the company's React Native app end to end, shipped to 423K users.\n- Maintained native modules in Swift and Kotlin for platform-specific features.\nMobile Engineer, Foundry Systems (2018-2025)\n- Built the company's React Native app end to end, shipped to 328K users.\n- Maintained native modules in Swift and Kotlin for platform-specific features.\n- Wrote a lightweight Node.js BFF layer to aggregate REST calls for the mobile app.\nEDUCATION\nB.S. Electrical Engineering, DePaul University, 2018\nSkills: Android, Kotlin, REST API design, React Native, PostgreSQL, Swift, AWS, TypeScript.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0443",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 8 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 4/6 required skills: TypeScript, PostgreSQL, AWS, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.3625
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.38
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.2175
+      }
+    ],
+    "compositeScore": 32,
+    "eligible": true
+  },
+  "timings": {
+    "extractionMs": 1,
+    "scoringMs": 462,
+    "totalMs": 465
+  }
+}

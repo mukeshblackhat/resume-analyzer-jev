@@ -1,0 +1,78 @@
+{
+  "extracted": {
+    "id": "resume-0060",
+    "fileName": "resume-0060.pdf",
+    "name": "Adrian Mercer",
+    "yearsExperience": 1,
+    "skills": [
+      "TypeScript",
+      "AWS",
+      "Node.js",
+      "Distributed systems",
+      "PostgreSQL",
+      "REST API design"
+    ],
+    "education": [
+      "B.S. Software Engineering, San Jose State University, 2024"
+    ],
+    "experience": [
+      {
+        "title": "Software Engineer I",
+        "company": "Ironwood Data",
+        "years": 1,
+        "description": "Designed internal PostgreSQL standards used by 17+ downstream services."
+      }
+    ],
+    "rawText": "Adrian Mercer\nadrian.mercer@example.com | Dallas, TX\nSUMMARY\nBackend-leaning engineer with 1 year of experience, working primarily with TypeScript, AWS, Node.js.\nEXPERIENCE\nSoftware Engineer I, Ironwood Data (2025-2026)\n- Designed internal PostgreSQL standards used by 17+ downstream services.\nEDUCATION\nB.S. Software Engineering, San Jose State University, 2024\nSkills: TypeScript, AWS, Node.js, Distributed systems, PostgreSQL, REST API design.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0060",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": false,
+        "detail": "Resume shows 1 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 6/6 required skills: Node.js, TypeScript, PostgreSQL, Distributed systems, AWS, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.3625
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.89
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.0525
+      }
+    ],
+    "compositeScore": 40,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 1,
+    "scoringMs": 349,
+    "totalMs": 352
+  }
+}

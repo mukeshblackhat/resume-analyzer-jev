@@ -1,0 +1,84 @@
+{
+  "extracted": {
+    "id": "resume-0310",
+    "fileName": "resume-0310.pdf",
+    "name": "Brian Osei",
+    "yearsExperience": 4,
+    "skills": [
+      "Account management",
+      "Quota attainment",
+      "CRM tools",
+      "Pipeline forecasting",
+      "Cold outreach",
+      "Salesforce"
+    ],
+    "education": [
+      "B.A. Communications, Metro State University, 2022"
+    ],
+    "experience": [
+      {
+        "title": "Account Executive",
+        "company": "Sagebrook Collective",
+        "years": 1,
+        "description": "Managed a book of 24+ enterprise accounts. Closed $3M in annual recurring revenue across mid-market accounts at Sagebrook Collective."
+      },
+      {
+        "title": "Sales Development Rep",
+        "company": "Palisade Holdings",
+        "years": 3,
+        "description": "Built and ran a cold-outreach pipeline generating 72 qualified leads per month. Exceeded quarterly quota by 35% for four consecutive quarters."
+      }
+    ],
+    "rawText": "Brian Osei\nbrian.osei@example.com | Portland, OR\nSUMMARY\nB2B sales professional with 4 years of experience in enterprise software sales.\nEXPERIENCE\nAccount Executive - Sagebrook Collective (2025-2026)\n- Managed a book of 24+ enterprise accounts.\n- Closed $3M in annual recurring revenue across mid-market accounts at Sagebrook Collective.\nSales Development Rep - Palisade Holdings (2022-2025)\n- Built and ran a cold-outreach pipeline generating 72 qualified leads per month.\n- Exceeded quarterly quota by 35% for four consecutive quarters.\nEDUCATION\nB.A. Communications, Metro State University, 2022\nSKILLS\n- Account management\n- Quota attainment\n- CRM tools\n- Pipeline forecasting\n- Cold outreach\n- Salesforce\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0310",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": false,
+        "detail": "Resume shows 4 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 0/6 required skills: none."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0
+      }
+    ],
+    "compositeScore": 0,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 1,
+    "scoringMs": 423,
+    "totalMs": 426
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "extracted": {
+    "id": "resume-0997",
+    "fileName": "resume-0997.pdf",
+    "name": "Lucas Reyes",
+    "yearsExperience": 6,
+    "skills": [],
+    "education": [],
+    "experience": [],
+    "rawText": "Lucas Reyes\nlucas.reyes@example.com | Raleigh, NC\nLucas Reyes has 6 years of experience in backend and distributed systems. Most\nrecently, Senior Backend Engineer at Harborlight Systems (2022-2026), where\nthey introduced Terraform-managed infrastructure, cutting provisioning time by\n84%. Before that, Backend Engineer at Redbank Infrastructure (2021-2022).\nBefore that, Software Engineer I at Grayline Computing (2020-2021). Education:\nB.S. Information Systems, University of Minnesota, 2020. Core skills:\nPostgreSQL, Elasticsearch, Distributed systems, Redis, TypeScript, REST API\ndesign, AWS, gRPC, Terraform, Node.js, Kubernetes.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0997",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 6 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 0/6 required skills: none."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": false,
+        "detail": "Resume's highest detected education level rank is 0; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.02
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.0075
+      }
+    ],
+    "compositeScore": 1,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 1,
+    "scoringMs": 431,
+    "totalMs": 434
+  }
+}

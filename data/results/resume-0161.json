@@ -1,0 +1,91 @@
+{
+  "extracted": {
+    "id": "resume-0161",
+    "fileName": "resume-0161.pdf",
+    "name": "Renee Hassan",
+    "yearsExperience": 7,
+    "skills": [
+      "GraphQL",
+      "Kotlin",
+      "PostgreSQL",
+      "Node.js",
+      "Distributed systems",
+      "Swift",
+      "React Native"
+    ],
+    "education": [
+      "B.S. Computer Engineering, Metro State University, 2019"
+    ],
+    "experience": [
+      {
+        "title": "Senior Mobile Engineer",
+        "company": "Northbeam Solutions",
+        "years": 3,
+        "description": "Built the company's React Native app end to end, shipped to 106K users."
+      },
+      {
+        "title": "Mobile Engineer",
+        "company": "Timberline Software",
+        "years": 1,
+        "description": "Wrote a lightweight Node.js BFF layer to aggregate REST calls for the mobile app. Maintained native modules in Swift and Kotlin for platform-specific features."
+      },
+      {
+        "title": "Junior Mobile Engineer",
+        "company": "Northbeam Technologies",
+        "years": 3,
+        "description": "Wrote a lightweight Node.js BFF layer to aggregate REST calls for the mobile app."
+      }
+    ],
+    "rawText": "Renee Hassan\nrenee.hassan@example.com | Dallas, TX\nSUMMARY\nMobile engineer with 7 years of experience building apps with GraphQL, Kotlin, PostgreSQL, some backend\nexposure.\nEXPERIENCE\nSenior Mobile Engineer, Northbeam Solutions (2023-2026)\n- Built the company's React Native app end to end, shipped to 106K users.\nMobile Engineer, Timberline Software (2022-2023)\n- Wrote a lightweight Node.js BFF layer to aggregate REST calls for the mobile app.\n- Maintained native modules in Swift and Kotlin for platform-specific features.\nJunior Mobile Engineer, Northbeam Technologies (2019-2022)\n- Wrote a lightweight Node.js BFF layer to aggregate REST calls for the mobile app.\nEDUCATION\nB.S. Computer Engineering, Metro State University, 2019\nSkills: GraphQL, Kotlin, PostgreSQL, Node.js, Distributed systems, Swift, React Native.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0161",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 7 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 3/6 required skills: Node.js, PostgreSQL, Distributed systems."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.3875
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.4075
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.2225
+      }
+    ],
+    "compositeScore": 34,
+    "eligible": true
+  },
+  "timings": {
+    "extractionMs": 3,
+    "scoringMs": 402,
+    "totalMs": 408
+  }
+}

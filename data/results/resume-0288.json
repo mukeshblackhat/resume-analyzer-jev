@@ -1,0 +1,86 @@
+{
+  "extracted": {
+    "id": "resume-0288",
+    "fileName": "resume-0288.pdf",
+    "name": "Marcus Osei",
+    "yearsExperience": 6,
+    "skills": [
+      "SQL",
+      "TypeScript",
+      "dbt",
+      "ETL pipelines",
+      "REST API design",
+      "Kafka",
+      "AWS"
+    ],
+    "education": [
+      "M.S. Computer Science, Metro State University, 2019",
+      "B.S. Computer Science, University of Texas at Dallas, 2016"
+    ],
+    "experience": [
+      {
+        "title": "Senior Data Engineer",
+        "company": "Copperfield Dynamics",
+        "years": 2,
+        "description": "Maintained PostgreSQL warehouses at Copperfield Dynamics supporting company-wide analytics dashboards. Built dbt-orchestrated ETL pipelines moving 311GB/day through Redshift."
+      },
+      {
+        "title": "Data Engineer",
+        "company": "Palodex Platform",
+        "years": 4,
+        "description": "Coordinated distributed batch jobs across multiple regions on AWS."
+      }
+    ],
+    "rawText": "Marcus Osei\nmarcus.osei@example.com | Tampa, FL\nSUMMARY\nData engineer with 6 years of experience, focused on pipelines and warehousing using SQL, TypeScript,\ndbt.\nEXPERIENCE\nSenior Data Engineer, Copperfield Dynamics (2024-2026)\n- Maintained PostgreSQL warehouses at Copperfield Dynamics supporting company-wide analytics\ndashboards.\n- Built dbt-orchestrated ETL pipelines moving 311GB/day through Redshift.\nData Engineer, Palodex Platform (2020-2024)\n- Coordinated distributed batch jobs across multiple regions on AWS.\nEDUCATION\nM.S. Computer Science, Metro State University, 2019\nB.S. Computer Science, University of Texas at Dallas, 2016\nSkills: SQL, TypeScript, dbt, ETL pipelines, REST API design, Kafka, AWS.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0288",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 6 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 4/6 required skills: TypeScript, PostgreSQL, AWS, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 2; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.4125
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.55
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.3225
+      }
+    ],
+    "compositeScore": 42,
+    "eligible": true
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 352,
+    "totalMs": 355
+  }
+}

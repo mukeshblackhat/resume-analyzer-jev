@@ -1,0 +1,86 @@
+{
+  "extracted": {
+    "id": "resume-0452",
+    "fileName": "resume-0452.pdf",
+    "name": "Hannah Hassan",
+    "yearsExperience": 7,
+    "skills": [
+      "React Native",
+      "Node.js",
+      "GraphQL",
+      "Node.js",
+      "Swift",
+      "TypeScript",
+      "Kotlin",
+      "Android"
+    ],
+    "education": [
+      "B.S. Software Engineering, Indiana University, 2019"
+    ],
+    "experience": [
+      {
+        "title": "Senior Mobile Engineer",
+        "company": "Ashgrove Solutions",
+        "years": 4,
+        "description": "Maintained native modules in Swift and Kotlin for platform-specific features."
+      },
+      {
+        "title": "Mobile Engineer",
+        "company": "Ironwood Computing",
+        "years": 3,
+        "description": "Built the company's React Native app end to end, shipped to 305K users. Wrote a lightweight Node.js BFF layer to aggregate REST calls for the mobile app."
+      }
+    ],
+    "rawText": "Hannah Hassan\nhannah.hassan@example.com | Phoenix, AZ\nSUMMARY\nMobile engineer with 7 years of experience building apps with React Native, Node.js, GraphQL, some\nbackend exposure.\nEXPERIENCE\nSenior Mobile Engineer, Ashgrove Solutions (2022-2026)\n- Maintained native modules in Swift and Kotlin for platform-specific features.\nMobile Engineer, Ironwood Computing (2019-2022)\n- Built the company's React Native app end to end, shipped to 305K users.\n- Wrote a lightweight Node.js BFF layer to aggregate REST calls for the mobile app.\nEDUCATION\nB.S. Software Engineering, Indiana University, 2019\nSkills: React Native, Node.js, GraphQL, Node.js, Swift, TypeScript, Kotlin, Android.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0452",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 7 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 2/6 required skills: Node.js, TypeScript."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.23
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.3025
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.1625
+      }
+    ],
+    "compositeScore": 23,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 434,
+    "totalMs": 438
+  }
+}

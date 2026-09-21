@@ -1,0 +1,77 @@
+{
+  "extracted": {
+    "id": "resume-0308",
+    "fileName": "resume-0308.pdf",
+    "name": "Ximena Rahman",
+    "yearsExperience": 1,
+    "skills": [
+      "Design systems",
+      "Prototyping",
+      "Adobe XD",
+      "Wireframing",
+      "Figma"
+    ],
+    "education": [
+      "B.A. Fine Arts, Cal Poly, 2025"
+    ],
+    "experience": [
+      {
+        "title": "Junior Product Designer",
+        "company": "Brightleaf Partners",
+        "years": 1,
+        "description": "Designed and prototyped features in Figma used by 21+ engineers to build against. Built and maintained the company's design system components and guidelines. Led UX research at Brightleaf Partners informing the redesign of the core product flow."
+      }
+    ],
+    "rawText": "Ximena Rahman\nximena.rahman308@example.com | Milwaukee, WI\nSUMMARY\nProduct designer with 1 year of experience, focused on Design systems, Prototyping, Adobe XD.\nEXPERIENCE\nJunior Product Designer, Brightleaf Partners (2025-2026)\n- Designed and prototyped features in Figma used by 21+ engineers to build against.\n- Built and maintained the company's design system components and guidelines.\n- Led UX research at Brightleaf Partners informing the redesign of the core product flow.\nEDUCATION\nB.A. Fine Arts, Cal Poly, 2025\nSkills: Design systems, Prototyping, Adobe XD, Wireframing, Figma.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0308",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": false,
+        "detail": "Resume shows 1 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 0/6 required skills: none."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.02
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0
+      }
+    ],
+    "compositeScore": 1,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 1,
+    "scoringMs": 495,
+    "totalMs": 498
+  }
+}

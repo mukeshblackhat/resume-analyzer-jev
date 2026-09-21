@@ -1,0 +1,78 @@
+{
+  "extracted": {
+    "id": "resume-0678",
+    "fileName": "resume-0678.pdf",
+    "name": "Jonas Abara",
+    "yearsExperience": 1,
+    "skills": [
+      "PostgreSQL",
+      "AWS",
+      "Node.js",
+      "Distributed systems",
+      "REST API design",
+      "TypeScript"
+    ],
+    "education": [
+      "B.S. Electrical Engineering, University of Washington, 2024"
+    ],
+    "experience": [
+      {
+        "title": "Software Engineer I",
+        "company": "Ironwood Data",
+        "years": 1,
+        "description": "Applied distributed-systems patterns to scale the platform to 291K concurrent users. Built and maintained REST APIs in PostgreSQL serving 420K requests/day. Designed a Node.js-backed data layer that cut p99 query latency by 31%."
+      }
+    ],
+    "rawText": "Jonas Abara\njonas.abara@example.com | Providence, RI\nSUMMARY\nBackend-leaning engineer with 1 year of experience, working primarily with PostgreSQL, AWS, Node.js.\nEXPERIENCE\nSoftware Engineer I, Ironwood Data (2025-2026)\n- Applied distributed-systems patterns to scale the platform to 291K concurrent users.\n- Built and maintained REST APIs in PostgreSQL serving 420K requests/day.\n- Designed a Node.js-backed data layer that cut p99 query latency by 31%.\nEDUCATION\nB.S. Electrical Engineering, University of Washington, 2024\nSkills: PostgreSQL, AWS, Node.js, Distributed systems, REST API design, TypeScript.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0678",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": false,
+        "detail": "Resume shows 1 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 6/6 required skills: Node.js, TypeScript, PostgreSQL, Distributed systems, AWS, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.5
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.975
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.0975
+      }
+    ],
+    "compositeScore": 50,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 1,
+    "scoringMs": 537,
+    "totalMs": 542
+  }
+}

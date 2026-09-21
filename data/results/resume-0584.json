@@ -1,0 +1,90 @@
+{
+  "extracted": {
+    "id": "resume-0584",
+    "fileName": "resume-0584.pdf",
+    "name": "Simon Tran",
+    "yearsExperience": 8,
+    "skills": [
+      "Adobe XD",
+      "Visual design",
+      "Figma",
+      "Design systems",
+      "Wireframing",
+      "UX research"
+    ],
+    "education": [
+      "B.A. Fine Arts, University of Pittsburgh, 2017"
+    ],
+    "experience": [
+      {
+        "title": "Senior Product Designer",
+        "company": "Brackenridge Studio",
+        "years": 1,
+        "description": "Designed and prototyped features in Figma used by 10+ engineers to build against. Led UX research at Brackenridge Studio informing the redesign of the core product flow."
+      },
+      {
+        "title": "Product Designer",
+        "company": "Fieldstone Consulting",
+        "years": 1,
+        "description": "Built and maintained the company's design system components and guidelines. Designed and prototyped features in Figma used by 3+ engineers to build against."
+      },
+      {
+        "title": "Junior Product Designer",
+        "company": "Brackenridge Consumer Goods",
+        "years": 6,
+        "description": "Designed and prototyped features in Figma used by 20+ engineers to build against. Built and maintained the company's design system components and guidelines."
+      }
+    ],
+    "rawText": "Simon Tran\nsimon.tran@example.com | San Francisco, CA\nSUMMARY\nProduct designer with 8 years of experience, focused on Adobe XD, Visual design, Figma.\nEXPERIENCE\nSenior Product Designer, Brackenridge Studio (2025-2026)\n- Designed and prototyped features in Figma used by 10+ engineers to build against.\n- Led UX research at Brackenridge Studio informing the redesign of the core product flow.\nProduct Designer, Fieldstone Consulting (2024-2025)\n- Built and maintained the company's design system components and guidelines.\n- Designed and prototyped features in Figma used by 3+ engineers to build against.\nJunior Product Designer, Brackenridge Consumer Goods (2018-2024)\n- Designed and prototyped features in Figma used by 20+ engineers to build against.\n- Built and maintained the company's design system components and guidelines.\nEDUCATION\nB.A. Fine Arts, University of Pittsburgh, 2017\nSkills: Adobe XD, Visual design, Figma, Design systems, Wireframing, UX research.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0584",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 8 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 0/6 required skills: none."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.005
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.0125
+      }
+    ],
+    "compositeScore": 1,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 432,
+    "totalMs": 437
+  }
+}

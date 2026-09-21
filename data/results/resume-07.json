@@ -1,0 +1,95 @@
+{
+  "extracted": {
+    "id": "resume-07",
+    "fileName": "resume-07.pdf",
+    "name": "Elena Vasquez",
+    "yearsExperience": 13,
+    "skills": [
+      "Node.js",
+      "TypeScript",
+      "Go",
+      "PostgreSQL",
+      "AWS",
+      "Kubernetes",
+      "Kafka",
+      "Terraform",
+      "Distributed systems",
+      "REST API design"
+    ],
+    "education": [
+      "M.S. Computer Science, Columbia University, 2014",
+      "B.S. Computer Science, Rutgers University, 2012"
+    ],
+    "experience": [
+      {
+        "title": "Principal Backend Engineer",
+        "company": "Lattice Financial Systems",
+        "years": 6,
+        "description": "Architected a multi-region payments platform processing $2B/year in transaction volume. Set the org-wide standard for PostgreSQL partitioning and Kafka event schemas. Migrated core infrastructure to Kubernetes and Terraform, reducing provisioning time by 90%."
+      },
+      {
+        "title": "Staff Backend Engineer",
+        "company": "Ironwood Systems",
+        "years": 4,
+        "description": "Led a team building distributed job-scheduling infrastructure in Go and Node.js. Designed REST and internal RPC APIs used by over 40 downstream services."
+      },
+      {
+        "title": "Backend Engineer",
+        "company": "Ferro Analytics",
+        "years": 2,
+        "description": "Built early versions of the company's core PostgreSQL-backed reporting API."
+      }
+    ],
+    "rawText": "Elena Vasquez\nelena.vasquez@example.com | New York, NY\nSUMMARY\nPrincipal backend engineer with 13 years of experience designing large-scale distributed systems.\nEXPERIENCE\nPrincipal Backend Engineer - Lattice Financial Systems (2020-2026)\n- Architected a multi-region payments platform processing $2B/year in transaction volume.\n- Set the org-wide standard for PostgreSQL partitioning and Kafka event schemas.\n- Migrated core infrastructure to Kubernetes and Terraform, reducing provisioning time by 90%.\nStaff Backend Engineer - Ironwood Systems (2016-2020)\n- Led a team building distributed job-scheduling infrastructure in Go and Node.js.\n- Designed REST and internal RPC APIs used by over 40 downstream services.\nBackend Engineer - Ferro Analytics (2014-2016)\n- Built early versions of the company's core PostgreSQL-backed reporting API.\nEDUCATION\nM.S. Computer Science, Columbia University, 2014\nB.S. Computer Science, Rutgers University, 2012\nSKILLS\n- Node.js\n- TypeScript\n- Go\n- PostgreSQL\n- AWS\n- Kubernetes\n- Kafka\n- Terraform\n- Distributed systems\n- REST API design\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-07",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 13 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 6/6 required skills: Node.js, TypeScript, PostgreSQL, Distributed systems, AWS, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 2; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.95
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.985
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.9875
+      }
+    ],
+    "compositeScore": 97,
+    "eligible": true
+  },
+  "timings": {
+    "extractionMs": 3,
+    "scoringMs": 530,
+    "totalMs": 533
+  }
+}

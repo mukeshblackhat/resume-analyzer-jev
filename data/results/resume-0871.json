@@ -1,0 +1,77 @@
+{
+  "extracted": {
+    "id": "resume-0871",
+    "fileName": "resume-0871.pdf",
+    "name": "Leila Ferreira",
+    "yearsExperience": 2,
+    "skills": [
+      "GraphQL",
+      "HTML5",
+      "Node.js",
+      "Next.js",
+      "JavaScript"
+    ],
+    "education": [
+      "B.S. Computer Engineering, Temple University, 2023"
+    ],
+    "experience": [
+      {
+        "title": "Frontend Developer",
+        "company": "Ashgrove Cloud",
+        "years": 2,
+        "description": "Partnered with backend engineers at Ashgrove Cloud to consume REST and GraphQL APIs. Implemented Next.js component libraries shared across product teams. Built responsive HTML5 interfaces consumed by 125K monthly users."
+      }
+    ],
+    "rawText": "Leila Ferreira\nleila.ferreira@example.com | Orlando, FL\nSUMMARY\nFrontend/junior developer with 2 years of experience in GraphQL, HTML5, Node.js.\nEXPERIENCE\nFrontend Developer - Ashgrove Cloud (2024-2026)\n- Partnered with backend engineers at Ashgrove Cloud to consume REST and GraphQL APIs.\n- Implemented Next.js component libraries shared across product teams.\n- Built responsive HTML5 interfaces consumed by 125K monthly users.\nEDUCATION\nB.S. Computer Engineering, Temple University, 2023\nSKILLS\n- GraphQL\n- HTML5\n- Node.js\n- Next.js\n- JavaScript\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0871",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": false,
+        "detail": "Resume shows 2 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 1/6 required skills: Node.js."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.1025
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.31
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.0025
+      }
+    ],
+    "compositeScore": 12,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 1,
+    "scoringMs": 475,
+    "totalMs": 478
+  }
+}

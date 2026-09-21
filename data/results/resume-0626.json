@@ -1,0 +1,94 @@
+{
+  "extracted": {
+    "id": "resume-0626",
+    "fileName": "resume-0626.pdf",
+    "name": "Fatima Whitfield",
+    "yearsExperience": 7,
+    "skills": [
+      "Go",
+      "Distributed systems",
+      "TypeScript",
+      "Node.js",
+      "REST API design",
+      "GraphQL",
+      "Kafka",
+      "PostgreSQL",
+      "AWS"
+    ],
+    "education": [
+      "B.S. Electrical Engineering, Indiana University, 2018",
+      "Kubernetes."
+    ],
+    "experience": [
+      {
+        "title": "Senior Backend Engineer",
+        "company": "Windmere Infrastructure",
+        "years": 1,
+        "description": "Introduced Terraform-managed infrastructure, cutting provisioning time by 53%. Applied distributed-systems patterns to scale the platform to 428K concurrent users."
+      },
+      {
+        "title": "Backend Engineer",
+        "company": "Hollowbrook Dynamics",
+        "years": 4,
+        "description": "Owned the Node.js event pipeline processing 50M events/day. Built and maintained REST APIs in Go serving 837K requests/day."
+      },
+      {
+        "title": "Software Engineer I",
+        "company": "Sable Data",
+        "years": 2,
+        "description": "Led migration of core services at Sable Data onto AWS, improving uptime during peak load. Designed a Node.js-backed data layer that cut p99 query latency by 47%."
+      }
+    ],
+    "rawText": "Fatima Whitfield\nfatima.whitfield@example.com | Salt Lake City, UT\nSUMMARY\nExperienced backend engineer with 7 years of experience building backend systems on Go, Distributed\nsystems, TypeScript.\nEXPERIENCE\nSenior Backend Engineer, Windmere Infrastructure (2025-2026)\n- Introduced Terraform-managed infrastructure, cutting provisioning time by 53%.\n- Applied distributed-systems patterns to scale the platform to 428K concurrent users.\nBackend Engineer, Hollowbrook Dynamics (2021-2025)\n- Owned the Node.js event pipeline processing 50M events/day.\n- Built and maintained REST APIs in Go serving 837K requests/day.\nSoftware Engineer I, Sable Data (2019-2021)\n- Led migration of core services at Sable Data onto AWS, improving uptime during peak load.\n- Designed a Node.js-backed data layer that cut p99 query latency by 47%.\nEDUCATION\nB.S. Electrical Engineering, Indiana University, 2018\nSkills: Go, Distributed systems, TypeScript, Node.js, REST API design, GraphQL, Kafka, PostgreSQL, AWS,\nKubernetes.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0626",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 7 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 6/6 required skills: Node.js, TypeScript, PostgreSQL, Distributed systems, AWS, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.77
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.9975
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.74
+      }
+    ],
+    "compositeScore": 82,
+    "eligible": true
+  },
+  "timings": {
+    "extractionMs": 1,
+    "scoringMs": 512,
+    "totalMs": 515
+  }
+}

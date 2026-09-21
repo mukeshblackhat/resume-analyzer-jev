@@ -1,0 +1,91 @@
+{
+  "extracted": {
+    "id": "resume-0596",
+    "fileName": "resume-0596.pdf",
+    "name": "Carlos O'Brien",
+    "yearsExperience": 8,
+    "skills": [
+      "CRM tools",
+      "Salesforce",
+      "Cold outreach",
+      "Pipeline forecasting",
+      "Negotiation",
+      "Quota attainment"
+    ],
+    "education": [
+      "M.S. Communications, University of Pittsburgh, 2018",
+      "B.A. Communications, San Jose State University, 2015"
+    ],
+    "experience": [
+      {
+        "title": "Senior Account Executive",
+        "company": "Elmsworth Media",
+        "years": 3,
+        "description": "Managed a book of 32+ enterprise accounts."
+      },
+      {
+        "title": "Account Executive",
+        "company": "Riverside Agency",
+        "years": 3,
+        "description": "Closed $3M in annual recurring revenue across mid-market accounts at Riverside Agency. Built and ran a cold-outreach pipeline generating 73 qualified leads per month."
+      },
+      {
+        "title": "Sales Development Rep",
+        "company": "Kindlewood Retail",
+        "years": 2,
+        "description": "Exceeded quarterly quota by 18% for four consecutive quarters. Managed a book of 43+ enterprise accounts."
+      }
+    ],
+    "rawText": "Carlos O'Brien\ncarlos.obrien@example.com | Minneapolis, MN\nSUMMARY\nB2B sales professional with 8 years of experience in enterprise software sales.\nEXPERIENCE\nSenior Account Executive, Elmsworth Media (2023-2026)\n- Managed a book of 32+ enterprise accounts.\nAccount Executive, Riverside Agency (2020-2023)\n- Closed $3M in annual recurring revenue across mid-market accounts at Riverside Agency.\n- Built and ran a cold-outreach pipeline generating 73 qualified leads per month.\nSales Development Rep, Kindlewood Retail (2018-2020)\n- Exceeded quarterly quota by 18% for four consecutive quarters.\n- Managed a book of 43+ enterprise accounts.\nEDUCATION\nM.S. Communications, University of Pittsburgh, 2018\nB.A. Communications, San Jose State University, 2015\nSkills: CRM tools, Salesforce, Cold outreach, Pipeline forecasting, Negotiation, Quota attainment.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0596",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 8 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 0/6 required skills: none."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 2; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.01
+      }
+    ],
+    "compositeScore": 0,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 414,
+    "totalMs": 418
+  }
+}

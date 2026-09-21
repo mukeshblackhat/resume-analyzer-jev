@@ -1,0 +1,86 @@
+{
+  "extracted": {
+    "id": "resume-0150",
+    "fileName": "resume-0150.pdf",
+    "name": "Ana Haddad",
+    "yearsExperience": 3,
+    "skills": [
+      "Redshift",
+      "PostgreSQL",
+      "Snowflake",
+      "dbt",
+      "Distributed systems",
+      "REST API design",
+      "AWS",
+      "Kafka"
+    ],
+    "education": [
+      "B.S. Electrical Engineering, Georgia Tech, 2023"
+    ],
+    "experience": [
+      {
+        "title": "Data Engineer",
+        "company": "Vertex Computing",
+        "years": 1,
+        "description": "Built Airflow-orchestrated ETL pipelines moving 212GB/day through Snowflake. Coordinated distributed batch jobs across multiple regions on AWS. Maintained Snowflake warehouses at Vertex Computing supporting company-wide analytics dashboards."
+      },
+      {
+        "title": "Data Engineer I",
+        "company": "Windmere Solutions",
+        "years": 2,
+        "description": "Wrote Python and Spark batch jobs to process large-scale event data."
+      }
+    ],
+    "rawText": "Ana Haddad\nana.haddad@example.com | Indianapolis, IN\nSUMMARY\nData engineer with 3 years of experience, focused on pipelines and warehousing using Redshift,\nPostgreSQL, Snowflake.\nEXPERIENCE\nData Engineer - Vertex Computing (2025-2026)\n- Built Airflow-orchestrated ETL pipelines moving 212GB/day through Snowflake.\n- Coordinated distributed batch jobs across multiple regions on AWS.\n- Maintained Snowflake warehouses at Vertex Computing supporting company-wide analytics\ndashboards.\nData Engineer I - Windmere Solutions (2023-2025)\n- Wrote Python and Spark batch jobs to process large-scale event data.\nEDUCATION\nB.S. Electrical Engineering, Georgia Tech, 2023\nSKILLS\n- Redshift\n- PostgreSQL\n- Snowflake\n- dbt\n- Distributed systems\n- REST API design\n- AWS\n- Kafka\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0150",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": false,
+        "detail": "Resume shows 3 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 4/6 required skills: PostgreSQL, Distributed systems, AWS, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.335
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.515
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.1425
+      }
+    ],
+    "compositeScore": 32,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 434,
+    "totalMs": 438
+  }
+}

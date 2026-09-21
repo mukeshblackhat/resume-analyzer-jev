@@ -1,0 +1,89 @@
+{
+  "extracted": {
+    "id": "resume-0289",
+    "fileName": "resume-0289.pdf",
+    "name": "Ximena Hassan",
+    "yearsExperience": 6,
+    "skills": [
+      "Quota attainment",
+      "CRM tools",
+      "Negotiation",
+      "Salesforce"
+    ],
+    "education": [
+      "M.S. Economics, Rutgers University, 2020",
+      "B.A. Economics, Ohio State University, 2018"
+    ],
+    "experience": [
+      {
+        "title": "Senior Account Executive",
+        "company": "Cartwheel Partners",
+        "years": 4,
+        "description": "Exceeded quarterly quota by 32% for four consecutive quarters."
+      },
+      {
+        "title": "Account Executive",
+        "company": "Kindlewood Studio",
+        "years": 1,
+        "description": "Managed a book of 21+ enterprise accounts. Closed $5M in annual recurring revenue across mid-market accounts at Kindlewood Studio. Built and ran a cold-outreach pipeline generating 60 qualified leads per month."
+      },
+      {
+        "title": "Sales Development Rep",
+        "company": "Elmsworth Retail",
+        "years": 1,
+        "description": "Managed a book of 56+ enterprise accounts. Built and ran a cold-outreach pipeline generating 69 qualified leads per month. Exceeded quarterly quota by 18% for four consecutive quarters."
+      }
+    ],
+    "rawText": "Ximena Hassan\nximena.hassan289@example.com | Pittsburgh, PA\nSUMMARY\nB2B sales professional with 6 years of experience in enterprise software sales.\nEXPERIENCE\nSenior Account Executive, Cartwheel Partners (2022-2026)\n- Exceeded quarterly quota by 32% for four consecutive quarters.\nAccount Executive, Kindlewood Studio (2021-2022)\n- Managed a book of 21+ enterprise accounts.\n- Closed $5M in annual recurring revenue across mid-market accounts at Kindlewood Studio.\n- Built and ran a cold-outreach pipeline generating 60 qualified leads per month.\nSales Development Rep, Elmsworth Retail (2020-2021)\n- Managed a book of 56+ enterprise accounts.\n- Built and ran a cold-outreach pipeline generating 69 qualified leads per month.\n- Exceeded quarterly quota by 18% for four consecutive quarters.\nEDUCATION\nM.S. Economics, Rutgers University, 2020\nB.A. Economics, Ohio State University, 2018\nSkills: Quota attainment, CRM tools, Negotiation, Salesforce.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0289",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 6 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 0/6 required skills: none."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 2; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.0075
+      }
+    ],
+    "compositeScore": 0,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 356,
+    "totalMs": 360
+  }
+}

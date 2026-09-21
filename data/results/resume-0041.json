@@ -1,0 +1,102 @@
+{
+  "extracted": {
+    "id": "resume-0041",
+    "fileName": "resume-0041.pdf",
+    "name": "Kevin Nguyen",
+    "yearsExperience": 13,
+    "skills": [
+      "Terraform",
+      "PostgreSQL",
+      "AWS",
+      "Go",
+      "Distributed systems",
+      "Node.js",
+      "Kubernetes",
+      "TypeScript",
+      "Java",
+      "Docker",
+      "gRPC",
+      "REST API design"
+    ],
+    "education": [
+      "Some coursework in Information Systems, no degree completed"
+    ],
+    "experience": [
+      {
+        "title": "Principal Backend Engineer",
+        "company": "Northbeam Digital",
+        "years": 4,
+        "description": "Introduced Terraform-managed infrastructure, cutting provisioning time by 63%. Designed a TypeScript-backed data layer that cut p99 query latency by 53%."
+      },
+      {
+        "title": "Staff Backend Engineer",
+        "company": "Larkspur Digital",
+        "years": 3,
+        "description": "Owned the Kafka event pipeline processing 69M events/day."
+      },
+      {
+        "title": "Senior Backend Engineer",
+        "company": "Meridian Technologies",
+        "years": 3,
+        "description": "Built and maintained REST APIs in gRPC serving 254K requests/day."
+      },
+      {
+        "title": "Backend Engineer",
+        "company": "Sable Software",
+        "years": 3,
+        "description": "Designed internal gRPC standards used by 17+ downstream services."
+      }
+    ],
+    "rawText": "Kevin Nguyen\nkevin.nguyen@example.com | Seattle, WA\nSUMMARY\nSenior backend engineer with 13 years of experience building backend systems on Terraform, PostgreSQL,\nAWS.\nEXPERIENCE\nPrincipal Backend Engineer - Northbeam Digital (2022-2026)\n- Introduced Terraform-managed infrastructure, cutting provisioning time by 63%.\n- Designed a TypeScript-backed data layer that cut p99 query latency by 53%.\nStaff Backend Engineer - Larkspur Digital (2019-2022)\n- Owned the Kafka event pipeline processing 69M events/day.\nSenior Backend Engineer - Meridian Technologies (2016-2019)\n- Built and maintained REST APIs in gRPC serving 254K requests/day.\nBackend Engineer - Sable Software (2013-2016)\n- Designed internal gRPC standards used by 17+ downstream services.\nEDUCATION\nSome coursework in Information Systems, no degree completed\nSKILLS\n- Terraform\n- PostgreSQL\n- AWS\n- Go\n- Distributed systems\n- Node.js\n- Kubernetes\n- TypeScript\n- Java\n- Docker\n- gRPC\n- REST API design\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0041",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 13 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 6/6 required skills: Node.js, TypeScript, PostgreSQL, Distributed systems, AWS, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": false,
+        "detail": "Resume's highest detected education level rank is 0; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.8325
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.9975
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.975
+      }
+    ],
+    "compositeScore": 92,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 392,
+    "totalMs": 396
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "extracted": {
+    "id": "resume-0757",
+    "fileName": "resume-0757.pdf",
+    "name": "Miguel Osei",
+    "yearsExperience": 3,
+    "skills": [
+      "PostgreSQL",
+      "AWS",
+      "TypeScript"
+    ],
+    "education": [
+      "B.S. Computer Engineering, Arizona State University, 2022"
+    ],
+    "experience": [
+      {
+        "title": "Backend Engineer",
+        "company": "Meridian Digital",
+        "years": 3,
+        "description": "Owned the Kafka event pipeline processing 51M events/day."
+      }
+    ],
+    "rawText": "Miguel Osei\nmiguel.osei@example.com | Pittsburgh, PA\nSUMMARY\nBackend-leaning engineer with 3 years of experience, working primarily with PostgreSQL, AWS, TypeScript.\nEXPERIENCE\nBackend Engineer - Meridian Digital (2023-2026)\n- Owned the Kafka event pipeline processing 51M events/day.\nEDUCATION\nB.S. Computer Engineering, Arizona State University, 2022\nSKILLS\n- PostgreSQL\n- AWS\n- TypeScript\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0757",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": false,
+        "detail": "Resume shows 3 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 3/6 required skills: TypeScript, PostgreSQL, AWS."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.4075
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.8975
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.26
+      }
+    ],
+    "compositeScore": 49,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 426,
+    "totalMs": 429
+  }
+}

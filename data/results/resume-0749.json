@@ -1,0 +1,77 @@
+{
+  "extracted": {
+    "id": "resume-0749",
+    "fileName": "resume-0749.pdf",
+    "name": "Maya O'Brien",
+    "yearsExperience": 2,
+    "skills": [
+      "MongoDB",
+      "HTML5",
+      "CSS3",
+      "TypeScript",
+      "React"
+    ],
+    "education": [
+      "B.S. Electrical Engineering, University of Illinois Urbana-Champaign, 2024"
+    ],
+    "experience": [
+      {
+        "title": "Frontend Developer",
+        "company": "Cobalt Dynamics",
+        "years": 2,
+        "description": "Built responsive HTML5 interfaces consumed by 67K monthly users. Partnered with backend engineers at Cobalt Dynamics to consume REST and GraphQL APIs."
+      }
+    ],
+    "rawText": "Maya O'Brien\nmaya.obrien@example.com | Albuquerque, NM\nSUMMARY\nFrontend/junior developer with 2 years of experience in MongoDB, HTML5, CSS3.\nEXPERIENCE\nFrontend Developer - Cobalt Dynamics (2024-2026)\n- Built responsive HTML5 interfaces consumed by 67K monthly users.\n- Partnered with backend engineers at Cobalt Dynamics to consume REST and GraphQL APIs.\nEDUCATION\nB.S. Electrical Engineering, University of Illinois Urbana-Champaign, 2024\nSKILLS\n- MongoDB\n- HTML5\n- CSS3\n- TypeScript\n- React\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0749",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": false,
+        "detail": "Resume shows 2 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 1/6 required skills: TypeScript."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.0475
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.2725
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0
+      }
+    ],
+    "compositeScore": 9,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 1,
+    "scoringMs": 389,
+    "totalMs": 393
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "extracted": {
+    "id": "resume-0087",
+    "fileName": "resume-0087.pdf",
+    "name": "Owen Bishop",
+    "yearsExperience": 6,
+    "skills": [
+      "PostgreSQL",
+      "TypeScript",
+      "Kafka",
+      "MySQL",
+      "Distributed systems",
+      "GraphQL",
+      "AWS",
+      "Node.js"
+    ],
+    "education": [
+      "B.S. Electrical Engineering, Northeastern University, 2019"
+    ],
+    "experience": [
+      {
+        "title": "Senior Backend Engineer",
+        "company": "Larkspur Dynamics",
+        "years": 1,
+        "description": "Led migration of core services at Larkspur Dynamics onto PostgreSQL, improving uptime during peak load. Built and maintained REST APIs in MySQL serving 344K requests/day."
+      },
+      {
+        "title": "Backend Engineer",
+        "company": "Meridian Labs",
+        "years": 5,
+        "description": "Owned the MySQL event pipeline processing 51M events/day. Introduced Terraform-managed infrastructure, cutting provisioning time by 52%."
+      }
+    ],
+    "rawText": "Owen Bishop\nowen.bishop@example.com | Charlotte, NC\nSUMMARY\nSenior backend engineer with 6 years of experience building backend systems on PostgreSQL, TypeScript,\nKafka.\nEXPERIENCE\nSenior Backend Engineer, Larkspur Dynamics (2025-2026)\n- Led migration of core services at Larkspur Dynamics onto PostgreSQL, improving uptime during peak\nload.\n- Built and maintained REST APIs in MySQL serving 344K requests/day.\nBackend Engineer, Meridian Labs (2020-2025)\n- Owned the MySQL event pipeline processing 51M events/day.\n- Introduced Terraform-managed infrastructure, cutting provisioning time by 52%.\nEDUCATION\nB.S. Electrical Engineering, Northeastern University, 2019\nSkills: PostgreSQL, TypeScript, Kafka, MySQL, Distributed systems, GraphQL, AWS, Node.js.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0087",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 6 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 5/6 required skills: Node.js, TypeScript, PostgreSQL, Distributed systems, AWS."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.64
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.995
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.66
+      }
+    ],
+    "compositeScore": 73,
+    "eligible": true
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 390,
+    "totalMs": 394
+  }
+}

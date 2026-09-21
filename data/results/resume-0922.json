@@ -1,0 +1,83 @@
+{
+  "extracted": {
+    "id": "resume-0922",
+    "fileName": "resume-0922.pdf",
+    "name": "Caleb Osei",
+    "yearsExperience": 8,
+    "skills": [
+      "Canva",
+      "Content strategy",
+      "Google Analytics",
+      "SEO basics",
+      "HubSpot"
+    ],
+    "education": [
+      "B.A. Communications, University of Wisconsin-Madison, 2017"
+    ],
+    "experience": [
+      {
+        "title": "Marketing Manager",
+        "company": "Ashford Agency",
+        "years": 3,
+        "description": "Produced content strategy and SEO improvements that grew organic traffic by 19%. Managed social media calendars across 3 brand accounts."
+      },
+      {
+        "title": "Marketing Coordinator",
+        "company": "Cartwheel Partners",
+        "years": 5,
+        "description": "Coordinated email campaigns reaching 159K subscribers."
+      }
+    ],
+    "rawText": "Caleb Osei\ncaleb.osei@example.com | Seattle, WA\nSUMMARY\nMarketing professional with 8 years of experience in campaign management and growth.\nEXPERIENCE\nMarketing Manager, Ashford Agency (2023-2026)\n- Produced content strategy and SEO improvements that grew organic traffic by 19%.\n- Managed social media calendars across 3 brand accounts.\nMarketing Coordinator, Cartwheel Partners (2018-2023)\n- Coordinated email campaigns reaching 159K subscribers.\nEDUCATION\nB.A. Communications, University of Wisconsin-Madison, 2017\nSkills: Canva, Content strategy, Google Analytics, SEO basics, HubSpot.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0922",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 8 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 0/6 required skills: none."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0
+      }
+    ],
+    "compositeScore": 0,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 422,
+    "totalMs": 426
+  }
+}

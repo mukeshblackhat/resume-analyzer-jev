@@ -1,0 +1,88 @@
+{
+  "extracted": {
+    "id": "resume-0651",
+    "fileName": "resume-0651.pdf",
+    "name": "Owen Abbas",
+    "yearsExperience": 8,
+    "skills": [
+      "Zendesk",
+      "Technical support",
+      "Customer success",
+      "SLA management"
+    ],
+    "education": [
+      "B.S. Human Resources, Boston University, 2017"
+    ],
+    "experience": [
+      {
+        "title": "Senior Support Specialist",
+        "company": "Sagebrook Group",
+        "years": 1,
+        "description": "Maintained a customer satisfaction score above 96% at Sagebrook Group. Resolved an average of 48 customer tickets per week via Zendesk."
+      },
+      {
+        "title": "Customer Support Specialist",
+        "company": "Hazelmoor Consulting",
+        "years": 3,
+        "description": "Onboarded new enterprise customers, reducing time-to-first-value by 40%. Maintained a customer satisfaction score above 89% at Hazelmoor Consulting. Resolved an average of 75 customer tickets per week via Zendesk."
+      },
+      {
+        "title": "Support Associate",
+        "company": "Elmsworth Studio",
+        "years": 4,
+        "description": "Resolved an average of 86 customer tickets per week via Zendesk."
+      }
+    ],
+    "rawText": "Owen Abbas\nowen.abbas@example.com | Austin, TX\nSUMMARY\nCustomer support specialist with 8 years of experience helping customers succeed.\nEXPERIENCE\nSenior Support Specialist, Sagebrook Group (2025-2026)\n- Maintained a customer satisfaction score above 96% at Sagebrook Group.\n- Resolved an average of 48 customer tickets per week via Zendesk.\nCustomer Support Specialist, Hazelmoor Consulting (2022-2025)\n- Onboarded new enterprise customers, reducing time-to-first-value by 40%.\n- Maintained a customer satisfaction score above 89% at Hazelmoor Consulting.\n- Resolved an average of 75 customer tickets per week via Zendesk.\nSupport Associate, Elmsworth Studio (2018-2022)\n- Resolved an average of 86 customer tickets per week via Zendesk.\nEDUCATION\nB.S. Human Resources, Boston University, 2017\nSkills: Zendesk, Technical support, Customer success, SLA management.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0651",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 8 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 0/6 required skills: none."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.01
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0
+      }
+    ],
+    "compositeScore": 0,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 393,
+    "totalMs": 397
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "extracted": {
+    "id": "resume-0964",
+    "fileName": "resume-0964.pdf",
+    "name": "Anton Blackwood",
+    "yearsExperience": 5,
+    "skills": [
+      "GraphQL",
+      "Distributed systems",
+      "Node.js",
+      "REST API design",
+      "System design",
+      "Java",
+      "AWS",
+      "Kafka",
+      "TypeScript",
+      "Go"
+    ],
+    "education": [],
+    "experience": [
+      {
+        "title": "Senior Backend Engineer",
+        "company": "Driftwood Digital",
+        "years": 5,
+        "description": "Designed internal Node.js standards used by 40+ downstream services. Designed a Kafka-backed data layer that cut p99 query latency by 58%."
+      }
+    ],
+    "rawText": "Anton Blackwood\nanton.blackwood@example.com | Austin, TX\nSUMMARY\nResults-driven backend engineer with 5 years of experience building backend systems on GraphQL,\nDistributed systems, Node.js.\nEXPERIENCE\nSenior Backend Engineer - Driftwood Digital (2021-2026)\n- Designed internal Node.js standards used by 40+ downstream services.\n- Designed a Kafka-backed data layer that cut p99 query latency by 58%.\nEDUCATION\nSKILLS\n- GraphQL\n- Distributed systems\n- Node.js\n- REST API design\n- System design\n- Java\n- AWS\n- Kafka\n- TypeScript\n- Go\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0964",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 5 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 5/6 required skills: Node.js, TypeScript, Distributed systems, AWS, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": false,
+        "detail": "Resume's highest detected education level rank is 0; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.49
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.995
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.7425
+      }
+    ],
+    "compositeScore": 69,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 515,
+    "totalMs": 519
+  }
+}

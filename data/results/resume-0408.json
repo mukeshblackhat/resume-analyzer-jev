@@ -1,0 +1,76 @@
+{
+  "extracted": {
+    "id": "resume-0408",
+    "fileName": "resume-0408.pdf",
+    "name": "Leila Fontaine",
+    "yearsExperience": 2,
+    "skills": [
+      "MongoDB",
+      "Node.js",
+      "Next.js",
+      "REST API design"
+    ],
+    "education": [
+      "B.S. Electrical Engineering, Boston University, 2023"
+    ],
+    "experience": [
+      {
+        "title": "Frontend Developer",
+        "company": "Bedrock Solutions",
+        "years": 2,
+        "description": "Partnered with backend engineers at Bedrock Solutions to consume REST and GraphQL APIs. Built responsive Next.js interfaces consumed by 73K monthly users. Implemented Next.js component libraries shared across product teams."
+      }
+    ],
+    "rawText": "Leila Fontaine\nleila.fontaine@example.com | Omaha, NE\nSUMMARY\nFrontend/junior developer with 2 years of experience in MongoDB, Node.js, Next.js.\nEXPERIENCE\nFrontend Developer - Bedrock Solutions (2024-2026)\n- Partnered with backend engineers at Bedrock Solutions to consume REST and GraphQL APIs.\n- Built responsive Next.js interfaces consumed by 73K monthly users.\n- Implemented Next.js component libraries shared across product teams.\nEDUCATION\nB.S. Electrical Engineering, Boston University, 2023\nSKILLS\n- MongoDB\n- Node.js\n- Next.js\n- REST API design\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0408",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": false,
+        "detail": "Resume shows 2 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 2/6 required skills: Node.js, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.165
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.3375
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.005
+      }
+    ],
+    "compositeScore": 16,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 422,
+    "totalMs": 425
+  }
+}

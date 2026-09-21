@@ -1,0 +1,62 @@
+{
+  "extracted": {
+    "id": "resume-0676",
+    "fileName": "resume-0676.pdf",
+    "name": "Marcus Nakamura",
+    "yearsExperience": 2,
+    "skills": [],
+    "education": [],
+    "experience": [],
+    "rawText": "Marcus Nakamura\nmarcus.nakamura676@example.com | Louisville, KY\nMarcus Nakamura has 2 years of experience in backend and distributed systems.\nMost recently, Backend Engineer at Foundry Software (2024-2026), where they\ndesigned internal Node.js standards used by 21+ downstream services. Education:\nB.S. Information Systems, Northeastern University, 2024. Core skills:\nPostgreSQL, REST API design, AWS, Node.js, Distributed systems, TypeScript,\nTerraform.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0676",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": false,
+        "detail": "Resume shows 2 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 0/6 required skills: none."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": false,
+        "detail": "Resume's highest detected education level rank is 0; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.005
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0
+      }
+    ],
+    "compositeScore": 0,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 1,
+    "scoringMs": 401,
+    "totalMs": 404
+  }
+}

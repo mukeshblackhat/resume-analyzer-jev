@@ -1,0 +1,78 @@
+{
+  "extracted": {
+    "id": "resume-0349",
+    "fileName": "resume-0349.pdf",
+    "name": "Omar Ferreira",
+    "yearsExperience": 1,
+    "skills": [
+      "Node.js",
+      "AWS",
+      "TypeScript",
+      "Distributed systems",
+      "PostgreSQL",
+      "REST API design"
+    ],
+    "education": [
+      "B.S. Computer Engineering, University of Minnesota, 2024"
+    ],
+    "experience": [
+      {
+        "title": "Software Engineer I",
+        "company": "Ashgrove Computing",
+        "years": 1,
+        "description": "Designed a REST API design-backed data layer that cut p99 query latency by 32%."
+      }
+    ],
+    "rawText": "Omar Ferreira\nomar.ferreira@example.com | Omaha, NE\nSUMMARY\nBackend-leaning engineer with 1 year of experience, working primarily with Node.js, AWS, TypeScript.\nEXPERIENCE\nSoftware Engineer I - Ashgrove Computing (2025-2026)\n- Designed a REST API design-backed data layer that cut p99 query latency by 32%.\nEDUCATION\nB.S. Computer Engineering, University of Minnesota, 2024\nSKILLS\n- Node.js\n- AWS\n- TypeScript\n- Distributed systems\n- PostgreSQL\n- REST API design\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0349",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": false,
+        "detail": "Resume shows 1 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 6/6 required skills: Node.js, TypeScript, PostgreSQL, Distributed systems, AWS, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.3725
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.9
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.0225
+      }
+    ],
+    "compositeScore": 40,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 380,
+    "totalMs": 383
+  }
+}

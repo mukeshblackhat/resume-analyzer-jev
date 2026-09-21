@@ -1,0 +1,80 @@
+{
+  "extracted": {
+    "id": "resume-0102",
+    "fileName": "resume-0102.pdf",
+    "name": "Miguel Marsh",
+    "yearsExperience": 2,
+    "skills": [
+      "Distributed systems",
+      "Kafka",
+      "REST API design",
+      "TypeScript",
+      "PostgreSQL",
+      "AWS",
+      "Node.js",
+      "Kubernetes"
+    ],
+    "education": [
+      "B.S. Software Engineering, Virginia Tech, 2023"
+    ],
+    "experience": [
+      {
+        "title": "Backend Engineer",
+        "company": "Ironwood Networks",
+        "years": 2,
+        "description": "Owned the Kafka event pipeline processing 59M events/day. Designed a TypeScript-backed data layer that cut p99 query latency by 21%. Built and maintained REST APIs in Distributed systems serving 257K requests/day."
+      }
+    ],
+    "rawText": "Miguel Marsh\nmiguel.marsh@example.com | Nashville, TN\nSUMMARY\nBackend-leaning engineer with 2 years of experience, working primarily with Distributed systems, Kafka,\nREST API design.\nEXPERIENCE\nBackend Engineer - Ironwood Networks (2024-2026)\n- Owned the Kafka event pipeline processing 59M events/day.\n- Designed a TypeScript-backed data layer that cut p99 query latency by 21%.\n- Built and maintained REST APIs in Distributed systems serving 257K requests/day.\nEDUCATION\nB.S. Software Engineering, Virginia Tech, 2023\nSKILLS\n- Distributed systems\n- Kafka\n- REST API design\n- TypeScript\n- PostgreSQL\n- AWS\n- Node.js\n- Kubernetes\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0102",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": false,
+        "detail": "Resume shows 2 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 6/6 required skills: Node.js, TypeScript, PostgreSQL, Distributed systems, AWS, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.525
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.9925
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.26
+      }
+    ],
+    "compositeScore": 56,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 350,
+    "totalMs": 353
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "extracted": {
+    "id": "resume-0715",
+    "fileName": "resume-0715.pdf",
+    "name": "Farah Whitfield",
+    "yearsExperience": 8,
+    "skills": [
+      "PostgreSQL",
+      "Swift",
+      "TypeScript",
+      "Android",
+      "GraphQL",
+      "iOS",
+      "REST API design",
+      "React Native",
+      "Node.js"
+    ],
+    "education": [
+      "B.S. Information Systems, Metro State University, 2017"
+    ],
+    "experience": [
+      {
+        "title": "Senior Mobile Engineer",
+        "company": "Foundry Digital",
+        "years": 3,
+        "description": "Wrote a lightweight TypeScript BFF layer to aggregate REST calls for the mobile app."
+      },
+      {
+        "title": "Mobile Engineer",
+        "company": "Nimbus Systems",
+        "years": 5,
+        "description": "Built the company's Swift app end to end, shipped to 23K users."
+      }
+    ],
+    "rawText": "Farah Whitfield\nfarah.whitfield@example.com | Orlando, FL\nSUMMARY\nMobile engineer with 8 years of experience building apps with PostgreSQL, Swift, TypeScript, some\nbackend exposure.\nEXPERIENCE\nSenior Mobile Engineer - Foundry Digital (2023-2026)\n- Wrote a lightweight TypeScript BFF layer to aggregate REST calls for the mobile app.\nMobile Engineer - Nimbus Systems (2018-2023)\n- Built the company's Swift app end to end, shipped to 23K users.\nEDUCATION\nB.S. Information Systems, Metro State University, 2017\nSKILLS\n- PostgreSQL\n- Swift\n- TypeScript\n- Android\n- GraphQL\n- iOS\n- REST API design\n- React Native\n- Node.js\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0715",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 8 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 4/6 required skills: Node.js, TypeScript, PostgreSQL, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.31
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.365
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.2025
+      }
+    ],
+    "compositeScore": 29,
+    "eligible": true
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 1218,
+    "totalMs": 1222
+  }
+}

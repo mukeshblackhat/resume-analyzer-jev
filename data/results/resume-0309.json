@@ -1,0 +1,76 @@
+{
+  "extracted": {
+    "id": "resume-0309",
+    "fileName": "resume-0309.pdf",
+    "name": "Viktor Kimura",
+    "yearsExperience": 1,
+    "skills": [
+      "Node.js",
+      "PostgreSQL",
+      "REST API design",
+      "Distributed systems"
+    ],
+    "education": [
+      "B.S. Electrical Engineering, University of Minnesota, 2024"
+    ],
+    "experience": [
+      {
+        "title": "Software Engineer I",
+        "company": "Nimbus Digital",
+        "years": 1,
+        "description": "Designed a Distributed systems-backed data layer that cut p99 query latency by 40%. Led migration of core services at Nimbus Digital onto REST API design, improving uptime during peak load. Built and maintained REST APIs in PostgreSQL serving 593K requests/day."
+      }
+    ],
+    "rawText": "Viktor Kimura\nviktor.kimura@example.com | Indianapolis, IN\nSUMMARY\nBackend-leaning engineer with 1 year of experience, working primarily with Node.js, PostgreSQL, REST\nAPI design.\nEXPERIENCE\nSoftware Engineer I - Nimbus Digital (2025-2026)\n- Designed a Distributed systems-backed data layer that cut p99 query latency by 40%.\n- Led migration of core services at Nimbus Digital onto REST API design, improving uptime during peak\nload.\n- Built and maintained REST APIs in PostgreSQL serving 593K requests/day.\nEDUCATION\nB.S. Electrical Engineering, University of Minnesota, 2024\nSKILLS\n- Node.js\n- PostgreSQL\n- REST API design\n- Distributed systems\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0309",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": false,
+        "detail": "Resume shows 1 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 4/6 required skills: Node.js, PostgreSQL, Distributed systems, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.46
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.915
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.085
+      }
+    ],
+    "compositeScore": 46,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 454,
+    "totalMs": 457
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "extracted": {
+    "id": "resume-0815",
+    "fileName": "resume-0815.pdf",
+    "name": "Maya Okafor",
+    "yearsExperience": 6,
+    "skills": [
+      "Kubernetes",
+      "AWS",
+      "Node.js",
+      "REST API design",
+      "TypeScript",
+      "Java",
+      "PostgreSQL"
+    ],
+    "education": [
+      "M.S. Computer Science, University of Minnesota, 2020",
+      "B.S. Computer Science, Purdue University, 2017"
+    ],
+    "experience": [
+      {
+        "title": "Senior Backend Engineer",
+        "company": "Northbeam Platform",
+        "years": 3,
+        "description": "Designed internal Kubernetes standards used by 33+ downstream services. Owned the Kafka event pipeline processing 66M events/day. Designed a Java-backed data layer that cut p99 query latency by 43%."
+      },
+      {
+        "title": "Backend Engineer",
+        "company": "Cobalt Solutions",
+        "years": 1,
+        "description": "Applied distributed-systems patterns to scale the platform to 201K concurrent users. Introduced Terraform-managed infrastructure, cutting provisioning time by 64%."
+      },
+      {
+        "title": "Software Engineer I",
+        "company": "Driftwood Networks",
+        "years": 2,
+        "description": "Led migration of core services at Driftwood Networks onto AWS, improving uptime during peak load."
+      }
+    ],
+    "rawText": "Maya Okafor\nmaya.okafor@example.com | Baltimore, MD\nSUMMARY\nSenior backend engineer with 6 years of experience building backend systems on Kubernetes, AWS,\nNode.js.\nEXPERIENCE\nSenior Backend Engineer - Northbeam Platform (2023-2026)\n- Designed internal Kubernetes standards used by 33+ downstream services.\n- Owned the Kafka event pipeline processing 66M events/day.\n- Designed a Java-backed data layer that cut p99 query latency by 43%.\nBackend Engineer - Cobalt Solutions (2022-2023)\n- Applied distributed-systems patterns to scale the platform to 201K concurrent users.\n- Introduced Terraform-managed infrastructure, cutting provisioning time by 64%.\nSoftware Engineer I - Driftwood Networks (2020-2022)\n- Led migration of core services at Driftwood Networks onto AWS, improving uptime during peak load.\nEDUCATION\nM.S. Computer Science, University of Minnesota, 2020\nB.S. Computer Science, Purdue University, 2017\nSKILLS\n- Kubernetes\n- AWS\n- Node.js\n- REST API design\n- TypeScript\n- Java\n- PostgreSQL\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0815",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 6 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 5/6 required skills: Node.js, TypeScript, PostgreSQL, AWS, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 2; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.7325
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.995
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.8425
+      }
+    ],
+    "compositeScore": 83,
+    "eligible": true
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 392,
+    "totalMs": 395
+  }
+}

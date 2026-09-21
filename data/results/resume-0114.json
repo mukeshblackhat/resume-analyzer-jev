@@ -1,0 +1,62 @@
+{
+  "extracted": {
+    "id": "resume-0114",
+    "fileName": "resume-0114.pdf",
+    "name": "Farah Diallo",
+    "yearsExperience": 11,
+    "skills": [],
+    "education": [],
+    "experience": [],
+    "rawText": "Farah Diallo\nfarah.diallo@example.com | Providence, RI\nFarah Diallo has 11 years of experience in backend and distributed systems.\nMost recently, Staff Backend Engineer at Timberline Cloud (2022-2026), where\nthey owned the Java event pipeline processing 76M events/day. Before that,\nSenior Backend Engineer at Nimbus Solutions (2019-2022). Before that, Backend\nEngineer at Windmere Analytics (2016-2019). Before that, Software Engineer I at\nHarborlight Data (2015-2016). Education: Ph.D. Software Engineering, Drexel\nUniversity, 2014; B.S. Software Engineering, Virginia Tech, 2007. Core skills:\nCI/CD, Python, Distributed systems, PostgreSQL, Java, Node.js, AWS, GraphQL,\nTypeScript, Go, REST API design.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0114",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 11 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 0/6 required skills: none."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": false,
+        "detail": "Resume's highest detected education level rank is 0; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.0175
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.01
+      }
+    ],
+    "compositeScore": 1,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 449,
+    "totalMs": 451
+  }
+}

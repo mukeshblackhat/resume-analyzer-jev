@@ -1,0 +1,87 @@
+{
+  "extracted": {
+    "id": "resume-0567",
+    "fileName": "resume-0567.pdf",
+    "name": "Maya Kessler",
+    "yearsExperience": 6,
+    "skills": [
+      "TypeScript",
+      "Kotlin",
+      "Android",
+      "Node.js",
+      "TypeScript",
+      "GraphQL",
+      "REST API design",
+      "Swift"
+    ],
+    "education": [
+      "M.S. Computer Engineering, University of Illinois Urbana-Champaign, 2019",
+      "B.S. Computer Engineering, Purdue University, 2016"
+    ],
+    "experience": [
+      {
+        "title": "Senior Mobile Engineer",
+        "company": "Silverline Labs",
+        "years": 1,
+        "description": "Wrote a lightweight Node.js BFF layer to aggregate REST calls for the mobile app. Built the company's React Native app end to end, shipped to 318K users. Maintained native modules in Swift and Kotlin for platform-specific features."
+      },
+      {
+        "title": "Mobile Engineer",
+        "company": "Foundry Cloud",
+        "years": 5,
+        "description": "Built the company's Kotlin app end to end, shipped to 316K users. Maintained native modules in Swift and Kotlin for platform-specific features."
+      }
+    ],
+    "rawText": "Maya Kessler\nmaya.kessler@example.com | Detroit, MI\nSUMMARY\nMobile engineer with 6 years of experience building apps with TypeScript, Kotlin, Android, some backend\nexposure.\nEXPERIENCE\nSenior Mobile Engineer, Silverline Labs (2025-2026)\n- Wrote a lightweight Node.js BFF layer to aggregate REST calls for the mobile app.\n- Built the company's React Native app end to end, shipped to 318K users.\n- Maintained native modules in Swift and Kotlin for platform-specific features.\nMobile Engineer, Foundry Cloud (2020-2025)\n- Built the company's Kotlin app end to end, shipped to 316K users.\n- Maintained native modules in Swift and Kotlin for platform-specific features.\nEDUCATION\nM.S. Computer Engineering, University of Illinois Urbana-Champaign, 2019\nB.S. Computer Engineering, Purdue University, 2016\nSkills: TypeScript, Kotlin, Android, Node.js, TypeScript, GraphQL, REST API design, Swift.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0567",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 6 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 3/6 required skills: Node.js, TypeScript, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 2; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.24
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.305
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.2175
+      }
+    ],
+    "compositeScore": 25,
+    "eligible": true
+  },
+  "timings": {
+    "extractionMs": 1,
+    "scoringMs": 478,
+    "totalMs": 481
+  }
+}

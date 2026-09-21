@@ -1,0 +1,95 @@
+{
+  "extracted": {
+    "id": "resume-0015",
+    "fileName": "resume-0015.pdf",
+    "name": "Diego Osei",
+    "yearsExperience": 11,
+    "skills": [
+      "Kafka",
+      "TypeScript",
+      "PostgreSQL",
+      "Go",
+      "REST API design",
+      "Kubernetes",
+      "Node.js",
+      "Java",
+      "AWS",
+      "Distributed systems",
+      "GraphQL"
+    ],
+    "education": [
+      "B.S. Computer Engineering, Purdue University, 2014"
+    ],
+    "experience": [
+      {
+        "title": "Staff Backend Engineer",
+        "company": "Cinder Computing",
+        "years": 4,
+        "description": "Applied distributed-systems patterns to scale the platform to 39K concurrent users. Designed a Go-backed data layer that cut p99 query latency by 26%."
+      },
+      {
+        "title": "Senior Backend Engineer",
+        "company": "Quartzline Infrastructure",
+        "years": 4,
+        "description": "Introduced Terraform-managed infrastructure, cutting provisioning time by 59%. Designed internal Kafka standards used by 29+ downstream services."
+      },
+      {
+        "title": "Backend Engineer",
+        "company": "Redbank Dynamics",
+        "years": 3,
+        "description": "Built and maintained REST APIs in Kafka serving 158K requests/day. Led migration of core services at Redbank Dynamics onto AWS, improving uptime during peak load."
+      }
+    ],
+    "rawText": "Diego Osei\ndiego.osei@example.com | Baltimore, MD\nSUMMARY\nExperienced backend engineer with 11 years of experience building backend systems on Kafka, TypeScript,\nPostgreSQL.\nEXPERIENCE\nStaff Backend Engineer - Cinder Computing (2022-2026)\n- Applied distributed-systems patterns to scale the platform to 39K concurrent users.\n- Designed a Go-backed data layer that cut p99 query latency by 26%.\nSenior Backend Engineer - Quartzline Infrastructure (2018-2022)\n- Introduced Terraform-managed infrastructure, cutting provisioning time by 59%.\n- Designed internal Kafka standards used by 29+ downstream services.\nBackend Engineer - Redbank Dynamics (2015-2018)\n- Built and maintained REST APIs in Kafka serving 158K requests/day.\n- Led migration of core services at Redbank Dynamics onto AWS, improving uptime during peak load.\nEDUCATION\nB.S. Computer Engineering, Purdue University, 2014\nSKILLS\n- Kafka\n- TypeScript\n- PostgreSQL\n- Go\n- REST API design\n- Kubernetes\n- Node.js\n- Java\n- AWS\n- Distributed systems\n- GraphQL\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0015",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 11 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 6/6 required skills: Node.js, TypeScript, PostgreSQL, Distributed systems, AWS, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.82
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 1
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.94
+      }
+    ],
+    "compositeScore": 90,
+    "eligible": true
+  },
+  "timings": {
+    "extractionMs": 3,
+    "scoringMs": 413,
+    "totalMs": 420
+  }
+}

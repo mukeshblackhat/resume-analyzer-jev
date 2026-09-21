@@ -1,0 +1,84 @@
+{
+  "extracted": {
+    "id": "resume-0661",
+    "fileName": "resume-0661.pdf",
+    "name": "Marcus Suleiman",
+    "yearsExperience": 6,
+    "skills": [
+      "TypeScript",
+      "GraphQL",
+      "REST API design",
+      "Swift",
+      "Node.js",
+      "Kotlin"
+    ],
+    "education": [
+      "B.S. Computer Engineering, University of Cincinnati, 2020"
+    ],
+    "experience": [
+      {
+        "title": "Senior Mobile Engineer",
+        "company": "Grayline Software",
+        "years": 4,
+        "description": "Built the company's Kotlin app end to end, shipped to 126K users. Maintained native modules in Swift and Kotlin for platform-specific features. Wrote a lightweight Node.js BFF layer to aggregate REST calls for the mobile app."
+      },
+      {
+        "title": "Mobile Engineer",
+        "company": "Crestline Software",
+        "years": 2,
+        "description": "Maintained native modules in Swift and Kotlin for platform-specific features. Built the company's React Native app end to end, shipped to 11K users. Wrote a lightweight Node.js BFF layer to aggregate REST calls for the mobile app."
+      }
+    ],
+    "rawText": "Marcus Suleiman\nmarcus.suleiman@example.com | San Diego, CA\nSUMMARY\nMobile engineer with 6 years of experience building apps with TypeScript, GraphQL, REST API design,\nsome backend exposure.\nEXPERIENCE\nSenior Mobile Engineer - Grayline Software (2022-2026)\n- Built the company's Kotlin app end to end, shipped to 126K users.\n- Maintained native modules in Swift and Kotlin for platform-specific features.\n- Wrote a lightweight Node.js BFF layer to aggregate REST calls for the mobile app.\nMobile Engineer - Crestline Software (2020-2022)\n- Maintained native modules in Swift and Kotlin for platform-specific features.\n- Built the company's React Native app end to end, shipped to 11K users.\n- Wrote a lightweight Node.js BFF layer to aggregate REST calls for the mobile app.\nEDUCATION\nB.S. Computer Engineering, University of Cincinnati, 2020\nSKILLS\n- TypeScript\n- GraphQL\n- REST API design\n- Swift\n- Node.js\n- Kotlin\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0661",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 6 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 3/6 required skills: Node.js, TypeScript, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.255
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.355
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.21
+      }
+    ],
+    "compositeScore": 27,
+    "eligible": true
+  },
+  "timings": {
+    "extractionMs": 1,
+    "scoringMs": 442,
+    "totalMs": 445
+  }
+}

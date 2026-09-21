@@ -1,0 +1,92 @@
+{
+  "extracted": {
+    "id": "resume-0479",
+    "fileName": "resume-0479.pdf",
+    "name": "Talia Nkemelu",
+    "yearsExperience": 14,
+    "skills": [
+      "Distributed systems",
+      "PostgreSQL",
+      "TypeScript",
+      "Go",
+      "AWS",
+      "Node.js",
+      "REST API design"
+    ],
+    "education": [
+      "M.S. Software Engineering, Cal Poly, 2011",
+      "B.S. Software Engineering, University of Pittsburgh, 2009"
+    ],
+    "experience": [
+      {
+        "title": "Principal Backend Engineer",
+        "company": "Meridian Labs",
+        "years": 2,
+        "description": "Owned the TypeScript event pipeline processing 44M events/day. Led migration of core services at Meridian Labs onto Go, improving uptime during peak load. Designed internal AWS standards used by 18+ downstream services."
+      },
+      {
+        "title": "Staff Backend Engineer",
+        "company": "Ironwood Solutions",
+        "years": 2,
+        "description": "Introduced Terraform-managed infrastructure, cutting provisioning time by 86%. Designed a Node.js-backed data layer that cut p99 query latency by 67%."
+      },
+      {
+        "title": "Senior Backend Engineer",
+        "company": "Hollowbrook Systems",
+        "years": 10,
+        "description": "Built and maintained REST APIs in Go serving 889K requests/day."
+      }
+    ],
+    "rawText": "Talia Nkemelu\ntalia.nkemelu@example.com | Albuquerque, NM\nSUMMARY\nExperienced backend engineer with 14 years of experience building backend systems on Distributed\nsystems, PostgreSQL, TypeScript.\nEXPERIENCE\nPrincipal Backend Engineer - Meridian Labs (2024-2026)\n- Owned the TypeScript event pipeline processing 44M events/day.\n- Led migration of core services at Meridian Labs onto Go, improving uptime during peak load.\n- Designed internal AWS standards used by 18+ downstream services.\nStaff Backend Engineer - Ironwood Solutions (2022-2024)\n- Introduced Terraform-managed infrastructure, cutting provisioning time by 86%.\n- Designed a Node.js-backed data layer that cut p99 query latency by 67%.\nSenior Backend Engineer - Hollowbrook Systems (2012-2022)\n- Built and maintained REST APIs in Go serving 889K requests/day.\nEDUCATION\nM.S. Software Engineering, Cal Poly, 2011\nB.S. Software Engineering, University of Pittsburgh, 2009\nSKILLS\n- Distributed systems\n- PostgreSQL\n- TypeScript\n- Go\n- AWS\n- Node.js\n- REST API design\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0479",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 14 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 6/6 required skills: Node.js, TypeScript, PostgreSQL, Distributed systems, AWS, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 2; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.875
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 1
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.985
+      }
+    ],
+    "compositeScore": 94,
+    "eligible": true
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 400,
+    "totalMs": 404
+  }
+}

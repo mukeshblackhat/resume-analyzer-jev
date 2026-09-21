@@ -1,0 +1,79 @@
+{
+  "extracted": {
+    "id": "resume-0125",
+    "fileName": "resume-0125.pdf",
+    "name": "Renee Delgado",
+    "yearsExperience": 4,
+    "skills": [
+      "TypeScript",
+      "AWS",
+      "Python",
+      "SQL",
+      "PostgreSQL",
+      "dbt",
+      "Node.js"
+    ],
+    "education": [
+      "B.S. Software Engineering, Ohio State University, 2022"
+    ],
+    "experience": [
+      {
+        "title": "Data Engineer",
+        "company": "Amber Dynamics",
+        "years": 4,
+        "description": "Coordinated distributed batch jobs across multiple regions on AWS. Maintained PostgreSQL warehouses at Amber Dynamics supporting company-wide analytics dashboards. Wrote Python and Spark batch jobs to process large-scale event data."
+      }
+    ],
+    "rawText": "Renee Delgado\nrenee.delgado@example.com | San Francisco, CA\nSUMMARY\nData engineer with 4 years of experience, focused on pipelines and warehousing using TypeScript, AWS,\nPython.\nEXPERIENCE\nData Engineer, Amber Dynamics (2022-2026)\n- Coordinated distributed batch jobs across multiple regions on AWS.\n- Maintained PostgreSQL warehouses at Amber Dynamics supporting company-wide analytics\ndashboards.\n- Wrote Python and Spark batch jobs to process large-scale event data.\nEDUCATION\nB.S. Software Engineering, Ohio State University, 2022\nSkills: TypeScript, AWS, Python, SQL, PostgreSQL, dbt, Node.js.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0125",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": false,
+        "detail": "Resume shows 4 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 4/6 required skills: Node.js, TypeScript, PostgreSQL, AWS."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.42
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.575
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.22
+      }
+    ],
+    "compositeScore": 40,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 376,
+    "totalMs": 379
+  }
+}

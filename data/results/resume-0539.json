@@ -1,0 +1,86 @@
+{
+  "extracted": {
+    "id": "resume-0539",
+    "fileName": "resume-0539.pdf",
+    "name": "Felix Osei",
+    "yearsExperience": 3,
+    "skills": [
+      "iOS",
+      "REST API design",
+      "Swift",
+      "REST API design",
+      "GraphQL",
+      "Node.js",
+      "Kotlin",
+      "Node.js"
+    ],
+    "education": [
+      "B.S. Software Engineering, University of Minnesota, 2022"
+    ],
+    "experience": [
+      {
+        "title": "Mobile Engineer",
+        "company": "Crestline Labs",
+        "years": 2,
+        "description": "Wrote a lightweight Node.js BFF layer to aggregate REST calls for the mobile app. Maintained native modules in Swift and Kotlin for platform-specific features. Built the company's React Native app end to end, shipped to 284K users."
+      },
+      {
+        "title": "Junior Mobile Engineer",
+        "company": "Lattice Cloud",
+        "years": 1,
+        "description": "Maintained native modules in Swift and Kotlin for platform-specific features. Built the company's Kotlin app end to end, shipped to 417K users. Wrote a lightweight Node.js BFF layer to aggregate REST calls for the mobile app."
+      }
+    ],
+    "rawText": "Felix Osei\nfelix.osei@example.com | San Jose, CA\nSUMMARY\nMobile engineer with 3 years of experience building apps with iOS, REST API design, Swift, some backend\nexposure.\nEXPERIENCE\nMobile Engineer - Crestline Labs (2024-2026)\n- Wrote a lightweight Node.js BFF layer to aggregate REST calls for the mobile app.\n- Maintained native modules in Swift and Kotlin for platform-specific features.\n- Built the company's React Native app end to end, shipped to 284K users.\nJunior Mobile Engineer - Lattice Cloud (2023-2024)\n- Maintained native modules in Swift and Kotlin for platform-specific features.\n- Built the company's Kotlin app end to end, shipped to 417K users.\n- Wrote a lightweight Node.js BFF layer to aggregate REST calls for the mobile app.\nEDUCATION\nB.S. Software Engineering, University of Minnesota, 2022\nSKILLS\n- iOS\n- REST API design\n- Swift\n- REST API design\n- GraphQL\n- Node.js\n- Kotlin\n- Node.js\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0539",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": false,
+        "detail": "Resume shows 3 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 2/6 required skills: Node.js, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.24
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.37
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.08
+      }
+    ],
+    "compositeScore": 22,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 415,
+    "totalMs": 419
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "extracted": {
+    "id": "resume-0617",
+    "fileName": "resume-0617.pdf",
+    "name": "Layla Lindqvist",
+    "yearsExperience": 6,
+    "skills": [
+      "Quota attainment",
+      "Account management",
+      "Cold outreach",
+      "Pipeline forecasting",
+      "Negotiation",
+      "Salesforce"
+    ],
+    "education": [
+      "M.S. Business Administration, Ohio State University, 2019",
+      "B.A. Business Administration, University of Washington, 2016"
+    ],
+    "experience": [
+      {
+        "title": "Senior Account Executive",
+        "company": "Marrow Creative",
+        "years": 3,
+        "description": "Closed $6M in annual recurring revenue across mid-market accounts at Marrow Creative. Managed a book of 44+ enterprise accounts."
+      },
+      {
+        "title": "Account Executive",
+        "company": "Sagebrook Studio",
+        "years": 2,
+        "description": "Exceeded quarterly quota by 34% for four consecutive quarters. Built and ran a cold-outreach pipeline generating 93 qualified leads per month."
+      },
+      {
+        "title": "Sales Development Rep",
+        "company": "Palisade Agency",
+        "years": 1,
+        "description": "Built and ran a cold-outreach pipeline generating 121 qualified leads per month."
+      }
+    ],
+    "rawText": "Layla Lindqvist\nlayla.lindqvist@example.com | Boise, ID\nSUMMARY\nB2B sales professional with 6 years of experience in enterprise software sales.\nEXPERIENCE\nSenior Account Executive - Marrow Creative (2023-2026)\n- Closed $6M in annual recurring revenue across mid-market accounts at Marrow Creative.\n- Managed a book of 44+ enterprise accounts.\nAccount Executive - Sagebrook Studio (2021-2023)\n- Exceeded quarterly quota by 34% for four consecutive quarters.\n- Built and ran a cold-outreach pipeline generating 93 qualified leads per month.\nSales Development Rep - Palisade Agency (2020-2021)\n- Built and ran a cold-outreach pipeline generating 121 qualified leads per month.\nEDUCATION\nM.S. Business Administration, Ohio State University, 2019\nB.A. Business Administration, University of Washington, 2016\nSKILLS\n- Quota attainment\n- Account management\n- Cold outreach\n- Pipeline forecasting\n- Negotiation\n- Salesforce\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0617",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 6 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 0/6 required skills: none."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 2; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.0175
+      }
+    ],
+    "compositeScore": 1,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 504,
+    "totalMs": 508
+  }
+}

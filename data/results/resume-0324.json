@@ -1,0 +1,62 @@
+{
+  "extracted": {
+    "id": "resume-0324",
+    "fileName": "resume-0324.pdf",
+    "name": "Layla Ferreira",
+    "yearsExperience": 2,
+    "skills": [],
+    "education": [],
+    "experience": [],
+    "rawText": "Layla Ferreira\nlayla.ferreira@example.com | Albuquerque, NM\nLayla Ferreira has 2 years of experience in support. Most recently, Customer\nSupport Specialist at Sonora Agency (2024-2026), where they onboarded new\nenterprise customers, reducing time-to-first-value by 25%. Education: B.S.\nHuman Resources, Cal Poly, 2023. Core skills: Customer success, Technical\nsupport, Ticket triage, Zendesk, Onboarding.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0324",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": false,
+        "detail": "Resume shows 2 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 0/6 required skills: none."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": false,
+        "detail": "Resume's highest detected education level rank is 0; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.0075
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0
+      }
+    ],
+    "compositeScore": 0,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 1,
+    "scoringMs": 435,
+    "totalMs": 438
+  }
+}

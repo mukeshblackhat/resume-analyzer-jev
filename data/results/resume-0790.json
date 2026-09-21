@@ -1,0 +1,77 @@
+{
+  "extracted": {
+    "id": "resume-0790",
+    "fileName": "resume-0790.pdf",
+    "name": "Ingrid Hassan",
+    "yearsExperience": 4,
+    "skills": [
+      "Go",
+      "TypeScript",
+      "REST API design",
+      "PostgreSQL",
+      "Redis"
+    ],
+    "education": [
+      "B.S. Information Systems, Temple University, 2022"
+    ],
+    "experience": [
+      {
+        "title": "Backend Engineer",
+        "company": "Lattice Cloud",
+        "years": 4,
+        "description": "Designed a Go-backed data layer that cut p99 query latency by 20%. Applied distributed-systems patterns to scale the platform to 348K concurrent users. Designed internal Redis standards used by 24+ downstream services."
+      }
+    ],
+    "rawText": "Ingrid Hassan\ningrid.hassan@example.com | San Diego, CA\nSUMMARY\nBackend-leaning engineer with 4 years of experience, working primarily with Go, TypeScript, REST API\ndesign.\nEXPERIENCE\nBackend Engineer - Lattice Cloud (2022-2026)\n- Designed a Go-backed data layer that cut p99 query latency by 20%.\n- Applied distributed-systems patterns to scale the platform to 348K concurrent users.\n- Designed internal Redis standards used by 24+ downstream services.\nEDUCATION\nB.S. Information Systems, Temple University, 2022\nSKILLS\n- Go\n- TypeScript\n- REST API design\n- PostgreSQL\n- Redis\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0790",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": false,
+        "detail": "Resume shows 4 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 3/6 required skills: TypeScript, PostgreSQL, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.4775
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.9575
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.4575
+      }
+    ],
+    "compositeScore": 59,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 388,
+    "totalMs": 392
+  }
+}

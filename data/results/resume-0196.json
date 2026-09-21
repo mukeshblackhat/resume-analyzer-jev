@@ -1,0 +1,93 @@
+{
+  "extracted": {
+    "id": "resume-0196",
+    "fileName": "resume-0196.pdf",
+    "name": "Ximena Delgado",
+    "yearsExperience": 6,
+    "skills": [
+      "GraphQL",
+      "Node.js",
+      "Kotlin",
+      "React Native",
+      "Android",
+      "TypeScript",
+      "AWS",
+      "REST API design"
+    ],
+    "education": [
+      "M.S. Electrical Engineering, NC State University, 2019",
+      "B.S. Electrical Engineering, University of Utah, 2016"
+    ],
+    "experience": [
+      {
+        "title": "Senior Mobile Engineer",
+        "company": "Ironwood Labs",
+        "years": 1,
+        "description": "Built the company's React Native app end to end, shipped to 73K users. Wrote a lightweight Node.js BFF layer to aggregate REST calls for the mobile app. Maintained native modules in Swift and Kotlin for platform-specific features."
+      },
+      {
+        "title": "Mobile Engineer",
+        "company": "Driftwood Technologies",
+        "years": 4,
+        "description": "Maintained native modules in Swift and Kotlin for platform-specific features. Wrote a lightweight TypeScript BFF layer to aggregate REST calls for the mobile app."
+      },
+      {
+        "title": "Junior Mobile Engineer",
+        "company": "Hollowbrook Software",
+        "years": 1,
+        "description": "Wrote a lightweight TypeScript BFF layer to aggregate REST calls for the mobile app. Maintained native modules in Swift and Kotlin for platform-specific features."
+      }
+    ],
+    "rawText": "Ximena Delgado\nximena.delgado@example.com | Pittsburgh, PA\nSUMMARY\nMobile engineer with 6 years of experience building apps with GraphQL, Node.js, Kotlin, some backend\nexposure.\nEXPERIENCE\nSenior Mobile Engineer, Ironwood Labs (2025-2026)\n- Built the company's React Native app end to end, shipped to 73K users.\n- Wrote a lightweight Node.js BFF layer to aggregate REST calls for the mobile app.\n- Maintained native modules in Swift and Kotlin for platform-specific features.\nMobile Engineer, Driftwood Technologies (2021-2025)\n- Maintained native modules in Swift and Kotlin for platform-specific features.\n- Wrote a lightweight TypeScript BFF layer to aggregate REST calls for the mobile app.\nJunior Mobile Engineer, Hollowbrook Software (2020-2021)\n- Wrote a lightweight TypeScript BFF layer to aggregate REST calls for the mobile app.\n- Maintained native modules in Swift and Kotlin for platform-specific features.\nEDUCATION\nM.S. Electrical Engineering, NC State University, 2019\nB.S. Electrical Engineering, University of Utah, 2016\nSkills: GraphQL, Node.js, Kotlin, React Native, Android, TypeScript, AWS, REST API design.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0196",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 6 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 4/6 required skills: Node.js, TypeScript, AWS, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 2; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.32
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.355
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.18
+      }
+    ],
+    "compositeScore": 29,
+    "eligible": true
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 363,
+    "totalMs": 367
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "extracted": {
+    "id": "resume-0515",
+    "fileName": "resume-0515.pdf",
+    "name": "Priscilla Vasquez",
+    "yearsExperience": 4,
+    "skills": [
+      "Kotlin",
+      "Swift",
+      "Node.js",
+      "TypeScript",
+      "Node.js",
+      "REST API design"
+    ],
+    "education": [
+      "B.S. Software Engineering, Boston University, 2022"
+    ],
+    "experience": [
+      {
+        "title": "Mobile Engineer",
+        "company": "Amber Data",
+        "years": 4,
+        "description": "Maintained native modules in Swift and Kotlin for platform-specific features. Built the company's Kotlin app end to end, shipped to 223K users."
+      }
+    ],
+    "rawText": "Priscilla Vasquez\npriscilla.vasquez@example.com | Albuquerque, NM\nSUMMARY\nMobile engineer with 4 years of experience building apps with Kotlin, Swift, Node.js, some backend\nexposure.\nEXPERIENCE\nMobile Engineer - Amber Data (2022-2026)\n- Maintained native modules in Swift and Kotlin for platform-specific features.\n- Built the company's Kotlin app end to end, shipped to 223K users.\nEDUCATION\nB.S. Software Engineering, Boston University, 2022\nSKILLS\n- Kotlin\n- Swift\n- Node.js\n- TypeScript\n- Node.js\n- REST API design\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0515",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": false,
+        "detail": "Resume shows 4 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 3/6 required skills: Node.js, TypeScript, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.2075
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.2675
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.08
+      }
+    ],
+    "compositeScore": 18,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 4,
+    "scoringMs": 432,
+    "totalMs": 439
+  }
+}

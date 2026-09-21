@@ -1,0 +1,81 @@
+{
+  "extracted": {
+    "id": "resume-0547",
+    "fileName": "resume-0547.pdf",
+    "name": "Ethan Salazar",
+    "yearsExperience": 4,
+    "skills": [
+      "AWS",
+      "Docker",
+      "Node.js",
+      "gRPC",
+      "Redis",
+      "Kubernetes",
+      "PostgreSQL",
+      "Distributed systems",
+      "TypeScript"
+    ],
+    "education": [
+      "B.S. Information Systems, Purdue University, 2022"
+    ],
+    "experience": [
+      {
+        "title": "Backend Engineer",
+        "company": "Amber Technologies",
+        "years": 4,
+        "description": "Applied distributed-systems patterns to scale the platform to 46K concurrent users."
+      }
+    ],
+    "rawText": "Ethan Salazar\nethan.salazar@example.com | Tucson, AZ\nSUMMARY\nSenior backend engineer with 4 years of experience building backend systems on AWS, Docker, Node.js.\nEXPERIENCE\nBackend Engineer - Amber Technologies (2022-2026)\n- Applied distributed-systems patterns to scale the platform to 46K concurrent users.\nEDUCATION\nB.S. Information Systems, Purdue University, 2022\nSKILLS\n- AWS\n- Docker\n- Node.js\n- gRPC\n- Redis\n- Kubernetes\n- PostgreSQL\n- Distributed systems\n- TypeScript\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0547",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": false,
+        "detail": "Resume shows 4 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 5/6 required skills: Node.js, TypeScript, PostgreSQL, Distributed systems, AWS."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.43
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.9875
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.275
+      }
+    ],
+    "compositeScore": 52,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 1,
+    "scoringMs": 364,
+    "totalMs": 367
+  }
+}

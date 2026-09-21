@@ -1,0 +1,91 @@
+{
+  "extracted": {
+    "id": "resume-0865",
+    "fileName": "resume-0865.pdf",
+    "name": "Nora Suleiman",
+    "yearsExperience": 6,
+    "skills": [
+      "JavaScript",
+      "AWS",
+      "TypeScript",
+      "CSS3",
+      "REST API design",
+      "React",
+      "TypeScript"
+    ],
+    "education": [
+      "B.S. Information Systems, Cal Poly, 2020"
+    ],
+    "experience": [
+      {
+        "title": "Senior Frontend Developer",
+        "company": "Vertex Dynamics",
+        "years": 1,
+        "description": "Built responsive JavaScript interfaces consumed by 139K monthly users. Partnered with backend engineers at Vertex Dynamics to consume REST and GraphQL APIs. Implemented TypeScript component libraries shared across product teams."
+      },
+      {
+        "title": "Frontend Developer",
+        "company": "Driftwood Labs",
+        "years": 4,
+        "description": "Built responsive JavaScript interfaces consumed by 171K monthly users. Partnered with backend engineers at Driftwood Labs to consume REST and GraphQL APIs. Implemented TypeScript component libraries shared across product teams."
+      },
+      {
+        "title": "Junior Frontend Developer",
+        "company": "Meridian Data",
+        "years": 1,
+        "description": "Partnered with backend engineers at Meridian Data to consume REST and GraphQL APIs. Built responsive CSS3 interfaces consumed by 91K monthly users."
+      }
+    ],
+    "rawText": "Nora Suleiman\nnora.suleiman@example.com | Indianapolis, IN\nSUMMARY\nFrontend developer with 6 years of experience in JavaScript, AWS, TypeScript.\nEXPERIENCE\nSenior Frontend Developer - Vertex Dynamics (2025-2026)\n- Built responsive JavaScript interfaces consumed by 139K monthly users.\n- Partnered with backend engineers at Vertex Dynamics to consume REST and GraphQL APIs.\n- Implemented TypeScript component libraries shared across product teams.\nFrontend Developer - Driftwood Labs (2021-2025)\n- Built responsive JavaScript interfaces consumed by 171K monthly users.\n- Partnered with backend engineers at Driftwood Labs to consume REST and GraphQL APIs.\n- Implemented TypeScript component libraries shared across product teams.\nJunior Frontend Developer - Meridian Data (2020-2021)\n- Partnered with backend engineers at Meridian Data to consume REST and GraphQL APIs.\n- Built responsive CSS3 interfaces consumed by 91K monthly users.\nEDUCATION\nB.S. Information Systems, Cal Poly, 2020\nSKILLS\n- JavaScript\n- AWS\n- TypeScript\n- CSS3\n- REST API design\n- React\n- TypeScript\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0865",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 6 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 3/6 required skills: TypeScript, AWS, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.165
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.28
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.0525
+      }
+    ],
+    "compositeScore": 16,
+    "eligible": true
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 435,
+    "totalMs": 440
+  }
+}

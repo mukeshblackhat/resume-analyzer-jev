@@ -1,0 +1,75 @@
+{
+  "extracted": {
+    "id": "resume-0603",
+    "fileName": "resume-0603.pdf",
+    "name": "Simon Delgado",
+    "yearsExperience": 2,
+    "skills": [
+      "Node.js",
+      "HTML5",
+      "React"
+    ],
+    "education": [
+      "B.S. Computer Engineering, Arizona State University, 2023"
+    ],
+    "experience": [
+      {
+        "title": "Frontend Developer",
+        "company": "Lattice Digital",
+        "years": 2,
+        "description": "Partnered with backend engineers at Lattice Digital to consume REST and GraphQL APIs."
+      }
+    ],
+    "rawText": "Simon Delgado\nsimon.delgado@example.com | Seattle, WA\nSUMMARY\nFrontend/junior developer with 2 years of experience in Node.js, HTML5, React.\nEXPERIENCE\nFrontend Developer, Lattice Digital (2024-2026)\n- Partnered with backend engineers at Lattice Digital to consume REST and GraphQL APIs.\nEDUCATION\nB.S. Computer Engineering, Arizona State University, 2023\nSkills: Node.js, HTML5, React.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0603",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": false,
+        "detail": "Resume shows 2 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 1/6 required skills: Node.js."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.115
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.29
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0
+      }
+    ],
+    "compositeScore": 12,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 367,
+    "totalMs": 371
+  }
+}

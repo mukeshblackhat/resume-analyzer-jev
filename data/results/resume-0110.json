@@ -1,0 +1,92 @@
+{
+  "extracted": {
+    "id": "resume-0110",
+    "fileName": "resume-0110.pdf",
+    "name": "Tom Novak",
+    "yearsExperience": 9,
+    "skills": [
+      "PostgreSQL",
+      "TypeScript",
+      "RabbitMQ",
+      "Go",
+      "GraphQL",
+      "Redis",
+      "Node.js"
+    ],
+    "education": [
+      "M.S. Electrical Engineering, NC State University, 2017",
+      "B.S. Electrical Engineering, Boston University, 2014"
+    ],
+    "experience": [
+      {
+        "title": "Staff Backend Engineer",
+        "company": "Crestline Analytics",
+        "years": 1,
+        "description": "Owned the Go event pipeline processing 57M events/day. Designed internal Node.js standards used by 13+ downstream services. Designed a TypeScript-backed data layer that cut p99 query latency by 52%."
+      },
+      {
+        "title": "Senior Backend Engineer",
+        "company": "Grayline Analytics",
+        "years": 4,
+        "description": "Led migration of core services at Grayline Analytics onto RabbitMQ, improving uptime during peak load."
+      },
+      {
+        "title": "Backend Engineer",
+        "company": "Windmere Networks",
+        "years": 4,
+        "description": "Built and maintained REST APIs in Node.js serving 591K requests/day."
+      }
+    ],
+    "rawText": "Tom Novak\ntom.novak@example.com | Phoenix, AZ\nSUMMARY\nResults-driven backend engineer with 9 years of experience building backend systems on PostgreSQL,\nTypeScript, RabbitMQ.\nEXPERIENCE\nStaff Backend Engineer - Crestline Analytics (2025-2026)\n- Owned the Go event pipeline processing 57M events/day.\n- Designed internal Node.js standards used by 13+ downstream services.\n- Designed a TypeScript-backed data layer that cut p99 query latency by 52%.\nSenior Backend Engineer - Grayline Analytics (2021-2025)\n- Led migration of core services at Grayline Analytics onto RabbitMQ, improving uptime during peak load.\nBackend Engineer - Windmere Networks (2017-2021)\n- Built and maintained REST APIs in Node.js serving 591K requests/day.\nEDUCATION\nM.S. Electrical Engineering, NC State University, 2017\nB.S. Electrical Engineering, Boston University, 2014\nSKILLS\n- PostgreSQL\n- TypeScript\n- RabbitMQ\n- Go\n- GraphQL\n- Redis\n- Node.js\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0110",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 9 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 3/6 required skills: Node.js, TypeScript, PostgreSQL."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 2; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.62
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.975
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.8525
+      }
+    ],
+    "compositeScore": 78,
+    "eligible": true
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 350,
+    "totalMs": 354
+  }
+}

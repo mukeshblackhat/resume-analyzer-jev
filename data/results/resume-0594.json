@@ -1,0 +1,76 @@
+{
+  "extracted": {
+    "id": "resume-0594",
+    "fileName": "resume-0594.pdf",
+    "name": "Carlos Bello",
+    "yearsExperience": 2,
+    "skills": [
+      "Customer success",
+      "Ticket triage",
+      "Onboarding",
+      "SLA management"
+    ],
+    "education": [
+      "B.S. Psychology, University of Pittsburgh, 2023"
+    ],
+    "experience": [
+      {
+        "title": "Customer Support Specialist",
+        "company": "Brightleaf Group",
+        "years": 2,
+        "description": "Maintained a customer satisfaction score above 95% at Brightleaf Group."
+      }
+    ],
+    "rawText": "Carlos Bello\ncarlos.bello@example.com | Pittsburgh, PA\nSUMMARY\nCustomer support specialist with 2 years of experience helping customers succeed.\nEXPERIENCE\nCustomer Support Specialist, Brightleaf Group (2024-2026)\n- Maintained a customer satisfaction score above 95% at Brightleaf Group.\nEDUCATION\nB.S. Psychology, University of Pittsburgh, 2023\nSkills: Customer success, Ticket triage, Onboarding, SLA management.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0594",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": false,
+        "detail": "Resume shows 2 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 0/6 required skills: none."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.0125
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0
+      }
+    ],
+    "compositeScore": 0,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 1,
+    "scoringMs": 399,
+    "totalMs": 403
+  }
+}

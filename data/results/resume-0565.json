@@ -1,0 +1,85 @@
+{
+  "extracted": {
+    "id": "resume-0565",
+    "fileName": "resume-0565.pdf",
+    "name": "Dmitri Farouk",
+    "yearsExperience": 7,
+    "skills": [
+      "Canva",
+      "SEO basics",
+      "Campaign management",
+      "Email marketing",
+      "Google Analytics",
+      "Content strategy"
+    ],
+    "education": [
+      "M.S. Economics, Purdue University, 2018",
+      "B.A. Economics, DePaul University, 2015"
+    ],
+    "experience": [
+      {
+        "title": "Marketing Manager",
+        "company": "Bellwood Consumer Goods",
+        "years": 4,
+        "description": "Managed social media calendars across 2 brand accounts. Ran paid acquisition campaigns at Bellwood Consumer Goods, improving conversion rate by 34%. Produced content strategy and SEO improvements that grew organic traffic by 10%."
+      },
+      {
+        "title": "Marketing Coordinator",
+        "company": "Vineland Consumer Goods",
+        "years": 3,
+        "description": "Coordinated email campaigns reaching 225K subscribers. Produced content strategy and SEO improvements that grew organic traffic by 14%. Ran paid acquisition campaigns at Vineland Consumer Goods, improving conversion rate by 38%."
+      }
+    ],
+    "rawText": "Dmitri Farouk\ndmitri.farouk@example.com | Orlando, FL\nSUMMARY\nMarketing professional with 7 years of experience in campaign management and growth.\nEXPERIENCE\nMarketing Manager, Bellwood Consumer Goods (2022-2026)\n- Managed social media calendars across 2 brand accounts.\n- Ran paid acquisition campaigns at Bellwood Consumer Goods, improving conversion rate by 34%.\n- Produced content strategy and SEO improvements that grew organic traffic by 10%.\nMarketing Coordinator, Vineland Consumer Goods (2019-2022)\n- Coordinated email campaigns reaching 225K subscribers.\n- Produced content strategy and SEO improvements that grew organic traffic by 14%.\n- Ran paid acquisition campaigns at Vineland Consumer Goods, improving conversion rate by 38%.\nEDUCATION\nM.S. Economics, Purdue University, 2018\nB.A. Economics, DePaul University, 2015\nSkills: Canva, SEO basics, Campaign management, Email marketing, Google Analytics, Content strategy.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0565",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 7 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 0/6 required skills: none."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 2; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.0025
+      }
+    ],
+    "compositeScore": 0,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 1,
+    "scoringMs": 478,
+    "totalMs": 481
+  }
+}

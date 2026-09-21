@@ -1,0 +1,85 @@
+{
+  "extracted": {
+    "id": "resume-0592",
+    "fileName": "resume-0592.pdf",
+    "name": "Diego Fontaine",
+    "yearsExperience": 6,
+    "skills": [
+      "AWS",
+      "Distributed systems",
+      "Redis",
+      "gRPC",
+      "Docker",
+      "Terraform",
+      "PostgreSQL"
+    ],
+    "education": [
+      "B.S. Electrical Engineering, SMU, 2020"
+    ],
+    "experience": [
+      {
+        "title": "Senior Backend Engineer",
+        "company": "Larkspur Digital",
+        "years": 3,
+        "description": "Introduced Terraform-managed infrastructure, cutting provisioning time by 67%."
+      },
+      {
+        "title": "Backend Engineer",
+        "company": "Copperfield Dynamics",
+        "years": 3,
+        "description": "Owned the Kafka event pipeline processing 53M events/day. Designed internal Docker standards used by 6+ downstream services."
+      }
+    ],
+    "rawText": "Diego Fontaine\ndiego.fontaine592@example.com | Providence, RI\nSUMMARY\nSenior backend engineer with 6 years of experience building backend systems on AWS, Distributed\nsystems, Redis.\nEXPERIENCE\nSenior Backend Engineer, Larkspur Digital (2023-2026)\n- Introduced Terraform-managed infrastructure, cutting provisioning time by 67%.\nBackend Engineer, Copperfield Dynamics (2020-2023)\n- Owned the Kafka event pipeline processing 53M events/day.\n- Designed internal Docker standards used by 6+ downstream services.\nEDUCATION\nB.S. Electrical Engineering, SMU, 2020\nSkills: AWS, Distributed systems, Redis, gRPC, Docker, Terraform, PostgreSQL.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0592",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 6 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 3/6 required skills: PostgreSQL, Distributed systems, AWS."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.3925
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.985
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.715
+      }
+    ],
+    "compositeScore": 64,
+    "eligible": true
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 473,
+    "totalMs": 477
+  }
+}

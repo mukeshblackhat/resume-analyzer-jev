@@ -1,0 +1,84 @@
+{
+  "extracted": {
+    "id": "resume-0189",
+    "fileName": "resume-0189.pdf",
+    "name": "Priya Vasquez",
+    "yearsExperience": 3,
+    "skills": [
+      "Design systems",
+      "UX research",
+      "Figma",
+      "Prototyping",
+      "Visual design",
+      "Wireframing"
+    ],
+    "education": [
+      "B.S. Graphic Design, University of Colorado Boulder, 2023"
+    ],
+    "experience": [
+      {
+        "title": "Product Designer",
+        "company": "Brightleaf Agency",
+        "years": 2,
+        "description": "Designed and prototyped features in Figma used by 6+ engineers to build against. Led UX research at Brightleaf Agency informing the redesign of the core product flow. Built and maintained the company's design system components and guidelines."
+      },
+      {
+        "title": "Junior Product Designer",
+        "company": "Marrow Consumer Goods",
+        "years": 1,
+        "description": "Led UX research at Marrow Consumer Goods informing the redesign of the core product flow. Built and maintained the company's design system components and guidelines. Designed and prototyped features in Figma used by 9+ engineers to build against."
+      }
+    ],
+    "rawText": "Priya Vasquez\npriya.vasquez@example.com | Sacramento, CA\nSUMMARY\nProduct designer with 3 years of experience, focused on Design systems, UX research, Figma.\nEXPERIENCE\nProduct Designer - Brightleaf Agency (2024-2026)\n- Designed and prototyped features in Figma used by 6+ engineers to build against.\n- Led UX research at Brightleaf Agency informing the redesign of the core product flow.\n- Built and maintained the company's design system components and guidelines.\nJunior Product Designer - Marrow Consumer Goods (2023-2024)\n- Led UX research at Marrow Consumer Goods informing the redesign of the core product flow.\n- Built and maintained the company's design system components and guidelines.\n- Designed and prototyped features in Figma used by 9+ engineers to build against.\nEDUCATION\nB.S. Graphic Design, University of Colorado Boulder, 2023\nSKILLS\n- Design systems\n- UX research\n- Figma\n- Prototyping\n- Visual design\n- Wireframing\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0189",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": false,
+        "detail": "Resume shows 3 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 0/6 required skills: none."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.0025
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0
+      }
+    ],
+    "compositeScore": 0,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 411,
+    "totalMs": 414
+  }
+}

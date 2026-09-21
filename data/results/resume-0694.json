@@ -1,0 +1,85 @@
+{
+  "extracted": {
+    "id": "resume-0694",
+    "fileName": "resume-0694.pdf",
+    "name": "Owen Mercer",
+    "yearsExperience": 7,
+    "skills": [
+      "Cold outreach",
+      "Salesforce",
+      "Pipeline forecasting",
+      "CRM tools",
+      "Negotiation",
+      "Account management"
+    ],
+    "education": [
+      "M.S. Economics, UC San Diego, 2018",
+      "B.A. Economics, University of Cincinnati, 2016"
+    ],
+    "experience": [
+      {
+        "title": "Senior Account Executive",
+        "company": "Marrow Care",
+        "years": 2,
+        "description": "Managed a book of 24+ enterprise accounts. Exceeded quarterly quota by 26% for four consecutive quarters. Closed $3M in annual recurring revenue across mid-market accounts at Marrow Care."
+      },
+      {
+        "title": "Account Executive",
+        "company": "Hazelmoor Care",
+        "years": 5,
+        "description": "Built and ran a cold-outreach pipeline generating 99 qualified leads per month."
+      }
+    ],
+    "rawText": "Owen Mercer\nowen.mercer@example.com | Albuquerque, NM\nSUMMARY\nB2B sales professional with 7 years of experience in enterprise software sales.\nEXPERIENCE\nSenior Account Executive, Marrow Care (2024-2026)\n- Managed a book of 24+ enterprise accounts.\n- Exceeded quarterly quota by 26% for four consecutive quarters.\n- Closed $3M in annual recurring revenue across mid-market accounts at Marrow Care.\nAccount Executive, Hazelmoor Care (2019-2024)\n- Built and ran a cold-outreach pipeline generating 99 qualified leads per month.\nEDUCATION\nM.S. Economics, UC San Diego, 2018\nB.A. Economics, University of Cincinnati, 2016\nSkills: Cold outreach, Salesforce, Pipeline forecasting, CRM tools, Negotiation, Account management.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0694",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 7 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 0/6 required skills: none."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 2; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.015
+      }
+    ],
+    "compositeScore": 0,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 416,
+    "totalMs": 420
+  }
+}

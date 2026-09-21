@@ -1,0 +1,88 @@
+{
+  "extracted": {
+    "id": "resume-0795",
+    "fileName": "resume-0795.pdf",
+    "name": "Sofia Nguyen",
+    "yearsExperience": 9,
+    "skills": [
+      "Kubernetes",
+      "gRPC",
+      "TypeScript",
+      "GraphQL",
+      "AWS",
+      "PostgreSQL",
+      "Distributed systems",
+      "Kafka",
+      "REST API"
+    ],
+    "education": [
+      "B.S. Computer Science, Georgia Tech, 2016",
+      "design."
+    ],
+    "experience": [
+      {
+        "title": "Staff Backend Engineer",
+        "company": "Palodex Digital",
+        "years": 4,
+        "description": "Designed a REST API design-backed data layer that cut p99 query latency by 21%."
+      },
+      {
+        "title": "Senior Backend Engineer",
+        "company": "Ashgrove Solutions",
+        "years": 5,
+        "description": "Designed internal Kubernetes standards used by 38+ downstream services. Owned the Kafka event pipeline processing 75M events/day."
+      }
+    ],
+    "rawText": "Sofia Nguyen\nsofia.nguyen@example.com | Cleveland, OH\nSUMMARY\nResults-driven backend engineer with 9 years of experience building backend systems on Kubernetes,\ngRPC, TypeScript.\nEXPERIENCE\nStaff Backend Engineer, Palodex Digital (2022-2026)\n- Designed a REST API design-backed data layer that cut p99 query latency by 21%.\nSenior Backend Engineer, Ashgrove Solutions (2017-2022)\n- Designed internal Kubernetes standards used by 38+ downstream services.\n- Owned the Kafka event pipeline processing 75M events/day.\nEDUCATION\nB.S. Computer Science, Georgia Tech, 2016\nSkills: Kubernetes, gRPC, TypeScript, GraphQL, AWS, PostgreSQL, Distributed systems, Kafka, REST API\ndesign.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0795",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 9 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 5/6 required skills: TypeScript, PostgreSQL, Distributed systems, AWS, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.65
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.9975
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.915
+      }
+    ],
+    "compositeScore": 82,
+    "eligible": true
+  },
+  "timings": {
+    "extractionMs": 1,
+    "scoringMs": 405,
+    "totalMs": 409
+  }
+}

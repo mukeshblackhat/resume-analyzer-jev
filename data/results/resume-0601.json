@@ -1,0 +1,104 @@
+{
+  "extracted": {
+    "id": "resume-0601",
+    "fileName": "resume-0601.pdf",
+    "name": "Ravi Patel",
+    "yearsExperience": 14,
+    "skills": [
+      "Distributed systems",
+      "Docker",
+      "Kafka",
+      "PostgreSQL",
+      "Node.js",
+      "GraphQL",
+      "Go",
+      "MySQL",
+      "REST API design",
+      "AWS",
+      "Terraform",
+      "Java",
+      "TypeScript"
+    ],
+    "education": [
+      "M.S. Electrical Engineering, Ohio State University, 2012",
+      "B.S. Electrical Engineering, University of Illinois Urbana-Champaign, 2009"
+    ],
+    "experience": [
+      {
+        "title": "Principal Backend Engineer",
+        "company": "Harborlight Solutions",
+        "years": 2,
+        "description": "Led migration of core services at Harborlight Solutions onto Distributed systems, improving uptime during peak load. Applied distributed-systems patterns to scale the platform to 443K concurrent users."
+      },
+      {
+        "title": "Staff Backend Engineer",
+        "company": "Amber Labs",
+        "years": 2,
+        "description": "Introduced Terraform-managed infrastructure, cutting provisioning time by 82%. Designed a REST API design-backed data layer that cut p99 query latency by 31%. Owned the Kafka event pipeline processing 30M events/day."
+      },
+      {
+        "title": "Senior Backend Engineer",
+        "company": "Slate Systems",
+        "years": 3,
+        "description": "Designed internal MySQL standards used by 13+ downstream services."
+      },
+      {
+        "title": "Backend Engineer",
+        "company": "Timberline Networks",
+        "years": 7,
+        "description": "Built and maintained REST APIs in AWS serving 491K requests/day. Led migration of core services at Timberline Networks onto Docker, improving uptime during peak load."
+      }
+    ],
+    "rawText": "Ravi Patel\nravi.patel@example.com | Denver, CO\nSUMMARY\nSenior backend engineer with 14 years of experience building backend systems on Distributed systems,\nDocker, Kafka.\nEXPERIENCE\nPrincipal Backend Engineer - Harborlight Solutions (2024-2026)\n- Led migration of core services at Harborlight Solutions onto Distributed systems, improving uptime\nduring peak load.\n- Applied distributed-systems patterns to scale the platform to 443K concurrent users.\nStaff Backend Engineer - Amber Labs (2022-2024)\n- Introduced Terraform-managed infrastructure, cutting provisioning time by 82%.\n- Designed a REST API design-backed data layer that cut p99 query latency by 31%.\n- Owned the Kafka event pipeline processing 30M events/day.\nSenior Backend Engineer - Slate Systems (2019-2022)\n- Designed internal MySQL standards used by 13+ downstream services.\nBackend Engineer - Timberline Networks (2012-2019)\n- Built and maintained REST APIs in AWS serving 491K requests/day.\n- Led migration of core services at Timberline Networks onto Docker, improving uptime during peak load.\nEDUCATION\nM.S. Electrical Engineering, Ohio State University, 2012\nB.S. Electrical Engineering, University of Illinois Urbana-Champaign, 2009\nSKILLS\n- Distributed systems\n- Docker\n- Kafka\n- PostgreSQL\n- Node.js\n- GraphQL\n- Go\n- MySQL\n- REST API design\n- AWS\n- Terraform\n- Java\n- TypeScript\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0601",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 14 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 6/6 required skills: Node.js, TypeScript, PostgreSQL, Distributed systems, AWS, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 2; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.7825
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 1
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.9775
+      }
+    ],
+    "compositeScore": 90,
+    "eligible": true
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 376,
+    "totalMs": 381
+  }
+}

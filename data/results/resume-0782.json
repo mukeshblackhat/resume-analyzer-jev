@@ -1,0 +1,91 @@
+{
+  "extracted": {
+    "id": "resume-0782",
+    "fileName": "resume-0782.pdf",
+    "name": "Sean O'Brien",
+    "yearsExperience": 8,
+    "skills": [
+      "CI/CD",
+      "REST API design",
+      "Node.js",
+      "Kubernetes",
+      "Kafka",
+      "Distributed systems",
+      "TypeScript"
+    ],
+    "education": [
+      "B.S. Information Systems, University of Minnesota, 2018"
+    ],
+    "experience": [
+      {
+        "title": "Senior Backend Engineer",
+        "company": "Vertex Data",
+        "years": 3,
+        "description": "Applied distributed-systems patterns to scale the platform to 45K concurrent users."
+      },
+      {
+        "title": "Backend Engineer",
+        "company": "Quartzline Infrastructure",
+        "years": 1,
+        "description": "Introduced Terraform-managed infrastructure, cutting provisioning time by 87%. Built and maintained REST APIs in Kubernetes serving 333K requests/day. Designed a REST API design-backed data layer that cut p99 query latency by 46%."
+      },
+      {
+        "title": "Software Engineer I",
+        "company": "Larkspur Platform",
+        "years": 4,
+        "description": "Led migration of core services at Larkspur Platform onto Kubernetes, improving uptime during peak load. Designed internal Kafka standards used by 25+ downstream services."
+      }
+    ],
+    "rawText": "Sean O'Brien\nsean.obrien782@example.com | Charlotte, NC\nSUMMARY\nSenior backend engineer with 8 years of experience building backend systems on CI/CD, REST API design,\nNode.js.\nEXPERIENCE\nSenior Backend Engineer - Vertex Data (2023-2026)\n- Applied distributed-systems patterns to scale the platform to 45K concurrent users.\nBackend Engineer - Quartzline Infrastructure (2022-2023)\n- Introduced Terraform-managed infrastructure, cutting provisioning time by 87%.\n- Built and maintained REST APIs in Kubernetes serving 333K requests/day.\n- Designed a REST API design-backed data layer that cut p99 query latency by 46%.\nSoftware Engineer I - Larkspur Platform (2018-2022)\n- Led migration of core services at Larkspur Platform onto Kubernetes, improving uptime during peak\nload.\n- Designed internal Kafka standards used by 25+ downstream services.\nEDUCATION\nB.S. Information Systems, University of Minnesota, 2018\nSKILLS\n- CI/CD\n- REST API design\n- Node.js\n- Kubernetes\n- Kafka\n- Distributed systems\n- TypeScript\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0782",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 8 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 4/6 required skills: Node.js, TypeScript, Distributed systems, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.5975
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.995
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.7775
+      }
+    ],
+    "compositeScore": 75,
+    "eligible": true
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 479,
+    "totalMs": 483
+  }
+}

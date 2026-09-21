@@ -1,0 +1,91 @@
+{
+  "extracted": {
+    "id": "resume-0392",
+    "fileName": "resume-0392.pdf",
+    "name": "Renee Kimura",
+    "yearsExperience": 7,
+    "skills": [
+      "System design",
+      "Python",
+      "Node.js",
+      "AWS",
+      "PostgreSQL",
+      "Distributed systems"
+    ],
+    "education": [
+      "M.S. Computer Engineering, Cal Poly, 2019",
+      "B.S. Computer Engineering, Cal Poly, 2016"
+    ],
+    "experience": [
+      {
+        "title": "Senior Backend Engineer",
+        "company": "Amber Technologies",
+        "years": 2,
+        "description": "Designed internal PostgreSQL standards used by 7+ downstream services."
+      },
+      {
+        "title": "Backend Engineer",
+        "company": "Vertex Dynamics",
+        "years": 4,
+        "description": "Built and maintained REST APIs in AWS serving 776K requests/day. Owned the System design event pipeline processing 76M events/day."
+      },
+      {
+        "title": "Software Engineer I",
+        "company": "Crestline Cloud",
+        "years": 1,
+        "description": "Led migration of core services at Crestline Cloud onto AWS, improving uptime during peak load. Introduced Terraform-managed infrastructure, cutting provisioning time by 53%. Applied distributed-systems patterns to scale the platform to 411K concurrent users."
+      }
+    ],
+    "rawText": "Renee Kimura\nrenee.kimura@example.com | Milwaukee, WI\nSUMMARY\nSenior backend engineer with 7 years of experience building backend systems on System design, Python,\nNode.js.\nEXPERIENCE\nSenior Backend Engineer - Amber Technologies (2024-2026)\n- Designed internal PostgreSQL standards used by 7+ downstream services.\nBackend Engineer - Vertex Dynamics (2020-2024)\n- Built and maintained REST APIs in AWS serving 776K requests/day.\n- Owned the System design event pipeline processing 76M events/day.\nSoftware Engineer I - Crestline Cloud (2019-2020)\n- Led migration of core services at Crestline Cloud onto AWS, improving uptime during peak load.\n- Introduced Terraform-managed infrastructure, cutting provisioning time by 53%.\n- Applied distributed-systems patterns to scale the platform to 411K concurrent users.\nEDUCATION\nM.S. Computer Engineering, Cal Poly, 2019\nB.S. Computer Engineering, Cal Poly, 2016\nSKILLS\n- System design\n- Python\n- Node.js\n- AWS\n- PostgreSQL\n- Distributed systems\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0392",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 7 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 4/6 required skills: Node.js, PostgreSQL, Distributed systems, AWS."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 2; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.645
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.9975
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.75
+      }
+    ],
+    "compositeScore": 76,
+    "eligible": true
+  },
+  "timings": {
+    "extractionMs": 3,
+    "scoringMs": 398,
+    "totalMs": 404
+  }
+}

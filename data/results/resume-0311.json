@@ -1,0 +1,87 @@
+{
+  "extracted": {
+    "id": "resume-0311",
+    "fileName": "resume-0311.pdf",
+    "name": "Omar Wu",
+    "yearsExperience": 7,
+    "skills": [
+      "Swift",
+      "GraphQL",
+      "REST API design",
+      "React Native",
+      "PostgreSQL",
+      "Node.js",
+      "iOS",
+      "Kotlin"
+    ],
+    "education": [
+      "M.S. Software Engineering, University of Wisconsin-Madison, 2019",
+      "B.S. Software Engineering, San Jose State University, 2016"
+    ],
+    "experience": [
+      {
+        "title": "Senior Mobile Engineer",
+        "company": "Foundry Data",
+        "years": 3,
+        "description": "Maintained native modules in Swift and Kotlin for platform-specific features."
+      },
+      {
+        "title": "Mobile Engineer",
+        "company": "Harborlight Dynamics",
+        "years": 4,
+        "description": "Built the company's Swift app end to end, shipped to 468K users."
+      }
+    ],
+    "rawText": "Omar Wu\nomar.wu@example.com | Dallas, TX\nSUMMARY\nMobile engineer with 7 years of experience building apps with Swift, GraphQL, REST API design, some\nbackend exposure.\nEXPERIENCE\nSenior Mobile Engineer - Foundry Data (2023-2026)\n- Maintained native modules in Swift and Kotlin for platform-specific features.\nMobile Engineer - Harborlight Dynamics (2019-2023)\n- Built the company's Swift app end to end, shipped to 468K users.\nEDUCATION\nM.S. Software Engineering, University of Wisconsin-Madison, 2019\nB.S. Software Engineering, San Jose State University, 2016\nSKILLS\n- Swift\n- GraphQL\n- REST API design\n- React Native\n- PostgreSQL\n- Node.js\n- iOS\n- Kotlin\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0311",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 7 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 3/6 required skills: Node.js, PostgreSQL, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 2; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.1825
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.27
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.2225
+      }
+    ],
+    "compositeScore": 22,
+    "eligible": true
+  },
+  "timings": {
+    "extractionMs": 3,
+    "scoringMs": 372,
+    "totalMs": 378
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "extracted": {
+    "id": "resume-0362",
+    "fileName": "resume-0362.pdf",
+    "name": "Felix Kelly",
+    "yearsExperience": 10,
+    "skills": [
+      "Distributed systems",
+      "Kafka",
+      "PostgreSQL",
+      "Kubernetes",
+      "Node.js",
+      "REST API design",
+      "TypeScript"
+    ],
+    "education": [
+      "B.S. Information Systems, UT Austin, 2016"
+    ],
+    "experience": [
+      {
+        "title": "Staff Backend Engineer",
+        "company": "Grayline Computing",
+        "years": 4,
+        "description": "Built and maintained REST APIs in REST API design serving 50K requests/day. Owned the Kafka event pipeline processing 78M events/day. Introduced Terraform-managed infrastructure, cutting provisioning time by 66%."
+      },
+      {
+        "title": "Senior Backend Engineer",
+        "company": "Copperfield Computing",
+        "years": 2,
+        "description": "Designed a Node.js-backed data layer that cut p99 query latency by 37%. Led migration of core services at Copperfield Computing onto Kafka, improving uptime during peak load."
+      },
+      {
+        "title": "Backend Engineer",
+        "company": "Palodex Systems",
+        "years": 1,
+        "description": "Designed internal Kubernetes standards used by 38+ downstream services. Applied distributed-systems patterns to scale the platform to 337K concurrent users. Built and maintained REST APIs in Kubernetes serving 498K requests/day."
+      },
+      {
+        "title": "Software Engineer I",
+        "company": "Copperfield Solutions",
+        "years": 3,
+        "description": "Designed a REST API design-backed data layer that cut p99 query latency by 24%. Applied distributed-systems patterns to scale the platform to 440K concurrent users. Owned the PostgreSQL event pipeline processing 24M events/day."
+      }
+    ],
+    "rawText": "Felix Kelly\nfelix.kelly362@example.com | Indianapolis, IN\nSUMMARY\nSenior backend engineer with 10 years of experience building backend systems on Distributed systems,\nKafka, PostgreSQL.\nEXPERIENCE\nStaff Backend Engineer, Grayline Computing (2022-2026)\n- Built and maintained REST APIs in REST API design serving 50K requests/day.\n- Owned the Kafka event pipeline processing 78M events/day.\n- Introduced Terraform-managed infrastructure, cutting provisioning time by 66%.\nSenior Backend Engineer, Copperfield Computing (2020-2022)\n- Designed a Node.js-backed data layer that cut p99 query latency by 37%.\n- Led migration of core services at Copperfield Computing onto Kafka, improving uptime during peak\nload.\nBackend Engineer, Palodex Systems (2019-2020)\n- Designed internal Kubernetes standards used by 38+ downstream services.\n- Applied distributed-systems patterns to scale the platform to 337K concurrent users.\n- Built and maintained REST APIs in Kubernetes serving 498K requests/day.\nSoftware Engineer I, Copperfield Solutions (2016-2019)\n- Designed a REST API design-backed data layer that cut p99 query latency by 24%.\n- Applied distributed-systems patterns to scale the platform to 440K concurrent users.\n- Owned the PostgreSQL event pipeline processing 24M events/day.\nEDUCATION\nB.S. Information Systems, UT Austin, 2016\nSkills: Distributed systems, Kafka, PostgreSQL, Kubernetes, Node.js, REST API design, TypeScript.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0362",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 10 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 5/6 required skills: Node.js, TypeScript, PostgreSQL, Distributed systems, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.7625
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 1
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.9475
+      }
+    ],
+    "compositeScore": 88,
+    "eligible": true
+  },
+  "timings": {
+    "extractionMs": 3,
+    "scoringMs": 419,
+    "totalMs": 425
+  }
+}

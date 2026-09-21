@@ -1,0 +1,76 @@
+{
+  "extracted": {
+    "id": "resume-0532",
+    "fileName": "resume-0532.pdf",
+    "name": "Layla Salazar",
+    "yearsExperience": 2,
+    "skills": [
+      "React",
+      "JavaScript",
+      "Node.js",
+      "TypeScript"
+    ],
+    "education": [
+      "B.S. Electrical Engineering, Drexel University, 2023"
+    ],
+    "experience": [
+      {
+        "title": "Frontend Developer",
+        "company": "Grayline Cloud",
+        "years": 2,
+        "description": "Built responsive React interfaces consumed by 76K monthly users."
+      }
+    ],
+    "rawText": "Layla Salazar\nlayla.salazar@example.com | Nashville, TN\nSUMMARY\nFrontend/junior developer with 2 years of experience in React, JavaScript, Node.js.\nEXPERIENCE\nFrontend Developer, Grayline Cloud (2024-2026)\n- Built responsive React interfaces consumed by 76K monthly users.\nEDUCATION\nB.S. Electrical Engineering, Drexel University, 2023\nSkills: React, JavaScript, Node.js, TypeScript.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0532",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": false,
+        "detail": "Resume shows 2 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 2/6 required skills: Node.js, TypeScript."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.1025
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.295
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.0025
+      }
+    ],
+    "compositeScore": 12,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 1,
+    "scoringMs": 415,
+    "totalMs": 417
+  }
+}

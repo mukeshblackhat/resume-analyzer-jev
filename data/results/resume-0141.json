@@ -1,0 +1,62 @@
+{
+  "extracted": {
+    "id": "resume-0141",
+    "fileName": "resume-0141.pdf",
+    "name": "Farah O'Brien",
+    "yearsExperience": 6,
+    "skills": [],
+    "education": [],
+    "experience": [],
+    "rawText": "Farah O'Brien\nfarah.obrien@example.com | Austin, TX\nFarah O'Brien has 6 years of experience in data. Most recently, Senior Data\nEngineer at Harborlight Infrastructure (2025-2026), where they coordinated\ndistributed batch jobs across multiple regions on AWS. Before that, Data\nEngineer at Grayline Systems (2022-2025). Before that, Data Engineer I at Slate\nDigital (2020-2022). Education: B.S. Information Systems, UT Austin, 2019. Core\nskills: dbt, Distributed systems, ETL pipelines, Snowflake, TypeScript, Python,\nKafka.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0141",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 6 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 0/6 required skills: none."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": false,
+        "detail": "Resume's highest detected education level rank is 0; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.015
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.0025
+      }
+    ],
+    "compositeScore": 0,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 1,
+    "scoringMs": 375,
+    "totalMs": 378
+  }
+}

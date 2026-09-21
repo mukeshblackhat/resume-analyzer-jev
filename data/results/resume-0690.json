@@ -1,0 +1,101 @@
+{
+  "extracted": {
+    "id": "resume-0690",
+    "fileName": "resume-0690.pdf",
+    "name": "Nia Torres",
+    "yearsExperience": 10,
+    "skills": [
+      "Elasticsearch",
+      "Python",
+      "TypeScript",
+      "Node.js",
+      "Terraform",
+      "AWS",
+      "Kubernetes",
+      "Distributed systems",
+      "Go",
+      "REST API design",
+      "Redis"
+    ],
+    "education": [
+      "B.S. Information Systems, University of Pittsburgh, 2016"
+    ],
+    "experience": [
+      {
+        "title": "Staff Backend Engineer",
+        "company": "Amber Systems",
+        "years": 3,
+        "description": "Designed a Redis-backed data layer that cut p99 query latency by 57%. Built and maintained REST APIs in AWS serving 550K requests/day."
+      },
+      {
+        "title": "Senior Backend Engineer",
+        "company": "Larkspur Platform",
+        "years": 1,
+        "description": "Owned the Kafka event pipeline processing 34M events/day. Led migration of core services at Larkspur Platform onto AWS, improving uptime during peak load."
+      },
+      {
+        "title": "Backend Engineer",
+        "company": "Slate Software",
+        "years": 2,
+        "description": "Introduced Terraform-managed infrastructure, cutting provisioning time by 80%. Designed internal TypeScript standards used by 37+ downstream services. Applied distributed-systems patterns to scale the platform to 282K concurrent users."
+      },
+      {
+        "title": "Software Engineer I",
+        "company": "Hollowbrook Data",
+        "years": 4,
+        "description": "Led migration of core services at Hollowbrook Data onto Go, improving uptime during peak load."
+      }
+    ],
+    "rawText": "Nia Torres\nnia.torres690@example.com | Tampa, FL\nSUMMARY\nExperienced backend engineer with 10 years of experience building backend systems on Elasticsearch,\nPython, TypeScript.\nEXPERIENCE\nStaff Backend Engineer - Amber Systems (2023-2026)\n- Designed a Redis-backed data layer that cut p99 query latency by 57%.\n- Built and maintained REST APIs in AWS serving 550K requests/day.\nSenior Backend Engineer - Larkspur Platform (2022-2023)\n- Owned the Kafka event pipeline processing 34M events/day.\n- Led migration of core services at Larkspur Platform onto AWS, improving uptime during peak load.\nBackend Engineer - Slate Software (2020-2022)\n- Introduced Terraform-managed infrastructure, cutting provisioning time by 80%.\n- Designed internal TypeScript standards used by 37+ downstream services.\n- Applied distributed-systems patterns to scale the platform to 282K concurrent users.\nSoftware Engineer I - Hollowbrook Data (2016-2020)\n- Led migration of core services at Hollowbrook Data onto Go, improving uptime during peak load.\nEDUCATION\nB.S. Information Systems, University of Pittsburgh, 2016\nSKILLS\n- Elasticsearch\n- Python\n- TypeScript\n- Node.js\n- Terraform\n- AWS\n- Kubernetes\n- Distributed systems\n- Go\n- REST API design\n- Redis\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0690",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 10 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 5/6 required skills: Node.js, TypeScript, Distributed systems, AWS, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.6725
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.9975
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.935
+      }
+    ],
+    "compositeScore": 83,
+    "eligible": true
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 379,
+    "totalMs": 383
+  }
+}

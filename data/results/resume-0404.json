@@ -1,0 +1,93 @@
+{
+  "extracted": {
+    "id": "resume-0404",
+    "fileName": "resume-0404.pdf",
+    "name": "Nadia Wu",
+    "yearsExperience": 7,
+    "skills": [
+      "Spark",
+      "Distributed systems",
+      "AWS",
+      "ETL pipelines",
+      "Kafka",
+      "Snowflake",
+      "Distributed systems",
+      "TypeScript"
+    ],
+    "education": [
+      "B.S. Computer Science, Arizona State University, 2019",
+      "Redshift, Airflow."
+    ],
+    "experience": [
+      {
+        "title": "Senior Data Engineer",
+        "company": "Lattice Systems",
+        "years": 4,
+        "description": "Coordinated distributed batch jobs across multiple regions on AWS."
+      },
+      {
+        "title": "Data Engineer",
+        "company": "Driftwood Solutions",
+        "years": 2,
+        "description": "Maintained Redshift warehouses at Driftwood Solutions supporting company-wide analytics dashboards. Wrote Python and Spark batch jobs to process large-scale event data."
+      },
+      {
+        "title": "Data Engineer I",
+        "company": "Foundry Cloud",
+        "years": 1,
+        "description": "Built Airflow-orchestrated ETL pipelines moving 389GB/day through Redshift. Coordinated distributed batch jobs across multiple regions on AWS. Maintained PostgreSQL warehouses at Foundry Cloud supporting company-wide analytics dashboards."
+      }
+    ],
+    "rawText": "Nadia Wu\nnadia.wu@example.com | Portland, OR\nSUMMARY\nData engineer with 7 years of experience, focused on pipelines and warehousing using Spark, Distributed\nsystems, AWS.\nEXPERIENCE\nSenior Data Engineer, Lattice Systems (2022-2026)\n- Coordinated distributed batch jobs across multiple regions on AWS.\nData Engineer, Driftwood Solutions (2020-2022)\n- Maintained Redshift warehouses at Driftwood Solutions supporting company-wide analytics\ndashboards.\n- Wrote Python and Spark batch jobs to process large-scale event data.\nData Engineer I, Foundry Cloud (2019-2020)\n- Built Airflow-orchestrated ETL pipelines moving 389GB/day through Redshift.\n- Coordinated distributed batch jobs across multiple regions on AWS.\n- Maintained PostgreSQL warehouses at Foundry Cloud supporting company-wide analytics dashboards.\nEDUCATION\nB.S. Computer Science, Arizona State University, 2019\nSkills: Spark, Distributed systems, AWS, ETL pipelines, Kafka, Snowflake, Distributed systems, TypeScript,\nRedshift, Airflow.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0404",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 7 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 3/6 required skills: TypeScript, Distributed systems, AWS."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.37
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.5175
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.3525
+      }
+    ],
+    "compositeScore": 40,
+    "eligible": true
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 412,
+    "totalMs": 415
+  }
+}

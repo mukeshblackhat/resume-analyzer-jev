@@ -1,0 +1,96 @@
+{
+  "extracted": {
+    "id": "resume-0075",
+    "fileName": "resume-0075.pdf",
+    "name": "Tariq Malhotra",
+    "yearsExperience": 8,
+    "skills": [
+      "AWS",
+      "Redis",
+      "Kubernetes",
+      "TypeScript",
+      "REST API design",
+      "RabbitMQ",
+      "System design",
+      "Node.js",
+      "Elasticsearch",
+      "PostgreSQL",
+      "Distributed systems",
+      "Terraform"
+    ],
+    "education": [
+      "B.S. Information Systems, Penn State University, 2017"
+    ],
+    "experience": [
+      {
+        "title": "Senior Backend Engineer",
+        "company": "Driftwood Data",
+        "years": 4,
+        "description": "Owned the Kafka event pipeline processing 6M events/day. Applied distributed-systems patterns to scale the platform to 113K concurrent users. Introduced Terraform-managed infrastructure, cutting provisioning time by 62%."
+      },
+      {
+        "title": "Backend Engineer",
+        "company": "Redbank Dynamics",
+        "years": 3,
+        "description": "Designed a Redis-backed data layer that cut p99 query latency by 21%."
+      },
+      {
+        "title": "Software Engineer I",
+        "company": "Sable Labs",
+        "years": 1,
+        "description": "Led migration of core services at Sable Labs onto AWS, improving uptime during peak load. Designed internal REST API design standards used by 28+ downstream services. Built and maintained REST APIs in REST API design serving 463K requests/day."
+      }
+    ],
+    "rawText": "Tariq Malhotra\ntariq.malhotra@example.com | New York, NY\nSUMMARY\nSenior backend engineer with 8 years of experience building backend systems on AWS, Redis, Kubernetes.\nEXPERIENCE\nSenior Backend Engineer - Driftwood Data (2022-2026)\n- Owned the Kafka event pipeline processing 6M events/day.\n- Applied distributed-systems patterns to scale the platform to 113K concurrent users.\n- Introduced Terraform-managed infrastructure, cutting provisioning time by 62%.\nBackend Engineer - Redbank Dynamics (2019-2022)\n- Designed a Redis-backed data layer that cut p99 query latency by 21%.\nSoftware Engineer I - Sable Labs (2018-2019)\n- Led migration of core services at Sable Labs onto AWS, improving uptime during peak load.\n- Designed internal REST API design standards used by 28+ downstream services.\n- Built and maintained REST APIs in REST API design serving 463K requests/day.\nEDUCATION\nB.S. Information Systems, Penn State University, 2017\nSKILLS\n- AWS\n- Redis\n- Kubernetes\n- TypeScript\n- REST API design\n- RabbitMQ\n- System design\n- Node.js\n- Elasticsearch\n- PostgreSQL\n- Distributed systems\n- Terraform\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0075",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 8 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 6/6 required skills: Node.js, TypeScript, PostgreSQL, Distributed systems, AWS, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.8075
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.9975
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.805
+      }
+    ],
+    "compositeScore": 85,
+    "eligible": true
+  },
+  "timings": {
+    "extractionMs": 3,
+    "scoringMs": 351,
+    "totalMs": 356
+  }
+}

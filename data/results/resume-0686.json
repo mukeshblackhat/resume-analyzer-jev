@@ -1,0 +1,93 @@
+{
+  "extracted": {
+    "id": "resume-0686",
+    "fileName": "resume-0686.pdf",
+    "name": "Renee Lindqvist",
+    "yearsExperience": 7,
+    "skills": [
+      "Swift",
+      "Distributed systems",
+      "Node.js",
+      "TypeScript",
+      "Kotlin",
+      "GraphQL",
+      "AWS",
+      "iOS",
+      "REST API design"
+    ],
+    "education": [
+      "B.S. Computer Science, UC San Diego, 2018"
+    ],
+    "experience": [
+      {
+        "title": "Senior Mobile Engineer",
+        "company": "Vertex Networks",
+        "years": 1,
+        "description": "Wrote a lightweight TypeScript BFF layer to aggregate REST calls for the mobile app."
+      },
+      {
+        "title": "Mobile Engineer",
+        "company": "Redbank Systems",
+        "years": 3,
+        "description": "Maintained native modules in Swift and Kotlin for platform-specific features. Built the company's Kotlin app end to end, shipped to 493K users."
+      },
+      {
+        "title": "Junior Mobile Engineer",
+        "company": "Hollowbrook Solutions",
+        "years": 3,
+        "description": "Maintained native modules in Swift and Kotlin for platform-specific features. Built the company's Kotlin app end to end, shipped to 416K users."
+      }
+    ],
+    "rawText": "Renee Lindqvist\nrenee.lindqvist686@example.com | Las Vegas, NV\nSUMMARY\nMobile engineer with 7 years of experience building apps with Swift, Distributed systems, Node.js, some\nbackend exposure.\nEXPERIENCE\nSenior Mobile Engineer, Vertex Networks (2025-2026)\n- Wrote a lightweight TypeScript BFF layer to aggregate REST calls for the mobile app.\nMobile Engineer, Redbank Systems (2022-2025)\n- Maintained native modules in Swift and Kotlin for platform-specific features.\n- Built the company's Kotlin app end to end, shipped to 493K users.\nJunior Mobile Engineer, Hollowbrook Solutions (2019-2022)\n- Maintained native modules in Swift and Kotlin for platform-specific features.\n- Built the company's Kotlin app end to end, shipped to 416K users.\nEDUCATION\nB.S. Computer Science, UC San Diego, 2018\nSkills: Swift, Distributed systems, Node.js, TypeScript, Kotlin, GraphQL, AWS, iOS, REST API design.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0686",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 7 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 5/6 required skills: Node.js, TypeScript, Distributed systems, AWS, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.335
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.355
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.2275
+      }
+    ],
+    "compositeScore": 31,
+    "eligible": true
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 409,
+    "totalMs": 413
+  }
+}

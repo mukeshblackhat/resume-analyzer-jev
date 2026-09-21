@@ -1,0 +1,85 @@
+{
+  "extracted": {
+    "id": "resume-0053",
+    "fileName": "resume-0053.pdf",
+    "name": "Ana Ibrahim",
+    "yearsExperience": 3,
+    "skills": [
+      "Android",
+      "iOS",
+      "GraphQL",
+      "Node.js",
+      "Kotlin",
+      "REST API design",
+      "TypeScript"
+    ],
+    "education": [
+      "B.S. Software Engineering, University of Florida, 2022"
+    ],
+    "experience": [
+      {
+        "title": "Mobile Engineer",
+        "company": "Windmere Systems",
+        "years": 1,
+        "description": "Built the company's Kotlin app end to end, shipped to 393K users. Wrote a lightweight Node.js BFF layer to aggregate REST calls for the mobile app. Maintained native modules in Swift and Kotlin for platform-specific features."
+      },
+      {
+        "title": "Junior Mobile Engineer",
+        "company": "Cobalt Digital",
+        "years": 2,
+        "description": "Wrote a lightweight Node.js BFF layer to aggregate REST calls for the mobile app. Built the company's Kotlin app end to end, shipped to 492K users. Maintained native modules in Swift and Kotlin for platform-specific features."
+      }
+    ],
+    "rawText": "Ana Ibrahim\nana.ibrahim@example.com | Minneapolis, MN\nSUMMARY\nMobile engineer with 3 years of experience building apps with Android, iOS, GraphQL, some backend\nexposure.\nEXPERIENCE\nMobile Engineer - Windmere Systems (2025-2026)\n- Built the company's Kotlin app end to end, shipped to 393K users.\n- Wrote a lightweight Node.js BFF layer to aggregate REST calls for the mobile app.\n- Maintained native modules in Swift and Kotlin for platform-specific features.\nJunior Mobile Engineer - Cobalt Digital (2023-2025)\n- Wrote a lightweight Node.js BFF layer to aggregate REST calls for the mobile app.\n- Built the company's Kotlin app end to end, shipped to 492K users.\n- Maintained native modules in Swift and Kotlin for platform-specific features.\nEDUCATION\nB.S. Software Engineering, University of Florida, 2022\nSKILLS\n- Android\n- iOS\n- GraphQL\n- Node.js\n- Kotlin\n- REST API design\n- TypeScript\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0053",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": false,
+        "detail": "Resume shows 3 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 3/6 required skills: Node.js, TypeScript, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.2475
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.3575
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.07
+      }
+    ],
+    "compositeScore": 22,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 362,
+    "totalMs": 365
+  }
+}

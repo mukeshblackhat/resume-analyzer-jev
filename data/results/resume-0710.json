@@ -1,0 +1,85 @@
+{
+  "extracted": {
+    "id": "resume-0710",
+    "fileName": "resume-0710.pdf",
+    "name": "Omar Petrov",
+    "yearsExperience": 3,
+    "skills": [
+      "GraphQL",
+      "Next.js",
+      "REST API design",
+      "MongoDB",
+      "REST API design",
+      "TypeScript",
+      "PostgreSQL"
+    ],
+    "education": [
+      "B.S. Electrical Engineering, University of Oregon, 2023"
+    ],
+    "experience": [
+      {
+        "title": "Frontend Developer",
+        "company": "Quartzline Technologies",
+        "years": 1,
+        "description": "Partnered with backend engineers at Quartzline Technologies to consume REST and GraphQL APIs. Built responsive Next.js interfaces consumed by 15K monthly users."
+      },
+      {
+        "title": "Junior Frontend Developer",
+        "company": "Driftwood Computing",
+        "years": 2,
+        "description": "Implemented TypeScript component libraries shared across product teams. Built responsive React interfaces consumed by 33K monthly users."
+      }
+    ],
+    "rawText": "Omar Petrov\nomar.petrov@example.com | Portland, OR\nSUMMARY\nFrontend developer with 3 years of experience in GraphQL, Next.js, REST API design.\nEXPERIENCE\nFrontend Developer, Quartzline Technologies (2025-2026)\n- Partnered with backend engineers at Quartzline Technologies to consume REST and GraphQL APIs.\n- Built responsive Next.js interfaces consumed by 15K monthly users.\nJunior Frontend Developer, Driftwood Computing (2023-2025)\n- Implemented TypeScript component libraries shared across product teams.\n- Built responsive React interfaces consumed by 33K monthly users.\nEDUCATION\nB.S. Electrical Engineering, University of Oregon, 2023\nSkills: GraphQL, Next.js, REST API design, MongoDB, REST API design, TypeScript, PostgreSQL.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0710",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": false,
+        "detail": "Resume shows 3 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 3/6 required skills: TypeScript, PostgreSQL, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.175
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.2925
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.005
+      }
+    ],
+    "compositeScore": 15,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 1,
+    "scoringMs": 508,
+    "totalMs": 511
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "extracted": {
+    "id": "resume-0077",
+    "fileName": "resume-0077.pdf",
+    "name": "Rosa Ferreira",
+    "yearsExperience": 2,
+    "skills": [
+      "Distributed systems",
+      "PostgreSQL",
+      "AWS",
+      "TypeScript",
+      "REST API design",
+      "Node.js"
+    ],
+    "education": [
+      "B.S. Information Systems, Cal Poly, 2024"
+    ],
+    "experience": [
+      {
+        "title": "Backend Engineer",
+        "company": "Grayline Digital",
+        "years": 2,
+        "description": "Introduced Terraform-managed infrastructure, cutting provisioning time by 79%. Led migration of core services at Grayline Digital onto Distributed systems, improving uptime during peak load."
+      }
+    ],
+    "rawText": "Rosa Ferreira\nrosa.ferreira@example.com | Minneapolis, MN\nSUMMARY\nBackend-leaning engineer with 2 years of experience, working primarily with Distributed systems,\nPostgreSQL, AWS.\nEXPERIENCE\nBackend Engineer, Grayline Digital (2024-2026)\n- Introduced Terraform-managed infrastructure, cutting provisioning time by 79%.\n- Led migration of core services at Grayline Digital onto Distributed systems, improving uptime during\npeak load.\nEDUCATION\nB.S. Information Systems, Cal Poly, 2024\nSkills: Distributed systems, PostgreSQL, AWS, TypeScript, REST API design, Node.js.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0077",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": false,
+        "detail": "Resume shows 2 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 6/6 required skills: Node.js, TypeScript, PostgreSQL, Distributed systems, AWS, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.4625
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.985
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.2025
+      }
+    ],
+    "compositeScore": 52,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 396,
+    "totalMs": 399
+  }
+}

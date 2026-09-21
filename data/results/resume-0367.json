@@ -1,0 +1,76 @@
+{
+  "extracted": {
+    "id": "resume-0367",
+    "fileName": "resume-0367.pdf",
+    "name": "Chidi Raman",
+    "yearsExperience": 4,
+    "skills": [
+      "TypeScript",
+      "AWS",
+      "Distributed systems",
+      "PostgreSQL"
+    ],
+    "education": [
+      "B.S. Computer Science, Drexel University, 2022"
+    ],
+    "experience": [
+      {
+        "title": "Backend Engineer",
+        "company": "Quartzline Labs",
+        "years": 4,
+        "description": "Applied distributed-systems patterns to scale the platform to 191K concurrent users. Introduced Terraform-managed infrastructure, cutting provisioning time by 60%. Designed internal PostgreSQL standards used by 7+ downstream services."
+      }
+    ],
+    "rawText": "Chidi Raman\nchidi.raman@example.com | Phoenix, AZ\nSUMMARY\nBackend-leaning engineer with 4 years of experience, working primarily with TypeScript, AWS, Distributed\nsystems.\nEXPERIENCE\nBackend Engineer - Quartzline Labs (2022-2026)\n- Applied distributed-systems patterns to scale the platform to 191K concurrent users.\n- Introduced Terraform-managed infrastructure, cutting provisioning time by 60%.\n- Designed internal PostgreSQL standards used by 7+ downstream services.\nEDUCATION\nB.S. Computer Science, Drexel University, 2022\nSKILLS\n- TypeScript\n- AWS\n- Distributed systems\n- PostgreSQL\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0367",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": false,
+        "detail": "Resume shows 4 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 4/6 required skills: TypeScript, PostgreSQL, Distributed systems, AWS."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.4775
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.9925
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.445
+      }
+    ],
+    "compositeScore": 60,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 3,
+    "scoringMs": 437,
+    "totalMs": 443
+  }
+}

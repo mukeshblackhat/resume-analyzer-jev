@@ -1,0 +1,62 @@
+{
+  "extracted": {
+    "id": "resume-0331",
+    "fileName": "resume-0331.pdf",
+    "name": "Wei Kelly",
+    "yearsExperience": 4,
+    "skills": [],
+    "education": [],
+    "experience": [],
+    "rawText": "Wei Kelly\nwei.kelly@example.com | Boise, ID\nWei Kelly has 4 years of experience in backend and distributed systems. Most\nrecently, Backend Engineer at Bedrock Computing (2023-2026), where they\nintroduced Terraform-managed infrastructure, cutting provisioning time by 80%.\nBefore that, Software Engineer I at Redbank Analytics (2022-2023). Education:\nB.S. Computer Engineering, Temple University, 2021. Core skills: Redis, gRPC,\nTerraform, REST API design, TypeScript, Distributed systems, PostgreSQL, Go.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0331",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": false,
+        "detail": "Resume shows 4 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 0/6 required skills: none."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": false,
+        "detail": "Resume's highest detected education level rank is 0; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.0125
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0
+      }
+    ],
+    "compositeScore": 0,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 372,
+    "totalMs": 376
+  }
+}

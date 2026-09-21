@@ -1,0 +1,92 @@
+{
+  "extracted": {
+    "id": "resume-0990",
+    "fileName": "resume-0990.pdf",
+    "name": "Yuki Costa",
+    "yearsExperience": 16,
+    "skills": [
+      "Terraform",
+      "AWS",
+      "PostgreSQL",
+      "Distributed systems",
+      "REST API design",
+      "Node.js",
+      "System design"
+    ],
+    "education": [
+      "Ph.D. Electrical Engineering, Virginia Tech, 2010",
+      "B.S. Electrical Engineering, Northeastern University, 2004"
+    ],
+    "experience": [
+      {
+        "title": "Principal Backend Engineer",
+        "company": "Quartzline Data",
+        "years": 2,
+        "description": "Introduced Terraform-managed infrastructure, cutting provisioning time by 47%."
+      },
+      {
+        "title": "Staff Backend Engineer",
+        "company": "Northbeam Solutions",
+        "years": 4,
+        "description": "Owned the Kafka event pipeline processing 67M events/day. Applied distributed-systems patterns to scale the platform to 39K concurrent users."
+      },
+      {
+        "title": "Senior Backend Engineer",
+        "company": "Foundry Infrastructure",
+        "years": 10,
+        "description": "Led migration of core services at Foundry Infrastructure onto AWS, improving uptime during peak load. Built and maintained REST APIs in AWS serving 606K requests/day. Designed a PostgreSQL-backed data layer that cut p99 query latency by 54%."
+      }
+    ],
+    "rawText": "Yuki Costa\nyuki.costa@example.com | Cleveland, OH\nSUMMARY\nExperienced backend engineer with 16 years of experience building backend systems on Terraform, AWS,\nPostgreSQL.\nEXPERIENCE\nPrincipal Backend Engineer - Quartzline Data (2024-2026)\n- Introduced Terraform-managed infrastructure, cutting provisioning time by 47%.\nStaff Backend Engineer - Northbeam Solutions (2020-2024)\n- Owned the Kafka event pipeline processing 67M events/day.\n- Applied distributed-systems patterns to scale the platform to 39K concurrent users.\nSenior Backend Engineer - Foundry Infrastructure (2010-2020)\n- Led migration of core services at Foundry Infrastructure onto AWS, improving uptime during peak load.\n- Built and maintained REST APIs in AWS serving 606K requests/day.\n- Designed a PostgreSQL-backed data layer that cut p99 query latency by 54%.\nEDUCATION\nPh.D. Electrical Engineering, Virginia Tech, 2010\nB.S. Electrical Engineering, Northeastern University, 2004\nSKILLS\n- Terraform\n- AWS\n- PostgreSQL\n- Distributed systems\n- REST API design\n- Node.js\n- System design\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0990",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 16 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 5/6 required skills: Node.js, PostgreSQL, Distributed systems, AWS, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.775
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.9975
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.98
+      }
+    ],
+    "compositeScore": 89,
+    "eligible": true
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 492,
+    "totalMs": 496
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "extracted": {
+    "id": "resume-0185",
+    "fileName": "resume-0185.pdf",
+    "name": "Aisha Diallo",
+    "yearsExperience": 6,
+    "skills": [
+      "Distributed systems",
+      "REST API design",
+      "Go",
+      "TypeScript",
+      "GraphQL",
+      "Node.js",
+      "AWS"
+    ],
+    "education": [
+      "M.S. Computer Engineering, Boston University, 2019",
+      "B.S. Computer Engineering, Purdue University, 2017"
+    ],
+    "experience": [
+      {
+        "title": "Senior Backend Engineer",
+        "company": "Meridian Dynamics",
+        "years": 1,
+        "description": "Led migration of core services at Meridian Dynamics onto AWS, improving uptime during peak load."
+      },
+      {
+        "title": "Backend Engineer",
+        "company": "Ashgrove Infrastructure",
+        "years": 5,
+        "description": "Owned the Go event pipeline processing 18M events/day. Introduced Terraform-managed infrastructure, cutting provisioning time by 80%. Designed a AWS-backed data layer that cut p99 query latency by 58%."
+      }
+    ],
+    "rawText": "Aisha Diallo\naisha.diallo@example.com | San Jose, CA\nSUMMARY\nExperienced backend engineer with 6 years of experience building backend systems on Distributed\nsystems, REST API design, Go.\nEXPERIENCE\nSenior Backend Engineer, Meridian Dynamics (2025-2026)\n- Led migration of core services at Meridian Dynamics onto AWS, improving uptime during peak load.\nBackend Engineer, Ashgrove Infrastructure (2020-2025)\n- Owned the Go event pipeline processing 18M events/day.\n- Introduced Terraform-managed infrastructure, cutting provisioning time by 80%.\n- Designed a AWS-backed data layer that cut p99 query latency by 58%.\nEDUCATION\nM.S. Computer Engineering, Boston University, 2019\nB.S. Computer Engineering, Purdue University, 2017\nSkills: Distributed systems, REST API design, Go, TypeScript, GraphQL, Node.js, AWS.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0185",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 6 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 5/6 required skills: Node.js, TypeScript, Distributed systems, AWS, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 2; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.6075
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.9975
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.735
+      }
+    ],
+    "compositeScore": 74,
+    "eligible": true
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 376,
+    "totalMs": 382
+  }
+}

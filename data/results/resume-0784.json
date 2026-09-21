@@ -1,0 +1,73 @@
+{
+  "extracted": {
+    "id": "resume-0784",
+    "fileName": "resume-0784.pdf",
+    "name": "Fatima Mercer",
+    "yearsExperience": 1,
+    "skills": [
+      "MongoDB",
+      "REST API design",
+      "Node.js"
+    ],
+    "education": [],
+    "experience": [
+      {
+        "title": "Junior Frontend Developer",
+        "company": "Quartzline Labs",
+        "years": 1,
+        "description": "Implemented TypeScript component libraries shared across product teams."
+      }
+    ],
+    "rawText": "Fatima Mercer\nfatima.mercer784@example.com | Orlando, FL\nSUMMARY\nFrontend/junior developer with just starting out in MongoDB, REST API design, Node.js.\nEXPERIENCE\nJunior Frontend Developer - Quartzline Labs (2025-2026)\n- Implemented TypeScript component libraries shared across product teams.\nEDUCATION\nSKILLS\n- MongoDB\n- REST API design\n- Node.js\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0784",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": false,
+        "detail": "Resume shows 1 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 2/6 required skills: Node.js, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": false,
+        "detail": "Resume's highest detected education level rank is 0; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.175
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.295
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0
+      }
+    ],
+    "compositeScore": 15,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 433,
+    "totalMs": 436
+  }
+}

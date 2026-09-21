@@ -1,0 +1,77 @@
+{
+  "extracted": {
+    "id": "resume-0298",
+    "fileName": "resume-0298.pdf",
+    "name": "Carlos Lindqvist",
+    "yearsExperience": 2,
+    "skills": [
+      "Negotiation",
+      "Quota attainment",
+      "Salesforce",
+      "Cold outreach",
+      "CRM tools"
+    ],
+    "education": [
+      "B.A. Economics, University of Wisconsin-Madison, 2024"
+    ],
+    "experience": [
+      {
+        "title": "Account Executive",
+        "company": "Brightleaf Agency",
+        "years": 2,
+        "description": "Managed a book of 51+ enterprise accounts."
+      }
+    ],
+    "rawText": "Carlos Lindqvist\ncarlos.lindqvist@example.com | Albuquerque, NM\nSUMMARY\nB2B sales professional with 2 years of experience in enterprise software sales.\nEXPERIENCE\nAccount Executive, Brightleaf Agency (2024-2026)\n- Managed a book of 51+ enterprise accounts.\nEDUCATION\nB.A. Economics, University of Wisconsin-Madison, 2024\nSkills: Negotiation, Quota attainment, Salesforce, Cold outreach, CRM tools.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0298",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": false,
+        "detail": "Resume shows 2 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 0/6 required skills: none."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0
+      }
+    ],
+    "compositeScore": 0,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 399,
+    "totalMs": 403
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "extracted": {
+    "id": "resume-0604",
+    "fileName": "resume-0604.pdf",
+    "name": "Kofi Diallo",
+    "yearsExperience": 1,
+    "skills": [
+      "Next.js",
+      "MongoDB",
+      "Node.js"
+    ],
+    "education": [
+      "B.S. Computer Science, San Jose State University, 2025"
+    ],
+    "experience": [
+      {
+        "title": "Junior Frontend Developer",
+        "company": "Lattice Digital",
+        "years": 1,
+        "description": "Implemented Next.js component libraries shared across product teams. Built responsive Next.js interfaces consumed by 95K monthly users."
+      }
+    ],
+    "rawText": "Kofi Diallo\nkofi.diallo@example.com | Tucson, AZ\nSUMMARY\nFrontend/junior developer with 1 year of experience in Next.js, MongoDB, Node.js.\nEXPERIENCE\nJunior Frontend Developer - Lattice Digital (2025-2026)\n- Implemented Next.js component libraries shared across product teams.\n- Built responsive Next.js interfaces consumed by 95K monthly users.\nEDUCATION\nB.S. Computer Science, San Jose State University, 2025\nSKILLS\n- Next.js\n- MongoDB\n- Node.js\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0604",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": false,
+        "detail": "Resume shows 1 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 1/6 required skills: Node.js."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.09
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.285
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0
+      }
+    ],
+    "compositeScore": 11,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 1,
+    "scoringMs": 398,
+    "totalMs": 401
+  }
+}

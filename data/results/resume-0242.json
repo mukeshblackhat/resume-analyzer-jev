@@ -1,0 +1,90 @@
+{
+  "extracted": {
+    "id": "resume-0242",
+    "fileName": "resume-0242.pdf",
+    "name": "Miguel Delgado",
+    "yearsExperience": 8,
+    "skills": [
+      "Prototyping",
+      "Wireframing",
+      "UX research",
+      "Adobe XD",
+      "Visual design",
+      "Figma"
+    ],
+    "education": [
+      "B.A. Fine Arts, Boston University, 2018"
+    ],
+    "experience": [
+      {
+        "title": "Senior Product Designer",
+        "company": "Cobblestone Studio",
+        "years": 2,
+        "description": "Led UX research at Cobblestone Studio informing the redesign of the core product flow. Designed and prototyped features in Figma used by 21+ engineers to build against."
+      },
+      {
+        "title": "Product Designer",
+        "company": "Bellwood Group",
+        "years": 4,
+        "description": "Built and maintained the company's design system components and guidelines. Led UX research at Bellwood Group informing the redesign of the core product flow."
+      },
+      {
+        "title": "Junior Product Designer",
+        "company": "Palisade Collective",
+        "years": 2,
+        "description": "Built and maintained the company's design system components and guidelines."
+      }
+    ],
+    "rawText": "Miguel Delgado\nmiguel.delgado@example.com | Boston, MA\nSUMMARY\nProduct designer with 8 years of experience, focused on Prototyping, Wireframing, UX research.\nEXPERIENCE\nSenior Product Designer, Cobblestone Studio (2024-2026)\n- Led UX research at Cobblestone Studio informing the redesign of the core product flow.\n- Designed and prototyped features in Figma used by 21+ engineers to build against.\nProduct Designer, Bellwood Group (2020-2024)\n- Built and maintained the company's design system components and guidelines.\n- Led UX research at Bellwood Group informing the redesign of the core product flow.\nJunior Product Designer, Palisade Collective (2018-2020)\n- Built and maintained the company's design system components and guidelines.\nEDUCATION\nB.A. Fine Arts, Boston University, 2018\nSkills: Prototyping, Wireframing, UX research, Adobe XD, Visual design, Figma.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0242",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 8 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 0/6 required skills: none."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.0125
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.02
+      }
+    ],
+    "compositeScore": 1,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 3,
+    "scoringMs": 431,
+    "totalMs": 436
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "extracted": {
+    "id": "resume-0916",
+    "fileName": "resume-0916.pdf",
+    "name": "Aditi Larsen",
+    "yearsExperience": 8,
+    "skills": [
+      "Distributed systems",
+      "Node.js",
+      "TypeScript",
+      "REST API design"
+    ],
+    "education": [
+      "B.S. Computer Engineering, UT Austin, 2017"
+    ],
+    "experience": [
+      {
+        "title": "Senior Backend Engineer",
+        "company": "Driftwood Computing",
+        "years": 4,
+        "description": "Owned the TypeScript event pipeline processing 43M events/day. Applied distributed-systems patterns to scale the platform to 133K concurrent users. Designed a REST API design-backed data layer that cut p99 query latency by 49%."
+      },
+      {
+        "title": "Backend Engineer",
+        "company": "Larkspur Networks",
+        "years": 1,
+        "description": "Led migration of core services at Larkspur Networks onto AWS, improving uptime during peak load. Designed internal Distributed systems standards used by 35+ downstream services. Built and maintained REST APIs in Distributed systems serving 340K requests/day."
+      },
+      {
+        "title": "Software Engineer I",
+        "company": "Quartzline Software",
+        "years": 3,
+        "description": "Introduced Terraform-managed infrastructure, cutting provisioning time by 77%."
+      }
+    ],
+    "rawText": "Aditi Larsen\naditi.larsen@example.com | Portland, OR\nSUMMARY\nSenior backend engineer with 8 years of experience building backend systems on Distributed systems,\nNode.js, TypeScript.\nEXPERIENCE\nSenior Backend Engineer, Driftwood Computing (2022-2026)\n- Owned the TypeScript event pipeline processing 43M events/day.\n- Applied distributed-systems patterns to scale the platform to 133K concurrent users.\n- Designed a REST API design-backed data layer that cut p99 query latency by 49%.\nBackend Engineer, Larkspur Networks (2021-2022)\n- Led migration of core services at Larkspur Networks onto AWS, improving uptime during peak load.\n- Designed internal Distributed systems standards used by 35+ downstream services.\n- Built and maintained REST APIs in Distributed systems serving 340K requests/day.\nSoftware Engineer I, Quartzline Software (2018-2021)\n- Introduced Terraform-managed infrastructure, cutting provisioning time by 77%.\nEDUCATION\nB.S. Computer Engineering, UT Austin, 2017\nSkills: Distributed systems, Node.js, TypeScript, REST API design.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0916",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 8 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 4/6 required skills: Node.js, TypeScript, Distributed systems, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.6175
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.995
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.7975
+      }
+    ],
+    "compositeScore": 77,
+    "eligible": true
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 450,
+    "totalMs": 454
+  }
+}

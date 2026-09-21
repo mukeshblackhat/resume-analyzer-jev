@@ -1,0 +1,92 @@
+{
+  "extracted": {
+    "id": "resume-0999",
+    "fileName": "resume-0999.pdf",
+    "name": "Jack Wu",
+    "yearsExperience": 6,
+    "skills": [
+      "REST API design",
+      "PostgreSQL",
+      "Node.js",
+      "Docker",
+      "Kubernetes",
+      "AWS",
+      "GraphQL",
+      "Terraform"
+    ],
+    "education": [
+      "B.S. Software Engineering, Metro State University, 2020"
+    ],
+    "experience": [
+      {
+        "title": "Senior Backend Engineer",
+        "company": "Lattice Technologies",
+        "years": 2,
+        "description": "Built and maintained REST APIs in REST API design serving 169K requests/day."
+      },
+      {
+        "title": "Backend Engineer",
+        "company": "Northbeam Solutions",
+        "years": 3,
+        "description": "Designed internal Node.js standards used by 36+ downstream services."
+      },
+      {
+        "title": "Software Engineer I",
+        "company": "Beacon Technologies",
+        "years": 1,
+        "description": "Applied distributed-systems patterns to scale the platform to 353K concurrent users. Owned the Kafka event pipeline processing 8M events/day."
+      }
+    ],
+    "rawText": "Jack Wu\njack.wu@example.com | San Diego, CA\nSUMMARY\nSenior backend engineer with 6 years of experience building backend systems on REST API design,\nPostgreSQL, Node.js.\nEXPERIENCE\nSenior Backend Engineer - Lattice Technologies (2024-2026)\n- Built and maintained REST APIs in REST API design serving 169K requests/day.\nBackend Engineer - Northbeam Solutions (2021-2024)\n- Designed internal Node.js standards used by 36+ downstream services.\nSoftware Engineer I - Beacon Technologies (2020-2021)\n- Applied distributed-systems patterns to scale the platform to 353K concurrent users.\n- Owned the Kafka event pipeline processing 8M events/day.\nEDUCATION\nB.S. Software Engineering, Metro State University, 2020\nSKILLS\n- REST API design\n- PostgreSQL\n- Node.js\n- Docker\n- Kubernetes\n- AWS\n- GraphQL\n- Terraform\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0999",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 6 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 4/6 required skills: Node.js, PostgreSQL, AWS, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.6625
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.995
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.71
+      }
+    ],
+    "compositeScore": 76,
+    "eligible": true
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 456,
+    "totalMs": 460
+  }
+}

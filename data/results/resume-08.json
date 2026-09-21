@@ -1,0 +1,83 @@
+{
+  "extracted": {
+    "id": "resume-08",
+    "fileName": "resume-08.pdf",
+    "name": "Brian Kelly",
+    "yearsExperience": 6,
+    "skills": [
+      "Salesforce",
+      "Negotiation",
+      "Account management",
+      "Pipeline forecasting",
+      "Cold outreach"
+    ],
+    "education": [
+      "B.A. Business Administration, SMU, 2019"
+    ],
+    "experience": [
+      {
+        "title": "Senior Account Executive",
+        "company": "Crestpoint Software",
+        "years": 5,
+        "description": "Closed $4M in annual recurring revenue across mid-market accounts."
+      },
+      {
+        "title": "Account Executive",
+        "company": "Bellwood Solutions",
+        "years": 2,
+        "description": "Managed a book of 30+ enterprise accounts."
+      }
+    ],
+    "rawText": "Brian Kelly\nbrian.kelly@example.com | Dallas, TX\nSUMMARY\nB2B sales professional with 6 years of enterprise software sales experience.\nEXPERIENCE\nSenior Account Executive, Crestpoint Software (2021-2026)\n- Closed $4M in annual recurring revenue across mid-market accounts.\nAccount Executive, Bellwood Solutions (2019-2021)\n- Managed a book of 30+ enterprise accounts.\nEDUCATION\nB.A. Business Administration, SMU, 2019\nSkills: Salesforce, Negotiation, Account management, Pipeline forecasting, Cold outreach.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-08",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 6 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 0/6 required skills: none."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.0075
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.0125
+      }
+    ],
+    "compositeScore": 1,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 514,
+    "totalMs": 516
+  }
+}

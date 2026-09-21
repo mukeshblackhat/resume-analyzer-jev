@@ -1,0 +1,87 @@
+{
+  "extracted": {
+    "id": "resume-0588",
+    "fileName": "resume-0588.pdf",
+    "name": "Anton Fontaine",
+    "yearsExperience": 8,
+    "skills": [
+      "iOS",
+      "GraphQL",
+      "Distributed systems",
+      "REST API design",
+      "React Native",
+      "Kotlin",
+      "REST API design"
+    ],
+    "education": [
+      "M.S. Electrical Engineering, University of Wisconsin-Madison, 2018",
+      "B.S. Electrical Engineering, Boston University, 2015",
+      "TypeScript."
+    ],
+    "experience": [
+      {
+        "title": "Senior Mobile Engineer",
+        "company": "Copperfield Labs",
+        "years": 1,
+        "description": "Wrote a lightweight TypeScript BFF layer to aggregate REST calls for the mobile app."
+      },
+      {
+        "title": "Mobile Engineer",
+        "company": "Ironwood Infrastructure",
+        "years": 7,
+        "description": "Built the company's React Native app end to end, shipped to 442K users. Maintained native modules in Swift and Kotlin for platform-specific features. Wrote a lightweight Node.js BFF layer to aggregate REST calls for the mobile app."
+      }
+    ],
+    "rawText": "Anton Fontaine\nanton.fontaine@example.com | Chicago, IL\nSUMMARY\nMobile engineer with 8 years of experience building apps with iOS, GraphQL, Distributed systems, some\nbackend exposure.\nEXPERIENCE\nSenior Mobile Engineer, Copperfield Labs (2025-2026)\n- Wrote a lightweight TypeScript BFF layer to aggregate REST calls for the mobile app.\nMobile Engineer, Ironwood Infrastructure (2018-2025)\n- Built the company's React Native app end to end, shipped to 442K users.\n- Maintained native modules in Swift and Kotlin for platform-specific features.\n- Wrote a lightweight Node.js BFF layer to aggregate REST calls for the mobile app.\nEDUCATION\nM.S. Electrical Engineering, University of Wisconsin-Madison, 2018\nB.S. Electrical Engineering, Boston University, 2015\nSkills: iOS, GraphQL, Distributed systems, REST API design, React Native, Kotlin, REST API design,\nTypeScript.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0588",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 8 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 2/6 required skills: Distributed systems, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 2; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.2875
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.42
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.21
+      }
+    ],
+    "compositeScore": 30,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 422,
+    "totalMs": 426
+  }
+}

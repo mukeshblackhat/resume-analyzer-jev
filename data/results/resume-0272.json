@@ -1,0 +1,75 @@
+{
+  "extracted": {
+    "id": "resume-0272",
+    "fileName": "resume-0272.pdf",
+    "name": "Caleb Nakamura",
+    "yearsExperience": 1,
+    "skills": [
+      "Next.js",
+      "TypeScript",
+      "React"
+    ],
+    "education": [
+      "B.S. Computer Science, Georgia Tech, 2024"
+    ],
+    "experience": [
+      {
+        "title": "Junior Frontend Developer",
+        "company": "Windmere Digital",
+        "years": 1,
+        "description": "Implemented TypeScript component libraries shared across product teams."
+      }
+    ],
+    "rawText": "Caleb Nakamura\ncaleb.nakamura@example.com | Philadelphia, PA\nSUMMARY\nFrontend/junior developer with 1 year of experience in Next.js, TypeScript, React.\nEXPERIENCE\nJunior Frontend Developer, Windmere Digital (2025-2026)\n- Implemented TypeScript component libraries shared across product teams.\nEDUCATION\nB.S. Computer Science, Georgia Tech, 2024\nSkills: Next.js, TypeScript, React.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0272",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": false,
+        "detail": "Resume shows 1 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 1/6 required skills: TypeScript."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.01
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.2175
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0
+      }
+    ],
+    "compositeScore": 6,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 380,
+    "totalMs": 385
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "extracted": {
+    "id": "resume-0737",
+    "fileName": "resume-0737.pdf",
+    "name": "Ravi Haddad",
+    "yearsExperience": 9,
+    "skills": [],
+    "education": [],
+    "experience": [],
+    "rawText": "Ravi Haddad\nravi.haddad@example.com | San Jose, CA\nRavi Haddad has 9 years of experience in support. Most recently, Support Team\nLead at Elmsworth Agency (2023-2026), where they onboarded new enterprise\ncustomers, reducing time-to-first-value by 16%. Before that, Senior Support\nSpecialist at Kindlewood Collective (2017-2023). Education: M.S. Psychology,\nVirginia Tech, 2016; B.S. Psychology, University of Texas at Dallas, 2013. Core\nskills: Technical support, Zendesk, Customer success, SLA management,\nOnboarding.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0737",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 9 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 0/6 required skills: none."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": false,
+        "detail": "Resume's highest detected education level rank is 0; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.0225
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.01
+      }
+    ],
+    "compositeScore": 1,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 1,
+    "scoringMs": 1346,
+    "totalMs": 1349
+  }
+}

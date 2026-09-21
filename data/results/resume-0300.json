@@ -1,0 +1,85 @@
+{
+  "extracted": {
+    "id": "resume-0300",
+    "fileName": "resume-0300.pdf",
+    "name": "Yuki Osei",
+    "yearsExperience": 9,
+    "skills": [
+      "Distributed systems",
+      "Docker",
+      "AWS",
+      "gRPC",
+      "Node.js",
+      "PostgreSQL",
+      "REST API design"
+    ],
+    "education": [
+      "B.S. Computer Engineering, University of Florida, 2016"
+    ],
+    "experience": [
+      {
+        "title": "Staff Backend Engineer",
+        "company": "Larkspur Digital",
+        "years": 4,
+        "description": "Applied distributed-systems patterns to scale the platform to 500K concurrent users. Designed a AWS-backed data layer that cut p99 query latency by 39%. Designed internal Distributed systems standards used by 38+ downstream services."
+      },
+      {
+        "title": "Senior Backend Engineer",
+        "company": "Redbank Software",
+        "years": 5,
+        "description": "Led migration of core services at Redbank Software onto AWS, improving uptime during peak load. Built and maintained REST APIs in REST API design serving 175K requests/day. Owned the Kafka event pipeline processing 48M events/day."
+      }
+    ],
+    "rawText": "Yuki Osei\nyuki.osei@example.com | New York, NY\nSUMMARY\nResults-driven backend engineer with 9 years of experience building backend systems on Distributed\nsystems, Docker, AWS.\nEXPERIENCE\nStaff Backend Engineer, Larkspur Digital (2022-2026)\n- Applied distributed-systems patterns to scale the platform to 500K concurrent users.\n- Designed a AWS-backed data layer that cut p99 query latency by 39%.\n- Designed internal Distributed systems standards used by 38+ downstream services.\nSenior Backend Engineer, Redbank Software (2017-2022)\n- Led migration of core services at Redbank Software onto AWS, improving uptime during peak load.\n- Built and maintained REST APIs in REST API design serving 175K requests/day.\n- Owned the Kafka event pipeline processing 48M events/day.\nEDUCATION\nB.S. Computer Engineering, University of Florida, 2016\nSkills: Distributed systems, Docker, AWS, gRPC, Node.js, PostgreSQL, REST API design.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0300",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 9 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 5/6 required skills: Node.js, PostgreSQL, Distributed systems, AWS, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.7325
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 1
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.945
+      }
+    ],
+    "compositeScore": 86,
+    "eligible": true
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 409,
+    "totalMs": 414
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "extracted": {
+    "id": "resume-0758",
+    "fileName": "resume-0758.pdf",
+    "name": "Layla Fontaine",
+    "yearsExperience": 4,
+    "skills": [
+      "Distributed systems",
+      "AWS",
+      "REST API design",
+      "PostgreSQL"
+    ],
+    "education": [
+      "B.S. Computer Science, Indiana University, 2021"
+    ],
+    "experience": [
+      {
+        "title": "Backend Engineer",
+        "company": "Copperfield Technologies",
+        "years": 4,
+        "description": "Owned the Kafka event pipeline processing 66M events/day."
+      }
+    ],
+    "rawText": "Layla Fontaine\nlayla.fontaine@example.com | Las Vegas, NV\nSUMMARY\nResults-driven backend engineer with 4 years of experience building backend systems on Distributed\nsystems, AWS, REST API design.\nEXPERIENCE\nBackend Engineer - Copperfield Technologies (2022-2026)\n- Owned the Kafka event pipeline processing 66M events/day.\nEDUCATION\nB.S. Computer Science, Indiana University, 2021\nSKILLS\n- Distributed systems\n- AWS\n- REST API design\n- PostgreSQL\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0758",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": false,
+        "detail": "Resume shows 4 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 4/6 required skills: PostgreSQL, Distributed systems, AWS, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.4425
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.965
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.3525
+      }
+    ],
+    "compositeScore": 55,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 503,
+    "totalMs": 507
+  }
+}

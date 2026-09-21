@@ -1,0 +1,82 @@
+{
+  "extracted": {
+    "id": "resume-0266",
+    "fileName": "resume-0266.pdf",
+    "name": "Sean Lindqvist",
+    "yearsExperience": 5,
+    "skills": [
+      "Google Analytics",
+      "HubSpot",
+      "Social media",
+      "SEO basics"
+    ],
+    "education": [
+      "B.A. Economics, Virginia Tech, 2020"
+    ],
+    "experience": [
+      {
+        "title": "Marketing Manager",
+        "company": "Riverside Consulting",
+        "years": 2,
+        "description": "Produced content strategy and SEO improvements that grew organic traffic by 14%. Managed social media calendars across 7 brand accounts."
+      },
+      {
+        "title": "Marketing Coordinator",
+        "company": "Brightleaf Ventures",
+        "years": 3,
+        "description": "Coordinated email campaigns reaching 271K subscribers. Ran paid acquisition campaigns at Brightleaf Ventures, improving conversion rate by 15%."
+      }
+    ],
+    "rawText": "Sean Lindqvist\nsean.lindqvist266@example.com | Charlotte, NC\nSUMMARY\nMarketing professional with 5 years of experience in campaign management and growth.\nEXPERIENCE\nMarketing Manager, Riverside Consulting (2024-2026)\n- Produced content strategy and SEO improvements that grew organic traffic by 14%.\n- Managed social media calendars across 7 brand accounts.\nMarketing Coordinator, Brightleaf Ventures (2021-2024)\n- Coordinated email campaigns reaching 271K subscribers.\n- Ran paid acquisition campaigns at Brightleaf Ventures, improving conversion rate by 15%.\nEDUCATION\nB.A. Economics, Virginia Tech, 2020\nSkills: Google Analytics, HubSpot, Social media, SEO basics.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0266",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 5 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 0/6 required skills: none."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0
+      }
+    ],
+    "compositeScore": 0,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 1,
+    "scoringMs": 374,
+    "totalMs": 377
+  }
+}

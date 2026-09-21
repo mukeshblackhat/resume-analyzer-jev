@@ -1,0 +1,91 @@
+{
+  "extracted": {
+    "id": "resume-0876",
+    "fileName": "resume-0876.pdf",
+    "name": "Diego Bergstrom",
+    "yearsExperience": 9,
+    "skills": [
+      "CRM tools",
+      "Quota attainment",
+      "Salesforce",
+      "Cold outreach",
+      "Account management",
+      "Pipeline forecasting"
+    ],
+    "education": [
+      "M.S. Communications, Temple University, 2017",
+      "B.A. Communications, Portland State University, 2014"
+    ],
+    "experience": [
+      {
+        "title": "Enterprise Account Executive",
+        "company": "Kindlewood Agency",
+        "years": 4,
+        "description": "Managed a book of 58+ enterprise accounts."
+      },
+      {
+        "title": "Senior Account Executive",
+        "company": "Elmsworth Studio",
+        "years": 2,
+        "description": "Closed $3M in annual recurring revenue across mid-market accounts at Elmsworth Studio. Exceeded quarterly quota by 31% for four consecutive quarters."
+      },
+      {
+        "title": "Account Executive",
+        "company": "Thistledown Holdings",
+        "years": 3,
+        "description": "Built and ran a cold-outreach pipeline generating 184 qualified leads per month. Closed $5M in annual recurring revenue across mid-market accounts at Thistledown Holdings. Exceeded quarterly quota by 38% for four consecutive quarters."
+      }
+    ],
+    "rawText": "Diego Bergstrom\ndiego.bergstrom@example.com | Nashville, TN\nSUMMARY\nB2B sales professional with 9 years of experience in enterprise software sales.\nEXPERIENCE\nEnterprise Account Executive - Kindlewood Agency (2022-2026)\n- Managed a book of 58+ enterprise accounts.\nSenior Account Executive - Elmsworth Studio (2020-2022)\n- Closed $3M in annual recurring revenue across mid-market accounts at Elmsworth Studio.\n- Exceeded quarterly quota by 31% for four consecutive quarters.\nAccount Executive - Thistledown Holdings (2017-2020)\n- Built and ran a cold-outreach pipeline generating 184 qualified leads per month.\n- Closed $5M in annual recurring revenue across mid-market accounts at Thistledown Holdings.\n- Exceeded quarterly quota by 38% for four consecutive quarters.\nEDUCATION\nM.S. Communications, Temple University, 2017\nB.A. Communications, Portland State University, 2014\nSKILLS\n- CRM tools\n- Quota attainment\n- Salesforce\n- Cold outreach\n- Account management\n- Pipeline forecasting\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0876",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 9 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 0/6 required skills: none."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 2; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.0075
+      }
+    ],
+    "compositeScore": 0,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 519,
+    "totalMs": 523
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "extracted": {
+    "id": "resume-0988",
+    "fileName": "resume-0988.pdf",
+    "name": "Amara Okoro",
+    "yearsExperience": 6,
+    "skills": [
+      "CSS3",
+      "HTML5",
+      "React",
+      "Node.js",
+      "Node.js",
+      "TypeScript",
+      "AWS",
+      "Distributed systems",
+      "GraphQL"
+    ],
+    "education": [
+      "B.S. Electrical Engineering, DePaul University, 2019"
+    ],
+    "experience": [
+      {
+        "title": "Senior Frontend Developer",
+        "company": "Larkspur Platform",
+        "years": 2,
+        "description": "Implemented TypeScript component libraries shared across product teams. Built responsive HTML5 interfaces consumed by 119K monthly users."
+      },
+      {
+        "title": "Frontend Developer",
+        "company": "Wrenfield Software",
+        "years": 4,
+        "description": "Partnered with backend engineers at Wrenfield Software to consume REST and GraphQL APIs. Built responsive React interfaces consumed by 17K monthly users."
+      }
+    ],
+    "rawText": "Amara Okoro\namara.okoro@example.com | Raleigh, NC\nSUMMARY\nFrontend developer with 6 years of experience in CSS3, HTML5, React.\nEXPERIENCE\nSenior Frontend Developer - Larkspur Platform (2024-2026)\n- Implemented TypeScript component libraries shared across product teams.\n- Built responsive HTML5 interfaces consumed by 119K monthly users.\nFrontend Developer - Wrenfield Software (2020-2024)\n- Partnered with backend engineers at Wrenfield Software to consume REST and GraphQL APIs.\n- Built responsive React interfaces consumed by 17K monthly users.\nEDUCATION\nB.S. Electrical Engineering, DePaul University, 2019\nSKILLS\n- CSS3\n- HTML5\n- React\n- Node.js\n- Node.js\n- TypeScript\n- AWS\n- Distributed systems\n- GraphQL\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0988",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 6 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 4/6 required skills: Node.js, TypeScript, Distributed systems, AWS."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.2425
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.31
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.0825
+      }
+    ],
+    "compositeScore": 21,
+    "eligible": true
+  },
+  "timings": {
+    "extractionMs": 1,
+    "scoringMs": 422,
+    "totalMs": 426
+  }
+}

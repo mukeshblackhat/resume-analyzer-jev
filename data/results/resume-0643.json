@@ -1,0 +1,87 @@
+{
+  "extracted": {
+    "id": "resume-0643",
+    "fileName": "resume-0643.pdf",
+    "name": "Sean Tran",
+    "yearsExperience": 6,
+    "skills": [
+      "REST API design",
+      "Node.js",
+      "Distributed systems"
+    ],
+    "education": [
+      "B.S. Computer Science, Arizona State University, 2020"
+    ],
+    "experience": [
+      {
+        "title": "Senior Backend Engineer",
+        "company": "Amber Labs",
+        "years": 2,
+        "description": "Introduced Terraform-managed infrastructure, cutting provisioning time by 48%."
+      },
+      {
+        "title": "Backend Engineer",
+        "company": "Cinder Solutions",
+        "years": 1,
+        "description": "Applied distributed-systems patterns to scale the platform to 329K concurrent users. Led migration of core services at Cinder Solutions onto Node.js, improving uptime during peak load."
+      },
+      {
+        "title": "Software Engineer I",
+        "company": "Nimbus Cloud",
+        "years": 3,
+        "description": "Designed a REST API design-backed data layer that cut p99 query latency by 42%. Owned the Kafka event pipeline processing 17M events/day. Built and maintained REST APIs in Distributed systems serving 658K requests/day."
+      }
+    ],
+    "rawText": "Sean Tran\nsean.tran@example.com | Chicago, IL\nSUMMARY\nExperienced backend engineer with 6 years of experience building backend systems on REST API design,\nNode.js, Distributed systems.\nEXPERIENCE\nSenior Backend Engineer - Amber Labs (2024-2026)\n- Introduced Terraform-managed infrastructure, cutting provisioning time by 48%.\nBackend Engineer - Cinder Solutions (2023-2024)\n- Applied distributed-systems patterns to scale the platform to 329K concurrent users.\n- Led migration of core services at Cinder Solutions onto Node.js, improving uptime during peak load.\nSoftware Engineer I - Nimbus Cloud (2020-2023)\n- Designed a REST API design-backed data layer that cut p99 query latency by 42%.\n- Owned the Kafka event pipeline processing 17M events/day.\n- Built and maintained REST APIs in Distributed systems serving 658K requests/day.\nEDUCATION\nB.S. Computer Science, Arizona State University, 2020\nSKILLS\n- REST API design\n- Node.js\n- Distributed systems\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0643",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 6 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 3/6 required skills: Node.js, Distributed systems, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.565
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.9975
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.7025
+      }
+    ],
+    "compositeScore": 71,
+    "eligible": true
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 411,
+    "totalMs": 415
+  }
+}

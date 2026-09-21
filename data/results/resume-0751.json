@@ -1,0 +1,96 @@
+{
+  "extracted": {
+    "id": "resume-0751",
+    "fileName": "resume-0751.pdf",
+    "name": "Sara Wu",
+    "yearsExperience": 16,
+    "skills": [
+      "Elasticsearch",
+      "Python",
+      "Node.js",
+      "PostgreSQL",
+      "AWS",
+      "Go",
+      "Kafka",
+      "System design",
+      "Distributed systems",
+      "REST API design",
+      "Terraform",
+      "TypeScript"
+    ],
+    "education": [
+      "B.S. Computer Engineering, Boston University, 2010"
+    ],
+    "experience": [
+      {
+        "title": "Principal Backend Engineer",
+        "company": "Meridian Platform",
+        "years": 2,
+        "description": "Owned the Node.js event pipeline processing 7M events/day. Introduced Terraform-managed infrastructure, cutting provisioning time by 47%. Designed internal Distributed systems standards used by 31+ downstream services."
+      },
+      {
+        "title": "Staff Backend Engineer",
+        "company": "Timberline Technologies",
+        "years": 3,
+        "description": "Applied distributed-systems patterns to scale the platform to 310K concurrent users. Led migration of core services at Timberline Technologies onto Node.js, improving uptime during peak load. Designed a REST API design-backed data layer that cut p99 query latency by 52%."
+      },
+      {
+        "title": "Senior Backend Engineer",
+        "company": "Ashgrove Networks",
+        "years": 11,
+        "description": "Built and maintained REST APIs in Elasticsearch serving 876K requests/day. Introduced Terraform-managed infrastructure, cutting provisioning time by 41%. Designed a PostgreSQL-backed data layer that cut p99 query latency by 30%."
+      }
+    ],
+    "rawText": "Sara Wu\nsara.wu@example.com | Milwaukee, WI\nSUMMARY\nSenior backend engineer with 16 years of experience building backend systems on Elasticsearch, Python,\nNode.js.\nEXPERIENCE\nPrincipal Backend Engineer - Meridian Platform (2024-2026)\n- Owned the Node.js event pipeline processing 7M events/day.\n- Introduced Terraform-managed infrastructure, cutting provisioning time by 47%.\n- Designed internal Distributed systems standards used by 31+ downstream services.\nStaff Backend Engineer - Timberline Technologies (2021-2024)\n- Applied distributed-systems patterns to scale the platform to 310K concurrent users.\n- Led migration of core services at Timberline Technologies onto Node.js, improving uptime during peak\nload.\n- Designed a REST API design-backed data layer that cut p99 query latency by 52%.\nSenior Backend Engineer - Ashgrove Networks (2010-2021)\n- Built and maintained REST APIs in Elasticsearch serving 876K requests/day.\n- Introduced Terraform-managed infrastructure, cutting provisioning time by 41%.\n- Designed a PostgreSQL-backed data layer that cut p99 query latency by 30%.\nEDUCATION\nB.S. Computer Engineering, Boston University, 2010\nSKILLS\n- Elasticsearch\n- Python\n- Node.js\n- PostgreSQL\n- AWS\n- Go\n- Kafka\n- System design\n- Distributed systems\n- REST API design\n- Terraform\n- TypeScript\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0751",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 16 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 6/6 required skills: Node.js, TypeScript, PostgreSQL, Distributed systems, AWS, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.865
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 1
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.9875
+      }
+    ],
+    "compositeScore": 94,
+    "eligible": true
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 419,
+    "totalMs": 423
+  }
+}

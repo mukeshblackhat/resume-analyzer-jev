@@ -1,0 +1,62 @@
+{
+  "extracted": {
+    "id": "resume-0178",
+    "fileName": "resume-0178.pdf",
+    "name": "Liam Novak",
+    "yearsExperience": 8,
+    "skills": [],
+    "education": [],
+    "experience": [],
+    "rawText": "Liam Novak\nliam.novak@example.com | New York, NY\nLiam Novak has 8 years of experience in backend and distributed systems. Most\nrecently, Senior Backend Engineer at Silverline Software (2025-2026), where\nthey applied distributed-systems patterns to scale the platform to 456K\nconcurrent users. Before that, Backend Engineer at Timberline Infrastructure\n(2024-2025). Before that, Software Engineer I at Harborlight Solutions\n(2018-2024). Education: B.S. Electrical Engineering, Columbia University, 2018.\nCore skills: CI/CD, Kafka, Docker, REST API design, TypeScript, Distributed\nsystems, Terraform, Redis, AWS, Node.js.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0178",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 8 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 0/6 required skills: none."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": false,
+        "detail": "Resume's highest detected education level rank is 0; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.02
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.005
+      }
+    ],
+    "compositeScore": 1,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 385,
+    "totalMs": 389
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "extracted": {
+    "id": "resume-0745",
+    "fileName": "resume-0745.pdf",
+    "name": "Sean Vasquez",
+    "yearsExperience": 9,
+    "skills": [
+      "System design",
+      "AWS",
+      "Distributed systems",
+      "TypeScript"
+    ],
+    "education": [
+      "B.S. Computer Engineering, University of Illinois Urbana-Champaign, 2016"
+    ],
+    "experience": [
+      {
+        "title": "Staff Backend Engineer",
+        "company": "Cinder Labs",
+        "years": 1,
+        "description": "Designed internal TypeScript standards used by 11+ downstream services. Designed a AWS-backed data layer that cut p99 query latency by 28%. Applied distributed-systems patterns to scale the platform to 354K concurrent users."
+      },
+      {
+        "title": "Senior Backend Engineer",
+        "company": "Foundry Cloud",
+        "years": 8,
+        "description": "Owned the Kafka event pipeline processing 69M events/day."
+      }
+    ],
+    "rawText": "Sean Vasquez\nsean.vasquez@example.com | Orlando, FL\nSUMMARY\nExperienced backend engineer with 9 years of experience building backend systems on System design,\nAWS, Distributed systems.\nEXPERIENCE\nStaff Backend Engineer - Cinder Labs (2025-2026)\n- Designed internal TypeScript standards used by 11+ downstream services.\n- Designed a AWS-backed data layer that cut p99 query latency by 28%.\n- Applied distributed-systems patterns to scale the platform to 354K concurrent users.\nSenior Backend Engineer - Foundry Cloud (2017-2025)\n- Owned the Kafka event pipeline processing 69M events/day.\nEDUCATION\nB.S. Computer Engineering, University of Illinois Urbana-Champaign, 2016\nSKILLS\n- System design\n- AWS\n- Distributed systems\n- TypeScript\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0745",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 9 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 3/6 required skills: TypeScript, Distributed systems, AWS."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.5125
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.9925
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.875
+      }
+    ],
+    "compositeScore": 74,
+    "eligible": true
+  },
+  "timings": {
+    "extractionMs": 1,
+    "scoringMs": 447,
+    "totalMs": 450
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "extracted": {
+    "id": "resume-0568",
+    "fileName": "resume-0568.pdf",
+    "name": "Sofia Moreno",
+    "yearsExperience": 16,
+    "skills": [
+      "Redis",
+      "Go",
+      "AWS",
+      "Elasticsearch",
+      "Terraform",
+      "REST API design",
+      "TypeScript",
+      "Node.js",
+      "PostgreSQL",
+      "Java",
+      "Distributed systems"
+    ],
+    "education": [],
+    "experience": [
+      {
+        "title": "Principal Backend Engineer",
+        "company": "Cinder Solutions",
+        "years": 1,
+        "description": "Built and maintained REST APIs in Node.js serving 346K requests/day. Designed internal Node.js standards used by 17+ downstream services. Owned the Kafka event pipeline processing 44M events/day."
+      },
+      {
+        "title": "Staff Backend Engineer",
+        "company": "Vertex Networks",
+        "years": 2,
+        "description": "Designed a Redis-backed data layer that cut p99 query latency by 25%. Led migration of core services at Vertex Networks onto TypeScript, improving uptime during peak load. Applied distributed-systems patterns to scale the platform to 42K concurrent users."
+      },
+      {
+        "title": "Senior Backend Engineer",
+        "company": "Ashgrove Infrastructure",
+        "years": 13,
+        "description": "Introduced Terraform-managed infrastructure, cutting provisioning time by 70%. Owned the Kafka event pipeline processing 80M events/day."
+      }
+    ],
+    "rawText": "Sofia Moreno\nsofia.moreno@example.com | Sacramento, CA\nSUMMARY\nSenior backend engineer with 16 years of experience building backend systems on Redis, Go, AWS.\nEXPERIENCE\nPrincipal Backend Engineer - Cinder Solutions (2025-2026)\n- Built and maintained REST APIs in Node.js serving 346K requests/day.\n- Designed internal Node.js standards used by 17+ downstream services.\n- Owned the Kafka event pipeline processing 44M events/day.\nStaff Backend Engineer - Vertex Networks (2023-2025)\n- Designed a Redis-backed data layer that cut p99 query latency by 25%.\n- Led migration of core services at Vertex Networks onto TypeScript, improving uptime during peak load.\n- Applied distributed-systems patterns to scale the platform to 42K concurrent users.\nSenior Backend Engineer - Ashgrove Infrastructure (2010-2023)\n- Introduced Terraform-managed infrastructure, cutting provisioning time by 70%.\n- Owned the Kafka event pipeline processing 80M events/day.\nEDUCATION\nSKILLS\n- Redis\n- Go\n- AWS\n- Elasticsearch\n- Terraform\n- REST API design\n- TypeScript\n- Node.js\n- PostgreSQL\n- Java\n- Distributed systems\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0568",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 16 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 6/6 required skills: Node.js, TypeScript, PostgreSQL, Distributed systems, AWS, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": false,
+        "detail": "Resume's highest detected education level rank is 0; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.875
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 1
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.9825
+      }
+    ],
+    "compositeScore": 94,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 370,
+    "totalMs": 373
+  }
+}

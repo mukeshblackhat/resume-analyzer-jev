@@ -1,0 +1,83 @@
+{
+  "extracted": {
+    "id": "resume-0152",
+    "fileName": "resume-0152.pdf",
+    "name": "Ravi Bishop",
+    "yearsExperience": 8,
+    "skills": [
+      "TypeScript",
+      "HTML5",
+      "MongoDB",
+      "GraphQL",
+      "REST API design",
+      "React",
+      "PostgreSQL"
+    ],
+    "education": [],
+    "experience": [
+      {
+        "title": "Senior Frontend Developer",
+        "company": "Palodex Cloud",
+        "years": 4,
+        "description": "Implemented TypeScript component libraries shared across product teams. Partnered with backend engineers at Palodex Cloud to consume REST and GraphQL APIs."
+      },
+      {
+        "title": "Frontend Developer",
+        "company": "Anchor Analytics",
+        "years": 4,
+        "description": "Built responsive HTML5 interfaces consumed by 89K monthly users."
+      }
+    ],
+    "rawText": "Ravi Bishop\nravi.bishop@example.com | Richmond, VA\nSUMMARY\nFrontend developer with 8 years of experience in TypeScript, HTML5, MongoDB.\nEXPERIENCE\nSenior Frontend Developer - Palodex Cloud (2022-2026)\n- Implemented TypeScript component libraries shared across product teams.\n- Partnered with backend engineers at Palodex Cloud to consume REST and GraphQL APIs.\nFrontend Developer - Anchor Analytics (2018-2022)\n- Built responsive HTML5 interfaces consumed by 89K monthly users.\nEDUCATION\nSKILLS\n- TypeScript\n- HTML5\n- MongoDB\n- GraphQL\n- REST API design\n- React\n- PostgreSQL\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0152",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 8 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 3/6 required skills: TypeScript, PostgreSQL, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": false,
+        "detail": "Resume's highest detected education level rank is 0; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.1775
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.3025
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.0825
+      }
+    ],
+    "compositeScore": 18,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 345,
+    "totalMs": 348
+  }
+}

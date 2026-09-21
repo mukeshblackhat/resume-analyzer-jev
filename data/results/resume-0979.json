@@ -1,0 +1,93 @@
+{
+  "extracted": {
+    "id": "resume-0979",
+    "fileName": "resume-0979.pdf",
+    "name": "Rosa Andersson",
+    "yearsExperience": 7,
+    "skills": [
+      "Node.js",
+      "REST API design",
+      "React Native",
+      "Swift",
+      "TypeScript",
+      "REST API design",
+      "Kotlin",
+      "iOS",
+      "AWS"
+    ],
+    "education": [
+      "Some coursework in Computer Science, no degree completed"
+    ],
+    "experience": [
+      {
+        "title": "Senior Mobile Engineer",
+        "company": "Crestline Networks",
+        "years": 1,
+        "description": "Wrote a lightweight Node.js BFF layer to aggregate REST calls for the mobile app. Maintained native modules in Swift and Kotlin for platform-specific features. Built the company's React Native app end to end, shipped to 467K users."
+      },
+      {
+        "title": "Mobile Engineer",
+        "company": "Grayline Cloud",
+        "years": 1,
+        "description": "Built the company's Kotlin app end to end, shipped to 271K users. Wrote a lightweight TypeScript BFF layer to aggregate REST calls for the mobile app. Maintained native modules in Swift and Kotlin for platform-specific features."
+      },
+      {
+        "title": "Junior Mobile Engineer",
+        "company": "Northbeam Computing",
+        "years": 5,
+        "description": "Built the company's React Native app end to end, shipped to 75K users. Wrote a lightweight Node.js BFF layer to aggregate REST calls for the mobile app. Maintained native modules in Swift and Kotlin for platform-specific features."
+      }
+    ],
+    "rawText": "Rosa Andersson\nrosa.andersson@example.com | Tampa, FL\nSUMMARY\nMobile engineer with 7 years of experience building apps with Node.js, REST API design, React Native,\nsome backend exposure.\nEXPERIENCE\nSenior Mobile Engineer, Crestline Networks (2025-2026)\n- Wrote a lightweight Node.js BFF layer to aggregate REST calls for the mobile app.\n- Maintained native modules in Swift and Kotlin for platform-specific features.\n- Built the company's React Native app end to end, shipped to 467K users.\nMobile Engineer, Grayline Cloud (2024-2025)\n- Built the company's Kotlin app end to end, shipped to 271K users.\n- Wrote a lightweight TypeScript BFF layer to aggregate REST calls for the mobile app.\n- Maintained native modules in Swift and Kotlin for platform-specific features.\nJunior Mobile Engineer, Northbeam Computing (2019-2024)\n- Built the company's React Native app end to end, shipped to 75K users.\n- Wrote a lightweight Node.js BFF layer to aggregate REST calls for the mobile app.\n- Maintained native modules in Swift and Kotlin for platform-specific features.\nEDUCATION\nSome coursework in Computer Science, no degree completed\nSkills: Node.js, REST API design, React Native, Swift, TypeScript, REST API design, Kotlin, iOS, AWS.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0979",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 7 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 4/6 required skills: Node.js, TypeScript, AWS, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": false,
+        "detail": "Resume's highest detected education level rank is 0; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.325
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.3775
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.2125
+      }
+    ],
+    "compositeScore": 30,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 459,
+    "totalMs": 463
+  }
+}

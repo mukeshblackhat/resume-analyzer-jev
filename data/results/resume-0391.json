@@ -1,0 +1,93 @@
+{
+  "extracted": {
+    "id": "resume-0391",
+    "fileName": "resume-0391.pdf",
+    "name": "Liam Vasquez",
+    "yearsExperience": 12,
+    "skills": [
+      "PostgreSQL",
+      "TypeScript",
+      "System design",
+      "GraphQL",
+      "Kubernetes",
+      "Terraform",
+      "AWS",
+      "Distributed systems",
+      "Node.js"
+    ],
+    "education": [
+      "B.S. Computer Science, Ohio State University, 2013"
+    ],
+    "experience": [
+      {
+        "title": "Staff Backend Engineer",
+        "company": "Copperfield Infrastructure",
+        "years": 2,
+        "description": "Applied distributed-systems patterns to scale the platform to 78K concurrent users. Introduced Terraform-managed infrastructure, cutting provisioning time by 73%. Led migration of core services at Copperfield Infrastructure onto AWS, improving uptime during peak load."
+      },
+      {
+        "title": "Senior Backend Engineer",
+        "company": "Bedrock Computing",
+        "years": 4,
+        "description": "Owned the Distributed systems event pipeline processing 40M events/day. Designed internal Terraform standards used by 9+ downstream services."
+      },
+      {
+        "title": "Backend Engineer",
+        "company": "Larkspur Solutions",
+        "years": 6,
+        "description": "Built and maintained REST APIs in Node.js serving 238K requests/day. Designed a TypeScript-backed data layer that cut p99 query latency by 21%. Introduced Terraform-managed infrastructure, cutting provisioning time by 68%."
+      }
+    ],
+    "rawText": "Liam Vasquez\nliam.vasquez@example.com | St. Louis, MO\nSUMMARY\nResults-driven backend engineer with 12 years of experience building backend systems on PostgreSQL,\nTypeScript, System design.\nEXPERIENCE\nStaff Backend Engineer - Copperfield Infrastructure (2024-2026)\n- Applied distributed-systems patterns to scale the platform to 78K concurrent users.\n- Introduced Terraform-managed infrastructure, cutting provisioning time by 73%.\n- Led migration of core services at Copperfield Infrastructure onto AWS, improving uptime during peak\nload.\nSenior Backend Engineer - Bedrock Computing (2020-2024)\n- Owned the Distributed systems event pipeline processing 40M events/day.\n- Designed internal Terraform standards used by 9+ downstream services.\nBackend Engineer - Larkspur Solutions (2014-2020)\n- Built and maintained REST APIs in Node.js serving 238K requests/day.\n- Designed a TypeScript-backed data layer that cut p99 query latency by 21%.\n- Introduced Terraform-managed infrastructure, cutting provisioning time by 68%.\nEDUCATION\nB.S. Computer Science, Ohio State University, 2013\nSKILLS\n- PostgreSQL\n- TypeScript\n- System design\n- GraphQL\n- Kubernetes\n- Terraform\n- AWS\n- Distributed systems\n- Node.js\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0391",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 12 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 5/6 required skills: Node.js, TypeScript, PostgreSQL, Distributed systems, AWS."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.8325
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 1
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.95
+      }
+    ],
+    "compositeScore": 91,
+    "eligible": true
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 1250,
+    "totalMs": 1254
+  }
+}

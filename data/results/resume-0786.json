@@ -1,0 +1,84 @@
+{
+  "extracted": {
+    "id": "resume-0786",
+    "fileName": "resume-0786.pdf",
+    "name": "Chidi Whitfield",
+    "yearsExperience": 8,
+    "skills": [
+      "Node.js",
+      "REST API design",
+      "TypeScript",
+      "gRPC",
+      "Distributed systems",
+      "PostgreSQL"
+    ],
+    "education": [
+      "B.S. Software Engineering, University of Wisconsin-Madison, 2017"
+    ],
+    "experience": [
+      {
+        "title": "Senior Backend Engineer",
+        "company": "Harborlight Digital",
+        "years": 3,
+        "description": "Built and maintained REST APIs in gRPC serving 733K requests/day. Applied distributed-systems patterns to scale the platform to 92K concurrent users."
+      },
+      {
+        "title": "Backend Engineer",
+        "company": "Slate Labs",
+        "years": 5,
+        "description": "Owned the REST API design event pipeline processing 7M events/day. Introduced Terraform-managed infrastructure, cutting provisioning time by 59%. Designed a TypeScript-backed data layer that cut p99 query latency by 40%."
+      }
+    ],
+    "rawText": "Chidi Whitfield\nchidi.whitfield@example.com | Baltimore, MD\nSUMMARY\nResults-driven backend engineer with 8 years of experience building backend systems on Node.js, REST\nAPI design, TypeScript.\nEXPERIENCE\nSenior Backend Engineer, Harborlight Digital (2023-2026)\n- Built and maintained REST APIs in gRPC serving 733K requests/day.\n- Applied distributed-systems patterns to scale the platform to 92K concurrent users.\nBackend Engineer, Slate Labs (2018-2023)\n- Owned the REST API design event pipeline processing 7M events/day.\n- Introduced Terraform-managed infrastructure, cutting provisioning time by 59%.\n- Designed a TypeScript-backed data layer that cut p99 query latency by 40%.\nEDUCATION\nB.S. Software Engineering, University of Wisconsin-Madison, 2017\nSkills: Node.js, REST API design, TypeScript, gRPC, Distributed systems, PostgreSQL.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0786",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 8 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 5/6 required skills: Node.js, TypeScript, PostgreSQL, Distributed systems, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.68
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.995
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.7175
+      }
+    ],
+    "compositeScore": 77,
+    "eligible": true
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 519,
+    "totalMs": 524
+  }
+}

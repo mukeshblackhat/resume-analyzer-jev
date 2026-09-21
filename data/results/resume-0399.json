@@ -1,0 +1,83 @@
+{
+  "extracted": {
+    "id": "resume-0399",
+    "fileName": "resume-0399.pdf",
+    "name": "Nadia Zhang",
+    "yearsExperience": 3,
+    "skills": [
+      "REST API design",
+      "PostgreSQL",
+      "Distributed systems",
+      "Node.js",
+      "Kafka"
+    ],
+    "education": [
+      "B.S. Software Engineering, University of Michigan, 2023"
+    ],
+    "experience": [
+      {
+        "title": "Backend Engineer",
+        "company": "Driftwood Systems",
+        "years": 2,
+        "description": "Built and maintained REST APIs in REST API design serving 860K requests/day. Owned the PostgreSQL event pipeline processing 66M events/day."
+      },
+      {
+        "title": "Software Engineer I",
+        "company": "Vertex Analytics",
+        "years": 1,
+        "description": "Designed internal PostgreSQL standards used by 11+ downstream services."
+      }
+    ],
+    "rawText": "Nadia Zhang\nnadia.zhang@example.com | Orlando, FL\nSUMMARY\nBackend-leaning engineer with 3 years of experience, working primarily with REST API design,\nPostgreSQL, Distributed systems.\nEXPERIENCE\nBackend Engineer - Driftwood Systems (2024-2026)\n- Built and maintained REST APIs in REST API design serving 860K requests/day.\n- Owned the PostgreSQL event pipeline processing 66M events/day.\nSoftware Engineer I - Vertex Analytics (2023-2024)\n- Designed internal PostgreSQL standards used by 11+ downstream services.\nEDUCATION\nB.S. Software Engineering, University of Michigan, 2023\nSKILLS\n- REST API design\n- PostgreSQL\n- Distributed systems\n- Node.js\n- Kafka\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0399",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": false,
+        "detail": "Resume shows 3 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 4/6 required skills: Node.js, PostgreSQL, Distributed systems, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.5225
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.9675
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.275
+      }
+    ],
+    "compositeScore": 56,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 370,
+    "totalMs": 373
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "extracted": {
+    "id": "resume-0200",
+    "fileName": "resume-0200.pdf",
+    "name": "Grace Kelly",
+    "yearsExperience": 2,
+    "skills": [
+      "Social media",
+      "HubSpot",
+      "SEO basics",
+      "Email marketing",
+      "Google Analytics",
+      "Campaign management"
+    ],
+    "education": [
+      "B.A. Marketing, Drexel University, 2024"
+    ],
+    "experience": [
+      {
+        "title": "Marketing Coordinator",
+        "company": "Fieldstone Consulting",
+        "years": 2,
+        "description": "Coordinated email campaigns reaching 196K subscribers."
+      }
+    ],
+    "rawText": "Grace Kelly\ngrace.kelly@example.com | Columbus, OH\nSUMMARY\nMarketing professional with 2 years of experience in campaign management and growth.\nEXPERIENCE\nMarketing Coordinator - Fieldstone Consulting (2024-2026)\n- Coordinated email campaigns reaching 196K subscribers.\nEDUCATION\nB.A. Marketing, Drexel University, 2024\nSKILLS\n- Social media\n- HubSpot\n- SEO basics\n- Email marketing\n- Google Analytics\n- Campaign management\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0200",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": false,
+        "detail": "Resume shows 2 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 0/6 required skills: none."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0
+      }
+    ],
+    "compositeScore": 0,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 3,
+    "scoringMs": 360,
+    "totalMs": 364
+  }
+}

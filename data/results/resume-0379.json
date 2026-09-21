@@ -1,0 +1,93 @@
+{
+  "extracted": {
+    "id": "resume-0379",
+    "fileName": "resume-0379.pdf",
+    "name": "Kofi Larsen",
+    "yearsExperience": 6,
+    "skills": [
+      "Kubernetes",
+      "PostgreSQL",
+      "System design",
+      "Terraform",
+      "AWS",
+      "MySQL",
+      "Elasticsearch",
+      "Node.js"
+    ],
+    "education": [
+      "Some coursework in Computer Science, no degree completed",
+      "GraphQL, Distributed systems, TypeScript."
+    ],
+    "experience": [
+      {
+        "title": "Senior Backend Engineer",
+        "company": "Bedrock Technologies",
+        "years": 4,
+        "description": "Owned the PostgreSQL event pipeline processing 70M events/day. Designed internal System design standards used by 33+ downstream services."
+      },
+      {
+        "title": "Backend Engineer",
+        "company": "Lattice Dynamics",
+        "years": 1,
+        "description": "Applied distributed-systems patterns to scale the platform to 368K concurrent users. Built and maintained REST APIs in Distributed systems serving 131K requests/day."
+      },
+      {
+        "title": "Software Engineer I",
+        "company": "Copperfield Dynamics",
+        "years": 1,
+        "description": "Led migration of core services at Copperfield Dynamics onto AWS, improving uptime during peak load. Introduced Terraform-managed infrastructure, cutting provisioning time by 60%. Designed a GraphQL-backed data layer that cut p99 query latency by 70%."
+      }
+    ],
+    "rawText": "Kofi Larsen\nkofi.larsen@example.com | Denver, CO\nSUMMARY\nExperienced backend engineer with 6 years of experience building backend systems on Kubernetes,\nPostgreSQL, System design.\nEXPERIENCE\nSenior Backend Engineer, Bedrock Technologies (2022-2026)\n- Owned the PostgreSQL event pipeline processing 70M events/day.\n- Designed internal System design standards used by 33+ downstream services.\nBackend Engineer, Lattice Dynamics (2021-2022)\n- Applied distributed-systems patterns to scale the platform to 368K concurrent users.\n- Built and maintained REST APIs in Distributed systems serving 131K requests/day.\nSoftware Engineer I, Copperfield Dynamics (2020-2021)\n- Led migration of core services at Copperfield Dynamics onto AWS, improving uptime during peak load.\n- Introduced Terraform-managed infrastructure, cutting provisioning time by 60%.\n- Designed a GraphQL-backed data layer that cut p99 query latency by 70%.\nEDUCATION\nSome coursework in Computer Science, no degree completed\nSkills: Kubernetes, PostgreSQL, System design, Terraform, AWS, MySQL, Elasticsearch, Node.js,\nGraphQL, Distributed systems, TypeScript.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0379",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 6 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 3/6 required skills: Node.js, PostgreSQL, AWS."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": false,
+        "detail": "Resume's highest detected education level rank is 0; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.7375
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.9975
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.835
+      }
+    ],
+    "compositeScore": 83,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 433,
+    "totalMs": 436
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "extracted": {
+    "id": "resume-0760",
+    "fileName": "resume-0760.pdf",
+    "name": "Daniel Suleiman",
+    "yearsExperience": 7,
+    "skills": [
+      "Distributed systems",
+      "REST API design",
+      "TypeScript",
+      "PostgreSQL",
+      "Docker",
+      "Redis",
+      "Node.js",
+      "Terraform"
+    ],
+    "education": [
+      "B.S. Information Systems, University of Oregon, 2018"
+    ],
+    "experience": [
+      {
+        "title": "Senior Backend Engineer",
+        "company": "Sable Infrastructure",
+        "years": 3,
+        "description": "Built and maintained REST APIs in Redis serving 613K requests/day."
+      },
+      {
+        "title": "Backend Engineer",
+        "company": "Wrenfield Computing",
+        "years": 1,
+        "description": "Introduced Terraform-managed infrastructure, cutting provisioning time by 77%. Applied distributed-systems patterns to scale the platform to 365K concurrent users."
+      },
+      {
+        "title": "Software Engineer I",
+        "company": "Redbank Systems",
+        "years": 3,
+        "description": "Designed a REST API design-backed data layer that cut p99 query latency by 26%."
+      }
+    ],
+    "rawText": "Daniel Suleiman\ndaniel.suleiman@example.com | Louisville, KY\nSUMMARY\nResults-driven backend engineer with 7 years of experience building backend systems on Distributed\nsystems, REST API design, TypeScript.\nEXPERIENCE\nSenior Backend Engineer - Sable Infrastructure (2023-2026)\n- Built and maintained REST APIs in Redis serving 613K requests/day.\nBackend Engineer - Wrenfield Computing (2022-2023)\n- Introduced Terraform-managed infrastructure, cutting provisioning time by 77%.\n- Applied distributed-systems patterns to scale the platform to 365K concurrent users.\nSoftware Engineer I - Redbank Systems (2019-2022)\n- Designed a REST API design-backed data layer that cut p99 query latency by 26%.\nEDUCATION\nB.S. Information Systems, University of Oregon, 2018\nSKILLS\n- Distributed systems\n- REST API design\n- TypeScript\n- PostgreSQL\n- Docker\n- Redis\n- Node.js\n- Terraform\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0760",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 7 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 5/6 required skills: Node.js, TypeScript, PostgreSQL, Distributed systems, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.6675
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.995
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.61
+      }
+    ],
+    "compositeScore": 73,
+    "eligible": true
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 478,
+    "totalMs": 482
+  }
+}

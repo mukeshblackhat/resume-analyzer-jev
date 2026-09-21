@@ -1,0 +1,62 @@
+{
+  "extracted": {
+    "id": "resume-0453",
+    "fileName": "resume-0453.pdf",
+    "name": "Viktor Delgado",
+    "yearsExperience": 2,
+    "skills": [],
+    "education": [],
+    "experience": [],
+    "rawText": "Viktor Delgado\nviktor.delgado@example.com | Cincinnati, OH\nViktor Delgado has 2 years of experience in backend and distributed systems.\nMost recently, Backend Engineer at Bedrock Analytics (2024-2026), where they\ndesigned internal REST API design standards used by 30+ downstream services.\nEducation: B.S. Information Systems, UC San Diego, 2023. Core skills:\nTerraform, Distributed systems, REST API design, Redis, TypeScript, PostgreSQL,\nNode.js, AWS.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0453",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": false,
+        "detail": "Resume shows 2 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 0/6 required skills: none."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": false,
+        "detail": "Resume's highest detected education level rank is 0; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.0075
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0
+      }
+    ],
+    "compositeScore": 0,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 380,
+    "totalMs": 384
+  }
+}

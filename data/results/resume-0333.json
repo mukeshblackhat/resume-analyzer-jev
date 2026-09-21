@@ -1,0 +1,62 @@
+{
+  "extracted": {
+    "id": "resume-0333",
+    "fileName": "resume-0333.pdf",
+    "name": "Anton Serrano",
+    "yearsExperience": 14,
+    "skills": [],
+    "education": [],
+    "experience": [],
+    "rawText": "Anton Serrano\nanton.serrano@example.com | San Jose, CA\nAnton Serrano has 14 years of experience in backend and distributed systems.\nMost recently, Principal Backend Engineer at Windmere Data (2025-2026), where\nthey owned the Kafka event pipeline processing 45M events/day. Before that,\nStaff Backend Engineer at Copperfield Infrastructure (2022-2025). Before that,\nSenior Backend Engineer at Lattice Technologies (2012-2022). Education: Ph.D.\nComputer Engineering, NC State University, 2012; B.S. Computer Engineering, Cal\nPoly, 2007. Core skills: GraphQL, PostgreSQL, TypeScript, CI/CD, Kafka,\nNode.js, Go, AWS, Distributed systems.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0333",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 14 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 0/6 required skills: none."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": false,
+        "detail": "Resume's highest detected education level rank is 0; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.025
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.0125
+      }
+    ],
+    "compositeScore": 1,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 486,
+    "totalMs": 489
+  }
+}

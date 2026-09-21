@@ -1,0 +1,62 @@
+{
+  "extracted": {
+    "id": "resume-0467",
+    "fileName": "resume-0467.pdf",
+    "name": "Priscilla Kessler",
+    "yearsExperience": 4,
+    "skills": [],
+    "education": [],
+    "experience": [],
+    "rawText": "Priscilla Kessler\npriscilla.kessler@example.com | Houston, TX\nPriscilla Kessler has 4 years of experience in marketing. Most recently,\nMarketing Coordinator at Pixel & Pine Partners (2024-2026), where they\ncoordinated email campaigns reaching 227K subscribers. Before that, Marketing\nIntern at Pixel & Pine Creative (2022-2024). Education: B.A. Economics,\nColumbia University, 2021. Core skills: Social media, SEO basics, Campaign\nmanagement, Content strategy, Email marketing.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0467",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": false,
+        "detail": "Resume shows 4 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 0/6 required skills: none."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": false,
+        "detail": "Resume's highest detected education level rank is 0; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.0125
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0
+      }
+    ],
+    "compositeScore": 0,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 361,
+    "totalMs": 365
+  }
+}

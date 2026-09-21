@@ -1,0 +1,84 @@
+{
+  "extracted": {
+    "id": "resume-0158",
+    "fileName": "resume-0158.pdf",
+    "name": "Ravi Andersson",
+    "yearsExperience": 9,
+    "skills": [
+      "Account management",
+      "Salesforce",
+      "Cold outreach",
+      "Quota attainment",
+      "Negotiation",
+      "Pipeline forecasting"
+    ],
+    "education": [
+      "B.A. Communications, University of Illinois Urbana-Champaign, 2017"
+    ],
+    "experience": [
+      {
+        "title": "Enterprise Account Executive",
+        "company": "Ashford Brands",
+        "years": 3,
+        "description": "Exceeded quarterly quota by 24% for four consecutive quarters. Managed a book of 31+ enterprise accounts. Closed $1M in annual recurring revenue across mid-market accounts at Ashford Brands."
+      },
+      {
+        "title": "Senior Account Executive",
+        "company": "Fieldstone Retail",
+        "years": 6,
+        "description": "Built and ran a cold-outreach pipeline generating 110 qualified leads per month. Managed a book of 36+ enterprise accounts. Closed $5M in annual recurring revenue across mid-market accounts at Fieldstone Retail."
+      }
+    ],
+    "rawText": "Ravi Andersson\nravi.andersson@example.com | Cincinnati, OH\nSUMMARY\nB2B sales professional with 9 years of experience in enterprise software sales.\nEXPERIENCE\nEnterprise Account Executive - Ashford Brands (2023-2026)\n- Exceeded quarterly quota by 24% for four consecutive quarters.\n- Managed a book of 31+ enterprise accounts.\n- Closed $1M in annual recurring revenue across mid-market accounts at Ashford Brands.\nSenior Account Executive - Fieldstone Retail (2017-2023)\n- Built and ran a cold-outreach pipeline generating 110 qualified leads per month.\n- Managed a book of 36+ enterprise accounts.\n- Closed $5M in annual recurring revenue across mid-market accounts at Fieldstone Retail.\nEDUCATION\nB.A. Communications, University of Illinois Urbana-Champaign, 2017\nSKILLS\n- Account management\n- Salesforce\n- Cold outreach\n- Quota attainment\n- Negotiation\n- Pipeline forecasting\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0158",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 9 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 0/6 required skills: none."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.0075
+      }
+    ],
+    "compositeScore": 0,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 364,
+    "totalMs": 368
+  }
+}

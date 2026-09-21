@@ -1,0 +1,82 @@
+{
+  "extracted": {
+    "id": "resume-0065",
+    "fileName": "resume-0065.pdf",
+    "name": "Caleb Fontaine",
+    "yearsExperience": 5,
+    "skills": [
+      "Node.js",
+      "MySQL",
+      "Distributed systems",
+      "GraphQL",
+      "AWS",
+      "PostgreSQL"
+    ],
+    "education": [],
+    "experience": [
+      {
+        "title": "Senior Backend Engineer",
+        "company": "Vertex Systems",
+        "years": 3,
+        "description": "Applied distributed-systems patterns to scale the platform to 478K concurrent users. Designed a PostgreSQL-backed data layer that cut p99 query latency by 39%."
+      },
+      {
+        "title": "Backend Engineer",
+        "company": "Redbank Networks",
+        "years": 2,
+        "description": "Designed internal GraphQL standards used by 25+ downstream services."
+      }
+    ],
+    "rawText": "Caleb Fontaine\ncaleb.fontaine@example.com | Dallas, TX\nSUMMARY\nSenior backend engineer with 5 years of experience building backend systems on Node.js, MySQL,\nDistributed systems.\nEXPERIENCE\nSenior Backend Engineer, Vertex Systems (2023-2026)\n- Applied distributed-systems patterns to scale the platform to 478K concurrent users.\n- Designed a PostgreSQL-backed data layer that cut p99 query latency by 39%.\nBackend Engineer, Redbank Networks (2021-2023)\n- Designed internal GraphQL standards used by 25+ downstream services.\nEDUCATION\nSkills: Node.js, MySQL, Distributed systems, GraphQL, AWS, PostgreSQL.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0065",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 5 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 4/6 required skills: Node.js, PostgreSQL, Distributed systems, AWS."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": false,
+        "detail": "Resume's highest detected education level rank is 0; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.54
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.9925
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.6575
+      }
+    ],
+    "compositeScore": 69,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 3,
+    "scoringMs": 355,
+    "totalMs": 360
+  }
+}

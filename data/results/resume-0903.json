@@ -1,0 +1,89 @@
+{
+  "extracted": {
+    "id": "resume-0903",
+    "fileName": "resume-0903.pdf",
+    "name": "Omar Novak",
+    "yearsExperience": 8,
+    "skills": [
+      "REST API design",
+      "Node.js",
+      "iOS",
+      "TypeScript",
+      "React Native"
+    ],
+    "education": [
+      "B.S. Electrical Engineering, San Jose State University, 2017"
+    ],
+    "experience": [
+      {
+        "title": "Senior Mobile Engineer",
+        "company": "Beacon Cloud",
+        "years": 4,
+        "description": "Wrote a lightweight TypeScript BFF layer to aggregate REST calls for the mobile app. Maintained native modules in Swift and Kotlin for platform-specific features."
+      },
+      {
+        "title": "Mobile Engineer",
+        "company": "Sable Data",
+        "years": 1,
+        "description": "Built the company's React Native app end to end, shipped to 477K users."
+      },
+      {
+        "title": "Junior Mobile Engineer",
+        "company": "Lattice Technologies",
+        "years": 3,
+        "description": "Built the company's React Native app end to end, shipped to 127K users. Maintained native modules in Swift and Kotlin for platform-specific features. Wrote a lightweight TypeScript BFF layer to aggregate REST calls for the mobile app."
+      }
+    ],
+    "rawText": "Omar Novak\nomar.novak903@example.com | Dallas, TX\nSUMMARY\nMobile engineer with 8 years of experience building apps with REST API design, Node.js, iOS, some\nbackend exposure.\nEXPERIENCE\nSenior Mobile Engineer - Beacon Cloud (2022-2026)\n- Wrote a lightweight TypeScript BFF layer to aggregate REST calls for the mobile app.\n- Maintained native modules in Swift and Kotlin for platform-specific features.\nMobile Engineer - Sable Data (2021-2022)\n- Built the company's React Native app end to end, shipped to 477K users.\nJunior Mobile Engineer - Lattice Technologies (2018-2021)\n- Built the company's React Native app end to end, shipped to 127K users.\n- Maintained native modules in Swift and Kotlin for platform-specific features.\n- Wrote a lightweight TypeScript BFF layer to aggregate REST calls for the mobile app.\nEDUCATION\nB.S. Electrical Engineering, San Jose State University, 2017\nSKILLS\n- REST API design\n- Node.js\n- iOS\n- TypeScript\n- React Native\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0903",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 8 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 3/6 required skills: Node.js, TypeScript, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.2425
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.34
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.2275
+      }
+    ],
+    "compositeScore": 26,
+    "eligible": true
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 436,
+    "totalMs": 440
+  }
+}

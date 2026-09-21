@@ -1,0 +1,93 @@
+{
+  "extracted": {
+    "id": "resume-0893",
+    "fileName": "resume-0893.pdf",
+    "name": "Rosa Patel",
+    "yearsExperience": 10,
+    "skills": [
+      "gRPC",
+      "Node.js",
+      "PostgreSQL",
+      "Python",
+      "GraphQL",
+      "REST API design",
+      "System design",
+      "AWS",
+      "Distributed systems"
+    ],
+    "education": [
+      "B.S. Software Engineering, San Jose State University, 2016"
+    ],
+    "experience": [
+      {
+        "title": "Staff Backend Engineer",
+        "company": "Nimbus Data",
+        "years": 3,
+        "description": "Owned the Kafka event pipeline processing 38M events/day."
+      },
+      {
+        "title": "Senior Backend Engineer",
+        "company": "Vertex Systems",
+        "years": 4,
+        "description": "Built and maintained REST APIs in PostgreSQL serving 341K requests/day. Led migration of core services at Vertex Systems onto Node.js, improving uptime during peak load. Designed internal PostgreSQL standards used by 13+ downstream services."
+      },
+      {
+        "title": "Backend Engineer",
+        "company": "Anchor Dynamics",
+        "years": 3,
+        "description": "Designed a Distributed systems-backed data layer that cut p99 query latency by 39%. Introduced Terraform-managed infrastructure, cutting provisioning time by 65%. Applied distributed-systems patterns to scale the platform to 113K concurrent users."
+      }
+    ],
+    "rawText": "Rosa Patel\nrosa.patel@example.com | Raleigh, NC\nSUMMARY\nExperienced backend engineer with 10 years of experience building backend systems on gRPC, Node.js,\nPostgreSQL.\nEXPERIENCE\nStaff Backend Engineer - Nimbus Data (2023-2026)\n- Owned the Kafka event pipeline processing 38M events/day.\nSenior Backend Engineer - Vertex Systems (2019-2023)\n- Built and maintained REST APIs in PostgreSQL serving 341K requests/day.\n- Led migration of core services at Vertex Systems onto Node.js, improving uptime during peak load.\n- Designed internal PostgreSQL standards used by 13+ downstream services.\nBackend Engineer - Anchor Dynamics (2016-2019)\n- Designed a Distributed systems-backed data layer that cut p99 query latency by 39%.\n- Introduced Terraform-managed infrastructure, cutting provisioning time by 65%.\n- Applied distributed-systems patterns to scale the platform to 113K concurrent users.\nEDUCATION\nB.S. Software Engineering, San Jose State University, 2016\nSKILLS\n- gRPC\n- Node.js\n- PostgreSQL\n- Python\n- GraphQL\n- REST API design\n- System design\n- AWS\n- Distributed systems\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0893",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 10 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 5/6 required skills: Node.js, PostgreSQL, Distributed systems, AWS, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.765
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.9975
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.93
+      }
+    ],
+    "compositeScore": 87,
+    "eligible": true
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 412,
+    "totalMs": 416
+  }
+}

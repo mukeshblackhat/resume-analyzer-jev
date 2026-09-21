@@ -1,0 +1,77 @@
+{
+  "extracted": {
+    "id": "resume-0261",
+    "fileName": "resume-0261.pdf",
+    "name": "Yuki Lindqvist",
+    "yearsExperience": 1,
+    "skills": [
+      "MongoDB",
+      "REST API design",
+      "Next.js",
+      "HTML5",
+      "JavaScript"
+    ],
+    "education": [
+      "B.S. Information Systems, University of Cincinnati, 2025"
+    ],
+    "experience": [
+      {
+        "title": "Junior Frontend Developer",
+        "company": "Nimbus Digital",
+        "years": 1,
+        "description": "Implemented Next.js component libraries shared across product teams. Partnered with backend engineers at Nimbus Digital to consume REST and GraphQL APIs."
+      }
+    ],
+    "rawText": "Yuki Lindqvist\nyuki.lindqvist@example.com | Las Vegas, NV\nSUMMARY\nFrontend/junior developer with 1 year of experience in MongoDB, REST API design, Next.js.\nEXPERIENCE\nJunior Frontend Developer, Nimbus Digital (2025-2026)\n- Implemented Next.js component libraries shared across product teams.\n- Partnered with backend engineers at Nimbus Digital to consume REST and GraphQL APIs.\nEDUCATION\nB.S. Information Systems, University of Cincinnati, 2025\nSkills: MongoDB, REST API design, Next.js, HTML5, JavaScript.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0261",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": false,
+        "detail": "Resume shows 1 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 1/6 required skills: REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.08
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.3025
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0
+      }
+    ],
+    "compositeScore": 11,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 1,
+    "scoringMs": 369,
+    "totalMs": 372
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "extracted": {
+    "id": "resume-0895",
+    "fileName": "resume-0895.pdf",
+    "name": "Jonas Kelly",
+    "yearsExperience": 7,
+    "skills": [
+      "TypeScript",
+      "Kafka",
+      "Airflow",
+      "Spark",
+      "AWS",
+      "Python",
+      "Redshift",
+      "dbt"
+    ],
+    "education": [
+      "M.S. Electrical Engineering, Metro State University, 2019",
+      "B.S. Electrical Engineering, Penn State University, 2016"
+    ],
+    "experience": [
+      {
+        "title": "Senior Data Engineer",
+        "company": "Lattice Networks",
+        "years": 1,
+        "description": "Coordinated distributed batch jobs across multiple regions on AWS. Maintained PostgreSQL warehouses at Lattice Networks supporting company-wide analytics dashboards."
+      },
+      {
+        "title": "Data Engineer",
+        "company": "Amber Analytics",
+        "years": 1,
+        "description": "Built Airflow-orchestrated ETL pipelines moving 147GB/day through Redshift. Wrote Python and Airflow batch jobs to process large-scale event data."
+      },
+      {
+        "title": "Data Engineer I",
+        "company": "Palodex Solutions",
+        "years": 5,
+        "description": "Maintained Redshift warehouses at Palodex Solutions supporting company-wide analytics dashboards. Wrote Python and Spark batch jobs to process large-scale event data."
+      }
+    ],
+    "rawText": "Jonas Kelly\njonas.kelly@example.com | San Francisco, CA\nSUMMARY\nData engineer with 7 years of experience, focused on pipelines and warehousing using TypeScript, Kafka,\nAirflow.\nEXPERIENCE\nSenior Data Engineer - Lattice Networks (2025-2026)\n- Coordinated distributed batch jobs across multiple regions on AWS.\n- Maintained PostgreSQL warehouses at Lattice Networks supporting company-wide analytics\ndashboards.\nData Engineer - Amber Analytics (2024-2025)\n- Built Airflow-orchestrated ETL pipelines moving 147GB/day through Redshift.\n- Wrote Python and Airflow batch jobs to process large-scale event data.\nData Engineer I - Palodex Solutions (2019-2024)\n- Maintained Redshift warehouses at Palodex Solutions supporting company-wide analytics dashboards.\n- Wrote Python and Spark batch jobs to process large-scale event data.\nEDUCATION\nM.S. Electrical Engineering, Metro State University, 2019\nB.S. Electrical Engineering, Penn State University, 2016\nSKILLS\n- TypeScript\n- Kafka\n- Airflow\n- Spark\n- AWS\n- Python\n- Redshift\n- dbt\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0895",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 7 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 2/6 required skills: TypeScript, AWS."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 2; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.3225
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.4775
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.285
+      }
+    ],
+    "compositeScore": 35,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 1,
+    "scoringMs": 454,
+    "totalMs": 457
+  }
+}

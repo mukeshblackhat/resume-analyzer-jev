@@ -1,0 +1,85 @@
+{
+  "extracted": {
+    "id": "resume-0079",
+    "fileName": "resume-0079.pdf",
+    "name": "Omar Volkov",
+    "yearsExperience": 9,
+    "skills": [
+      "Distributed systems",
+      "PostgreSQL",
+      "CI/CD",
+      "Python",
+      "Node.js",
+      "AWS",
+      "Kafka"
+    ],
+    "education": [
+      "B.S. Information Systems, University of Texas at Dallas, 2016"
+    ],
+    "experience": [
+      {
+        "title": "Staff Backend Engineer",
+        "company": "Driftwood Systems",
+        "years": 4,
+        "description": "Designed internal PostgreSQL standards used by 20+ downstream services. Led migration of core services at Driftwood Systems onto AWS, improving uptime during peak load."
+      },
+      {
+        "title": "Senior Backend Engineer",
+        "company": "Beacon Analytics",
+        "years": 5,
+        "description": "Built and maintained REST APIs in AWS serving 704K requests/day. Designed a Python-backed data layer that cut p99 query latency by 62%."
+      }
+    ],
+    "rawText": "Omar Volkov\nomar.volkov@example.com | St. Louis, MO\nSUMMARY\nResults-driven backend engineer with 9 years of experience building backend systems on Distributed\nsystems, PostgreSQL, CI/CD.\nEXPERIENCE\nStaff Backend Engineer, Driftwood Systems (2022-2026)\n- Designed internal PostgreSQL standards used by 20+ downstream services.\n- Led migration of core services at Driftwood Systems onto AWS, improving uptime during peak load.\nSenior Backend Engineer, Beacon Analytics (2017-2022)\n- Built and maintained REST APIs in AWS serving 704K requests/day.\n- Designed a Python-backed data layer that cut p99 query latency by 62%.\nEDUCATION\nB.S. Information Systems, University of Texas at Dallas, 2016\nSkills: Distributed systems, PostgreSQL, CI/CD, Python, Node.js, AWS, Kafka.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0079",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 9 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 4/6 required skills: Node.js, PostgreSQL, Distributed systems, AWS."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.64
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.995
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.865
+      }
+    ],
+    "compositeScore": 80,
+    "eligible": true
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 365,
+    "totalMs": 369
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "extracted": {
+    "id": "resume-0800",
+    "fileName": "resume-0800.pdf",
+    "name": "Rosa Nkemelu",
+    "yearsExperience": 6,
+    "skills": [
+      "PostgreSQL",
+      "Swift",
+      "Kotlin",
+      "Distributed systems",
+      "Node.js",
+      "GraphQL",
+      "TypeScript",
+      "Android"
+    ],
+    "education": [
+      "M.S. Information Systems, San Jose State University, 2019",
+      "B.S. Information Systems, University of Utah, 2016"
+    ],
+    "experience": [
+      {
+        "title": "Senior Mobile Engineer",
+        "company": "Bedrock Solutions",
+        "years": 3,
+        "description": "Built the company's Kotlin app end to end, shipped to 20K users. Maintained native modules in Swift and Kotlin for platform-specific features."
+      },
+      {
+        "title": "Mobile Engineer",
+        "company": "Redbank Technologies",
+        "years": 3,
+        "description": "Wrote a lightweight Node.js BFF layer to aggregate REST calls for the mobile app. Built the company's Kotlin app end to end, shipped to 343K users. Maintained native modules in Swift and Kotlin for platform-specific features."
+      }
+    ],
+    "rawText": "Rosa Nkemelu\nrosa.nkemelu@example.com | Columbus, OH\nSUMMARY\nMobile engineer with 6 years of experience building apps with PostgreSQL, Swift, Kotlin, some backend\nexposure.\nEXPERIENCE\nSenior Mobile Engineer - Bedrock Solutions (2023-2026)\n- Built the company's Kotlin app end to end, shipped to 20K users.\n- Maintained native modules in Swift and Kotlin for platform-specific features.\nMobile Engineer - Redbank Technologies (2020-2023)\n- Wrote a lightweight Node.js BFF layer to aggregate REST calls for the mobile app.\n- Built the company's Kotlin app end to end, shipped to 343K users.\n- Maintained native modules in Swift and Kotlin for platform-specific features.\nEDUCATION\nM.S. Information Systems, San Jose State University, 2019\nB.S. Information Systems, University of Utah, 2016\nSKILLS\n- PostgreSQL\n- Swift\n- Kotlin\n- Distributed systems\n- Node.js\n- GraphQL\n- TypeScript\n- Android\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0800",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 6 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 4/6 required skills: Node.js, TypeScript, PostgreSQL, Distributed systems."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 2; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.375
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.3975
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.2625
+      }
+    ],
+    "compositeScore": 35,
+    "eligible": true
+  },
+  "timings": {
+    "extractionMs": 4,
+    "scoringMs": 410,
+    "totalMs": 416
+  }
+}

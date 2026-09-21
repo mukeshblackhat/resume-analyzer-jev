@@ -1,0 +1,89 @@
+{
+  "extracted": {
+    "id": "resume-0430",
+    "fileName": "resume-0430.pdf",
+    "name": "Omar Callahan",
+    "yearsExperience": 7,
+    "skills": [
+      "CRM tools",
+      "Account management",
+      "Negotiation",
+      "Quota attainment",
+      "Cold outreach"
+    ],
+    "education": [
+      "B.A. Marketing, Cal Poly, 2018"
+    ],
+    "experience": [
+      {
+        "title": "Senior Account Executive",
+        "company": "Vineland Consulting",
+        "years": 4,
+        "description": "Exceeded quarterly quota by 25% for four consecutive quarters. Built and ran a cold-outreach pipeline generating 174 qualified leads per month. Closed $5M in annual recurring revenue across mid-market accounts at Vineland Consulting."
+      },
+      {
+        "title": "Account Executive",
+        "company": "Hazelmoor Studio",
+        "years": 1,
+        "description": "Managed a book of 16+ enterprise accounts. Closed $5M in annual recurring revenue across mid-market accounts at Hazelmoor Studio."
+      },
+      {
+        "title": "Sales Development Rep",
+        "company": "Mesquite Creative",
+        "years": 2,
+        "description": "Closed $4M in annual recurring revenue across mid-market accounts at Mesquite Creative. Built and ran a cold-outreach pipeline generating 36 qualified leads per month. Exceeded quarterly quota by 31% for four consecutive quarters."
+      }
+    ],
+    "rawText": "Omar Callahan\nomar.callahan@example.com | Pittsburgh, PA\nSUMMARY\nB2B sales professional with 7 years of experience in enterprise software sales.\nEXPERIENCE\nSenior Account Executive, Vineland Consulting (2022-2026)\n- Exceeded quarterly quota by 25% for four consecutive quarters.\n- Built and ran a cold-outreach pipeline generating 174 qualified leads per month.\n- Closed $5M in annual recurring revenue across mid-market accounts at Vineland Consulting.\nAccount Executive, Hazelmoor Studio (2021-2022)\n- Managed a book of 16+ enterprise accounts.\n- Closed $5M in annual recurring revenue across mid-market accounts at Hazelmoor Studio.\nSales Development Rep, Mesquite Creative (2019-2021)\n- Closed $4M in annual recurring revenue across mid-market accounts at Mesquite Creative.\n- Built and ran a cold-outreach pipeline generating 36 qualified leads per month.\n- Exceeded quarterly quota by 31% for four consecutive quarters.\nEDUCATION\nB.A. Marketing, Cal Poly, 2018\nSkills: CRM tools, Account management, Negotiation, Quota attainment, Cold outreach.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0430",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 7 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 0/6 required skills: none."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.01
+      }
+    ],
+    "compositeScore": 0,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 1,
+    "scoringMs": 401,
+    "totalMs": 406
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "extracted": {
+    "id": "resume-0165",
+    "fileName": "resume-0165.pdf",
+    "name": "Diego Kowalski",
+    "yearsExperience": 1,
+    "skills": [
+      "GraphQL",
+      "JavaScript",
+      "Next.js",
+      "MongoDB"
+    ],
+    "education": [
+      "Some coursework in Computer Science, no degree completed"
+    ],
+    "experience": [
+      {
+        "title": "Junior Frontend Developer",
+        "company": "Grayline Systems",
+        "years": 1,
+        "description": "Implemented Next.js component libraries shared across product teams. Partnered with backend engineers at Grayline Systems to consume REST and GraphQL APIs. Built responsive Next.js interfaces consumed by 101K monthly users."
+      }
+    ],
+    "rawText": "Diego Kowalski\ndiego.kowalski@example.com | Richmond, VA\nSUMMARY\nFrontend/junior developer with just starting out in GraphQL, JavaScript, Next.js.\nEXPERIENCE\nJunior Frontend Developer - Grayline Systems (2025-2026)\n- Implemented Next.js component libraries shared across product teams.\n- Partnered with backend engineers at Grayline Systems to consume REST and GraphQL APIs.\n- Built responsive Next.js interfaces consumed by 101K monthly users.\nEDUCATION\nSome coursework in Computer Science, no degree completed\nSKILLS\n- GraphQL\n- JavaScript\n- Next.js\n- MongoDB\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0165",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": false,
+        "detail": "Resume shows 1 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 0/6 required skills: none."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": false,
+        "detail": "Resume's highest detected education level rank is 0; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.01
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.2825
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0
+      }
+    ],
+    "compositeScore": 8,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 1,
+    "scoringMs": 360,
+    "totalMs": 364
+  }
+}

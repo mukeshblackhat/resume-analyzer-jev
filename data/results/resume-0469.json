@@ -1,0 +1,78 @@
+{
+  "extracted": {
+    "id": "resume-0469",
+    "fileName": "resume-0469.pdf",
+    "name": "Ravi Abara",
+    "yearsExperience": 4,
+    "skills": [
+      "Node.js",
+      "REST API design",
+      "Distributed systems",
+      "TypeScript",
+      "PostgreSQL",
+      "AWS"
+    ],
+    "education": [
+      "B.S. Electrical Engineering, Temple University, 2021"
+    ],
+    "experience": [
+      {
+        "title": "Backend Engineer",
+        "company": "Timberline Analytics",
+        "years": 4,
+        "description": "Applied distributed-systems patterns to scale the platform to 107K concurrent users. Owned the Kafka event pipeline processing 73M events/day. Built and maintained REST APIs in PostgreSQL serving 380K requests/day."
+      }
+    ],
+    "rawText": "Ravi Abara\nravi.abara@example.com | Seattle, WA\nSUMMARY\nBackend-leaning engineer with 4 years of experience, working primarily with Node.js, REST API design,\nDistributed systems.\nEXPERIENCE\nBackend Engineer - Timberline Analytics (2022-2026)\n- Applied distributed-systems patterns to scale the platform to 107K concurrent users.\n- Owned the Kafka event pipeline processing 73M events/day.\n- Built and maintained REST APIs in PostgreSQL serving 380K requests/day.\nEDUCATION\nB.S. Electrical Engineering, Temple University, 2021\nSKILLS\n- Node.js\n- REST API design\n- Distributed systems\n- TypeScript\n- PostgreSQL\n- AWS\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0469",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": false,
+        "detail": "Resume shows 4 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 6/6 required skills: Node.js, TypeScript, PostgreSQL, Distributed systems, AWS, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.59
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.99
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.4625
+      }
+    ],
+    "compositeScore": 65,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 427,
+    "totalMs": 431
+  }
+}

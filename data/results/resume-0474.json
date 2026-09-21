@@ -1,0 +1,77 @@
+{
+  "extracted": {
+    "id": "resume-0474",
+    "fileName": "resume-0474.pdf",
+    "name": "Felix Nkemelu",
+    "yearsExperience": 2,
+    "skills": [
+      "Design systems",
+      "Prototyping",
+      "UX research",
+      "Adobe XD",
+      "Visual design"
+    ],
+    "education": [
+      "B.S. Digital Media, University of Texas at Dallas, 2023"
+    ],
+    "experience": [
+      {
+        "title": "Product Designer",
+        "company": "Kindlewood Agency",
+        "years": 2,
+        "description": "Designed and prototyped features in Figma used by 19+ engineers to build against."
+      }
+    ],
+    "rawText": "Felix Nkemelu\nfelix.nkemelu@example.com | San Diego, CA\nSUMMARY\nProduct designer with 2 years of experience, focused on Design systems, Prototyping, UX research.\nEXPERIENCE\nProduct Designer - Kindlewood Agency (2024-2026)\n- Designed and prototyped features in Figma used by 19+ engineers to build against.\nEDUCATION\nB.S. Digital Media, University of Texas at Dallas, 2023\nSKILLS\n- Design systems\n- Prototyping\n- UX research\n- Adobe XD\n- Visual design\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0474",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": false,
+        "detail": "Resume shows 2 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 0/6 required skills: none."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.0075
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0
+      }
+    ],
+    "compositeScore": 0,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 1,
+    "scoringMs": 402,
+    "totalMs": 406
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "extracted": {
+    "id": "resume-0255",
+    "fileName": "resume-0255.pdf",
+    "name": "Marcus Nakamura",
+    "yearsExperience": 5,
+    "skills": [
+      "TypeScript",
+      "REST API design",
+      "Distributed systems",
+      "Node.js",
+      "MySQL",
+      "GraphQL",
+      "AWS"
+    ],
+    "education": [
+      "B.S. Computer Science, Drexel University, 2020"
+    ],
+    "experience": [
+      {
+        "title": "Senior Backend Engineer",
+        "company": "Quartzline Technologies",
+        "years": 5,
+        "description": "Applied distributed-systems patterns to scale the platform to 60K concurrent users."
+      }
+    ],
+    "rawText": "Marcus Nakamura\nmarcus.nakamura@example.com | Seattle, WA\nSUMMARY\nResults-driven backend engineer with 5 years of experience building backend systems on TypeScript, REST\nAPI design, Distributed systems.\nEXPERIENCE\nSenior Backend Engineer, Quartzline Technologies (2021-2026)\n- Applied distributed-systems patterns to scale the platform to 60K concurrent users.\nEDUCATION\nB.S. Computer Science, Drexel University, 2020\nSkills: TypeScript, REST API design, Distributed systems, Node.js, MySQL, GraphQL, AWS.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0255",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 5 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 5/6 required skills: Node.js, TypeScript, Distributed systems, AWS, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.4275
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.985
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.455
+      }
+    ],
+    "compositeScore": 58,
+    "eligible": true
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 458,
+    "totalMs": 461
+  }
+}

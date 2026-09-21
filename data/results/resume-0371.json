@@ -1,0 +1,95 @@
+{
+  "extracted": {
+    "id": "resume-0371",
+    "fileName": "resume-0371.pdf",
+    "name": "Chloe Malhotra",
+    "yearsExperience": 6,
+    "skills": [
+      "iOS",
+      "React Native",
+      "Android",
+      "TypeScript",
+      "REST API design",
+      "Node.js",
+      "Swift",
+      "AWS",
+      "REST API design",
+      "GraphQL"
+    ],
+    "education": [
+      "M.S. Information Systems, University of Oregon, 2019",
+      "B.S. Information Systems, UC San Diego, 2016"
+    ],
+    "experience": [
+      {
+        "title": "Senior Mobile Engineer",
+        "company": "Ashgrove Dynamics",
+        "years": 2,
+        "description": "Maintained native modules in Swift and Kotlin for platform-specific features. Built the company's React Native app end to end, shipped to 70K users. Wrote a lightweight TypeScript BFF layer to aggregate REST calls for the mobile app."
+      },
+      {
+        "title": "Mobile Engineer",
+        "company": "Amber Labs",
+        "years": 1,
+        "description": "Built the company's React Native app end to end, shipped to 147K users. Wrote a lightweight Node.js BFF layer to aggregate REST calls for the mobile app."
+      },
+      {
+        "title": "Junior Mobile Engineer",
+        "company": "Silverline Solutions",
+        "years": 3,
+        "description": "Wrote a lightweight Node.js BFF layer to aggregate REST calls for the mobile app. Built the company's React Native app end to end, shipped to 414K users."
+      }
+    ],
+    "rawText": "Chloe Malhotra\nchloe.malhotra@example.com | Phoenix, AZ\nSUMMARY\nMobile engineer with 6 years of experience building apps with iOS, React Native, Android, some backend\nexposure.\nEXPERIENCE\nSenior Mobile Engineer - Ashgrove Dynamics (2024-2026)\n- Maintained native modules in Swift and Kotlin for platform-specific features.\n- Built the company's React Native app end to end, shipped to 70K users.\n- Wrote a lightweight TypeScript BFF layer to aggregate REST calls for the mobile app.\nMobile Engineer - Amber Labs (2023-2024)\n- Built the company's React Native app end to end, shipped to 147K users.\n- Wrote a lightweight Node.js BFF layer to aggregate REST calls for the mobile app.\nJunior Mobile Engineer - Silverline Solutions (2020-2023)\n- Wrote a lightweight Node.js BFF layer to aggregate REST calls for the mobile app.\n- Built the company's React Native app end to end, shipped to 414K users.\nEDUCATION\nM.S. Information Systems, University of Oregon, 2019\nB.S. Information Systems, UC San Diego, 2016\nSKILLS\n- iOS\n- React Native\n- Android\n- TypeScript\n- REST API design\n- Node.js\n- Swift\n- AWS\n- REST API design\n- GraphQL\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0371",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 6 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 4/6 required skills: Node.js, TypeScript, AWS, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 2; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.2875
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.365
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.2225
+      }
+    ],
+    "compositeScore": 29,
+    "eligible": true
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 392,
+    "totalMs": 396
+  }
+}

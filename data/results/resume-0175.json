@@ -1,0 +1,78 @@
+{
+  "extracted": {
+    "id": "resume-0175",
+    "fileName": "resume-0175.pdf",
+    "name": "Daniel Lindqvist",
+    "yearsExperience": 5,
+    "skills": [
+      "Prototyping",
+      "Figma",
+      "Wireframing",
+      "Design systems",
+      "Visual design",
+      "Adobe XD"
+    ],
+    "education": [
+      "B.S. Digital Media, University of Illinois Urbana-Champaign, 2020"
+    ],
+    "experience": [
+      {
+        "title": "Senior Product Designer",
+        "company": "Sagebrook Brands",
+        "years": 5,
+        "description": "Led UX research at Sagebrook Brands informing the redesign of the core product flow. Built and maintained the company's design system components and guidelines."
+      }
+    ],
+    "rawText": "Daniel Lindqvist\ndaniel.lindqvist@example.com | Richmond, VA\nSUMMARY\nProduct designer with 5 years of experience, focused on Prototyping, Figma, Wireframing.\nEXPERIENCE\nSenior Product Designer - Sagebrook Brands (2021-2026)\n- Led UX research at Sagebrook Brands informing the redesign of the core product flow.\n- Built and maintained the company's design system components and guidelines.\nEDUCATION\nB.S. Digital Media, University of Illinois Urbana-Champaign, 2020\nSKILLS\n- Prototyping\n- Figma\n- Wireframing\n- Design systems\n- Visual design\n- Adobe XD\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0175",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 5 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 0/6 required skills: none."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.0025
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.0125
+      }
+    ],
+    "compositeScore": 0,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 443,
+    "totalMs": 446
+  }
+}

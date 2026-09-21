@@ -1,0 +1,89 @@
+{
+  "extracted": {
+    "id": "resume-0424",
+    "fileName": "resume-0424.pdf",
+    "name": "Ethan Wu",
+    "yearsExperience": 8,
+    "skills": [
+      "Kafka",
+      "PostgreSQL",
+      "AWS",
+      "TypeScript"
+    ],
+    "education": [
+      "M.S. Computer Engineering, Arizona State University, 2018",
+      "B.S. Computer Engineering, Northeastern University, 2015"
+    ],
+    "experience": [
+      {
+        "title": "Senior Backend Engineer",
+        "company": "Palodex Technologies",
+        "years": 2,
+        "description": "Designed a PostgreSQL-backed data layer that cut p99 query latency by 65%."
+      },
+      {
+        "title": "Backend Engineer",
+        "company": "Copperfield Dynamics",
+        "years": 1,
+        "description": "Introduced Terraform-managed infrastructure, cutting provisioning time by 73%. Owned the Kafka event pipeline processing 19M events/day. Led migration of core services at Copperfield Dynamics onto AWS, improving uptime during peak load."
+      },
+      {
+        "title": "Software Engineer I",
+        "company": "Foundry Software",
+        "years": 5,
+        "description": "Built and maintained REST APIs in AWS serving 321K requests/day. Applied distributed-systems patterns to scale the platform to 192K concurrent users."
+      }
+    ],
+    "rawText": "Ethan Wu\nethan.wu@example.com | Richmond, VA\nSUMMARY\nSenior backend engineer with 8 years of experience building backend systems on Kafka, PostgreSQL,\nAWS.\nEXPERIENCE\nSenior Backend Engineer - Palodex Technologies (2024-2026)\n- Designed a PostgreSQL-backed data layer that cut p99 query latency by 65%.\nBackend Engineer - Copperfield Dynamics (2023-2024)\n- Introduced Terraform-managed infrastructure, cutting provisioning time by 73%.\n- Owned the Kafka event pipeline processing 19M events/day.\n- Led migration of core services at Copperfield Dynamics onto AWS, improving uptime during peak load.\nSoftware Engineer I - Foundry Software (2018-2023)\n- Built and maintained REST APIs in AWS serving 321K requests/day.\n- Applied distributed-systems patterns to scale the platform to 192K concurrent users.\nEDUCATION\nM.S. Computer Engineering, Arizona State University, 2018\nB.S. Computer Engineering, Northeastern University, 2015\nSKILLS\n- Kafka\n- PostgreSQL\n- AWS\n- TypeScript\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0424",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 8 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 3/6 required skills: TypeScript, PostgreSQL, AWS."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 2; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.65
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.995
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.7225
+      }
+    ],
+    "compositeScore": 76,
+    "eligible": true
+  },
+  "timings": {
+    "extractionMs": 1,
+    "scoringMs": 413,
+    "totalMs": 416
+  }
+}

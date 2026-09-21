@@ -1,0 +1,73 @@
+{
+  "extracted": {
+    "id": "resume-0062",
+    "fileName": "resume-0062.pdf",
+    "name": "Nia Nkemelu",
+    "yearsExperience": 1,
+    "skills": [
+      "GraphQL",
+      "Next.js",
+      "MongoDB"
+    ],
+    "education": [],
+    "experience": [
+      {
+        "title": "Junior Frontend Developer",
+        "company": "Harborlight Dynamics",
+        "years": 1,
+        "description": "Built responsive Next.js interfaces consumed by 140K monthly users. Partnered with backend engineers at Harborlight Dynamics to consume REST and GraphQL APIs."
+      }
+    ],
+    "rawText": "Nia Nkemelu\nnia.nkemelu@example.com | Seattle, WA\nSUMMARY\nFrontend/junior developer with just starting out in GraphQL, Next.js, MongoDB.\nEXPERIENCE\nJunior Frontend Developer - Harborlight Dynamics (2025-2026)\n- Built responsive Next.js interfaces consumed by 140K monthly users.\n- Partnered with backend engineers at Harborlight Dynamics to consume REST and GraphQL APIs.\nEDUCATION\nSKILLS\n- GraphQL\n- Next.js\n- MongoDB\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0062",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": false,
+        "detail": "Resume shows 1 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 0/6 required skills: none."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": false,
+        "detail": "Resume's highest detected education level rank is 0; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.01
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.275
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0
+      }
+    ],
+    "compositeScore": 7,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 341,
+    "totalMs": 344
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "extracted": {
+    "id": "resume-0446",
+    "fileName": "resume-0446.pdf",
+    "name": "Carlos Rahman",
+    "yearsExperience": 7,
+    "skills": [
+      "REST API design",
+      "gRPC",
+      "TypeScript",
+      "Kafka",
+      "Distributed systems",
+      "GraphQL",
+      "PostgreSQL",
+      "AWS"
+    ],
+    "education": [
+      "B.S. Information Systems, Drexel University, 2019"
+    ],
+    "experience": [
+      {
+        "title": "Senior Backend Engineer",
+        "company": "Quartzline Systems",
+        "years": 3,
+        "description": "Led migration of core services at Quartzline Systems onto REST API design, improving uptime during peak load. Designed internal PostgreSQL standards used by 18+ downstream services. Built and maintained REST APIs in PostgreSQL serving 383K requests/day."
+      },
+      {
+        "title": "Backend Engineer",
+        "company": "Harborlight Platform",
+        "years": 4,
+        "description": "Owned the TypeScript event pipeline processing 12M events/day."
+      }
+    ],
+    "rawText": "Carlos Rahman\ncarlos.rahman@example.com | Boise, ID\nSUMMARY\nResults-driven backend engineer with 7 years of experience building backend systems on REST API\ndesign, gRPC, TypeScript.\nEXPERIENCE\nSenior Backend Engineer - Quartzline Systems (2023-2026)\n- Led migration of core services at Quartzline Systems onto REST API design, improving uptime during\npeak load.\n- Designed internal PostgreSQL standards used by 18+ downstream services.\n- Built and maintained REST APIs in PostgreSQL serving 383K requests/day.\nBackend Engineer - Harborlight Platform (2019-2023)\n- Owned the TypeScript event pipeline processing 12M events/day.\nEDUCATION\nB.S. Information Systems, Drexel University, 2019\nSKILLS\n- REST API design\n- gRPC\n- TypeScript\n- Kafka\n- Distributed systems\n- GraphQL\n- PostgreSQL\n- AWS\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0446",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 7 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 5/6 required skills: TypeScript, PostgreSQL, Distributed systems, AWS, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.655
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.995
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.7075
+      }
+    ],
+    "compositeScore": 76,
+    "eligible": true
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 510,
+    "totalMs": 515
+  }
+}

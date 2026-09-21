@@ -1,0 +1,88 @@
+{
+  "extracted": {
+    "id": "resume-0860",
+    "fileName": "resume-0860.pdf",
+    "name": "Anton Kelly",
+    "yearsExperience": 6,
+    "skills": [
+      "Kafka",
+      "Distributed systems",
+      "TypeScript",
+      "PostgreSQL"
+    ],
+    "education": [
+      "B.S. Electrical Engineering, Arizona State University, 2020"
+    ],
+    "experience": [
+      {
+        "title": "Senior Backend Engineer",
+        "company": "Northbeam Solutions",
+        "years": 4,
+        "description": "Owned the Kafka event pipeline processing 62M events/day."
+      },
+      {
+        "title": "Backend Engineer",
+        "company": "Anchor Digital",
+        "years": 1,
+        "description": "Led migration of core services at Anchor Digital onto Kafka, improving uptime during peak load. Introduced Terraform-managed infrastructure, cutting provisioning time by 49%."
+      },
+      {
+        "title": "Software Engineer I",
+        "company": "Quartzline Digital",
+        "years": 1,
+        "description": "Designed a Kafka-backed data layer that cut p99 query latency by 56%. Designed internal Distributed systems standards used by 29+ downstream services. Applied distributed-systems patterns to scale the platform to 255K concurrent users."
+      }
+    ],
+    "rawText": "Anton Kelly\nanton.kelly@example.com | Dallas, TX\nSUMMARY\nExperienced backend engineer with 6 years of experience building backend systems on Kafka, Distributed\nsystems, TypeScript.\nEXPERIENCE\nSenior Backend Engineer, Northbeam Solutions (2022-2026)\n- Owned the Kafka event pipeline processing 62M events/day.\nBackend Engineer, Anchor Digital (2021-2022)\n- Led migration of core services at Anchor Digital onto Kafka, improving uptime during peak load.\n- Introduced Terraform-managed infrastructure, cutting provisioning time by 49%.\nSoftware Engineer I, Quartzline Digital (2020-2021)\n- Designed a Kafka-backed data layer that cut p99 query latency by 56%.\n- Designed internal Distributed systems standards used by 29+ downstream services.\n- Applied distributed-systems patterns to scale the platform to 255K concurrent users.\nEDUCATION\nB.S. Electrical Engineering, Arizona State University, 2020\nSkills: Kafka, Distributed systems, TypeScript, PostgreSQL.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0860",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 6 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 3/6 required skills: TypeScript, PostgreSQL, Distributed systems."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.51
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.985
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.8225
+      }
+    ],
+    "compositeScore": 72,
+    "eligible": true
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 366,
+    "totalMs": 370
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "extracted": {
+    "id": "resume-0748",
+    "fileName": "resume-0748.pdf",
+    "name": "Sara Callahan",
+    "yearsExperience": 1,
+    "skills": [
+      "CSS3",
+      "REST API design",
+      "JavaScript",
+      "Node.js"
+    ],
+    "education": [
+      "B.S. Computer Science, UC San Diego, 2025"
+    ],
+    "experience": [
+      {
+        "title": "Junior Frontend Developer",
+        "company": "Nimbus Data",
+        "years": 1,
+        "description": "Partnered with backend engineers at Nimbus Data to consume REST and GraphQL APIs."
+      }
+    ],
+    "rawText": "Sara Callahan\nsara.callahan@example.com | Nashville, TN\nSUMMARY\nFrontend/junior developer with 1 year of experience in CSS3, REST API design, JavaScript.\nEXPERIENCE\nJunior Frontend Developer, Nimbus Data (2025-2026)\n- Partnered with backend engineers at Nimbus Data to consume REST and GraphQL APIs.\nEDUCATION\nB.S. Computer Science, UC San Diego, 2025\nSkills: CSS3, REST API design, JavaScript, Node.js.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0748",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": false,
+        "detail": "Resume shows 1 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 2/6 required skills: Node.js, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.1475
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.3125
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0
+      }
+    ],
+    "compositeScore": 14,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 380,
+    "totalMs": 384
+  }
+}

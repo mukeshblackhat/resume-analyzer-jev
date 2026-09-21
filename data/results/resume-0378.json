@@ -1,0 +1,94 @@
+{
+  "extracted": {
+    "id": "resume-0378",
+    "fileName": "resume-0378.pdf",
+    "name": "Anton Serrano",
+    "yearsExperience": 8,
+    "skills": [
+      "TypeScript",
+      "CI/CD",
+      "GraphQL",
+      "REST API design",
+      "Kubernetes",
+      "AWS",
+      "Redis",
+      "PostgreSQL",
+      "Node.js"
+    ],
+    "education": [
+      "M.S. Software Engineering, University of Illinois Urbana-Champaign, 2018",
+      "B.S. Software Engineering, University of Washington, 2016"
+    ],
+    "experience": [
+      {
+        "title": "Senior Backend Engineer",
+        "company": "Redbank Platform",
+        "years": 2,
+        "description": "Designed a CI/CD-backed data layer that cut p99 query latency by 68%. Led migration of core services at Redbank Platform onto AWS, improving uptime during peak load. Applied distributed-systems patterns to scale the platform to 199K concurrent users."
+      },
+      {
+        "title": "Backend Engineer",
+        "company": "Anchor Software",
+        "years": 1,
+        "description": "Built and maintained REST APIs in Redis serving 147K requests/day. Introduced Terraform-managed infrastructure, cutting provisioning time by 43%. Owned the Kafka event pipeline processing 55M events/day."
+      },
+      {
+        "title": "Software Engineer I",
+        "company": "Palodex Analytics",
+        "years": 5,
+        "description": "Designed internal REST API design standards used by 13+ downstream services."
+      }
+    ],
+    "rawText": "Anton Serrano\nanton.serrano378@example.com | Louisville, KY\nSUMMARY\nExperienced backend engineer with 8 years of experience building backend systems on TypeScript, CI/CD,\nGraphQL.\nEXPERIENCE\nSenior Backend Engineer - Redbank Platform (2024-2026)\n- Designed a CI/CD-backed data layer that cut p99 query latency by 68%.\n- Led migration of core services at Redbank Platform onto AWS, improving uptime during peak load.\n- Applied distributed-systems patterns to scale the platform to 199K concurrent users.\nBackend Engineer - Anchor Software (2023-2024)\n- Built and maintained REST APIs in Redis serving 147K requests/day.\n- Introduced Terraform-managed infrastructure, cutting provisioning time by 43%.\n- Owned the Kafka event pipeline processing 55M events/day.\nSoftware Engineer I - Palodex Analytics (2018-2023)\n- Designed internal REST API design standards used by 13+ downstream services.\nEDUCATION\nM.S. Software Engineering, University of Illinois Urbana-Champaign, 2018\nB.S. Software Engineering, University of Washington, 2016\nSKILLS\n- TypeScript\n- CI/CD\n- GraphQL\n- REST API design\n- Kubernetes\n- AWS\n- Redis\n- PostgreSQL\n- Node.js\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0378",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 8 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 5/6 required skills: Node.js, TypeScript, PostgreSQL, AWS, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 2; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.78
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.9875
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.7825
+      }
+    ],
+    "compositeScore": 83,
+    "eligible": true
+  },
+  "timings": {
+    "extractionMs": 1,
+    "scoringMs": 456,
+    "totalMs": 459
+  }
+}

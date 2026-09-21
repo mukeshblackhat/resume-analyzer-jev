@@ -1,0 +1,93 @@
+{
+  "extracted": {
+    "id": "resume-0685",
+    "fileName": "resume-0685.pdf",
+    "name": "Anton Petrov",
+    "yearsExperience": 8,
+    "skills": [
+      "PostgreSQL",
+      "Airflow",
+      "dbt",
+      "Distributed systems",
+      "Spark",
+      "Distributed systems",
+      "Python",
+      "AWS",
+      "Kafka"
+    ],
+    "education": [
+      "B.S. Information Systems, Cal Poly, 2017"
+    ],
+    "experience": [
+      {
+        "title": "Senior Data Engineer",
+        "company": "Crestline Software",
+        "years": 4,
+        "description": "Wrote Python and Spark batch jobs to process large-scale event data."
+      },
+      {
+        "title": "Data Engineer",
+        "company": "Foundry Data",
+        "years": 1,
+        "description": "Coordinated distributed batch jobs across multiple regions on AWS."
+      },
+      {
+        "title": "Data Engineer I",
+        "company": "Beacon Technologies",
+        "years": 3,
+        "description": "Maintained PostgreSQL warehouses at Beacon Technologies supporting company-wide analytics dashboards. Built dbt-orchestrated ETL pipelines moving 39GB/day through Redshift."
+      }
+    ],
+    "rawText": "Anton Petrov\nanton.petrov@example.com | Las Vegas, NV\nSUMMARY\nData engineer with 8 years of experience, focused on pipelines and warehousing using PostgreSQL,\nAirflow, dbt.\nEXPERIENCE\nSenior Data Engineer - Crestline Software (2022-2026)\n- Wrote Python and Spark batch jobs to process large-scale event data.\nData Engineer - Foundry Data (2021-2022)\n- Coordinated distributed batch jobs across multiple regions on AWS.\nData Engineer I - Beacon Technologies (2018-2021)\n- Maintained PostgreSQL warehouses at Beacon Technologies supporting company-wide analytics\ndashboards.\n- Built dbt-orchestrated ETL pipelines moving 39GB/day through Redshift.\nEDUCATION\nB.S. Information Systems, Cal Poly, 2017\nSKILLS\n- PostgreSQL\n- Airflow\n- dbt\n- Distributed systems\n- Spark\n- Distributed systems\n- Python\n- AWS\n- Kafka\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0685",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 8 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 3/6 required skills: PostgreSQL, Distributed systems, AWS."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.2975
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.5025
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.325
+      }
+    ],
+    "compositeScore": 36,
+    "eligible": true
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 407,
+    "totalMs": 411
+  }
+}

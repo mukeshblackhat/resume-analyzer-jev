@@ -1,0 +1,92 @@
+{
+  "extracted": {
+    "id": "resume-0808",
+    "fileName": "resume-0808.pdf",
+    "name": "Simon Petrov",
+    "yearsExperience": 9,
+    "skills": [
+      "PostgreSQL",
+      "REST API design",
+      "System design",
+      "Kubernetes",
+      "Python",
+      "TypeScript",
+      "Node.js"
+    ],
+    "education": [
+      "M.S. Information Systems, Columbia University, 2016",
+      "B.S. Information Systems, Columbia University, 2013"
+    ],
+    "experience": [
+      {
+        "title": "Staff Backend Engineer",
+        "company": "Driftwood Labs",
+        "years": 1,
+        "description": "Applied distributed-systems patterns to scale the platform to 193K concurrent users. Designed internal Kubernetes standards used by 15+ downstream services. Introduced Terraform-managed infrastructure, cutting provisioning time by 51%."
+      },
+      {
+        "title": "Senior Backend Engineer",
+        "company": "Hollowbrook Technologies",
+        "years": 2,
+        "description": "Designed a TypeScript-backed data layer that cut p99 query latency by 24%. Built and maintained REST APIs in Python serving 791K requests/day. Owned the System design event pipeline processing 7M events/day."
+      },
+      {
+        "title": "Backend Engineer",
+        "company": "Lattice Software",
+        "years": 6,
+        "description": "Led migration of core services at Lattice Software onto System design, improving uptime during peak load. Designed a Kubernetes-backed data layer that cut p99 query latency by 29%. Owned the Python event pipeline processing 71M events/day."
+      }
+    ],
+    "rawText": "Simon Petrov\nsimon.petrov@example.com | Baltimore, MD\nSUMMARY\nResults-driven backend engineer with 9 years of experience building backend systems on PostgreSQL,\nREST API design, System design.\nEXPERIENCE\nStaff Backend Engineer, Driftwood Labs (2025-2026)\n- Applied distributed-systems patterns to scale the platform to 193K concurrent users.\n- Designed internal Kubernetes standards used by 15+ downstream services.\n- Introduced Terraform-managed infrastructure, cutting provisioning time by 51%.\nSenior Backend Engineer, Hollowbrook Technologies (2023-2025)\n- Designed a TypeScript-backed data layer that cut p99 query latency by 24%.\n- Built and maintained REST APIs in Python serving 791K requests/day.\n- Owned the System design event pipeline processing 7M events/day.\nBackend Engineer, Lattice Software (2017-2023)\n- Led migration of core services at Lattice Software onto System design, improving uptime during peak\nload.\n- Designed a Kubernetes-backed data layer that cut p99 query latency by 29%.\n- Owned the Python event pipeline processing 71M events/day.\nEDUCATION\nM.S. Information Systems, Columbia University, 2016\nB.S. Information Systems, Columbia University, 2013\nSkills: PostgreSQL, REST API design, System design, Kubernetes, Python, TypeScript, Node.js.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0808",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 9 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 4/6 required skills: Node.js, TypeScript, PostgreSQL, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 2; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.7025
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.9925
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.935
+      }
+    ],
+    "compositeScore": 84,
+    "eligible": true
+  },
+  "timings": {
+    "extractionMs": 1,
+    "scoringMs": 470,
+    "totalMs": 474
+  }
+}

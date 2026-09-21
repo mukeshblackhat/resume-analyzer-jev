@@ -1,0 +1,77 @@
+{
+  "extracted": {
+    "id": "resume-0279",
+    "fileName": "resume-0279.pdf",
+    "name": "Chidi Nakamura",
+    "yearsExperience": 2,
+    "skills": [
+      "REST API design",
+      "MongoDB",
+      "Node.js",
+      "JavaScript",
+      "Next.js"
+    ],
+    "education": [
+      "B.S. Computer Engineering, Northeastern University, 2023"
+    ],
+    "experience": [
+      {
+        "title": "Frontend Developer",
+        "company": "Foundry Platform",
+        "years": 2,
+        "description": "Implemented Next.js component libraries shared across product teams. Partnered with backend engineers at Foundry Platform to consume REST and GraphQL APIs. Built responsive Next.js interfaces consumed by 186K monthly users."
+      }
+    ],
+    "rawText": "Chidi Nakamura\nchidi.nakamura@example.com | Chicago, IL\nSUMMARY\nFrontend/junior developer with 2 years of experience in REST API design, MongoDB, Node.js.\nEXPERIENCE\nFrontend Developer - Foundry Platform (2024-2026)\n- Implemented Next.js component libraries shared across product teams.\n- Partnered with backend engineers at Foundry Platform to consume REST and GraphQL APIs.\n- Built responsive Next.js interfaces consumed by 186K monthly users.\nEDUCATION\nB.S. Computer Engineering, Northeastern University, 2023\nSKILLS\n- REST API design\n- MongoDB\n- Node.js\n- JavaScript\n- Next.js\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0279",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": false,
+        "detail": "Resume shows 2 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 2/6 required skills: Node.js, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.155
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.3325
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.005
+      }
+    ],
+    "compositeScore": 15,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 435,
+    "totalMs": 439
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "extracted": {
+    "id": "resume-0953",
+    "fileName": "resume-0953.pdf",
+    "name": "Aisha Salazar",
+    "yearsExperience": 15,
+    "skills": [],
+    "education": [],
+    "experience": [],
+    "rawText": "Aisha Salazar\naisha.salazar@example.com | Tucson, AZ\nAisha Salazar has 15 years of experience in backend and distributed systems.\nMost recently, Principal Backend Engineer at Meridian Software (2025-2026),\nwhere they designed a Node.js-backed data layer that cut p99 query latency by\n50%. Before that, Staff Backend Engineer at Ironwood Solutions (2021-2025).\nBefore that, Senior Backend Engineer at Timberline Analytics (2011-2021).\nEducation: B.S. Electrical Engineering, San Jose State University, 2010. Core\nskills: Redis, TypeScript, AWS, REST API design, PostgreSQL, Kubernetes,\nNode.js.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0953",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 15 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 0/6 required skills: none."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": false,
+        "detail": "Resume's highest detected education level rank is 0; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.02
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.0125
+      }
+    ],
+    "compositeScore": 1,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 1,
+    "scoringMs": 514,
+    "totalMs": 517
+  }
+}

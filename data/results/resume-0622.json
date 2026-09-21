@@ -1,0 +1,82 @@
+{
+  "extracted": {
+    "id": "resume-0622",
+    "fileName": "resume-0622.pdf",
+    "name": "Carlos Raman",
+    "yearsExperience": 9,
+    "skills": [
+      "Docker",
+      "Node.js",
+      "REST API design",
+      "AWS"
+    ],
+    "education": [
+      "B.S. Computer Science, Boston University, 2017"
+    ],
+    "experience": [
+      {
+        "title": "Staff Backend Engineer",
+        "company": "Cinder Solutions",
+        "years": 4,
+        "description": "Applied distributed-systems patterns to scale the platform to 63K concurrent users. Designed a AWS-backed data layer that cut p99 query latency by 54%."
+      },
+      {
+        "title": "Senior Backend Engineer",
+        "company": "Meridian Dynamics",
+        "years": 5,
+        "description": "Owned the AWS event pipeline processing 67M events/day. Introduced Terraform-managed infrastructure, cutting provisioning time by 46%."
+      }
+    ],
+    "rawText": "Carlos Raman\ncarlos.raman@example.com | Raleigh, NC\nSUMMARY\nResults-driven backend engineer with 9 years of experience building backend systems on Docker, Node.js,\nREST API design.\nEXPERIENCE\nStaff Backend Engineer - Cinder Solutions (2022-2026)\n- Applied distributed-systems patterns to scale the platform to 63K concurrent users.\n- Designed a AWS-backed data layer that cut p99 query latency by 54%.\nSenior Backend Engineer - Meridian Dynamics (2017-2022)\n- Owned the AWS event pipeline processing 67M events/day.\n- Introduced Terraform-managed infrastructure, cutting provisioning time by 46%.\nEDUCATION\nB.S. Computer Science, Boston University, 2017\nSKILLS\n- Docker\n- Node.js\n- REST API design\n- AWS\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0622",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 9 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 3/6 required skills: Node.js, AWS, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.53
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.9975
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.84
+      }
+    ],
+    "compositeScore": 74,
+    "eligible": true
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 1373,
+    "totalMs": 1376
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "extracted": {
+    "id": "resume-0380",
+    "fileName": "resume-0380.pdf",
+    "name": "Hannah Petrov",
+    "yearsExperience": 2,
+    "skills": [
+      "React",
+      "JavaScript",
+      "GraphQL",
+      "CSS3"
+    ],
+    "education": [
+      "B.S. Computer Science, Northeastern University, 2024"
+    ],
+    "experience": [
+      {
+        "title": "Frontend Developer",
+        "company": "Foundry Infrastructure",
+        "years": 2,
+        "description": "Implemented React component libraries shared across product teams. Partnered with backend engineers at Foundry Infrastructure to consume REST and GraphQL APIs. Built responsive React interfaces consumed by 98K monthly users."
+      }
+    ],
+    "rawText": "Hannah Petrov\nhannah.petrov@example.com | Detroit, MI\nSUMMARY\nFrontend/junior developer with 2 years of experience in React, JavaScript, GraphQL.\nEXPERIENCE\nFrontend Developer - Foundry Infrastructure (2024-2026)\n- Implemented React component libraries shared across product teams.\n- Partnered with backend engineers at Foundry Infrastructure to consume REST and GraphQL APIs.\n- Built responsive React interfaces consumed by 98K monthly users.\nEDUCATION\nB.S. Computer Science, Northeastern University, 2024\nSKILLS\n- React\n- JavaScript\n- GraphQL\n- CSS3\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0380",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": false,
+        "detail": "Resume shows 2 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 0/6 required skills: none."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.0125
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.2625
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0
+      }
+    ],
+    "compositeScore": 7,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 1,
+    "scoringMs": 389,
+    "totalMs": 392
+  }
+}

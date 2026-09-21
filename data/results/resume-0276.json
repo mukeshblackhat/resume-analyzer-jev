@@ -1,0 +1,85 @@
+{
+  "extracted": {
+    "id": "resume-0276",
+    "fileName": "resume-0276.pdf",
+    "name": "Chidi Novak",
+    "yearsExperience": 8,
+    "skills": [
+      "PostgreSQL",
+      "AWS",
+      "PostgreSQL",
+      "AWS",
+      "Spark",
+      "Redshift"
+    ],
+    "education": [
+      "M.S. Electrical Engineering, University of Michigan, 2017",
+      "B.S. Electrical Engineering, University of Minnesota, 2014"
+    ],
+    "experience": [
+      {
+        "title": "Senior Data Engineer",
+        "company": "Amber Platform",
+        "years": 3,
+        "description": "Wrote Python and Spark batch jobs to process large-scale event data."
+      },
+      {
+        "title": "Data Engineer",
+        "company": "Meridian Labs",
+        "years": 5,
+        "description": "Coordinated distributed batch jobs across multiple regions on AWS. Built Spark-orchestrated ETL pipelines moving 476GB/day through PostgreSQL."
+      }
+    ],
+    "rawText": "Chidi Novak\nchidi.novak@example.com | Providence, RI\nSUMMARY\nData engineer with 8 years of experience, focused on pipelines and warehousing using PostgreSQL, AWS,\nPostgreSQL.\nEXPERIENCE\nSenior Data Engineer - Amber Platform (2023-2026)\n- Wrote Python and Spark batch jobs to process large-scale event data.\nData Engineer - Meridian Labs (2018-2023)\n- Coordinated distributed batch jobs across multiple regions on AWS.\n- Built Spark-orchestrated ETL pipelines moving 476GB/day through PostgreSQL.\nEDUCATION\nM.S. Electrical Engineering, University of Michigan, 2017\nB.S. Electrical Engineering, University of Minnesota, 2014\nSKILLS\n- PostgreSQL\n- AWS\n- PostgreSQL\n- AWS\n- Spark\n- Redshift\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0276",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 8 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 2/6 required skills: PostgreSQL, AWS."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 2; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.255
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.4925
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.3575
+      }
+    ],
+    "compositeScore": 35,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 416,
+    "totalMs": 420
+  }
+}

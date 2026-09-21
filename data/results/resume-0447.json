@@ -1,0 +1,75 @@
+{
+  "extracted": {
+    "id": "resume-0447",
+    "fileName": "resume-0447.pdf",
+    "name": "Chloe Andersson",
+    "yearsExperience": 1,
+    "skills": [
+      "CSS3",
+      "Next.js",
+      "Node.js"
+    ],
+    "education": [
+      "B.S. Electrical Engineering, Georgia Tech, 2026"
+    ],
+    "experience": [
+      {
+        "title": "Junior Frontend Developer",
+        "company": "Amber Computing",
+        "years": 1,
+        "description": "Implemented Next.js component libraries shared across product teams. Partnered with backend engineers at Amber Computing to consume REST and GraphQL APIs. Built responsive CSS3 interfaces consumed by 194K monthly users."
+      }
+    ],
+    "rawText": "Chloe Andersson\nchloe.andersson@example.com | New York, NY\nSUMMARY\nFrontend/junior developer with just starting out in CSS3, Next.js, Node.js.\nEXPERIENCE\nJunior Frontend Developer - Amber Computing (2025-2026)\n- Implemented Next.js component libraries shared across product teams.\n- Partnered with backend engineers at Amber Computing to consume REST and GraphQL APIs.\n- Built responsive CSS3 interfaces consumed by 194K monthly users.\nEDUCATION\nB.S. Electrical Engineering, Georgia Tech, 2026\nSKILLS\n- CSS3\n- Next.js\n- Node.js\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0447",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": false,
+        "detail": "Resume shows 1 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 1/6 required skills: Node.js."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.12
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.2925
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0
+      }
+    ],
+    "compositeScore": 13,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 386,
+    "totalMs": 390
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "extracted": {
+    "id": "resume-0706",
+    "fileName": "resume-0706.pdf",
+    "name": "Priscilla Abbas",
+    "yearsExperience": 5,
+    "skills": [],
+    "education": [],
+    "experience": [],
+    "rawText": "Priscilla Abbas\npriscilla.abbas@example.com | Salt Lake City, UT\nPriscilla Abbas has 5 years of experience in design. Most recently, Senior\nProduct Designer at Bellwood Consumer Goods (2021-2026), where they designed\nand prototyped features in Figma used by 9+ engineers to build against.\nEducation: B.A. Fine Arts, University of Oregon, 2021. Core skills: Design\nsystems, Figma, Wireframing, Prototyping.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0706",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 5 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 0/6 required skills: none."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": false,
+        "detail": "Resume's highest detected education level rank is 0; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.015
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.0025
+      }
+    ],
+    "compositeScore": 0,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 428,
+    "totalMs": 432
+  }
+}

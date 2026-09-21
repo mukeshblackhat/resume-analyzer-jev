@@ -1,0 +1,76 @@
+{
+  "extracted": {
+    "id": "resume-0035",
+    "fileName": "resume-0035.pdf",
+    "name": "Lucas Okoro",
+    "yearsExperience": 1,
+    "skills": [
+      "Quota attainment",
+      "CRM tools",
+      "Pipeline forecasting",
+      "Salesforce"
+    ],
+    "education": [
+      "B.A. Business Administration, Temple University, 2025"
+    ],
+    "experience": [
+      {
+        "title": "Sales Development Rep",
+        "company": "Orbitleaf Consumer Goods",
+        "years": 1,
+        "description": "Managed a book of 26+ enterprise accounts. Closed $2M in annual recurring revenue across mid-market accounts at Orbitleaf Consumer Goods. Built and ran a cold-outreach pipeline generating 153 qualified leads per month."
+      }
+    ],
+    "rawText": "Lucas Okoro\nlucas.okoro@example.com | Salt Lake City, UT\nSUMMARY\nB2B sales professional with 1 year of experience in enterprise software sales.\nEXPERIENCE\nSales Development Rep - Orbitleaf Consumer Goods (2025-2026)\n- Managed a book of 26+ enterprise accounts.\n- Closed $2M in annual recurring revenue across mid-market accounts at Orbitleaf Consumer Goods.\n- Built and ran a cold-outreach pipeline generating 153 qualified leads per month.\nEDUCATION\nB.A. Business Administration, Temple University, 2025\nSKILLS\n- Quota attainment\n- CRM tools\n- Pipeline forecasting\n- Salesforce\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0035",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": false,
+        "detail": "Resume shows 1 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 0/6 required skills: none."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0
+      }
+    ],
+    "compositeScore": 0,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 3,
+    "scoringMs": 401,
+    "totalMs": 406
+  }
+}

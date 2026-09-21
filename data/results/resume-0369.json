@@ -1,0 +1,74 @@
+{
+  "extracted": {
+    "id": "resume-0369",
+    "fileName": "resume-0369.pdf",
+    "name": "Grace Zhang",
+    "yearsExperience": 1,
+    "skills": [
+      "TypeScript",
+      "REST API design",
+      "GraphQL",
+      "CSS3"
+    ],
+    "education": [],
+    "experience": [
+      {
+        "title": "Junior Frontend Developer",
+        "company": "Sable Platform",
+        "years": 1,
+        "description": "Built responsive CSS3 interfaces consumed by 121K monthly users. Implemented TypeScript component libraries shared across product teams. Partnered with backend engineers at Sable Platform to consume REST and GraphQL APIs."
+      }
+    ],
+    "rawText": "Grace Zhang\ngrace.zhang@example.com | Boise, ID\nSUMMARY\nFrontend/junior developer with just starting out in TypeScript, REST API design, GraphQL.\nEXPERIENCE\nJunior Frontend Developer - Sable Platform (2025-2026)\n- Built responsive CSS3 interfaces consumed by 121K monthly users.\n- Implemented TypeScript component libraries shared across product teams.\n- Partnered with backend engineers at Sable Platform to consume REST and GraphQL APIs.\nEDUCATION\nSKILLS\n- TypeScript\n- REST API design\n- GraphQL\n- CSS3\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0369",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": false,
+        "detail": "Resume shows 1 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 2/6 required skills: TypeScript, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": false,
+        "detail": "Resume's highest detected education level rank is 0; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.13
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.275
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0
+      }
+    ],
+    "compositeScore": 13,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 1,
+    "scoringMs": 406,
+    "totalMs": 409
+  }
+}

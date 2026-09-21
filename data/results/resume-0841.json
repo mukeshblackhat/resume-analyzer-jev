@@ -1,0 +1,84 @@
+{
+  "extracted": {
+    "id": "resume-0841",
+    "fileName": "resume-0841.pdf",
+    "name": "Farah Lindqvist",
+    "yearsExperience": 3,
+    "skills": [
+      "AWS",
+      "Node.js",
+      "React Native",
+      "TypeScript",
+      "iOS",
+      "Swift"
+    ],
+    "education": [
+      "B.S. Information Systems, University of Pittsburgh, 2022"
+    ],
+    "experience": [
+      {
+        "title": "Mobile Engineer",
+        "company": "Northbeam Infrastructure",
+        "years": 1,
+        "description": "Maintained native modules in Swift and Kotlin for platform-specific features. Wrote a lightweight TypeScript BFF layer to aggregate REST calls for the mobile app. Built the company's React Native app end to end, shipped to 393K users."
+      },
+      {
+        "title": "Junior Mobile Engineer",
+        "company": "Bedrock Infrastructure",
+        "years": 2,
+        "description": "Maintained native modules in Swift and Kotlin for platform-specific features. Wrote a lightweight Node.js BFF layer to aggregate REST calls for the mobile app. Built the company's React Native app end to end, shipped to 71K users."
+      }
+    ],
+    "rawText": "Farah Lindqvist\nfarah.lindqvist@example.com | Seattle, WA\nSUMMARY\nMobile engineer with 3 years of experience building apps with AWS, Node.js, React Native, some backend\nexposure.\nEXPERIENCE\nMobile Engineer, Northbeam Infrastructure (2025-2026)\n- Maintained native modules in Swift and Kotlin for platform-specific features.\n- Wrote a lightweight TypeScript BFF layer to aggregate REST calls for the mobile app.\n- Built the company's React Native app end to end, shipped to 393K users.\nJunior Mobile Engineer, Bedrock Infrastructure (2023-2025)\n- Maintained native modules in Swift and Kotlin for platform-specific features.\n- Wrote a lightweight Node.js BFF layer to aggregate REST calls for the mobile app.\n- Built the company's React Native app end to end, shipped to 71K users.\nEDUCATION\nB.S. Information Systems, University of Pittsburgh, 2022\nSkills: AWS, Node.js, React Native, TypeScript, iOS, Swift.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0841",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": false,
+        "detail": "Resume shows 3 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 3/6 required skills: Node.js, TypeScript, AWS."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.275
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.3625
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.075
+      }
+    ],
+    "compositeScore": 24,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 1,
+    "scoringMs": 453,
+    "totalMs": 456
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "extracted": {
+    "id": "resume-0989",
+    "fileName": "resume-0989.pdf",
+    "name": "Ivy Delgado",
+    "yearsExperience": 2,
+    "skills": [
+      "Onboarding",
+      "SLA management",
+      "Zendesk",
+      "Technical support"
+    ],
+    "education": [
+      "B.S. Psychology, Arizona State University, 2024"
+    ],
+    "experience": [
+      {
+        "title": "Customer Support Specialist",
+        "company": "Brackenridge Brands",
+        "years": 2,
+        "description": "Resolved an average of 55 customer tickets per week via Zendesk. Maintained a customer satisfaction score above 89% at Brackenridge Brands. Onboarded new enterprise customers, reducing time-to-first-value by 23%."
+      }
+    ],
+    "rawText": "Ivy Delgado\nivy.delgado989@example.com | Austin, TX\nSUMMARY\nCustomer support specialist with 2 years of experience helping customers succeed.\nEXPERIENCE\nCustomer Support Specialist, Brackenridge Brands (2024-2026)\n- Resolved an average of 55 customer tickets per week via Zendesk.\n- Maintained a customer satisfaction score above 89% at Brackenridge Brands.\n- Onboarded new enterprise customers, reducing time-to-first-value by 23%.\nEDUCATION\nB.S. Psychology, Arizona State University, 2024\nSkills: Onboarding, SLA management, Zendesk, Technical support.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0989",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": false,
+        "detail": "Resume shows 2 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 0/6 required skills: none."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.02
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0
+      }
+    ],
+    "compositeScore": 1,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 421,
+    "totalMs": 425
+  }
+}

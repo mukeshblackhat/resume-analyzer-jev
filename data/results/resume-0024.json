@@ -1,0 +1,85 @@
+{
+  "extracted": {
+    "id": "resume-0024",
+    "fileName": "resume-0024.pdf",
+    "name": "Owen Adeyemi",
+    "yearsExperience": 9,
+    "skills": [
+      "REST API design",
+      "GraphQL",
+      "PostgreSQL",
+      "AWS",
+      "TypeScript",
+      "Distributed systems",
+      "Java"
+    ],
+    "education": [
+      "Some coursework in Computer Science, no degree completed"
+    ],
+    "experience": [
+      {
+        "title": "Staff Backend Engineer",
+        "company": "Crestline Analytics",
+        "years": 2,
+        "description": "Designed internal GraphQL standards used by 26+ downstream services. Applied distributed-systems patterns to scale the platform to 194K concurrent users."
+      },
+      {
+        "title": "Senior Backend Engineer",
+        "company": "Sable Solutions",
+        "years": 7,
+        "description": "Introduced Terraform-managed infrastructure, cutting provisioning time by 89%. Led migration of core services at Sable Solutions onto AWS, improving uptime during peak load."
+      }
+    ],
+    "rawText": "Owen Adeyemi\nowen.adeyemi@example.com | Las Vegas, NV\nSUMMARY\nResults-driven backend engineer with 9 years of experience building backend systems on REST API\ndesign, GraphQL, PostgreSQL.\nEXPERIENCE\nStaff Backend Engineer - Crestline Analytics (2024-2026)\n- Designed internal GraphQL standards used by 26+ downstream services.\n- Applied distributed-systems patterns to scale the platform to 194K concurrent users.\nSenior Backend Engineer - Sable Solutions (2017-2024)\n- Introduced Terraform-managed infrastructure, cutting provisioning time by 89%.\n- Led migration of core services at Sable Solutions onto AWS, improving uptime during peak load.\nEDUCATION\nSome coursework in Computer Science, no degree completed\nSKILLS\n- REST API design\n- GraphQL\n- PostgreSQL\n- AWS\n- TypeScript\n- Distributed systems\n- Java\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0024",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 9 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 5/6 required skills: TypeScript, PostgreSQL, Distributed systems, AWS, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": false,
+        "detail": "Resume's highest detected education level rank is 0; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.6475
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.995
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.9175
+      }
+    ],
+    "compositeScore": 82,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 3,
+    "scoringMs": 416,
+    "totalMs": 421
+  }
+}

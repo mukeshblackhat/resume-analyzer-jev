@@ -1,0 +1,87 @@
+{
+  "extracted": {
+    "id": "resume-0984",
+    "fileName": "resume-0984.pdf",
+    "name": "Rosa Lin",
+    "yearsExperience": 3,
+    "skills": [
+      "REST API design",
+      "Node.js",
+      "JavaScript",
+      "GraphQL",
+      "Next.js",
+      "Distributed systems",
+      "React",
+      "CSS3",
+      "HTML5"
+    ],
+    "education": [
+      "B.S. Software Engineering, Georgia Tech, 2023"
+    ],
+    "experience": [
+      {
+        "title": "Frontend Developer",
+        "company": "Copperfield Infrastructure",
+        "years": 1,
+        "description": "Built responsive HTML5 interfaces consumed by 23K monthly users. Partnered with backend engineers at Copperfield Infrastructure to consume REST and GraphQL APIs. Implemented Next.js component libraries shared across product teams."
+      },
+      {
+        "title": "Junior Frontend Developer",
+        "company": "Bedrock Systems",
+        "years": 2,
+        "description": "Partnered with backend engineers at Bedrock Systems to consume REST and GraphQL APIs. Built responsive CSS3 interfaces consumed by 50K monthly users."
+      }
+    ],
+    "rawText": "Rosa Lin\nrosa.lin@example.com | Austin, TX\nSUMMARY\nFrontend developer with 3 years of experience in REST API design, Node.js, JavaScript.\nEXPERIENCE\nFrontend Developer - Copperfield Infrastructure (2025-2026)\n- Built responsive HTML5 interfaces consumed by 23K monthly users.\n- Partnered with backend engineers at Copperfield Infrastructure to consume REST and GraphQL APIs.\n- Implemented Next.js component libraries shared across product teams.\nJunior Frontend Developer - Bedrock Systems (2023-2025)\n- Partnered with backend engineers at Bedrock Systems to consume REST and GraphQL APIs.\n- Built responsive CSS3 interfaces consumed by 50K monthly users.\nEDUCATION\nB.S. Software Engineering, Georgia Tech, 2023\nSKILLS\n- REST API design\n- Node.js\n- JavaScript\n- GraphQL\n- Next.js\n- Distributed systems\n- React\n- CSS3\n- HTML5\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0984",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": false,
+        "detail": "Resume shows 3 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 3/6 required skills: Node.js, Distributed systems, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.1925
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.33
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.005
+      }
+    ],
+    "compositeScore": 17,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 442,
+    "totalMs": 447
+  }
+}

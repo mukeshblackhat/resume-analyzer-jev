@@ -1,0 +1,27 @@
+[
+  {
+    "workerId": 0,
+    "stage": "idle",
+    "updatedAt": "2026-09-21T09:47:11.527Z"
+  },
+  {
+    "workerId": 1,
+    "stage": "idle",
+    "updatedAt": "2026-09-21T09:47:11.444Z"
+  },
+  {
+    "workerId": 2,
+    "stage": "idle",
+    "updatedAt": "2026-09-21T09:47:11.485Z"
+  },
+  {
+    "workerId": 3,
+    "stage": "idle",
+    "updatedAt": "2026-09-21T09:47:11.390Z"
+  },
+  {
+    "workerId": 4,
+    "stage": "idle",
+    "updatedAt": "2026-09-21T09:47:11.341Z"
+  }
+]

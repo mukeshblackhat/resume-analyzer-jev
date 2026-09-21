@@ -1,0 +1,94 @@
+{
+  "extracted": {
+    "id": "resume-0512",
+    "fileName": "resume-0512.pdf",
+    "name": "Aisha Tran",
+    "yearsExperience": 8,
+    "skills": [
+      "GraphQL",
+      "React Native",
+      "Node.js",
+      "REST API design",
+      "PostgreSQL",
+      "Swift",
+      "Node.js",
+      "Distributed systems",
+      "iOS",
+      "TypeScript"
+    ],
+    "education": [
+      "B.S. Computer Engineering, SMU, 2017"
+    ],
+    "experience": [
+      {
+        "title": "Senior Mobile Engineer",
+        "company": "Cobalt Systems",
+        "years": 2,
+        "description": "Built the company's React Native app end to end, shipped to 318K users."
+      },
+      {
+        "title": "Mobile Engineer",
+        "company": "Slate Labs",
+        "years": 2,
+        "description": "Wrote a lightweight Node.js BFF layer to aggregate REST calls for the mobile app. Maintained native modules in Swift and Kotlin for platform-specific features. Built the company's React Native app end to end, shipped to 196K users."
+      },
+      {
+        "title": "Junior Mobile Engineer",
+        "company": "Windmere Dynamics",
+        "years": 4,
+        "description": "Maintained native modules in Swift and Kotlin for platform-specific features. Wrote a lightweight Node.js BFF layer to aggregate REST calls for the mobile app."
+      }
+    ],
+    "rawText": "Aisha Tran\naisha.tran@example.com | Houston, TX\nSUMMARY\nMobile engineer with 8 years of experience building apps with GraphQL, React Native, Node.js, some\nbackend exposure.\nEXPERIENCE\nSenior Mobile Engineer - Cobalt Systems (2024-2026)\n- Built the company's React Native app end to end, shipped to 318K users.\nMobile Engineer - Slate Labs (2022-2024)\n- Wrote a lightweight Node.js BFF layer to aggregate REST calls for the mobile app.\n- Maintained native modules in Swift and Kotlin for platform-specific features.\n- Built the company's React Native app end to end, shipped to 196K users.\nJunior Mobile Engineer - Windmere Dynamics (2018-2022)\n- Maintained native modules in Swift and Kotlin for platform-specific features.\n- Wrote a lightweight Node.js BFF layer to aggregate REST calls for the mobile app.\nEDUCATION\nB.S. Computer Engineering, SMU, 2017\nSKILLS\n- GraphQL\n- React Native\n- Node.js\n- REST API design\n- PostgreSQL\n- Swift\n- Node.js\n- Distributed systems\n- iOS\n- TypeScript\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0512",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": true,
+        "detail": "Resume shows 8 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": true,
+        "detail": "Matched 5/6 required skills: Node.js, TypeScript, PostgreSQL, Distributed systems, REST API design."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": true,
+        "detail": "Resume's highest detected education level rank is 1; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0.425
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.4275
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0.26
+      }
+    ],
+    "compositeScore": 38,
+    "eligible": true
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 400,
+    "totalMs": 403
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "extracted": {
+    "id": "resume-0290",
+    "fileName": "resume-0290.pdf",
+    "name": "Tariq Kelly",
+    "yearsExperience": 2,
+    "skills": [],
+    "education": [],
+    "experience": [],
+    "rawText": "Tariq Kelly\ntariq.kelly@example.com | Pittsburgh, PA\nTariq Kelly has 2 years of experience in backend and distributed systems. Most\nrecently, Backend Engineer at Nimbus Labs (2024-2026), where they introduced\nTerraform-managed infrastructure, cutting provisioning time by 82%. Education:\nB.S. Computer Engineering, Virginia Tech, 2023. Core skills: REST API design,\nNode.js, TypeScript, AWS.\n\n-- 1 of 1 --\n\n"
+  },
+  "breakdown": {
+    "resumeId": "resume-0290",
+    "ruleChecks": [
+      {
+        "key": "min_years_experience",
+        "label": "Minimum years of experience",
+        "passed": false,
+        "detail": "Resume shows 2 years; requires 5."
+      },
+      {
+        "key": "required_skills_coverage",
+        "label": "Required skills coverage",
+        "passed": false,
+        "detail": "Matched 0/6 required skills: none."
+      },
+      {
+        "key": "min_education_level",
+        "label": "Minimum education level",
+        "passed": false,
+        "detail": "Resume's highest detected education level rank is 0; requires 1 (bachelors)."
+      }
+    ],
+    "dimensions": [
+      {
+        "key": "skill_depth",
+        "label": "Skill depth",
+        "weight": 0.45,
+        "rawScore": 0
+      },
+      {
+        "key": "domain_relevance",
+        "label": "Domain relevance",
+        "weight": 0.25,
+        "rawScore": 0.005
+      },
+      {
+        "key": "seniority_fit",
+        "label": "Seniority fit",
+        "weight": 0.3,
+        "rawScore": 0
+      }
+    ],
+    "compositeScore": 0,
+    "eligible": false
+  },
+  "timings": {
+    "extractionMs": 2,
+    "scoringMs": 401,
+    "totalMs": 404
+  }
+}
